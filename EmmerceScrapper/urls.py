@@ -8,4 +8,5 @@ urlpatterns = [
     path('mika/', include('Mika.urls')),
     path('hypermart/', include('Hypermart.urls')),
     path('opalnet/', include('Opalnet.urls')),
+    path('scrapper/', include('scrapper.urls')),
 ]

@@ -41,7 +41,9 @@ INSTALLED_APPS = [
     'Mika.apps.MikaConfig',
     'Hypermart.apps.HypermartConfig',
     'Opalnet.apps.OpalnetConfig',
+    'scrapper.apps.ScrapperConfig',
     'rest_framework',
+    'import_export',
 ]
 
 MIDDLEWARE = [
