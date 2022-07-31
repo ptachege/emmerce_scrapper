@@ -27,12 +27,12 @@ import time
 
 
 def start_scrap(request):
-    Hotpointentry(request)
-    Hypermart_entry(request)
-    Mikaentry(request)
-    Opalnet_entry(request)
+    # Hotpointentry(request)
+    # Hypermart_entry(request)
+    # Mikaentry(request)
+    # Opalnet_entry(request)
     # ============= Give the server a little break bana ================
-    time.sleep(20)
+    # time.sleep(20)
     # ============= break is over continue with the scrap ================
 
     Hotpointproduct(request)
@@ -51,21 +51,21 @@ def mine(request):
 def reset_scrap(request):
 
     # reset all parent categories.   
-    for each_category in HotpointCategories2.objects.all():
-        each_category.crawled = False
-        each_category.save()
+    # for each_category in HotpointCategories2.objects.all():
+    #     each_category.crawled = False
+    #     each_category.save()
 
-    for each_category in HypermartCategories2.objects.all():
-        each_category.crawled = False
-        each_category.save()
+    # for each_category in HypermartCategories2.objects.all():
+    #     each_category.crawled = False
+    #     each_category.save()
 
-    for each_category in MikaCategories2.objects.all():
-        each_category.crawled = False
-        each_category.save()
+    # for each_category in MikaCategories2.objects.all():
+    #     each_category.crawled = False
+    #     each_category.save()
 
-    for each_category in OpalnetCategories2.objects.all():
-        each_category.crawled = False
-        each_category.save()
+    # for each_category in OpalnetCategories2.objects.all():
+    #     each_category.crawled = False
+    #     each_category.save()
 
 
     # now reset all product links
@@ -268,35 +268,35 @@ def Hotpointproduct(request):
         # save to db.
         products = Products.objects.all()
 
-        # checking if a product with this sku exists. ==========> if it does we update the record
-        for product in products:
-            if product.sku == sku:
-                this_product = Products.objects.get(sku=sku)
-                this_product.product_name=product_name
-                this_product.sale_price=sale_price
-                this_product.regular_price=regular_price
-                this_product.brand=brand
-                this_product.upc=upc
-                this_product.stock_status=stock_status
-                this_product.product_link=item_url
-                this_product.save()
+        # # checking if a product with this sku exists. ==========> if it does we update the record
+        # for product in products:
+        #     if product.sku == sku:
+        #         this_product = Products.objects.get(sku=sku)
+        #         this_product.product_name=product_name
+        #         this_product.sale_price=sale_price
+        #         this_product.regular_price=regular_price
+        #         this_product.brand=brand
+        #         this_product.upc=upc
+        #         this_product.stock_status=stock_status
+        #         this_product.product_link=item_url
+        #         this_product.save()
 
-                print('product with this sku is getting updated.')
-                break
-            else:    
+        #         print('product with this sku is getting updated.')
+        #         break
+        #     else:    
                 # ============= if it doesn't we create a new entry. ===================
-                Products.objects.create(
-                    product_name=product_name,
-                    sale_price=sale_price,
-                    regular_price=regular_price,
-                    brand=brand,
-                    upc=upc,
-                    sku=sku,
-                    stock_status=stock_status,
-                    product_link=item_url
-                )
-                print('product saved as a new entry.')
-                break
+        Products.objects.create(
+            product_name=product_name,
+            sale_price=sale_price,
+            regular_price=regular_price,
+            brand=brand,
+            upc=upc,
+            sku=sku,
+            stock_status=stock_status,
+            product_link=item_url
+        )
+        print('product saved as a new entry.')
+                # break
         each_product.crawled = True
         each_product.save()
     return HttpResponse("saved successfully")
@@ -437,28 +437,27 @@ def Hypermarttproduct(request):
         products = Products.objects.all()
 
         # checking if a product with this sku exists. ==========> if it does we update the record
-        for product in products:
-            if product.sku == sku:
-                this_product = Products.objects.get(sku=sku)
-                this_product.product_name=product_name
-                this_product.regular_price=regular_price
-                this_product.stock_status=stock_status
-                this_product.product_link=item_url
-                this_product.save()
+        # for product in products:
+        #     if product.sku == sku:
+        #         this_product = Products.objects.get(sku=sku)
+        #         this_product.product_name=product_name
+        #         this_product.regular_price=regular_price
+        #         this_product.stock_status=stock_status
+        #         this_product.product_link=item_url
+        #         this_product.save()
 
-                print('product with this sku is getting updated.')
-                break
-            else:    
+        #         print('product with this sku is getting updated.')
+        #         break
+        #     else:    
                 # ============= if it doesn't we create a new entry. ===================
-                Products.objects.create(
-                    product_name=product_name,
-                    sku=sku,
-                    regular_price=regular_price,
-                    product_link=item_url,
-                    stock_status=stock_status,
-                )
-                print('product saved as a new entry.')
-                break
+        Products.objects.create(
+            product_name=product_name,
+            sku=sku,
+            regular_price=regular_price,
+            product_link=item_url,
+            stock_status=stock_status,
+        )
+        print('product saved as a new entry.')
         each_product.crawled = True
         each_product.save()
     return HttpResponse("com")
@@ -646,30 +645,29 @@ def MikaProducts(request):
         products = Products.objects.all()
 
         # checking if a product with this sku exists. ==========> if it does we update the record
-        for product in products:
-            if product.sku == sku:
-                this_product = Products.objects.get(sku=sku)
-                this_product.product_name = product_name
-                this_product.sale_price = sale_price
-                this_product.regular_price = regular_price
-                this_product.stock_status = stock_status
-                this_product.product_link = item_url
-                this_product.save()
+        # for product in products:
+        #     if product.sku == sku:
+        #         this_product = Products.objects.get(sku=sku)
+        #         this_product.product_name = product_name
+        #         this_product.sale_price = sale_price
+        #         this_product.regular_price = regular_price
+        #         this_product.stock_status = stock_status
+        #         this_product.product_link = item_url
+        #         this_product.save()
 
-                print('product with this sku is getting updated.')
-                break
-            else:
+        #         print('product with this sku is getting updated.')
+        #         break
+        #     else:
                 # ============= if it doesn't we create a new entry. ===================
-                Products.objects.create(
-                    product_name=product_name,
-                    sale_price=sale_price,
-                    regular_price=regular_price,
-                    sku=sku,
-                    stock_status=stock_status,
-                    product_link=item_url
-                )
-                print('product saved as a new entry.')
-                break
+        Products.objects.create(
+            product_name=product_name,
+            sale_price=sale_price,
+            regular_price=regular_price,
+            sku=sku,
+            stock_status=stock_status,
+            product_link=item_url
+        )
+        print('product saved as a new entry.')
         each_product.crawled = True
         each_product.save()
     return HttpResponse("com")
@@ -794,30 +792,29 @@ def Opalnetproduct(request):
         products = Products.objects.all()
 
         # checking if a product with this sku exists. ==========> if it does we update the record
-        for product in products:
-            if product.sku == sku:
-                this_product = Products.objects.get(sku=sku)
-                this_product.product_name = product_name
-                this_product.sale_price = sale_price
-                this_product.regular_price = regular_price
-                this_product.stock_status = in_stock
-                this_product.product_link = item_url
-                this_product.save()
+        # for product in products:
+        #     if product.sku == sku:
+        #         this_product = Products.objects.get(sku=sku)
+        #         this_product.product_name = product_name
+        #         this_product.sale_price = sale_price
+        #         this_product.regular_price = regular_price
+        #         this_product.stock_status = in_stock
+        #         this_product.product_link = item_url
+        #         this_product.save()
 
-                print('product with this sku is getting updated.')
-                break
-            else:
+        #         print('product with this sku is getting updated.')
+        #         break
+        #     else:
                 # ============= if it doesn't we create a new entry. ===================
-                Products.objects.create(
-                    product_name=product_name,
-                    sale_price=sale_price,
-                    regular_price=regular_price,
-                    sku=sku,
-                    stock_status=in_stock,
-                    product_link=item_url
-                )
-                print('product saved as a new entry.')
-                break
+        Products.objects.create(
+            product_name=product_name,
+            sale_price=sale_price,
+            regular_price=regular_price,
+            sku=sku,
+            stock_status=in_stock,
+            product_link=item_url
+        )
+        print('product saved as a new entry.')
         each_product.crawled = True
         each_product.save()
     return HttpResponse('saved')
