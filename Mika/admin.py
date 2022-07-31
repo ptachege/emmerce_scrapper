@@ -1,17 +1,17 @@
-from django.contrib import admin
+# from django.contrib import admin
 
-# Register your models here.
-from .models import *
-
-
-@admin.register(MikaCategories)
-class MikaCategories(admin.ModelAdmin):
-    list_display = ("link", "crawled")
+# # Register your models here.
+# from .models import *
 
 
-@admin.register(MikaProductLinks)
-class MikaProductLinks(admin.ModelAdmin):
-    list_display = ("link", "crawled")
+# @admin.register(MikaCategories)
+# class MikaCategories(admin.ModelAdmin):
+#     list_display = ("link", "crawled")
 
 
-admin.site.register(MikaFinalProducts)
+# @admin.register(MikaProductLinks)
+# class MikaProductLinks(admin.ModelAdmin):
+#     list_display = ("link", "crawled")
+
+
+# admin.site.register(MikaFinalProducts)

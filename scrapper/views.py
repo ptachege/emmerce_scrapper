@@ -632,13 +632,16 @@ def MikaProducts(request):
             sku = ''
 
         # stock
+        try:
 
-        in_stock = soup.find('p', class_='stock in-stock').text
+            in_stock = soup.find('p', class_='stock in-stock').text
 
-        if in_stock == 'In stock':
-            stock_status = 'In Stock'
-        else:
-            stock_status = 'Out Of Stock'
+            if in_stock == 'In stock':
+                stock_status = 'In Stock'
+            else:
+                stock_status = 'Out Of Stock'
+        except:
+            in_stock = 'In Stock'
 
         # save to db.
 
@@ -769,10 +772,12 @@ def Opalnetproduct(request):
 
         # stock available
          # stock
+        try:
 
-        in_stock = soup.find('div', class_='stock available')
-        in_stock = in_stock.find_all('span')[1].text
-
+            in_stock = soup.find('div', class_='stock available')
+            in_stock = in_stock.find_all('span')[1].text
+        except:
+            in_stock = 'In Stock'
         # sale price
         try:
             old_span = soup.find('div', class_='old-price-save')
