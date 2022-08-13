@@ -23,8 +23,13 @@ from rest_framework.decorators import api_view
 from rest_framework.response import Response
 import math
 import time
+from django.db.models import F
 
 
+def delete_products(request):
+    Products.objects.all().delete()
+    print('delete successfull.')
+    return HttpResponse('deleted successfully')
 
 def start_scrap(request):
     # Hotpointentry(request)
@@ -34,6 +39,7 @@ def start_scrap(request):
     # ============= Give the server a little break bana ================
     # time.sleep(20)
     # ============= break is over continue with the scrap ================
+ 
 
     Hotpointproduct(request)
     Hypermarttproduct(request)
@@ -51,21 +57,21 @@ def mine(request):
 def reset_scrap(request):
 
     # reset all parent categories.   
-    # for each_category in HotpointCategories2.objects.all():
-    #     each_category.crawled = False
-    #     each_category.save()
+    for each_category in HotpointCategories2.objects.all():
+        each_category.crawled = False
+        each_category.save()
 
-    # for each_category in HypermartCategories2.objects.all():
-    #     each_category.crawled = False
-    #     each_category.save()
+    for each_category in HypermartCategories2.objects.all():
+        each_category.crawled = False
+        each_category.save()
 
-    # for each_category in MikaCategories2.objects.all():
-    #     each_category.crawled = False
-    #     each_category.save()
+    for each_category in MikaCategories2.objects.all():
+        each_category.crawled = False
+        each_category.save()
 
-    # for each_category in OpalnetCategories2.objects.all():
-    #     each_category.crawled = False
-    #     each_category.save()
+    for each_category in OpalnetCategories2.objects.all():
+        each_category.crawled = False
+        each_category.save()
 
 
     # now reset all product links
@@ -223,20 +229,16 @@ def Hotpointproduct(request):
 
 
         # regular price
+        out_wrapper = soup.find('div', class_='product-actions')
         try:
-            regular_price = soup.find(
+            regular_price = out_wrapper.find(
                 'span', class_='stockrecord-price-old').text.strip()
-            regular_price = regular_price[4:]
-
-            sale_price = soup.find(
-                'span', class_='stockrecord-price-current').text.strip()
-            sale_price = sale_price[4:]
+            regular_price = regular_price[4:]            
 
         except:
-            regular_price = soup.find(
+            regular_price = out_wrapper.find(
                 'span', class_='stockrecord-price-current').text.strip()
             regular_price = regular_price[4:]
-            sale_price = ''
 
 
         # upc
@@ -248,10 +250,12 @@ def Hotpointproduct(request):
             except:
                 upc = ''
 
-            try:
-                sku = mytds[1].text
-            except:
-                sku = ''
+            # try:
+            #     # sku = mytds[1].text
+            #     gen_table.find()
+                
+            # except:
+            #     sku = ''
 
         except:
             upc = ''
@@ -266,7 +270,7 @@ def Hotpointproduct(request):
 
 
         # save to db.
-        products = Products.objects.all()
+        # products = Products.objects.all()
 
         # # checking if a product with this sku exists. ==========> if it does we update the record
         # for product in products:
@@ -287,11 +291,11 @@ def Hotpointproduct(request):
                 # ============= if it doesn't we create a new entry. ===================
         Products.objects.create(
             product_name=product_name,
-            sale_price=sale_price,
+            sale_price = '',
             regular_price=regular_price,
             brand=brand,
             upc=upc,
-            sku=sku,
+            sku=upc,
             stock_status=stock_status,
             product_link=item_url
         )
@@ -434,7 +438,7 @@ def Hypermarttproduct(request):
         # save to db. 
         # ================ we first check if this sku exists =================
 
-        products = Products.objects.all()
+        # products = Products.objects.all()
 
         # checking if a product with this sku exists. ==========> if it does we update the record
         # for product in products:
@@ -604,10 +608,10 @@ def MikaProducts(request):
         
          # sale price
         try:
-            sale_price = price_wrapper.find(
-                'ins')
-            sale_price = sale_price.find('bdi').text
-            sale_price = sale_price[4:]
+            # sale_price = price_wrapper.find(
+            #     'ins')
+            # sale_price = sale_price.find('bdi').text
+            # sale_price = sale_price[4:]
 
             regular_price = price_wrapper.find(
                 'del')
@@ -621,7 +625,7 @@ def MikaProducts(request):
             regular_price = regular_price.find(
                 'bdi').text
             regular_price = regular_price[4:]
-            sale_price = ''
+            # sale_price = ''
        
 
         # sku
@@ -645,7 +649,7 @@ def MikaProducts(request):
 
         # save to db.
 
-        products = Products.objects.all()
+        # products = Products.objects.all()
 
         # checking if a product with this sku exists. ==========> if it does we update the record
         # for product in products:
@@ -664,7 +668,7 @@ def MikaProducts(request):
                 # ============= if it doesn't we create a new entry. ===================
         Products.objects.create(
             product_name=product_name,
-            sale_price=sale_price,
+            sale_price='',
             regular_price=regular_price,
             sku=sku,
             stock_status=stock_status,
@@ -783,18 +787,18 @@ def Opalnetproduct(request):
             old_span = soup.find('div', class_='old-price-save')
             regular_price = old_span.find('span', class_='price').text
 
-            sale_price = soup.find(
-                'span', class_='price-wrapper').text
-            sale_price = sale_price[3:]
+            # sale_price = soup.find(
+            #     'span', class_='price-wrapper').text
+            # sale_price = sale_price[3:]
         except:
             regular_price = soup.find(
                 'span', class_='price-wrapper').text
             regular_price = regular_price[3:]
-            sale_price = ''
+            # sale_price = ''
 
         # <==================get an array of all products ===============>
 
-        products = Products.objects.all()
+        # products = Products.objects.all()
 
         # checking if a product with this sku exists. ==========> if it does we update the record
         # for product in products:
@@ -813,7 +817,7 @@ def Opalnetproduct(request):
                 # ============= if it doesn't we create a new entry. ===================
         Products.objects.create(
             product_name=product_name,
-            sale_price=sale_price,
+            sale_price='',
             regular_price=regular_price,
             sku=sku,
             stock_status=in_stock,

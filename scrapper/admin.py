@@ -48,6 +48,7 @@ class OpalnetProductLinks(ImportExportModelAdmin):
     list_display = ("link", "crawled")
 
 
+@admin.register(Products)
+class Products(ImportExportModelAdmin):
+    list_display = ("sku", "regular_price")
 
-
-admin.site.register(Products)

@@ -122,7 +122,7 @@ class Products(models.Model):
 
 
     def __str__(self):
-        return self.product_name
+        return self.product_link
 
     class Meta:
         db_table = ''
