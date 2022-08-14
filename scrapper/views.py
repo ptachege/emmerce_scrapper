@@ -218,14 +218,17 @@ def Hotpointproduct(request):
         user_agent = random.choice(user_agent_list)
 
         
-        chrome_options = Options()
-        chrome_options.add_argument("--headless")
-        chrome_options.add_argument('--no-sandbox')
-        chrome_options.add_argument('--remote-debugging-port=9222')
-#         chrome_options.add_argument("--window-size=1920,1200")
-        chrome_options.add_argument("--disable-gpu")
-        chrome_options.add_argument(f'user-agent={user_agent}')
-        driver = webdriver.Chrome(
+        browser_options = webdriver.ChromeOptions()
+        browser_options.add_argument("--no-sandbox")
+        browser_options.add_argument("--headless")
+        browser_options.add_argument("start-maximized")
+        browser_options.add_argument("window-size=1900,1080")
+        browser_options.add_argument("disable-gpu")
+        browser_options.add_argument("--disable-software-rasterizer")
+        browser_options.add_argument("--disable-dev-shm-usage")
+        browser_options.add_argument(f'user-agent={user_agent}')
+        driver = webdriver.Chrome(options=browser_options, service_args=["--verbose", "--log-path=test.log"])
+#         driver = webdriver.Chrome(
             '/usr/bin/chromedriver', options=chrome_options)
        
 
