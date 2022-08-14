@@ -317,9 +317,9 @@ def Hotpointproduct(request):
                 # break
         each_product.crawled = True
         each_product.save()
-        driver.stop_client()
-        driver.close()
-        driver.quit()
+#         driver.stop_client()
+#         driver.close()
+#         driver.quit()
     return HttpResponse("saved successfully")
 
 
@@ -409,7 +409,7 @@ def Hypermart_entry(request):
         each_category.crawled = True
         each_category.save()
         
-        driver.quit()
+#         driver.quit()
     return HttpResponse('good')
 
 
