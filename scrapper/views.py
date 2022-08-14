@@ -102,6 +102,9 @@ def Hotpointentry(request):
         category_url = 'https://hotpoint.co.ke' + each_category.link
         options = Options()
         options.headless = True
+        options.add_argument('--no-sandbox')
+        options.add_argument('--disable-dev-shm-usage')
+
         options.add_argument("--window-size=1920,1200")
 
         driver = webdriver.Chrome(ChromeDriverManager().install())
