@@ -432,13 +432,29 @@ def Hypermarttproduct(request):
     uncrawled_products = HypermartProductLinks2.objects.filter(crawled=False)
     for each_product in uncrawled_products:
         item_url = each_product.link
-        chrome_options = Options()
-        chrome_options.add_argument("--headless")
-        chrome_options.add_argument('--no-sandbox')
-        chrome_options.add_argument('--remote-debugging-port=9222')
-#         chrome_options.add_argument("--window-size=1920,1200")
-        driver = webdriver.Chrome(
-            '/usr/bin/chromedriver', options=chrome_options)
+        user_agent_list = [
+          'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36',
+          'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0',
+          'Mozilla/5.0 (Macintosh; Intel Mac OS X 11.5; rv:90.0) Gecko/20100101 Firefox/90.0',
+          'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36',
+          'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_5_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36',
+          'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0',
+          'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36'
+        ]
+        user_agent = random.choice(user_agent_list)
+
+        
+        browser_options = webdriver.ChromeOptions()
+        browser_options.add_argument("--no-sandbox")
+        browser_options.add_argument("--headless")
+        browser_options.add_argument("start-maximized")
+        browser_options.add_argument("window-size=1900,1080")
+        browser_options.add_argument("disable-gpu")
+        browser_options.add_argument("--disable-software-rasterizer")
+        browser_options.add_argument("--disable-dev-shm-usage")
+        browser_options.add_argument(f'user-agent={user_agent}')
+        driver = webdriver.Chrome(options=browser_options, service_args=["--verbose", "--log-path=test.log"])
+#         driver = webdriver.Chrome('/usr/bin/chromedriver', options=chrome_options)
 
         driver.get(item_url)
         soup = driver.page_source.encode('utf-8').strip()
@@ -621,13 +637,29 @@ def MikaProducts(request):
     for each_product in uncrawled_products:
         item_url = each_product.link
 
-        chrome_options = Options()
-        chrome_options.add_argument("--headless")
-        chrome_options.add_argument('--no-sandbox')
-        chrome_options.add_argument('--remote-debugging-port=9222')
-#         chrome_options.add_argument("--window-size=1920,1200")
-        driver = webdriver.Chrome(
-            '/usr/bin/chromedriver', options=chrome_options)
+        user_agent_list = [
+          'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36',
+          'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0',
+          'Mozilla/5.0 (Macintosh; Intel Mac OS X 11.5; rv:90.0) Gecko/20100101 Firefox/90.0',
+          'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36',
+          'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_5_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36',
+          'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0',
+          'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36'
+        ]
+        user_agent = random.choice(user_agent_list)
+
+        
+        browser_options = webdriver.ChromeOptions()
+        browser_options.add_argument("--no-sandbox")
+        browser_options.add_argument("--headless")
+        browser_options.add_argument("start-maximized")
+        browser_options.add_argument("window-size=1900,1080")
+        browser_options.add_argument("disable-gpu")
+        browser_options.add_argument("--disable-software-rasterizer")
+        browser_options.add_argument("--disable-dev-shm-usage")
+        browser_options.add_argument(f'user-agent={user_agent}')
+        driver = webdriver.Chrome(options=browser_options, service_args=["--verbose", "--log-path=test.log"])
+#         driver = webdriver.Chrome('/usr/bin/chromedriver', options=chrome_options)
 
         driver.get(item_url)
         soup = driver.page_source.encode('utf-8').strip()
@@ -796,13 +828,29 @@ def Opalnetproduct(request):
         crawled=False)
     for each_product in uncrawled_products:
         item_url = each_product.link
-        chrome_options = Options()
-        chrome_options.add_argument("--headless")
-        chrome_options.add_argument('--no-sandbox')
-        chrome_options.add_argument('--remote-debugging-port=9222')
-#         chrome_options.add_argument("--window-size=1920,1200")
-        driver = webdriver.Chrome(
-            '/usr/bin/chromedriver', options=chrome_options)
+        user_agent_list = [
+          'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36',
+          'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0',
+          'Mozilla/5.0 (Macintosh; Intel Mac OS X 11.5; rv:90.0) Gecko/20100101 Firefox/90.0',
+          'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36',
+          'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_5_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36',
+          'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0',
+          'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36'
+        ]
+        user_agent = random.choice(user_agent_list)
+
+        
+        browser_options = webdriver.ChromeOptions()
+        browser_options.add_argument("--no-sandbox")
+        browser_options.add_argument("--headless")
+        browser_options.add_argument("start-maximized")
+        browser_options.add_argument("window-size=1900,1080")
+        browser_options.add_argument("disable-gpu")
+        browser_options.add_argument("--disable-software-rasterizer")
+        browser_options.add_argument("--disable-dev-shm-usage")
+        browser_options.add_argument(f'user-agent={user_agent}')
+        driver = webdriver.Chrome(options=browser_options, service_args=["--verbose", "--log-path=test.log"])
+#         driver = webdriver.Chrome('/usr/bin/chromedriver', options=chrome_options)
 
         driver.get(item_url)
         soup = driver.page_source.encode('utf-8').strip()
