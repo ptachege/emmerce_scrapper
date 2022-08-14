@@ -641,11 +641,9 @@ def MikaProducts(request):
             regular_price = regular_price[4:]
 
         except:
-            regular_price = price_wrapper.find(
-                'del')
-            regular_price = regular_price.find(
-                'bdi').text
-            regular_price = regular_price[4:]
+            regular_price = 0
+            regular_price = 0
+            regular_price = 0
             # sale_price = ''
        
 
