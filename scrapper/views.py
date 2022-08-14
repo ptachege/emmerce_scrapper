@@ -228,8 +228,7 @@ def Hotpointproduct(request):
         browser_options.add_argument("--disable-dev-shm-usage")
         browser_options.add_argument(f'user-agent={user_agent}')
         driver = webdriver.Chrome(options=browser_options, service_args=["--verbose", "--log-path=test.log"])
-#         driver = webdriver.Chrome(
-            '/usr/bin/chromedriver', options=chrome_options)
+#         driver = webdriver.Chrome('/usr/bin/chromedriver', options=chrome_options)
        
 
         driver.get(item_url)
