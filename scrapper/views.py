@@ -206,14 +206,26 @@ def Hotpointproduct(request):
     uncrawled_products = HotpointProductLinks2.objects.filter(crawled=False)
     for each_product in uncrawled_products:
         item_url = 'https://hotpoint.co.ke' + each_product.link
-        chrome_options = Options()
-        chrome_options.add_argument("--headless")
-        chrome_options.add_argument('--no-sandbox')
-        chrome_options.add_argument('--remote-debugging-port=9222')
-#         chrome_options.add_argument("--window-size=1920,1200")
-        chrome_options.add_argument("--disable-gpu")
-        driver = webdriver.Chrome(
-            '/usr/bin/chromedriver', options=chrome_options)
+        options = webdriver.ChromeOptions()
+        options.add_argument("--no-sandbox")
+        options.add_argument("--headless")
+        options.add_argument("start-maximized")
+        options.add_argument("window-size=1900,1080")
+        options.add_argument("disable-gpu")
+        options.add_argument("--disable-software-rasterizer")
+        options.add_argument("--disable-dev-shm-usage")
+        options.add_argument('--remote-debugging-port=9222')
+        options.add_argument('user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36')
+        driver = webdriver.Chrome(executable_path="/usr/bin/chromedriver", options=options)
+        driver.set_page_load_timeout(2)
+#         chrome_options = Options()
+#         chrome_options.add_argument("--headless")
+#         chrome_options.add_argument('--no-sandbox')
+#         chrome_options.add_argument('--remote-debugging-port=9222')
+# #         chrome_options.add_argument("--window-size=1920,1200")
+#         chrome_options.add_argument("--disable-gpu")
+#         driver = webdriver.Chrome(
+#             '/usr/bin/chromedriver', options=chrome_options)
        
 
         driver.get(item_url)
