@@ -101,7 +101,7 @@ def Hotpointentry(request):
     for each_category in all_categories:
         category_url = 'https://hotpoint.co.ke' + each_category.link
         options = Options()
-        options.headless = True
+#         options.headless = True
         options.add_experimental_option("prefs", {"profile.managed_default_content_settings.images": 2}) 
         options.add_argument("--no-sandbox") 
         options.add_argument("--disable-setuid-sandbox") 
