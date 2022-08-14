@@ -210,7 +210,19 @@ def Hotpointproduct(request):
     for each_product in uncrawled_products:
         item_url = 'https://hotpoint.co.ke' + each_product.link
         options = Options()
-        options.headless = True
+#         options.headless = True
+        options.add_experimental_option("prefs", {"profile.managed_default_content_settings.images": 2}) 
+        options.add_argument("--no-sandbox") 
+        options.add_argument("--disable-setuid-sandbox") 
+
+        options.add_argument("--remote-debugging-port=9222")  # this
+
+        options.add_argument("--disable-dev-shm-using") 
+        options.add_argument("--disable-extensions") 
+        options.add_argument("--disable-gpu") 
+        options.add_argument("start-maximized") 
+        options.add_argument("disable-infobars")
+        options.add_argument(r"user-data-dir=.\cookies\\test")
         options.add_argument("--window-size=1920,1200")
 
         driver = webdriver.Chrome(ChromeDriverManager().install())
@@ -324,7 +336,19 @@ def Hypermart_entry(request):
     for each_category in all_categories:
         category_url = each_category.link
         options = Options()
-        options.headless = True
+#         options.headless = True
+        options.add_experimental_option("prefs", {"profile.managed_default_content_settings.images": 2}) 
+        options.add_argument("--no-sandbox") 
+        options.add_argument("--disable-setuid-sandbox") 
+
+        options.add_argument("--remote-debugging-port=9222")  # this
+
+        options.add_argument("--disable-dev-shm-using") 
+        options.add_argument("--disable-extensions") 
+        options.add_argument("--disable-gpu") 
+        options.add_argument("start-maximized") 
+        options.add_argument("disable-infobars")
+        options.add_argument(r"user-data-dir=.\cookies\\test")
         options.add_argument("--window-size=1920,1200")
 
         driver = webdriver.Chrome(ChromeDriverManager().install())
@@ -410,7 +434,19 @@ def Hypermarttproduct(request):
     for each_product in uncrawled_products:
         item_url = each_product.link
         options = Options()
-        options.headless = True
+#         options.headless = True
+        options.add_experimental_option("prefs", {"profile.managed_default_content_settings.images": 2}) 
+        options.add_argument("--no-sandbox") 
+        options.add_argument("--disable-setuid-sandbox") 
+
+        options.add_argument("--remote-debugging-port=9222")  # this
+
+        options.add_argument("--disable-dev-shm-using") 
+        options.add_argument("--disable-extensions") 
+        options.add_argument("--disable-gpu") 
+        options.add_argument("start-maximized") 
+        options.add_argument("disable-infobars")
+        options.add_argument(r"user-data-dir=.\cookies\\test")
         options.add_argument("--window-size=1920,1200")
 
         driver = webdriver.Chrome(ChromeDriverManager().install())
@@ -485,7 +521,19 @@ def Mikaentry(request):
     for each_category in all_categories:
         category_url = each_category.link
         options = Options()
-        options.headless = True
+#         options.headless = True
+        options.add_experimental_option("prefs", {"profile.managed_default_content_settings.images": 2}) 
+        options.add_argument("--no-sandbox") 
+        options.add_argument("--disable-setuid-sandbox") 
+
+        options.add_argument("--remote-debugging-port=9222")  # this
+
+        options.add_argument("--disable-dev-shm-using") 
+        options.add_argument("--disable-extensions") 
+        options.add_argument("--disable-gpu") 
+        options.add_argument("start-maximized") 
+        options.add_argument("disable-infobars")
+        options.add_argument(r"user-data-dir=.\cookies\\test")
         options.add_argument("--window-size=1920,1200")
 
         driver = webdriver.Chrome(ChromeDriverManager().install())
@@ -589,7 +637,19 @@ def MikaProducts(request):
         item_url = each_product.link
 
         options = Options()
-        options.headless = True
+#         options.headless = True
+        options.add_experimental_option("prefs", {"profile.managed_default_content_settings.images": 2}) 
+        options.add_argument("--no-sandbox") 
+        options.add_argument("--disable-setuid-sandbox") 
+
+        options.add_argument("--remote-debugging-port=9222")  # this
+
+        options.add_argument("--disable-dev-shm-using") 
+        options.add_argument("--disable-extensions") 
+        options.add_argument("--disable-gpu") 
+        options.add_argument("start-maximized") 
+        options.add_argument("disable-infobars")
+        options.add_argument(r"user-data-dir=.\cookies\\test")
         options.add_argument("--window-size=1920,1200")
 
         driver = webdriver.Chrome(ChromeDriverManager().install())
@@ -698,7 +758,20 @@ def Opalnet_entry(request):
     for each_category in all_categories:
         category_url = each_category.link
         options = Options()
-        options.headless = True
+#         options.headless = True
+
+        options.add_experimental_option("prefs", {"profile.managed_default_content_settings.images": 2}) 
+        options.add_argument("--no-sandbox") 
+        options.add_argument("--disable-setuid-sandbox") 
+
+        options.add_argument("--remote-debugging-port=9222")  # this
+
+        options.add_argument("--disable-dev-shm-using") 
+        options.add_argument("--disable-extensions") 
+        options.add_argument("--disable-gpu") 
+        options.add_argument("start-maximized") 
+        options.add_argument("disable-infobars")
+        options.add_argument(r"user-data-dir=.\cookies\\test")
         options.add_argument("--window-size=1920,1200")
 
         driver = webdriver.Chrome(ChromeDriverManager().install())
@@ -756,7 +829,19 @@ def Opalnetproduct(request):
     for each_product in uncrawled_products:
         item_url = each_product.link
         options = Options()
-        options.headless = True
+#         options.headless = True
+        options.add_experimental_option("prefs", {"profile.managed_default_content_settings.images": 2}) 
+        options.add_argument("--no-sandbox") 
+        options.add_argument("--disable-setuid-sandbox") 
+
+        options.add_argument("--remote-debugging-port=9222")  # this
+
+        options.add_argument("--disable-dev-shm-using") 
+        options.add_argument("--disable-extensions") 
+        options.add_argument("--disable-gpu") 
+        options.add_argument("start-maximized") 
+        options.add_argument("disable-infobars")
+        options.add_argument(r"user-data-dir=.\cookies\\test")
         options.add_argument("--window-size=1920,1200")
 
         driver = webdriver.Chrome(ChromeDriverManager().install())
