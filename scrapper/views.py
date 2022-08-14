@@ -211,6 +211,7 @@ def Hotpointproduct(request):
         chrome_options.add_argument('--no-sandbox')
         chrome_options.add_argument('--remote-debugging-port=9222')
         chrome_options.add_argument("--window-size=1920,1200")
+        chrome_options.add_argument("--disable-gpu")
         driver = webdriver.Chrome(
             '/usr/bin/chromedriver', options=chrome_options)
        
