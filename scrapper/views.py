@@ -201,11 +201,22 @@ def Hotpointentry(request):
         each_category.save()
     return HttpResponse("saved")
 
-
+import random
 def Hotpointproduct(request):
     uncrawled_products = HotpointProductLinks2.objects.filter(crawled=False)
     for each_product in uncrawled_products:
         item_url = 'https://hotpoint.co.ke' + each_product.link
+        user_agent_list = [
+          'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36',
+          'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0',
+          'Mozilla/5.0 (Macintosh; Intel Mac OS X 11.5; rv:90.0) Gecko/20100101 Firefox/90.0',
+          'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36',
+          'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_5_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36',
+          'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0',
+          'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36'
+        ]
+        user_agent = random.choice(user_agent_list)
+
         
         chrome_options = Options()
         chrome_options.add_argument("--headless")
@@ -213,6 +224,7 @@ def Hotpointproduct(request):
         chrome_options.add_argument('--remote-debugging-port=9222')
 #         chrome_options.add_argument("--window-size=1920,1200")
         chrome_options.add_argument("--disable-gpu")
+        chrome_options.add_argument(f'user-agent={user_agent}')
         driver = webdriver.Chrome(
             '/usr/bin/chromedriver', options=chrome_options)
        
