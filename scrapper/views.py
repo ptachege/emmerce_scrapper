@@ -317,6 +317,9 @@ def Hotpointproduct(request):
                 # break
         each_product.crawled = True
         each_product.save()
+        driver.stop_client()
+        driver.close()
+        driver.quit()
     return HttpResponse("saved successfully")
 
 
