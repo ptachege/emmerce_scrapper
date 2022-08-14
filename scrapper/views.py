@@ -408,8 +408,7 @@ def Hypermart_entry(request):
                 i += 1
         each_category.crawled = True
         each_category.save()
-        driver.stop_client()
-        driver.close()
+        
         driver.quit()
     return HttpResponse('good')
 
