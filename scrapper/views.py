@@ -117,7 +117,8 @@ def Hotpointentry(request):
         
         options.add_argument("--window-size=1920,1200")
 
-        driver = webdriver.Chrome(ChromeDriverManager().install())
+#         driver = webdriver.Chrome(ChromeDriverManager().install())
+        driver = webdriver.Chrome(chrome_options=options)
 
         driver.get(category_url)
 
@@ -224,8 +225,9 @@ def Hotpointproduct(request):
         options.add_argument("disable-infobars")
         options.add_argument(r"user-data-dir=.\cookies\\test")
         options.add_argument("--window-size=1920,1200")
+        driver = webdriver.Chrome(chrome_options=options)
 
-        driver = webdriver.Chrome(ChromeDriverManager().install())
+#         driver = webdriver.Chrome(ChromeDriverManager().install())
 
         driver.get(item_url)
         soup = driver.page_source.encode('utf-8').strip()
@@ -350,8 +352,9 @@ def Hypermart_entry(request):
         options.add_argument("disable-infobars")
         options.add_argument(r"user-data-dir=.\cookies\\test")
         options.add_argument("--window-size=1920,1200")
+        driver = webdriver.Chrome(chrome_options=options)
 
-        driver = webdriver.Chrome(ChromeDriverManager().install())
+#         driver = webdriver.Chrome(ChromeDriverManager().install())
 
         driver.get(category_url)
 
@@ -448,8 +451,9 @@ def Hypermarttproduct(request):
         options.add_argument("disable-infobars")
         options.add_argument(r"user-data-dir=.\cookies\\test")
         options.add_argument("--window-size=1920,1200")
+        driver = webdriver.Chrome(chrome_options=options)
 
-        driver = webdriver.Chrome(ChromeDriverManager().install())
+#         driver = webdriver.Chrome(ChromeDriverManager().install())
 
         driver.get(item_url)
         soup = driver.page_source.encode('utf-8').strip()
@@ -535,8 +539,9 @@ def Mikaentry(request):
         options.add_argument("disable-infobars")
         options.add_argument(r"user-data-dir=.\cookies\\test")
         options.add_argument("--window-size=1920,1200")
+        driver = webdriver.Chrome(chrome_options=options)
 
-        driver = webdriver.Chrome(ChromeDriverManager().install())
+#         driver = webdriver.Chrome(ChromeDriverManager().install())
 
         driver.get(category_url)
 
@@ -651,8 +656,9 @@ def MikaProducts(request):
         options.add_argument("disable-infobars")
         options.add_argument(r"user-data-dir=.\cookies\\test")
         options.add_argument("--window-size=1920,1200")
+        driver = webdriver.Chrome(chrome_options=options)
 
-        driver = webdriver.Chrome(ChromeDriverManager().install())
+#         driver = webdriver.Chrome(ChromeDriverManager().install())
 
         driver.get(item_url)
         soup = driver.page_source.encode('utf-8').strip()
@@ -773,8 +779,9 @@ def Opalnet_entry(request):
         options.add_argument("disable-infobars")
         options.add_argument(r"user-data-dir=.\cookies\\test")
         options.add_argument("--window-size=1920,1200")
+        driver = webdriver.Chrome(chrome_options=options)
 
-        driver = webdriver.Chrome(ChromeDriverManager().install())
+#         driver = webdriver.Chrome(ChromeDriverManager().install())
 
         driver.get(category_url)
 
@@ -843,8 +850,9 @@ def Opalnetproduct(request):
         options.add_argument("disable-infobars")
         options.add_argument(r"user-data-dir=.\cookies\\test")
         options.add_argument("--window-size=1920,1200")
+        driver = webdriver.Chrome(chrome_options=options)
 
-        driver = webdriver.Chrome(ChromeDriverManager().install())
+#         driver = webdriver.Chrome(ChromeDriverManager().install())
 
         driver.get(item_url)
         soup = driver.page_source.encode('utf-8').strip()
