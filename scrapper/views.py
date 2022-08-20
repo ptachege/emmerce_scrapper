@@ -31,13 +31,18 @@ def delete_products(request):
     print('delete successfull.')
     return HttpResponse('deleted successfully')
 
+
+
 def start_scrap(request):
-    # Hotpointentry(request)
-    # Hypermart_entry(request)
-    # Mikaentry(request)
-    # Opalnet_entry(request)
+    Products.objects.all().delete()
+    print('delete successfull.')
+
+    Hotpointentry(request)
+    Hypermart_entry(request)
+    Mikaentry(request)
+    Opalnet_entry(request)
     # ============= Give the server a little break bana ================
-    # time.sleep(20)
+    time.sleep(20)
     # ============= break is over continue with the scrap ================
  
 
@@ -55,6 +60,11 @@ def mine(request):
 
 
 def reset_scrap(request):
+    HotpointProductLinks2.objects.all().delete()
+    HypermartProductLinks2.objects.all().delete()
+    MikaProductLinks2.objects.all().delete()
+    OpalnetProductLinks2.objects.all().delete()
+
 
     # reset all parent categories.   
     for each_category in HotpointCategories2.objects.all():
@@ -106,15 +116,19 @@ def Hotpointentry(request):
         chrome_options.add_argument("--headless")
         chrome_options.add_argument('--no-sandbox')
         chrome_options.add_argument('--remote-debugging-port=9222')
-#         chrome_options.add_argument("--window-size=1920,1200")
+        chrome_options.add_argument("--window-size=1920,1200")
         driver = webdriver.Chrome(
             '/usr/bin/chromedriver', options=chrome_options)
-        
-        
-        
+         
 
 #         driver = webdriver.Chrome(ChromeDriverManager().install())
-        
+        chrome_options = Options()
+        chrome_options.add_argument("--headless")
+        chrome_options.add_argument('--no-sandbox')
+        chrome_options.add_argument('--remote-debugging-port=9222')
+        chrome_options.add_argument("--window-size=1920,1200")
+        driver = webdriver.Chrome(
+            '/usr/bin/chromedriver', options=chrome_options)
 
         driver.get(category_url)
 
@@ -210,8 +224,7 @@ def Hotpointproduct(request):
         chrome_options.add_argument("--headless")
         chrome_options.add_argument('--no-sandbox')
         chrome_options.add_argument('--remote-debugging-port=9222')
-#         chrome_options.add_argument("--window-size=1920,1200")
-        chrome_options.add_argument("--disable-gpu")
+        chrome_options.add_argument("--window-size=1920,1200")
         driver = webdriver.Chrome(
             '/usr/bin/chromedriver', options=chrome_options)
        
@@ -240,17 +253,16 @@ def Hotpointproduct(request):
         except:
             brand = ''
 
-
-
         # regular price
         out_wrapper = soup.find('div', class_='product-actions')
+        backup_wrapper = soup.find('div', class_='stockrecord-prices')
         try:
             regular_price = out_wrapper.find(
-                'span', class_='stockrecord-price-old').text.strip()
+                'span', class_='stockrecord-price-current').text.strip()
             regular_price = regular_price[4:]            
 
         except:
-            regular_price = out_wrapper.find(
+            regular_price = backup_wrapper.find(
                 'span', class_='stockrecord-price-current').text.strip()
             regular_price = regular_price[4:]
 
@@ -264,13 +276,6 @@ def Hotpointproduct(request):
             except:
                 upc = ''
 
-            # try:
-            #     # sku = mytds[1].text
-            #     gen_table.find()
-                
-            # except:
-            #     sku = ''
-
         except:
             upc = ''
             sku = ''
@@ -282,27 +287,6 @@ def Hotpointproduct(request):
         except:
             stock_status = 'In Stock'
 
-
-        # save to db.
-        # products = Products.objects.all()
-
-        # # checking if a product with this sku exists. ==========> if it does we update the record
-        # for product in products:
-        #     if product.sku == sku:
-        #         this_product = Products.objects.get(sku=sku)
-        #         this_product.product_name=product_name
-        #         this_product.sale_price=sale_price
-        #         this_product.regular_price=regular_price
-        #         this_product.brand=brand
-        #         this_product.upc=upc
-        #         this_product.stock_status=stock_status
-        #         this_product.product_link=item_url
-        #         this_product.save()
-
-        #         print('product with this sku is getting updated.')
-        #         break
-        #     else:    
-                # ============= if it doesn't we create a new entry. ===================
         Products.objects.create(
             product_name=product_name,
             sale_price = '',
@@ -317,9 +301,6 @@ def Hotpointproduct(request):
                 # break
         each_product.crawled = True
         each_product.save()
-        driver.stop_client()
-        driver.close()
-        driver.quit()
     return HttpResponse("saved successfully")
 
 
@@ -331,7 +312,7 @@ def Hypermart_entry(request):
         chrome_options.add_argument("--headless")
         chrome_options.add_argument('--no-sandbox')
         chrome_options.add_argument('--remote-debugging-port=9222')
-#         chrome_options.add_argument("--window-size=1920,1200")
+        chrome_options.add_argument("--window-size=1920,1200")
         driver = webdriver.Chrome(
             '/usr/bin/chromedriver', options=chrome_options)
 
@@ -408,8 +389,6 @@ def Hypermart_entry(request):
                 i += 1
         each_category.crawled = True
         each_category.save()
-        
-        driver.quit()
     return HttpResponse('good')
 
 
@@ -421,7 +400,7 @@ def Hypermarttproduct(request):
         chrome_options.add_argument("--headless")
         chrome_options.add_argument('--no-sandbox')
         chrome_options.add_argument('--remote-debugging-port=9222')
-#         chrome_options.add_argument("--window-size=1920,1200")
+        chrome_options.add_argument("--window-size=1920,1200")
         driver = webdriver.Chrome(
             '/usr/bin/chromedriver', options=chrome_options)
 
@@ -487,9 +466,6 @@ def Hypermarttproduct(request):
         print('product saved as a new entry.')
         each_product.crawled = True
         each_product.save()
-        driver.stop_client()
-        driver.close()
-        driver.quit()
     return HttpResponse("com")
 
 
@@ -501,7 +477,7 @@ def Mikaentry(request):
         chrome_options.add_argument("--headless")
         chrome_options.add_argument('--no-sandbox')
         chrome_options.add_argument('--remote-debugging-port=9222')
-#         chrome_options.add_argument("--window-size=1920,1200")
+        chrome_options.add_argument("--window-size=1920,1200")
         driver = webdriver.Chrome(
             '/usr/bin/chromedriver', options=chrome_options)
 
@@ -594,9 +570,6 @@ def Mikaentry(request):
 
         each_category.crawled = True
         each_category.save()
-        driver.stop_client()
-        driver.close()
-        driver.quit()
 
     return HttpResponse("good")
 
@@ -610,7 +583,7 @@ def MikaProducts(request):
         chrome_options.add_argument("--headless")
         chrome_options.add_argument('--no-sandbox')
         chrome_options.add_argument('--remote-debugging-port=9222')
-#         chrome_options.add_argument("--window-size=1920,1200")
+        chrome_options.add_argument("--window-size=1920,1200")
         driver = webdriver.Chrome(
             '/usr/bin/chromedriver', options=chrome_options)
 
@@ -653,9 +626,11 @@ def MikaProducts(request):
             regular_price = regular_price[4:]
 
         except:
-            regular_price = 0
-            regular_price = 0
-            regular_price = 0
+            regular_price = price_wrapper.find(
+                'del')
+            regular_price = regular_price.find(
+                'bdi').text
+            regular_price = regular_price[4:]
             # sale_price = ''
        
 
@@ -708,9 +683,6 @@ def MikaProducts(request):
         print('product saved as a new entry.')
         each_product.crawled = True
         each_product.save()
-        driver.stop_client()
-        driver.close()
-        driver.quit()
     return HttpResponse("com")
 
 
@@ -722,7 +694,7 @@ def Opalnet_entry(request):
         chrome_options.add_argument("--headless")
         chrome_options.add_argument('--no-sandbox')
         chrome_options.add_argument('--remote-debugging-port=9222')
-#         chrome_options.add_argument("--window-size=1920,1200")
+        chrome_options.add_argument("--window-size=1920,1200")
         driver = webdriver.Chrome(
             '/usr/bin/chromedriver', options=chrome_options)
 
@@ -770,9 +742,6 @@ def Opalnet_entry(request):
                 pass
         each_category.crawled = True
         each_category.save()
-        driver.stop_client()
-        driver.close()
-        driver.quit()
     return HttpResponse('good')
 
 
@@ -785,7 +754,7 @@ def Opalnetproduct(request):
         chrome_options.add_argument("--headless")
         chrome_options.add_argument('--no-sandbox')
         chrome_options.add_argument('--remote-debugging-port=9222')
-#         chrome_options.add_argument("--window-size=1920,1200")
+        chrome_options.add_argument("--window-size=1920,1200")
         driver = webdriver.Chrome(
             '/usr/bin/chromedriver', options=chrome_options)
 
@@ -867,7 +836,4 @@ def Opalnetproduct(request):
         print('product saved as a new entry.')
         each_product.crawled = True
         each_product.save()
-        driver.stop_client()
-        driver.close()
-        driver.quit()
     return HttpResponse('saved')

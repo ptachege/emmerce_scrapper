@@ -13,4 +13,5 @@ urlpatterns = [
     path('Opalnetproduct/', views.Opalnetproduct, name='Opalnetproduct'),
     path('start_scrap/', views.start_scrap, name='start_scrap'),
     path('reset_scrap/', views.reset_scrap, name='reset_scrap'),
+
 ]
