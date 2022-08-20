@@ -215,7 +215,7 @@ def Hotpointentry(request):
         each_category.save()
     return HttpResponse("saved")
 
-
+import random
 def Hotpointproduct(request):
     uncrawled_products = HotpointProductLinks2.objects.filter(crawled=False)
     for each_product in uncrawled_products:
