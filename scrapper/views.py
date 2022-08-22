@@ -24,6 +24,8 @@ from rest_framework.response import Response
 import math
 import time
 from django.db.models import F
+import random
+
 
 
 def delete_products(request):
@@ -215,7 +217,6 @@ def Hotpointentry(request):
         each_category.save()
     return HttpResponse("saved")
 
-import random
 def Hotpointproduct(request):
     uncrawled_products = HotpointProductLinks2.objects.filter(crawled=False)
     for each_product in uncrawled_products:
@@ -473,14 +474,19 @@ def Mikaentry(request):
     all_categories = MikaCategories2.objects.filter(crawled=False)
     for each_category in all_categories:
         category_url = each_category.link
-        chrome_options = Options()
-        chrome_options.add_argument("--headless")
-        chrome_options.add_argument('--no-sandbox')
-        chrome_options.add_argument('--remote-debugging-port=9222')
-        chrome_options.add_argument("--window-size=1920,1200")
-        driver = webdriver.Chrome(
-            '/usr/bin/chromedriver', options=chrome_options)
+        # chrome_options = Options()
+        # chrome_options.add_argument("--headless")
+        # chrome_options.add_argument('--no-sandbox')
+        # chrome_options.add_argument('--remote-debugging-port=9222')
+        # chrome_options.add_argument("--window-size=1920,1200")
+        # driver = webdriver.Chrome(
+        #     '/usr/bin/chromedriver', options=chrome_options)
 
+        options = Options()
+        options.headless = True
+        options.add_argument("--window-size=1920,1200")
+
+        driver = webdriver.Chrome(ChromeDriverManager().install())
         driver.get(category_url)
 
         soup = driver.page_source.encode('utf-8').strip()
@@ -579,13 +585,18 @@ def MikaProducts(request):
     for each_product in uncrawled_products:
         item_url = each_product.link
 
-        chrome_options = Options()
-        chrome_options.add_argument("--headless")
-        chrome_options.add_argument('--no-sandbox')
-        chrome_options.add_argument('--remote-debugging-port=9222')
-        chrome_options.add_argument("--window-size=1920,1200")
-        driver = webdriver.Chrome(
-            '/usr/bin/chromedriver', options=chrome_options)
+        # chrome_options = Options()
+        # chrome_options.add_argument("--headless")
+        # chrome_options.add_argument('--no-sandbox')
+        # chrome_options.add_argument('--remote-debugging-port=9222')
+        # chrome_options.add_argument("--window-size=1920,1200")
+        # driver = webdriver.Chrome(
+        #     '/usr/bin/chromedriver', options=chrome_options)
+        options = Options()
+        options.headless = True
+        options.add_argument("--window-size=1920,1200")
+
+        driver = webdriver.Chrome(ChromeDriverManager().install())
 
         driver.get(item_url)
         soup = driver.page_source.encode('utf-8').strip()
@@ -606,6 +617,8 @@ def MikaProducts(request):
         except:
             product_name = ''
 
+
+
         try:
             price_wrapper = header_one.find('h2')
         except:
@@ -614,24 +627,17 @@ def MikaProducts(request):
         
          # sale price
         try:
-            # sale_price = price_wrapper.find(
-            #     'ins')
-            # sale_price = sale_price.find('bdi').text
-            # sale_price = sale_price[4:]
 
             regular_price = price_wrapper.find(
-                'del')
-            regular_price = regular_price.find(
                 'bdi').text
             regular_price = regular_price[4:]
 
         except:
-            regular_price = price_wrapper.find(
-                'del')
+            regular_price = header_one.find(
+                'span', class_='woocommerce-Price-amount amount')
             regular_price = regular_price.find(
                 'bdi').text
             regular_price = regular_price[4:]
-            # sale_price = ''
        
 
         # sku
@@ -653,25 +659,6 @@ def MikaProducts(request):
         except:
             in_stock = 'In Stock'
 
-        # save to db.
-
-        # products = Products.objects.all()
-
-        # checking if a product with this sku exists. ==========> if it does we update the record
-        # for product in products:
-        #     if product.sku == sku:
-        #         this_product = Products.objects.get(sku=sku)
-        #         this_product.product_name = product_name
-        #         this_product.sale_price = sale_price
-        #         this_product.regular_price = regular_price
-        #         this_product.stock_status = stock_status
-        #         this_product.product_link = item_url
-        #         this_product.save()
-
-        #         print('product with this sku is getting updated.')
-        #         break
-        #     else:
-                # ============= if it doesn't we create a new entry. ===================
         Products.objects.create(
             product_name=product_name,
             sale_price='',
