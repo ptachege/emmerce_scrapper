@@ -190,6 +190,8 @@ def Hotpointentry(request):
             chrome_options.add_argument("--remote-debugging-port=9230")
             chrome_options.add_argument("--disable-gpu")
             chrome_options.add_argument("--window-size=1920,1200")
+            chrome_options.add_argument(
+                'user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36')
             driver = webdriver.Chrome(
                 '/usr/bin/chromedriver', options=chrome_options)
 
