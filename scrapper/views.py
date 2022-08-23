@@ -34,16 +34,16 @@ def delete_products(request):
 
 
 def start_scrap(request):
-    Products.objects.all().delete()
-    print('delete successfull.')
+    # Products.objects.all().delete()
+    # print('delete successfull.')
 
-    Hotpointentry(request)
-    Hypermart_entry(request)
-    Mikaentry(request)
-    Opalnet_entry(request)
-    # ============= Give the server a little break bana ================
-    time.sleep(20)
-    # ============= break is over continue with the scrap ================
+    # Hotpointentry(request)
+    # Hypermart_entry(request)
+    # Mikaentry(request)
+    # Opalnet_entry(request)
+    # # ============= Give the server a little break bana ================
+    # time.sleep(20)
+    # # ============= break is over continue with the scrap ================
 
     Hotpointproduct(request)
     Hypermarttproduct(request)
