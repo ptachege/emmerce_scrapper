@@ -187,7 +187,7 @@ def Hotpointentry(request):
             chrome_options = Options()
             chrome_options.add_argument("--headless")
             chrome_options.add_argument('--no-sandbox')
-            chrome_options.add_argument('--remote-debugging-port=9222')
+            chrome_options.add_argument("--remote-debugging-port=9230")
             chrome_options.add_argument("--disable-gpu")
             chrome_options.add_argument("--window-size=1920,1200")
             driver = webdriver.Chrome(
@@ -217,6 +217,7 @@ def Hotpointentry(request):
             i += 1
         each_category.crawled = True
         each_category.save()
+
         driver.stop()
     return HttpResponse("saved")
 
