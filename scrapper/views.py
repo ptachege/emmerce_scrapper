@@ -216,9 +216,6 @@ def Hotpointentry(request):
             i += 1
         each_category.crawled = True
         each_category.save()
-        driver.stop_client()
-        driver.close()
-        driver.quit()
     return HttpResponse("saved")
 
 
@@ -306,9 +303,6 @@ def Hotpointproduct(request):
         # break
         each_product.crawled = True
         each_product.save()
-        driver.stop_client()
-        driver.close()
-        driver.quit()
     return HttpResponse("saved successfully")
 
 
@@ -400,9 +394,6 @@ def Hypermart_entry(request):
                 i += 1
         each_category.crawled = True
         each_category.save()
-        driver.stop_client()
-        driver.close()
-        driver.quit()
     return HttpResponse('good')
 
 
@@ -479,9 +470,6 @@ def Hypermarttproduct(request):
         print('product saved as a new entry.')
         each_product.crawled = True
         each_product.save()
-        driver.stop_client()
-        driver.close()
-        driver.quit()
     return HttpResponse("com")
 
 
@@ -599,9 +587,6 @@ def Mikaentry(request):
 
         each_category.crawled = True
         each_category.save()
-        driver.stop_client()
-        driver.close()
-        driver.quit()
 
     return HttpResponse("good")
 
@@ -699,9 +684,6 @@ def MikaProducts(request):
         print('product saved as a new entry.')
         each_product.crawled = True
         each_product.save()
-        driver.stop_client()
-        driver.close()
-        driver.quit()
     return HttpResponse("com")
 
 
@@ -761,9 +743,6 @@ def Opalnet_entry(request):
                 pass
         each_category.crawled = True
         each_category.save()
-        driver.stop_client()
-        driver.close()
-        driver.quit()
     return HttpResponse('good')
 
 
@@ -858,7 +837,4 @@ def Opalnetproduct(request):
         print('product saved as a new entry.')
         each_product.crawled = True
         each_product.save()
-        driver.stop_client()
-        driver.close()
-        driver.quit()
     return HttpResponse('saved')
