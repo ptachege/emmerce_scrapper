@@ -217,9 +217,7 @@ def Hotpointentry(request):
             i += 1
         each_category.crawled = True
         each_category.save()
-        driver.stop_client()
-        driver.close()
-        driver.quit()
+        driver.stop()
     return HttpResponse("saved")
 
 
