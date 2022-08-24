@@ -357,6 +357,9 @@ def Hotpointproduct(request):
         # break
         each_product.crawled = True
         each_product.save()
+        driver.stop_client()
+        driver.close()
+        driver.quit()
     return HttpResponse("saved successfully")
 
 
@@ -571,6 +574,9 @@ def Hypermarttproduct(request):
         print('product saved as a new entry.')
         each_product.crawled = True
         each_product.save()
+        driver.stop_client()
+        driver.close()
+        driver.quit()
     return HttpResponse("com")
 
 
@@ -815,6 +821,9 @@ def MikaProducts(request):
         print('product saved as a new entry.')
         each_product.crawled = True
         each_product.save()
+        driver.stop_client()
+        driver.close()
+        driver.quit()
     return HttpResponse("com")
 
 
@@ -998,4 +1007,7 @@ def Opalnetproduct(request):
         print('product saved as a new entry.')
         each_product.crawled = True
         each_product.save()
+        driver.stop_client()
+        driver.close()
+        driver.quit()
     return HttpResponse('saved')
