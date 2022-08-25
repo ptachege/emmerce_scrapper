@@ -34,13 +34,13 @@ def delete_products(request):
 
 
 def start_scrap(request):
-    # Hotpointentry(request)
-    # Hypermart_entry(request)
-    # Mikaentry(request)
-    # Opalnet_entry(request)
-    # # ============= Give the server a little break bana ================
-    # time.sleep(20)
-    # # ============= break is over continue with the scrap ================
+    Hotpointentry(request)
+    Hypermart_entry(request)
+    Mikaentry(request)
+    Opalnet_entry(request)
+    # ============= Give the server a little break bana ================
+    time.sleep(20)
+    # ============= break is over continue with the scrap ================
 
     Hotpointproduct(request)
     Hypermarttproduct(request)
@@ -55,10 +55,10 @@ def mine(request):
 
 
 def reset_scrap(request):
-    # HotpointProductLinks2.objects.all().delete()
-    # HypermartProductLinks2.objects.all().delete()
-    # MikaProductLinks2.objects.all().delete()
-    # OpalnetProductLinks2.objects.all().delete()
+    HotpointProductLinks2.objects.all().delete()
+    HypermartProductLinks2.objects.all().delete()
+    MikaProductLinks2.objects.all().delete()
+    OpalnetProductLinks2.objects.all().delete()
 
     # reset all parent categories.
     for each_category in HotpointCategories2.objects.all():
@@ -233,6 +233,8 @@ def Hotpointentry(request):
             i += 1
         each_category.crawled = True
         each_category.save()
+        driver.stop_client()
+        driver.close()
         driver.quit()
 
     return HttpResponse("saved")
@@ -462,6 +464,9 @@ def Hypermart_entry(request):
                 i += 1
         each_category.crawled = True
         each_category.save()
+        driver.stop_client()
+        driver.close()
+        driver.quit()
     return HttpResponse('good')
 
 
@@ -676,6 +681,9 @@ def Mikaentry(request):
 
         each_category.crawled = True
         each_category.save()
+        driver.stop_client()
+        driver.close()
+        driver.quit()
 
     return HttpResponse("good")
 
@@ -865,6 +873,9 @@ def Opalnet_entry(request):
                 pass
         each_category.crawled = True
         each_category.save()
+        driver.stop_client()
+        driver.close()
+        driver.quit()
     return HttpResponse('good')
 
 
