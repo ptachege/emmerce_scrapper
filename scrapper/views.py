@@ -34,9 +34,6 @@ def delete_products(request):
 
 
 def start_scrap(request):
-    # Products.objects.all().delete()
-    # print('delete successfull.')
-
     # Hotpointentry(request)
     # Hypermart_entry(request)
     # Mikaentry(request)
@@ -58,10 +55,10 @@ def mine(request):
 
 
 def reset_scrap(request):
-    HotpointProductLinks2.objects.all().delete()
-    HypermartProductLinks2.objects.all().delete()
-    MikaProductLinks2.objects.all().delete()
-    OpalnetProductLinks2.objects.all().delete()
+    # HotpointProductLinks2.objects.all().delete()
+    # HypermartProductLinks2.objects.all().delete()
+    # MikaProductLinks2.objects.all().delete()
+    # OpalnetProductLinks2.objects.all().delete()
 
     # reset all parent categories.
     for each_category in HotpointCategories2.objects.all():
@@ -98,6 +95,8 @@ def reset_scrap(request):
         each_product_link.crawled = False
         each_product_link.save()
 
+    return HttpResponse('reset successful')
+
     # now everything has been reset to default
 
 
@@ -105,18 +104,6 @@ def Hotpointentry(request):
     all_categories = HotpointCategories2.objects.filter(crawled=False)
     for each_category in all_categories:
         category_url = 'https://hotpoint.co.ke' + each_category.link
-#         options = Options()
-#         options.headless = True
-        # chrome_options = Options()
-        # chrome_options.add_argument("--headless")
-        # chrome_options.add_argument('--no-sandbox')
-        # chrome_options.add_argument('--remote-debugging-port=9222')
-        # chrome_options.add_argument("--window-size=1920,1200")
-        # driver = webdriver.Chrome(
-        #     '/usr/bin/chromedriver', options=chrome_options)
-
-
-#         driver = webdriver.Chrome(ChromeDriverManager().install())
         user_agent_list = [
             'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36',
             'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0',
@@ -255,13 +242,6 @@ def Hotpointproduct(request):
     uncrawled_products = HotpointProductLinks2.objects.filter(crawled=False)
     for each_product in uncrawled_products:
         item_url = 'https://hotpoint.co.ke' + each_product.link
-        # chrome_options = Options()
-        # chrome_options.add_argument("--headless")
-        # chrome_options.add_argument('--no-sandbox')
-        # chrome_options.add_argument('--remote-debugging-port=9222')
-        # chrome_options.add_argument("--window-size=1920,1200")
-        # driver = webdriver.Chrome(
-        #     '/usr/bin/chromedriver', options=chrome_options)
         user_agent_list = [
             'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36',
             'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0',
@@ -512,6 +492,13 @@ def Hypermarttproduct(request):
         browser_options.add_argument(f'user-agent={user_agent}')
         driver = webdriver.Chrome(options=browser_options, service_args=[
             "--verbose", "--log-path=test.log"])
+        # options = Options()
+        # options.headless = True
+        # options.add_argument("--window-size=1920,1200")
+
+        # driver = webdriver.Chrome(ChromeDriverManager().install())
+
+
 
         driver.get(item_url)
         soup = driver.page_source.encode('utf-8').strip()
@@ -544,26 +531,6 @@ def Hypermarttproduct(request):
             stock_status = soup.find('div', class_='stock unavailable').text
         except:
             stock_status = 'In Stock'
-
-        # save to db.
-        # ================ we first check if this sku exists =================
-
-        # products = Products.objects.all()
-
-        # checking if a product with this sku exists. ==========> if it does we update the record
-        # for product in products:
-        #     if product.sku == sku:
-        #         this_product = Products.objects.get(sku=sku)
-        #         this_product.product_name=product_name
-        #         this_product.regular_price=regular_price
-        #         this_product.stock_status=stock_status
-        #         this_product.product_link=item_url
-        #         this_product.save()
-
-        #         print('product with this sku is getting updated.')
-        #         break
-        #     else:
-            # ============= if it doesn't we create a new entry. ===================
         Products.objects.create(
             product_name=product_name,
             sku=sku,
@@ -577,7 +544,7 @@ def Hypermarttproduct(request):
         driver.stop_client()
         driver.close()
         driver.quit()
-    return HttpResponse("com")
+    return HttpResponse("scrapped successfully")
 
 
 def Mikaentry(request):
@@ -928,7 +895,11 @@ def Opalnetproduct(request):
         browser_options.add_argument(f'user-agent={user_agent}')
         driver = webdriver.Chrome(options=browser_options, service_args=[
             "--verbose", "--log-path=test.log"])
+        # options = Options()
+        # options.headless = True
+        # options.add_argument("--window-size=1920,1200")
 
+        # driver = webdriver.Chrome(ChromeDriverManager().install())
         driver.get(item_url)
         soup = driver.page_source.encode('utf-8').strip()
         soup = BeautifulSoup(soup, 'lxml')
@@ -965,37 +936,15 @@ def Opalnetproduct(request):
             in_stock = 'In Stock'
         # sale price
         try:
-            old_span = soup.find('div', class_='old-price-save')
+            old_span = soup.find('span', class_='old-price')
             regular_price = old_span.find('span', class_='price').text
 
-            # sale_price = soup.find(
-            #     'span', class_='price-wrapper').text
-            # sale_price = sale_price[3:]
         except:
             regular_price = soup.find(
                 'span', class_='price-wrapper').text
             regular_price = regular_price[3:]
             # sale_price = ''
 
-        # <==================get an array of all products ===============>
-
-        # products = Products.objects.all()
-
-        # checking if a product with this sku exists. ==========> if it does we update the record
-        # for product in products:
-        #     if product.sku == sku:
-        #         this_product = Products.objects.get(sku=sku)
-        #         this_product.product_name = product_name
-        #         this_product.sale_price = sale_price
-        #         this_product.regular_price = regular_price
-        #         this_product.stock_status = in_stock
-        #         this_product.product_link = item_url
-        #         this_product.save()
-
-        #         print('product with this sku is getting updated.')
-        #         break
-        #     else:
-            # ============= if it doesn't we create a new entry. ===================
         Products.objects.create(
             product_name=product_name,
             sale_price='',
