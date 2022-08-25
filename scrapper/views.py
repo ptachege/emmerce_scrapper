@@ -79,21 +79,21 @@ def reset_scrap(request):
 
     # now reset all product links
 
-    for each_product_link in HotpointProductLinks2.objects.all():
-        each_product_link.crawled = False
-        each_product_link.save()
+#     for each_product_link in HotpointProductLinks2.objects.all():
+#         each_product_link.crawled = False
+#         each_product_link.save()
 
     for each_product_link in HypermartProductLinks2.objects.all():
         each_product_link.crawled = False
         each_product_link.save()
 
-    for each_product_link in MikaProductLinks2.objects.all():
-        each_product_link.crawled = False
-        each_product_link.save()
+#     for each_product_link in MikaProductLinks2.objects.all():
+#         each_product_link.crawled = False
+#         each_product_link.save()
 
-    for each_product_link in OpalnetProductLinks2.objects.all():
-        each_product_link.crawled = False
-        each_product_link.save()
+#     for each_product_link in OpalnetProductLinks2.objects.all():
+#         each_product_link.crawled = False
+#         each_product_link.save()
 
     return HttpResponse('reset successful')
 
