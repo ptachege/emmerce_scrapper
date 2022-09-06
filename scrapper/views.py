@@ -266,7 +266,7 @@ def Hotpointproduct(request):
         browser_options.add_argument(f'user-agent={user_agent}')
         driver = webdriver.Chrome(options=browser_options, service_args=[
             "--verbose", "--log-path=test.log"])
-
+        driver = webdriver.Chrome(ChromeDriverManager().install())
         driver.get(item_url)
         soup = driver.page_source.encode('utf-8').strip()
         soup = BeautifulSoup(soup, 'lxml')
@@ -295,15 +295,24 @@ def Hotpointproduct(request):
         out_wrapper = soup.find('div', class_='product-actions')
         backup_wrapper = soup.find('div', class_='stockrecord-prices')
         try:
-            regular_price = out_wrapper.find(
-                'span', class_='stockrecord-price-current').text.strip()
-            regular_price = regular_price[4:]
+            try:
+                regular_price = out_wrapper.find(
+                    'span', class_='stockrecord-price-old').text.strip()
+                regular_price = regular_price[4:]
 
+            except:
+                regular_price = backup_wrapper.find(
+                    'span', class_='stockrecord-price-old').text.strip()
+                regular_price = regular_price[4:]
         except:
-            regular_price = backup_wrapper.find(
-                'span', class_='stockrecord-price-current').text.strip()
-            regular_price = regular_price[4:]
-
+            try:
+                regular_price = backup_wrapper.find(
+                    'span', class_='stockrecord-price-current').text.strip()
+                regular_price = regular_price[4:]
+            except:
+                regular_price = out_wrapper.find(
+                    'span', class_='stockrecord-price-current').text.strip()
+                regular_price = regular_price[4:]
         # upc
         try:
             gen_table = soup.find('table', class_='table table-sm')
@@ -320,10 +329,13 @@ def Hotpointproduct(request):
         # stock status
 
         try:
-            stock_status = soup.find(
-                'div', class_='stockrecord-availability outofstock').text
+            my_form = soup.find("form", {"id": "alert_form"})
+            if my_form is None:
+                stock_status = 'In Stock'
+            else:
+                stock_status = "Out Of Stock"
         except:
-            stock_status = 'In Stock'
+            stock_status = "Out Of Stock"
 
         Products.objects.create(
             product_name=product_name,
@@ -497,13 +509,6 @@ def Hypermarttproduct(request):
         browser_options.add_argument(f'user-agent={user_agent}')
         driver = webdriver.Chrome(options=browser_options, service_args=[
             "--verbose", "--log-path=test.log"])
-        # options = Options()
-        # options.headless = True
-        # options.add_argument("--window-size=1920,1200")
-
-        # driver = webdriver.Chrome(ChromeDriverManager().install())
-
-
 
         driver.get(item_url)
         soup = driver.page_source.encode('utf-8').strip()
@@ -518,11 +523,33 @@ def Hypermarttproduct(request):
 
          # price
         try:
-            regular_price = soup.find(
-                'span', class_='price').text.strip()
-            regular_price = regular_price[4:]
+            most_outer_wrapper = soup.find('span', class_='old-price')
+            second_outer_wrapper = soup.find(
+                'span', class_='price-label').find_next_sibling('span')
+
+            try:
+                regular_price = most_outer_wrapper.find(
+                    'span', class_='price').text.strip()
+                regular_price = regular_price[4:]
+            except:
+                regular_price = second_outer_wrapper.find(
+                    'span', class_='price').text.strip()
+                regular_price = regular_price[4:]
+
         except:
-            regular_price = ''
+            product_main = soup.find('div', class_='product-info-main')
+            f_outer_wrapper = product_main.find(
+                'span', class_='price-container price-final_price tax weee')
+            outer_wrapper = product_main.find('span', class_='price-wrapper')
+
+            try:
+                regular_price = f_outer_wrapper.find(
+                    'span', class_='price').text.strip()
+                regular_price = regular_price[4:]
+            except:
+                regular_price = outer_wrapper.find(
+                    'span', class_='price').text.strip()
+                regular_price = regular_price[4:]
 
         # sku
         try:
@@ -692,19 +719,7 @@ def MikaProducts(request):
     uncrawled_products = MikaProductLinks2.objects.filter(crawled=False)
     for each_product in uncrawled_products:
         item_url = each_product.link
-
-        # chrome_options = Options()
-        # chrome_options.add_argument("--headless")
-        # chrome_options.add_argument('--no-sandbox')
-        # chrome_options.add_argument('--remote-debugging-port=9222')
-        # chrome_options.add_argument("--window-size=1920,1200")
-        # driver = webdriver.Chrome(
-        #     '/usr/bin/chromedriver', options=chrome_options)
-        # options = Options()
-        # options.headless = True
-        # options.add_argument("--window-size=1920,1200")
-
-        # driver = webdriver.Chrome(ChromeDriverManager().install())
+        
         user_agent_list = [
             'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36',
             'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0',
