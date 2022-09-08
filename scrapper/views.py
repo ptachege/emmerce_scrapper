@@ -266,7 +266,7 @@ def Hotpointproduct(request):
         browser_options.add_argument(f'user-agent={user_agent}')
         driver = webdriver.Chrome(options=browser_options, service_args=[
             "--verbose", "--log-path=test.log"])
-        driver = webdriver.Chrome(ChromeDriverManager().install())
+
         driver.get(item_url)
         soup = driver.page_source.encode('utf-8').strip()
         soup = BeautifulSoup(soup, 'lxml')
