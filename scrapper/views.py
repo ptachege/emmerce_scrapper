@@ -271,6 +271,7 @@ def Hotpointproduct(request):
         soup = driver.page_source.encode('utf-8').strip()
         soup = BeautifulSoup(soup, 'lxml')
         # get relevant fields.
+
         try:
             header_one = soup.find(
                 'div', class_='product-title')
@@ -329,13 +330,19 @@ def Hotpointproduct(request):
         # stock status
 
         try:
-            my_form = soup.find("form", {"id": "alert_form"})
-            if my_form is None:
-                stock_status = 'In Stock'
-            else:
+            # my_form = soup.find("form", {"id": "alert_form"})
+
+            # ============= Am trying to get the out of stock div =======
+            my_outofstock_div = out_wrapper.find(
+                "div", class_="stockrecord-availability outofstock")
+            print(my_outofstock_div.text)
+
+            if my_outofstock_div is not None:
                 stock_status = "Out Of Stock"
+            else:
+                stock_status = 'In Stock'               
         except:
-            stock_status = "Out Of Stock"
+            stock_status = 'In Stock'               
 
         Products.objects.create(
             product_name=product_name,
