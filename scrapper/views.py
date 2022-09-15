@@ -340,9 +340,9 @@ def Hotpointproduct(request):
             if my_outofstock_div is not None:
                 stock_status = "Out Of Stock"
             else:
-                stock_status = 'In Stock'               
+                stock_status = 'In Stock'
         except:
-            stock_status = 'In Stock'               
+            stock_status = 'In Stock'
 
         Products.objects.create(
             product_name=product_name,
@@ -590,6 +590,7 @@ def Mikaentry(request):
     all_categories = MikaCategories2.objects.filter(crawled=False)
     for each_category in all_categories:
         category_url = each_category.link
+        print(category_url)
         # chrome_options = Options()
         # chrome_options.add_argument("--headless")
         # chrome_options.add_argument('--no-sandbox')
@@ -632,89 +633,98 @@ def Mikaentry(request):
         soup = BeautifulSoup(soup, 'lxml')
 
         # get the number of pagination in this category
-
-        page_number_of = soup.find(
-            'div', class_="woocommerce-result-count hidden-xs").text
-
-        numbers = []
-        for word in page_number_of.split():
-            if word.isdigit():
-                numbers.append(int(word))
-
         try:
-            last_index_of_list = numbers[-1]
-            number_of_pages = math.ceil(last_index_of_list/16)
+            page_number_of = soup.find(
+                'div', class_="woocommerce-result-count hidden-xs").text
 
-            print(number_of_pages)
-        except:
-            number_of_pages = 1
-
-        # now we have everything.
-
-        # first page
-        first_ul = soup.find(
-            'ul', class_="products products-list row grid")
-        product_cards = first_ul.findAll(
-            'li')
-
-        for inside_card in product_cards:
-            anchor_tag = inside_card.find(
-                'a', href=True)
-            anchor_tag = anchor_tag['href']
+            numbers = []
+            for word in page_number_of.split():
+                if word.isdigit():
+                    numbers.append(int(word))
 
             try:
-                MikaProductLinks2.objects.create(
-                    link=anchor_tag,
-                    crawled=False,
-                )
-                print('saved successfully')
+                last_index_of_list = numbers[-1]
+                number_of_pages = math.ceil(last_index_of_list/16)
+
+                print(number_of_pages)
             except:
-                print('error')
-                pass
-        # other pages
+                number_of_pages = 1
 
-        if number_of_pages > 1:
-            i = 2
-            # go to next page
-            # next page-numbers
+            # now we have everything.
 
-            for page in range(1, number_of_pages):
+            # first page
+            first_ul = soup.find(
+                'ul', class_="products products-list row grid")
+            product_cards = first_ul.findAll(
+                'li')
+
+            for inside_card in product_cards:
+                anchor_tag = inside_card.find(
+                    'a', href=True)
+                anchor_tag = anchor_tag['href']
+
                 try:
-                    closebtn = driver.find_elements(By.XPATH,
-                                                    "//*[@class='next page-numbers']")[0]
-                    driver.execute_script("arguments[0].click();", closebtn)
-                    time.sleep(3)
+                    MikaProductLinks2.objects.create(
+                        link=anchor_tag,
+                        crawled=False,
+                    )
+                    print('saved successfully')
                 except:
-                    print('failed button')
+                    print('error')
                     pass
-                print('fetching page' + str(i))
+            # other pages
 
-                soup = driver.page_source.encode('utf-8').strip()
-                soup = BeautifulSoup(soup, 'lxml')
+            if number_of_pages > 1:
+                i = 2
+                # go to next page
+                # next page-numbers
 
-                first_ul = soup.find(
-                    'ul', class_="products products-list row grid")
-                product_cards = first_ul.findAll(
-                    'li')
+                for page in range(1, number_of_pages):
+                    # try:
+                    #     closebtn = driver.find_elements(By.XPATH,
+                    #                                     "//*[@class='next page-numbers']")[0]
+                    #     driver.execute_script(
+                    #         "arguments[0].click();", closebtn)
+                    #     time.sleep(3)
+                    # except:
+                    #     print('failed button')
+                    #     pass
+                    category_urly = category_url.strip("?orderby=price-desc")
+                    caty = category_urly+"page/" + \
+                        str(page+1)+"/?orderby=price-desc"
+                    driver.get(caty)
 
-                for inside_card in product_cards:
-                    anchor_tag = inside_card.find(
-                        'a', href=True)
-                    anchor_tag = anchor_tag['href']
+                    print('fetching page' + caty)
 
-                    try:
-                        MikaProductLinks2.objects.create(
-                            link=anchor_tag,
-                            crawled=False,
-                        )
-                        print('saved successfully')
-                    except:
-                        print('error')
-                        pass
-                i += 1
+                    soup = driver.page_source.encode('utf-8').strip()
+                    soup = BeautifulSoup(soup, 'lxml')
 
-        each_category.crawled = True
-        each_category.save()
+                    first_ul = soup.find(
+                        'ul', class_="products products-list row grid")
+                    product_cards = first_ul.findAll(
+                        'li')
+
+                    for inside_card in product_cards:
+                        anchor_tag = inside_card.find(
+                            'a', href=True)
+                        anchor_tag = anchor_tag['href']
+
+                        try:
+                            MikaProductLinks2.objects.create(
+                                link=anchor_tag,
+                                crawled=False,
+                            )
+                            print('saved successfully'+anchor_tag)
+
+                        except:
+                            print('error')
+                            pass
+                    i += 1
+
+            each_category.crawled = True
+            each_category.save()
+        except:
+            print("no products")
         driver.stop_client()
         driver.close()
         driver.quit()
@@ -726,7 +736,7 @@ def MikaProducts(request):
     uncrawled_products = MikaProductLinks2.objects.filter(crawled=False)
     for each_product in uncrawled_products:
         item_url = each_product.link
-        
+
         user_agent_list = [
             'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36',
             'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0',
