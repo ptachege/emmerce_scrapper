@@ -119,6 +119,10 @@ class Products(models.Model):
     sku = models.TextField(max_length=10000, blank=True, null=True)
     product_link = models.TextField(blank=True, null=True)
     stock_status = models.TextField(blank=True, null=True)
+    short_description = models.TextField(blank=True, null=True)
+    long_description = models.TextField(blank=True, null=True)
+    image_list = models.TextField(blank=True, null=True)
+    
 
 
     def __str__(self):

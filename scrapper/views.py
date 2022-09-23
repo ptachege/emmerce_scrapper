@@ -266,7 +266,11 @@ def Hotpointproduct(request):
         browser_options.add_argument(f'user-agent={user_agent}')
         driver = webdriver.Chrome(options=browser_options, service_args=[
             "--verbose", "--log-path=test.log"])
+        # options = Options()
+        # options.headless = True
+        # options.add_argument("--window-size=1920,1200")
 
+        driver = webdriver.Chrome(ChromeDriverManager().install())
         driver.get(item_url)
         soup = driver.page_source.encode('utf-8').strip()
         soup = BeautifulSoup(soup, 'lxml')
@@ -344,6 +348,47 @@ def Hotpointproduct(request):
         except:
             stock_status = 'In Stock'
 
+        # description
+
+        try:
+            description = soup.find('div', class_='product-features').text
+
+        except:
+            print('mised')   
+
+
+        #  images
+        image_list = []
+
+        try:
+            image_ul = soup.find(
+                'ul', class_='catalogue-gallery-thumbnails-switcher-items')
+            for image_li in image_ul:
+                try:
+                    temp = image_li.find(
+                        'img')['src']
+
+                    first_part = temp.split('.')[0]
+                    second_part = temp.split('.')[1]
+
+                    # now append the @2x
+                    first_part = first_part + '@2x.'
+
+                    final_url = 'https://hotpoint.co.ke' + first_part + second_part
+
+                    print(final_url)
+                    
+                    image_list.append(final_url)
+                except:
+                    pass
+
+        except:
+            image_wrapper = soup.find('div', class_='catalogue-gallery-items')
+            temp = image_wrapper.find(
+                        'img')['src']
+            image_list.append('https://hotpoint.co.ke' + temp)
+
+
         Products.objects.create(
             product_name=product_name,
             sale_price='',
@@ -352,10 +397,12 @@ def Hotpointproduct(request):
             upc=upc,
             sku=upc,
             stock_status=stock_status,
-            product_link=item_url
+            product_link=item_url,
+            short_description = description,
+            image_list=image_list,
         )
+
         print('product saved as a new entry.')
-        # break
         each_product.crawled = True
         each_product.save()
         driver.stop_client()
@@ -493,6 +540,7 @@ def Hypermarttproduct(request):
     uncrawled_products = HypermartProductLinks2.objects.filter(crawled=False)
     for each_product in uncrawled_products:
         item_url = each_product.link
+        # item_url = 'https://www.ramtons.com/washing-drying/ramtons-dishwasher-12-settings-mar-silver-rw-300'
 
         user_agent_list = [
             'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36',
@@ -516,6 +564,11 @@ def Hypermarttproduct(request):
         browser_options.add_argument(f'user-agent={user_agent}')
         driver = webdriver.Chrome(options=browser_options, service_args=[
             "--verbose", "--log-path=test.log"])
+        # options = Options()
+        # options.headless = True
+        # options.add_argument("--window-size=1920,1200")
+        # driver = webdriver.Chrome(ChromeDriverManager().install())
+
 
         driver.get(item_url)
         soup = driver.page_source.encode('utf-8').strip()
@@ -570,12 +623,81 @@ def Hypermarttproduct(request):
             stock_status = soup.find('div', class_='stock unavailable').text
         except:
             stock_status = 'In Stock'
+
+
+        # short description
+        try:
+            feature_wrapper = soup.find("div", {"id": "feature"})
+            short_description = feature_wrapper.find('ul').text
+
+        except:
+            try:
+                outer_wrapper_feature = soup.find('div', class_='product-info-features')
+                short_description = outer_wrapper_feature.find('ul').text
+            except:
+                pass
+
+            
+        # long description
+        try:
+            long_description_wrapper = soup.find(
+                "div", class_='product attribute description').text
+        except:
+            try:
+                long_description_backup = soup.find(
+                    "div", {"id": "description"}).text
+            except:
+                pass
+        
+
+        # images
+
+        image_list = []
+
+        try:
+            image_divs = soup.find(
+                'div', class_='fotorama-item fotorama fotorama1663814196635')
+                
+            print(image_divs)
+            for image_li in image_divs:
+                try:
+                    temp = image_li.find(
+                        'img')['src']
+            #         first_part = temp.split('.')[0]
+            #         second_part = temp.split('.')[1]
+
+            #         # now append the @2x
+            #         first_part = first_part + '@2x.'
+
+            #         final_url = 'https://hotpoint.co.ke' + first_part + second_part
+
+            #         print(final_url)
+                    
+            #         image_list.append(final_url)
+                except:
+                    pass
+
+        except:
+            print('single enety')            
+            my_img = soup.find('img', class_='fotorama__img')
+            print(my_img)
+        #     image_wrapper = soup.find('div', class_='catalogue-gallery-items')
+        #     temp = image_wrapper.find(
+        #                 'img')['src']
+        #     image_list.append('https://hotpoint.co.ke' + temp)
+
+            
+
+
         Products.objects.create(
             product_name=product_name,
             sku=sku,
+            brand = 'Ramtoms',
             regular_price=regular_price,
             product_link=item_url,
             stock_status=stock_status,
+            short_description=short_description,
+            long_description=long_description_wrapper,
         )
         print('product saved as a new entry.')
         each_product.crawled = True
@@ -760,6 +882,12 @@ def MikaProducts(request):
         driver = webdriver.Chrome(options=browser_options, service_args=[
             "--verbose", "--log-path=test.log"])
 
+        # options = Options()
+        # options.headless = True
+        # options.add_argument("--window-size=1920,1200")
+
+        driver = webdriver.Chrome(ChromeDriverManager().install())
+
         driver.get(item_url)
         soup = driver.page_source.encode('utf-8').strip()
         soup = BeautifulSoup(soup, 'lxml')
@@ -817,14 +945,38 @@ def MikaProducts(request):
         except:
             in_stock = 'In Stock'
 
+        # short description
+
+        my_description_div = soup.find('div', class_='description').text
+
+        # image
+        image_list = []
+
+        try:
+            img_hrefs = soup.findAll('a', class_='img-thumbnail')
+            for image_li in img_hrefs:
+                try:
+                    temp = image_li['data-image']
+                    image_list.append(temp)
+                except:
+                    pass
+
+        except:
+            print('failed')
+
+
         Products.objects.create(
             product_name=product_name,
             sale_price='',
             regular_price=regular_price,
             sku=sku,
             stock_status=stock_status,
-            product_link=item_url
+            product_link=item_url,
+            brand = 'Mika',
+            short_description = my_description_div,
+            image_list=image_list
         )
+
         print('product saved as a new entry.')
         each_product.crawled = True
         each_product.save()
@@ -938,11 +1090,13 @@ def Opalnetproduct(request):
         browser_options.add_argument(f'user-agent={user_agent}')
         driver = webdriver.Chrome(options=browser_options, service_args=[
             "--verbose", "--log-path=test.log"])
+
         # options = Options()
         # options.headless = True
         # options.add_argument("--window-size=1920,1200")
 
-        # driver = webdriver.Chrome(ChromeDriverManager().install())
+        driver = webdriver.Chrome(ChromeDriverManager().install())
+        
         driver.get(item_url)
         soup = driver.page_source.encode('utf-8').strip()
         soup = BeautifulSoup(soup, 'lxml')
@@ -988,13 +1142,29 @@ def Opalnetproduct(request):
             regular_price = regular_price[3:]
             # sale_price = ''
 
+
+        # descriptions
+
+        try:
+            feature_list = soup.find('ul', class_='feature-list').text
+            print(feature_list)
+        except:
+            pass
+
+        
+        # images
+
+
         Products.objects.create(
             product_name=product_name,
             sale_price='',
             regular_price=regular_price,
             sku=sku,
             stock_status=in_stock,
-            product_link=item_url
+            product_link=item_url,
+            brand= 'LG',
+            short_description = feature_list,
+
         )
         print('product saved as a new entry.')
         each_product.crawled = True
