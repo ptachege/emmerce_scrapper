@@ -354,8 +354,7 @@ def Hotpointproduct(request):
             description = soup.find('div', class_='product-features').text
 
         except:
-            print('mised')   
-
+            print('mised')
 
         #  images
         image_list = []
@@ -377,7 +376,7 @@ def Hotpointproduct(request):
                     final_url = 'https://hotpoint.co.ke' + first_part + second_part
 
                     print(final_url)
-                    
+
                     image_list.append(final_url)
                 except:
                     pass
@@ -385,9 +384,8 @@ def Hotpointproduct(request):
         except:
             image_wrapper = soup.find('div', class_='catalogue-gallery-items')
             temp = image_wrapper.find(
-                        'img')['src']
+                'img')['src']
             image_list.append('https://hotpoint.co.ke' + temp)
-
 
         Products.objects.create(
             product_name=product_name,
@@ -398,7 +396,7 @@ def Hotpointproduct(request):
             sku=upc,
             stock_status=stock_status,
             product_link=item_url,
-            short_description = description,
+            short_description=description,
             image_list=image_list,
         )
 
@@ -540,7 +538,7 @@ def Hypermarttproduct(request):
     uncrawled_products = HypermartProductLinks2.objects.filter(crawled=False)
     for each_product in uncrawled_products:
         item_url = each_product.link
-        # item_url = 'https://www.ramtons.com/washing-drying/ramtons-dishwasher-12-settings-mar-silver-rw-300'
+        item_url = 'https://www.ramtons.com/washing-drying/ramtons-dishwasher-12-settings-mar-silver-rw-300'
 
         user_agent_list = [
             'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36',
@@ -568,7 +566,6 @@ def Hypermarttproduct(request):
         # options.headless = True
         # options.add_argument("--window-size=1920,1200")
         # driver = webdriver.Chrome(ChromeDriverManager().install())
-
 
         driver.get(item_url)
         soup = driver.page_source.encode('utf-8').strip()
@@ -624,7 +621,6 @@ def Hypermarttproduct(request):
         except:
             stock_status = 'In Stock'
 
-
         # short description
         try:
             feature_wrapper = soup.find("div", {"id": "feature"})
@@ -632,12 +628,12 @@ def Hypermarttproduct(request):
 
         except:
             try:
-                outer_wrapper_feature = soup.find('div', class_='product-info-features')
+                outer_wrapper_feature = soup.find(
+                    'div', class_='product-info-features')
                 short_description = outer_wrapper_feature.find('ul').text
             except:
                 pass
 
-            
         # long description
         try:
             long_description_wrapper = soup.find(
@@ -648,17 +644,18 @@ def Hypermarttproduct(request):
                     "div", {"id": "description"}).text
             except:
                 pass
-        
 
         # images
 
         image_list = []
 
         try:
-            image_divs = soup.find(
-                'div', class_='fotorama-item fotorama fotorama1663814196635')
-                
+            image_divs = soup.findAll(
+                'div', class_='fotorama__nav-wrap fotorama__nav-wrap--vertical')
+
             print(image_divs)
+
+
             for image_li in image_divs:
                 try:
                     temp = image_li.find(
@@ -672,13 +669,13 @@ def Hypermarttproduct(request):
             #         final_url = 'https://hotpoint.co.ke' + first_part + second_part
 
             #         print(final_url)
-                    
+
             #         image_list.append(final_url)
                 except:
                     pass
 
         except:
-            print('single enety')            
+            print('single enety')
             my_img = soup.find('img', class_='fotorama__img')
             print(my_img)
         #     image_wrapper = soup.find('div', class_='catalogue-gallery-items')
@@ -686,13 +683,10 @@ def Hypermarttproduct(request):
         #                 'img')['src']
         #     image_list.append('https://hotpoint.co.ke' + temp)
 
-            
-
-
         Products.objects.create(
             product_name=product_name,
             sku=sku,
-            brand = 'Ramtoms',
+            brand='Ramtoms',
             regular_price=regular_price,
             product_link=item_url,
             stock_status=stock_status,
@@ -964,7 +958,6 @@ def MikaProducts(request):
         except:
             print('failed')
 
-
         Products.objects.create(
             product_name=product_name,
             sale_price='',
@@ -972,8 +965,8 @@ def MikaProducts(request):
             sku=sku,
             stock_status=stock_status,
             product_link=item_url,
-            brand = 'Mika',
-            short_description = my_description_div,
+            brand='Mika',
+            short_description=my_description_div,
             image_list=image_list
         )
 
@@ -1096,7 +1089,7 @@ def Opalnetproduct(request):
         # options.add_argument("--window-size=1920,1200")
 
         driver = webdriver.Chrome(ChromeDriverManager().install())
-        
+
         driver.get(item_url)
         soup = driver.page_source.encode('utf-8').strip()
         soup = BeautifulSoup(soup, 'lxml')
@@ -1142,17 +1135,27 @@ def Opalnetproduct(request):
             regular_price = regular_price[3:]
             # sale_price = ''
 
-
         # descriptions
 
         try:
             feature_list = soup.find('ul', class_='feature-list').text
-            print(feature_list)
         except:
             pass
 
-        
         # images
+
+        all_img_divs = soup.findAll(
+            'div', class_='fotorama__thumb fotorama_vertical_ratio fotorama__loaded fotorama__loaded--img')
+        image_list = []
+        for each_img_div in all_img_divs:
+            temp = each_img_div.find(
+                        'img')['src']
+            last_part = temp.rsplit('/', 1)[-1]
+            prefixed_temp = 'https://www.opalnet.co.ke/pub/media/catalog/product/cache/c7d64e49b0de86601efd89c2f549950b/l/a/' + last_part
+            image_list.append(prefixed_temp)
+        
+        print('image list below================')
+        print(image_list)
 
 
         Products.objects.create(
@@ -1162,8 +1165,9 @@ def Opalnetproduct(request):
             sku=sku,
             stock_status=in_stock,
             product_link=item_url,
-            brand= 'LG',
-            short_description = feature_list,
+            brand='LG',
+            short_description=feature_list,
+            image_list=image_list
 
         )
         print('product saved as a new entry.')
