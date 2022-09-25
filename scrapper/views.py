@@ -538,7 +538,6 @@ def Hypermarttproduct(request):
     uncrawled_products = HypermartProductLinks2.objects.filter(crawled=False)
     for each_product in uncrawled_products:
         item_url = each_product.link
-        item_url = 'https://www.ramtons.com/washing-drying/ramtons-dishwasher-12-settings-mar-silver-rw-300'
 
         user_agent_list = [
             'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36',
@@ -650,38 +649,24 @@ def Hypermarttproduct(request):
         image_list = []
 
         try:
-            image_divs = soup.findAll(
-                'div', class_='fotorama__nav-wrap fotorama__nav-wrap--vertical')
+            image_span = soup.find(
+                'span', class_='product-image-container')
 
-            print(image_divs)
+            img_src = image_span.find('img')['data-src']
+            img_prefix = 'https://www.ramtons.com/media/catalog/product/cache/32b956110227e3c27aafb884dfa406d5'
 
+            truncated_string_list = img_src.split('/')[8:]
+            final_list = ''
+            for each_list in truncated_string_list:
+                final_list = final_list + '/' + each_list
 
-            for image_li in image_divs:
-                try:
-                    temp = image_li.find(
-                        'img')['src']
-            #         first_part = temp.split('.')[0]
-            #         second_part = temp.split('.')[1]
+            # now combine both
+            final_prefixed_image = img_prefix + final_list
+            image_list.append(final_prefixed_image)
 
-            #         # now append the @2x
-            #         first_part = first_part + '@2x.'
-
-            #         final_url = 'https://hotpoint.co.ke' + first_part + second_part
-
-            #         print(final_url)
-
-            #         image_list.append(final_url)
-                except:
-                    pass
-
+                
         except:
             print('single enety')
-            my_img = soup.find('img', class_='fotorama__img')
-            print(my_img)
-        #     image_wrapper = soup.find('div', class_='catalogue-gallery-items')
-        #     temp = image_wrapper.find(
-        #                 'img')['src']
-        #     image_list.append('https://hotpoint.co.ke' + temp)
 
         Products.objects.create(
             product_name=product_name,
@@ -692,6 +677,7 @@ def Hypermarttproduct(request):
             stock_status=stock_status,
             short_description=short_description,
             long_description=long_description_wrapper,
+            image_list=image_list,
         )
         print('product saved as a new entry.')
         each_product.crawled = True
@@ -1070,23 +1056,24 @@ def Opalnetproduct(request):
             'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0',
             'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36'
         ]
+
         user_agent = random.choice(user_agent_list)
 
-        browser_options = webdriver.ChromeOptions()
-        browser_options.add_argument("--no-sandbox")
-        browser_options.add_argument("--headless")
-        browser_options.add_argument("start-maximized")
-        browser_options.add_argument("window-size=1900,1080")
-        browser_options.add_argument("disable-gpu")
-        browser_options.add_argument("--disable-software-rasterizer")
-        browser_options.add_argument("--disable-dev-shm-usage")
-        browser_options.add_argument(f'user-agent={user_agent}')
-        driver = webdriver.Chrome(options=browser_options, service_args=[
-            "--verbose", "--log-path=test.log"])
+        # browser_options = webdriver.ChromeOptions()
+        # browser_options.add_argument("--no-sandbox")
+        # browser_options.add_argument("--headless")
+        # browser_options.add_argument("start-maximized")
+        # browser_options.add_argument("window-size=1900,1080")
+        # browser_options.add_argument("disable-gpu")
+        # browser_options.add_argument("--disable-software-rasterizer")
+        # browser_options.add_argument("--disable-dev-shm-usage")
+        # browser_options.add_argument(f'user-agent={user_agent}')
+        # driver = webdriver.Chrome(options=browser_options, service_args=[
+            # "--verbose", "--log-path=test.log"])
 
-        # options = Options()
-        # options.headless = True
-        # options.add_argument("--window-size=1920,1200")
+        options = Options()
+        options.headless = True
+        options.add_argument("--window-size=1920,1200")
 
         driver = webdriver.Chrome(ChromeDriverManager().install())
 
@@ -1143,19 +1130,20 @@ def Opalnetproduct(request):
             pass
 
         # images
-
         all_img_divs = soup.findAll(
             'div', class_='fotorama__thumb fotorama_vertical_ratio fotorama__loaded fotorama__loaded--img')
         image_list = []
-        for each_img_div in all_img_divs:
-            temp = each_img_div.find(
-                        'img')['src']
-            last_part = temp.rsplit('/', 1)[-1]
-            prefixed_temp = 'https://www.opalnet.co.ke/pub/media/catalog/product/cache/c7d64e49b0de86601efd89c2f549950b/l/a/' + last_part
-            image_list.append(prefixed_temp)
-        
-        print('image list below================')
-        print(image_list)
+        if len(all_img_divs) > 0:
+            for each_img_div in all_img_divs:
+                temp = each_img_div.find(
+                            'img')['src']
+                last_part = temp.rsplit('/', 1)[-1]
+                prefixed_temp = 'https://www.opalnet.co.ke/pub/media/catalog/product/cache/c7d64e49b0de86601efd89c2f549950b/l/a/' + last_part
+                image_list.append(prefixed_temp)
+            
+            print(image_list)
+        else:
+            print('image does not work')
 
 
         Products.objects.create(
@@ -1171,9 +1159,9 @@ def Opalnetproduct(request):
 
         )
         print('product saved as a new entry.')
-        each_product.crawled = True
-        each_product.save()
+        # each_product.crawled = True
+        # each_product.save()
         driver.stop_client()
         driver.close()
         driver.quit()
-    return HttpResponse('saved')
+        return HttpResponse('saved')
