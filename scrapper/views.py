@@ -1059,23 +1059,23 @@ def Opalnetproduct(request):
 
         user_agent = random.choice(user_agent_list)
 
-        # browser_options = webdriver.ChromeOptions()
-        # browser_options.add_argument("--no-sandbox")
-        # browser_options.add_argument("--headless")
-        # browser_options.add_argument("start-maximized")
-        # browser_options.add_argument("window-size=1900,1080")
-        # browser_options.add_argument("disable-gpu")
-        # browser_options.add_argument("--disable-software-rasterizer")
-        # browser_options.add_argument("--disable-dev-shm-usage")
-        # browser_options.add_argument(f'user-agent={user_agent}')
-        # driver = webdriver.Chrome(options=browser_options, service_args=[
-            # "--verbose", "--log-path=test.log"])
+        browser_options = webdriver.ChromeOptions()
+        browser_options.add_argument("--no-sandbox")
+        browser_options.add_argument("--headless")
+        browser_options.add_argument("start-maximized")
+        browser_options.add_argument("window-size=1900,1080")
+        browser_options.add_argument("disable-gpu")
+        browser_options.add_argument("--disable-software-rasterizer")
+        browser_options.add_argument("--disable-dev-shm-usage")
+        browser_options.add_argument(f'user-agent={user_agent}')
+        driver = webdriver.Chrome(options=browser_options, service_args=[
+            "--verbose", "--log-path=test.log"])
 
-        options = Options()
-        options.headless = True
-        options.add_argument("--window-size=1920,1200")
+        # options = Options()
+        # options.headless = True
+        # options.add_argument("--window-size=1920,1200")
 
-        driver = webdriver.Chrome(ChromeDriverManager().install())
+        # driver = webdriver.Chrome(ChromeDriverManager().install())
 
         driver.get(item_url)
         soup = driver.page_source.encode('utf-8').strip()
@@ -1159,9 +1159,9 @@ def Opalnetproduct(request):
 
         )
         print('product saved as a new entry.')
-        # each_product.crawled = True
-        # each_product.save()
+        each_product.crawled = True
+        each_product.save()
         driver.stop_client()
         driver.close()
         driver.quit()
-        return HttpResponse('saved')
+    return HttpResponse('saved')
