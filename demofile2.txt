@@ -1,0 +1,1032 @@
+<html class="linux-magic svg-magic" data-magic-engine="gecko" data-magic-engine-ver="90" data-magic-ua="firefox" data-magic-ua-ver="90" lang="en"><head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# product: http://ogp.me/ns/product#"><style id="magic360-css-reset" type="text/css"></style>
+<script id="facebook-jssdk" src="https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"></script><script async="" src="https://tracking.recommend.pro/trackerv14.js" type="text/javascript"></script><script>
+    var BASE_URL = 'https\u003A\u002F\u002Fwww.ramtons.com\u002F';
+    var require = {
+        'baseUrl': 'https\u003A\u002F\u002Fwww.ramtons.com\u002Fstatic\u002Fversion1661239521\u002Ffrontend\u002FRamtons\u002Fdefault\u002Fen_GB'
+    };</script> <meta charset="utf-8"/>
+<meta content="Ramtons Dishwasher 12 Settings, Mar Silver- RW/300" name="title"/>
+<meta content="Ramtons: Buy Ramtons Dishwasher 12 Settings, Mar Silver- RW/300 Online in Kenya, Value For Money, 2-7 Days Delivered To Your Home, Ramtons Warranty
+" name="description"/>
+<meta content="RAMTONS DISHWASHER 12 SETTINGS, MAR SILVER- RW/300" name="keywords"/>
+<meta content="INDEX,FOLLOW" name="robots"/>
+<meta content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" name="viewport"/>
+<meta content="telephone=no" name="format-detection"/>
+<title>Ramtons Dishwasher 12 Settings, Mar Silver- RW/300</title>
+<link href="https://www.ramtons.com/static/version1661239521/_cache/merged/46cadecef657ab9e24c9f86228aa12b3.min.css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/css/styles-l.min.css" media="screen and (min-width: 768px)" rel="stylesheet" type="text/css"/>
+<link href="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/css/print.min.css" media="print" rel="stylesheet" type="text/css"/>
+<script src="https://www.ramtons.com/static/version1661239521/_cache/merged/0bfe825a669208319695da16019df3bd.min.js" type="text/javascript"></script>
+<link href="https://www.ramtons.com/ramtons-dishwasher-12-settings-mar-silver-rw-300" rel="canonical"/>
+<link href="https://www.ramtons.com/media/favicon/stores/1/favicon.ico" rel="icon" type="image/x-icon"/>
+<link href="https://www.ramtons.com/media/favicon/stores/1/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+<style>
+.Magic360-container {
+    overflow: visible !important;
+}
+.Magic360-container::after {
+ display: none !important;
+}
+.product-status {
+backface-visibility: hidden;
+}
+</style>
+<meta content="DolOUGSJOGj-tuh8e0Wy60FtOircH-7LGwy3PrtO510" name="google-site-verification"/>
+<script type="text/javascript"> window._mfq = window._mfq || []; (function() { var mf = document.createElement("script"); mf.type = "text/javascript"; mf.defer = true; mf.src = "//cdn.mouseflow.com/projects/547b69f3-3e5b-436e-aa16-2f487a3d543f.js"; document.getElementsByTagName("head")[0].appendChild(mf); })(); </script><script defer="" src="//cdn.mouseflow.com/projects/547b69f3-3e5b-436e-aa16-2f487a3d543f.js" type="text/javascript"></script>
+<meta content="be350b7imvdf78p3mmh6k1oqbvl1oe" name="facebook-domain-verification"/> <!-- BEGIN GOOGLE ANALYTICS CODE -->
+<!-- END GOOGLE ANALYTICS CODE -->
+<script defer="defer" src="https://chimpstatic.com/mcjs-connected/js/users/3f5c4da61b8076872b0628f44/1decf402a4201287c3734fe1b.js" type="text/javascript">
+</script> <script type="application/ld+json">
+      {
+          "@context": "http://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement":
+          [
+            {
+            "@type": "ListItem",
+            "position": 1,
+            "item":
+              {
+                "@id": "https://www.ramtons.com/",
+                "name": "Home"
+              }
+            }
+                              ,{
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item":
+                    {
+                      "@id": "https://www.ramtons.com/washing-drying",
+                      "name": "Washing & Drying"
+                    }
+                  }
+                                  ,{
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item":
+                    {
+                      "@id": "https://www.ramtons.com/washing-drying/ramtons-dishwasher-12-settings-mar-silver-rw-300",
+                      "name": "RAMTONS DISHWASHER 12 SETTINGS, MAR SILVER- RW/300"
+                    }
+                  }
+                          ]
+      }
+      </script>
+<script type="application/ld+json">
+        {
+          "@context": "http://schema.org/",
+          "@type": "Product"
+                          ,"name": "RAMTONS DISHWASHER 12 SETTINGS, MAR SILVER- RW/300"
+                                         ,"description":"<div data-content-type=html data-appearance=default data-element=main>Sit back and relax after a meal and let the Ramtons freestanding dishwasher do the cleaning for you. With multiple functions, it's a cost-efficient option for the family home. Its freestanding design gives you the option to choose the ideal position for your kitchen. The child safety lock helps prevent little ones from accidentally tampering with the settings while the machine is operating. It features the original cutlery tray, ensuring each cutlery item is separated and cleaned well. In addition, ergonomic basket handles let you load and unload your dishes quick and easy.&bull;Freestanding, undercounter or built-in set-up&bull;A++ Energy efficiency rating&bull;55dB</div>"
+                              ,"sku":"RW/300"
+                                             ,"image":"https://www.ramtons.com/media/catalog/product/r/w/rw-300-.jpg"
+                                             ,"offers":
+                {
+                  "@type": "Offer",
+                  "priceCurrency":"KES",
+                  "price":"52700.000000"
+                                        ,"availability": "http://schema.org/InStock"
+                                      }
+                                     
+        }
+        </script>
+<script>
+//<![CDATA[
+try {
+    smileTracker.setConfig({
+        beaconUrl        : 'https://www.ramtons.com/elasticsuite/tracker/hit/image/h.png',
+        telemetryUrl     : 'https://t.elasticsuite.io/track',
+        telemetryEnabled : '1',
+        sessionConfig    : {"visit_cookie_name":"STUID","visit_cookie_lifetime":"3600","visitor_cookie_lifetime":"365","visitor_cookie_name":"STVID","domain":"www.ramtons.com","path":"\/"},
+    });
+
+    smileTracker.addPageVar('store_id', '1');
+
+    require(['Smile_ElasticsuiteTracker/js/user-consent'], function (userConsent) {
+        if (userConsent({"cookieRestrictionEnabled":false,"cookieRestrictionName":"user_allowed_save_cookie"})) {
+            smileTracker.sendTag();
+        }
+    });
+} catch (err) {
+    ;
+}
+//]]>
+</script>
+<link as="font" crossorigin="" href="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/fonts/Helvetica/Helvetica-Neue.woff2" rel="preload" type="font/woff2"/>
+<link as="font" crossorigin="" href="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/fonts/Helvetica/Helvetica-Medium.woff2" rel="preload" type="font/woff2"/>
+<link as="font" crossorigin="" href="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/fonts/Helvetica/Helvetica-Bold.woff2" rel="preload" type="font/woff2"/>
+<link as="font" crossorigin="" href="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/fonts/Oswald/Oswald-Regular.woff2" rel="preload" type="font/woff2"/>
+<meta content="og:product" property="og:type"/>
+<meta content="RAMTONS DISHWASHER 12 SETTINGS, MAR SILVER- RW/300" property="og:title"/>
+<meta content="https://www.ramtons.com/media/catalog/product/cache/924fa72be1690dac9c4ceba5d5359530/r/w/rw-300-.jpg" property="og:image"/>
+<meta content="
+12 place settings
+6 wash programs
+Child Lock
+1760-2100 watts
+Titan Silver
+" property="og:description"/>
+<meta content="https://www.ramtons.com/ramtons-dishwasher-12-settings-mar-silver-rw-300" property="og:url"/>
+<meta content="52700" property="product:price:amount"/>
+<meta content="KES" property="product:price:currency"/>
+<!-- Magic 360 Magento 2 module version v1.7.2-1-ga66de61 [v1.6.91:v4.6.12] -->
+<script type="text/javascript">window["mgctlbx$Pltm"] = "Magento 2";</script>
+<link href="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/MagicToolbox_Magic360/css/magic360.min.css" media="screen" rel="stylesheet" type="text/css"/>
+<link href="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/MagicToolbox_Magic360/css/magic360.module.min.css" media="screen" rel="stylesheet" type="text/css"/>
+<script src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/MagicToolbox_Magic360/js/magic360.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+	Magic360Options = {
+		'rows':1,
+		'columns':36,
+		'magnify':true,
+		'magnifier-width':'80%',
+		'magnifier-shape':'inner',
+		'fullscreen':true,
+		'spin':'drag',
+		'autospin-direction':'clockwise',
+		'sensitivityX':50,
+		'sensitivityY':50,
+		'mousewheel-step':1,
+		'autospin-speed':3600,
+		'smoothing':true,
+		'autospin':'once',
+		'autospin-start':'load,hover',
+		'autospin-stop':'click',
+		'initialize-on':'load',
+		'start-column':1,
+		'start-row':'auto',
+		'loop-column':true,
+		'loop-row':false,
+		'reverse-column':false,
+		'reverse-row':false,
+		'column-increment':1,
+		'row-increment':1,
+		'hint':true
+	}
+</script>
+<script type="text/javascript">
+	Magic360Lang = {
+		'loading-text':'Loading...',
+		'fullscreen-loading-text':'Loading large spin...',
+		'hint-text':'Drag to spin',
+		'mobile-hint-text':'Swipe to spin'
+	}
+</script>
+<script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="jquery" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/jquery.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="jquery/jquery.mobile.custom" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/jquery/jquery.mobile.custom.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="mage/common" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/mage/common.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="mage/dataPost" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/mage/dataPost.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="mage/bootstrap" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/mage/bootstrap.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_PageCache/js/form-key-provider" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_PageCache/js/form-key-provider.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Translation/js/mage-translation-dictionary" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Translation/js/mage-translation-dictionary.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="js/theme" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/js/theme.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="picturefill" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/js/lib/picturefill.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="js/lib/lazysizes.min" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/js/lib/lazysizes.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="js/override/menu" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/js/override/menu.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="FormData" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/FormData.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="mage/utils/main" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/mage/utils/main.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Smile_ElasticsuiteTracker/js/user-consent" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Smile_ElasticsuiteTracker/js/user-consent.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="jquery/jquery-storageapi" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Cookie/js/jquery.storageapi.extended.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="mage/cookies" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/mage/cookies.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magefan_Blog/js/lib/mfblogunveil" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magefan_Blog/js/lib/mfblogunveil.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="domReady" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/requirejs/domReady.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="jquery/patches/jquery" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/jquery/patches/jquery.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_ReCaptchaWebapiUi/js/jquery-mixin" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_ReCaptchaWebapiUi/js/jquery-mixin.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="jquery/jquery-migrate" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/jquery/jquery-migrate.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="mage/apply/main" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/mage/apply/main.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bootstrap" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Ui/js/lib/knockout/bootstrap.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="mage/template" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/mage/template.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Ui/js/modal/confirm" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Ui/js/modal/confirm.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="jquery-ui-modules/widget" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/jquery/ui-modules/widget.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="text" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/mage/requirejs/text.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="mage/smart-keyboard-handler" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/mage/smart-keyboard-handler.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="mage/mage" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/mage/mage.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="js/lib/ofi.min" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/js/lib/ofi.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Customer/js/customer-data" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Customer/js/customer-data.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Persistent/js/view/customer-data-mixin" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Persistent/js/view/customer-data-mixin.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="jquery/compat" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/jquery/compat.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="jquery/jquery.cookie" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/jquery/jquery.cookie.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="jquery/jquery.storageapi.min" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/jquery/jquery.storageapi.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="underscore" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/underscore.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="mage/utils/arrays" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/mage/utils/arrays.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="mage/utils/compare" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/mage/utils/compare.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="mage/utils/misc" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/mage/utils/misc.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="mage/utils/objects" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/mage/utils/objects.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="mage/utils/strings" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/mage/utils/strings.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="mage/utils/template" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/mage/utils/template.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="mage/menu" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/mage/menu.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="matchMedia" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/matchMedia.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="mage/utils/wrapper" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/mage/utils/wrapper.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="mage/apply/scripts" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/mage/apply/scripts.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="mage/translate" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/mage/translate.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Ui/js/modal/modal" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Ui/js/modal/modal.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="knockoutjs/knockout" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/knockoutjs/knockout.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="knockoutjs/knockout-es5" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/knockoutjs/knockout-es5.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/template/engine" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Ui/js/lib/knockout/template/engine.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/bootstrap" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Ui/js/lib/knockout/bindings/bootstrap.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/extender/observable_array" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Ui/js/lib/knockout/extender/observable_array.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/extender/bound-nodes" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Ui/js/lib/knockout/extender/bound-nodes.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Customer/js/section-config" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Customer/js/section-config.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="mage/url" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/mage/url.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="mage/storage" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/mage/storage.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="jquery-ui-modules/core" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/jquery/ui-modules/core.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="jquery-ui-modules/accordion" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/jquery/ui-modules/accordion.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="jquery-ui-modules/autocomplete" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/jquery/ui-modules/autocomplete.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="jquery-ui-modules/button" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/jquery/ui-modules/button.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="jquery-ui-modules/datepicker" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/jquery/ui-modules/datepicker.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="jquery-ui-modules/draggable" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/jquery/ui-modules/draggable.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="jquery-ui-modules/droppable" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/jquery/ui-modules/droppable.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="jquery-ui-modules/effect-blind" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/jquery/ui-modules/effect-blind.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="jquery-ui-modules/effect-bounce" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/jquery/ui-modules/effect-bounce.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="jquery-ui-modules/effect-clip" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/jquery/ui-modules/effect-clip.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="jquery-ui-modules/effect-drop" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/jquery/ui-modules/effect-drop.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="jquery-ui-modules/effect-explode" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/jquery/ui-modules/effect-explode.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="jquery-ui-modules/effect-fade" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/jquery/ui-modules/effect-fade.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="jquery-ui-modules/effect-fold" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/jquery/ui-modules/effect-fold.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="jquery-ui-modules/effect-highlight" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/jquery/ui-modules/effect-highlight.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="jquery-ui-modules/effect-scale" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/jquery/ui-modules/effect-scale.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="jquery-ui-modules/effect-pulsate" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/jquery/ui-modules/effect-pulsate.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="jquery-ui-modules/effect-shake" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/jquery/ui-modules/effect-shake.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="jquery-ui-modules/effect-slide" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/jquery/ui-modules/effect-slide.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="jquery-ui-modules/effect-transfer" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/jquery/ui-modules/effect-transfer.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="jquery-ui-modules/effect" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/jquery/ui-modules/effect.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="jquery-ui-modules/menu" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/jquery/ui-modules/menu.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="jquery-ui-modules/mouse" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/jquery/ui-modules/mouse.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="jquery-ui-modules/position" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/jquery/ui-modules/position.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="jquery-ui-modules/progressbar" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/jquery/ui-modules/progressbar.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="jquery-ui-modules/resizable" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/jquery/ui-modules/resizable.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="jquery-ui-modules/selectable" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/jquery/ui-modules/selectable.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="jquery-ui-modules/slider" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/jquery/ui-modules/slider.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="jquery-ui-modules/sortable" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/jquery/ui-modules/sortable.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="jquery-ui-modules/spinner" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/jquery/ui-modules/spinner.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="jquery-ui-modules/tabs" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/jquery/ui-modules/tabs.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="jquery-ui-modules/timepicker" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/jquery/ui-modules/timepicker.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="jquery-ui-modules/tooltip" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/jquery/ui-modules/tooltip.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="jquery-ui-modules/dialog" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/jquery/ui-modules/dialog.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="jquery/patches/jquery-ui" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/jquery/patches/jquery-ui.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/key-codes" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Ui/js/lib/key-codes.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="knockoutjs/knockout-repeat" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/knockoutjs/knockout-repeat.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="knockoutjs/knockout-fast-foreach" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/knockoutjs/knockout-fast-foreach.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/template/renderer" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Ui/js/lib/knockout/template/renderer.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/resizable" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Ui/js/lib/knockout/bindings/resizable.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/i18n" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Ui/js/lib/knockout/bindings/i18n.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/scope" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Ui/js/lib/knockout/bindings/scope.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/range" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Ui/js/lib/knockout/bindings/range.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/mage-init" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Ui/js/lib/knockout/bindings/mage-init.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/keyboard" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Ui/js/lib/knockout/bindings/keyboard.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/optgroup" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Ui/js/lib/knockout/bindings/optgroup.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/after-render" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Ui/js/lib/knockout/bindings/after-render.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/autoselect" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Ui/js/lib/knockout/bindings/autoselect.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/datepicker" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Ui/js/lib/knockout/bindings/datepicker.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/outer_click" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Ui/js/lib/knockout/bindings/outer_click.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/fadeVisible" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Ui/js/lib/knockout/bindings/fadeVisible.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/collapsible" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Ui/js/lib/knockout/bindings/collapsible.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/staticChecked" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Ui/js/lib/knockout/bindings/staticChecked.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/simple-checked" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Ui/js/lib/knockout/bindings/simple-checked.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/bind-html" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Ui/js/lib/knockout/bindings/bind-html.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/tooltip" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Ui/js/lib/knockout/bindings/tooltip.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/color-picker" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Ui/js/lib/knockout/bindings/color-picker.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/core/events" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Ui/js/lib/core/events.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/template/observable_source" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Ui/js/lib/knockout/template/observable_source.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/logger/console-logger" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Ui/js/lib/logger/console-logger.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="touchpunch" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/js/lib/jquery.ui.touch-punch.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/template/loader" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Ui/js/lib/knockout/template/loader.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/view/utils/async" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Ui/js/lib/view/utils/async.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/registry/registry" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Ui/js/lib/registry/registry.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="spectrum" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/jquery/spectrum/spectrum.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="tinycolor" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/jquery/spectrum/tinycolor.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/core/storage/local" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Ui/js/lib/core/storage/local.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/core/class" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Ui/js/lib/core/class.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/logger/logger" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Ui/js/lib/logger/logger.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/logger/entry-factory" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Ui/js/lib/logger/entry-factory.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/logger/console-output-handler" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Ui/js/lib/logger/console-output-handler.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/logger/formatter" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Ui/js/lib/logger/formatter.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/logger/message-pool" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Ui/js/lib/logger/message-pool.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/logger/levels-pool" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Ui/js/lib/logger/levels-pool.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/logger/logger-utils" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Ui/js/lib/logger/logger-utils.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/view/utils/dom-observer" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Ui/js/lib/view/utils/dom-observer.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/view/utils/bindings" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Ui/js/lib/view/utils/bindings.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="moment" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/moment.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/logger/entry" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Ui/js/lib/logger/entry.min.js" type="text/javascript"></script><style data-fbcssmodules="css:fb.css.base css:fb.css.dialog css:fb.css.iframewidget css:fb.css.customer_chat_plugin_iframe" type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:'lucida grande', tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:'lucida grande', tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_dialog_advanced{border-radius:8px;padding:10px}.fb_dialog_content{background:#fff;color:#373737}.fb_dialog_close_icon{background:url(https://z-p3-static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{left:5px;right:auto;top:5px}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://z-p3-static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://z-p3-static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://z-p3-static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{height:100%;left:0;margin:0;overflow:visible;position:absolute;top:-10000px;transform:none;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://z-p3-static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{background:none;height:auto;min-height:initial;min-width:initial;width:auto}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{clear:both;color:#fff;display:block;font-size:18px;padding-top:20px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .4);bottom:0;left:0;min-height:100%;position:absolute;right:0;top:0;width:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_mobile .fb_dialog_iframe{position:sticky;top:0}.fb_dialog_content .dialog_header{background:linear-gradient(from(#738aba), to(#2c4987));border-bottom:1px solid;border-color:#043b87;box-shadow:white 0 1px 1px -1px inset;color:#fff;font:bold 14px Helvetica, sans-serif;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:linear-gradient(from(#4267B2), to(#2a4887));background-clip:padding-box;border:1px solid #29487d;border-radius:3px;display:inline-block;line-height:18px;margin-top:3px;max-width:85px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{background:none;border:none;color:#fff;font:bold 12px Helvetica, sans-serif;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://z-p3-static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #4a4a4a;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f5f6f7;border:1px solid #4a4a4a;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://z-p3-static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-position:50% 50%;background-repeat:no-repeat;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}
+.fb_mpn_mobile_landing_page_slide_out{animation-duration:200ms;animation-name:fb_mpn_landing_page_slide_out;transition-timing-function:ease-in}.fb_mpn_mobile_landing_page_slide_out_from_left{animation-duration:200ms;animation-name:fb_mpn_landing_page_slide_out_from_left;transition-timing-function:ease-in}.fb_mpn_mobile_landing_page_slide_up{animation-duration:500ms;animation-name:fb_mpn_landing_page_slide_up;transition-timing-function:ease-in}.fb_mpn_mobile_bounce_in{animation-duration:300ms;animation-name:fb_mpn_bounce_in;transition-timing-function:ease-in}.fb_mpn_mobile_bounce_out{animation-duration:300ms;animation-name:fb_mpn_bounce_out;transition-timing-function:ease-in}.fb_mpn_mobile_bounce_out_v2{animation-duration:300ms;animation-name:fb_mpn_fade_out;transition-timing-function:ease-in}.fb_customer_chat_bounce_in_v2{animation-duration:300ms;animation-name:fb_bounce_in_v2;transition-timing-function:ease-in}.fb_customer_chat_bounce_in_from_left{animation-duration:300ms;animation-name:fb_bounce_in_from_left;transition-timing-function:ease-in}.fb_customer_chat_bounce_out_v2{animation-duration:300ms;animation-name:fb_bounce_out_v2;transition-timing-function:ease-in}.fb_customer_chat_bounce_out_from_left{animation-duration:300ms;animation-name:fb_bounce_out_from_left;transition-timing-function:ease-in}.fb_invisible_flow{display:inherit;height:0;overflow-x:hidden;width:0}@keyframes fb_mpn_landing_page_slide_out{0%{margin:0 12px;width:100% - 24px}60%{border-radius:18px}100%{border-radius:50%;margin:0 24px;width:60px}}@keyframes fb_mpn_landing_page_slide_out_from_left{0%{left:12px;width:100% - 24px}60%{border-radius:18px}100%{border-radius:50%;left:12px;width:60px}}@keyframes fb_mpn_landing_page_slide_up{0%{bottom:0;opacity:0}100%{bottom:24px;opacity:1}}@keyframes fb_mpn_bounce_in{0%{opacity:.5;top:100%}100%{opacity:1;top:0}}@keyframes fb_mpn_fade_out{0%{bottom:30px;opacity:1}100%{bottom:0;opacity:0}}@keyframes fb_mpn_bounce_out{0%{opacity:1;top:0}100%{opacity:.5;top:100%}}@keyframes fb_bounce_in_v2{0%{opacity:0;transform:scale(0, 0);transform-origin:bottom right}50%{transform:scale(1.03, 1.03);transform-origin:bottom right}100%{opacity:1;transform:scale(1, 1);transform-origin:bottom right}}@keyframes fb_bounce_in_from_left{0%{opacity:0;transform:scale(0, 0);transform-origin:bottom left}50%{transform:scale(1.03, 1.03);transform-origin:bottom left}100%{opacity:1;transform:scale(1, 1);transform-origin:bottom left}}@keyframes fb_bounce_out_v2{0%{opacity:1;transform:scale(1, 1);transform-origin:bottom right}100%{opacity:0;transform:scale(0, 0);transform-origin:bottom right}}@keyframes fb_bounce_out_from_left{0%{opacity:1;transform:scale(1, 1);transform-origin:bottom left}100%{opacity:0;transform:scale(0, 0);transform-origin:bottom left}}@keyframes slideInFromBottom{0%{opacity:.1;transform:translateY(100%)}100%{opacity:1;transform:translateY(0)}}@keyframes slideInFromBottomDelay{0%{opacity:0;transform:translateY(100%)}97%{opacity:0;transform:translateY(100%)}100%{opacity:1;transform:translateY(0)}}</style><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="mage/loader" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/mage/loader.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Wishlist/js/add-to-wishlist" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Wishlist/js/add-to-wishlist.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_PageCache/js/page-cache" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_PageCache/js/page-cache.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Cookie/js/require-cookie" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Cookie/js/require-cookie.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Smile_ElasticsuiteCore/js/form-mini" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Smile_ElasticsuiteCore/js/form-mini.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Ui/js/core/app" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Ui/js/core/app.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="mage/dropdown" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/mage/dropdown.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Catalog/js/quick-add" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Catalog/js/quick-add.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="magnifier/magnify" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/magnifier/magnify.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="mage/tabs" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/mage/tabs.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Catalog/product/view/validation" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Catalog/product/view/validation.min.js" type="text/javascript"></script><script async="" charset="utf-8" data-requirecontext="_" data-requiremodule="Magento_Catalog/js/add-to-cart-open" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/Magento_Catalog/js/add-to-cart-open.min.js" type="text/javascript"></script></head>
+<body class="page-print-custom catalog-product-view product-ramtons-dishwasher-12-settings-mar-silver-rw-300 categorypath-washing-drying category-washing-drying page-layout-1column" data-container="body" id="html-body">
+<noscript>
+<div class="message global noscript">
+<div class="content">
+<p>
+<strong>JavaScript seems to be disabled in your browser.</strong>
+<span>
+                        For the best experience on our site, be sure to turn on Javascript in your browser.                    </span>
+</p>
+</div>
+</div>
+</noscript>
+<script>
+    window.cookiesConfig = window.cookiesConfig || {};
+    window.cookiesConfig.secure = true;
+</script><script>    require.config({
+        map: {
+            '*': {
+                wysiwygAdapter: 'mage/adminhtml/wysiwyg/tiny_mce/tinymce4Adapter'
+            }
+        }
+    });</script><script>
+    require.config({
+        paths: {
+            googleMaps: 'https\u003A\u002F\u002Fmaps.googleapis.com\u002Fmaps\u002Fapi\u002Fjs\u003Fv\u003D3\u0026key\u003D'
+        },
+        config: {
+            'Magento_PageBuilder/js/utils/map': {
+                style: ''
+            },
+            'Magento_PageBuilder/js/content-type/map/preview': {
+                apiKey: '',
+                apiKeyErrorMessage: 'You\u0020must\u0020provide\u0020a\u0020valid\u0020\u003Ca\u0020href\u003D\u0027https\u003A\u002F\u002Fwww.ramtons.com\u002Fadminhtml\u002Fsystem_config\u002Fedit\u002Fsection\u002Fcms\u002F\u0023cms_pagebuilder\u0027\u0020target\u003D\u0027_blank\u0027\u003EGoogle\u0020Maps\u0020API\u0020key\u003C\u002Fa\u003E\u0020to\u0020use\u0020a\u0020map.'
+            },
+            'Magento_PageBuilder/js/form/element/map': {
+                apiKey: '',
+                apiKeyErrorMessage: 'You\u0020must\u0020provide\u0020a\u0020valid\u0020\u003Ca\u0020href\u003D\u0027https\u003A\u002F\u002Fwww.ramtons.com\u002Fadminhtml\u002Fsystem_config\u002Fedit\u002Fsection\u002Fcms\u002F\u0023cms_pagebuilder\u0027\u0020target\u003D\u0027_blank\u0027\u003EGoogle\u0020Maps\u0020API\u0020key\u003C\u002Fa\u003E\u0020to\u0020use\u0020a\u0020map.'
+            },
+        }
+    });
+</script>
+<script>
+    require.config({
+        shim: {
+            'Magento_PageBuilder/js/utils/map': {
+                deps: ['googleMaps']
+            }
+        }
+    });
+</script>
+<script>
+    (function(){
+    var tracker = document.createElement('script'); tracker.type = 'text/javascript'; tracker.async = true;tracker.src = "https:\/\/tracking.recommend.pro\/trackerv14.js";
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(tracker, s);
+    })();
+    var _taq = _taq || [];
+    _taq.push(["setAccountId", "5909251d04ea5c2f"] ,["setTrackerUrl","https:\/\/tracking.recommend.pro\/"], ["setCurrentCurrencyCode","KES"], ["setCurrentStoreCode","default"]);
+    _taq.push(["trackBeforeRecommendMode",true]);
+            _taq.push(["setEcommerceData",{"type":"product-view","name":"RAMTONS DISHWASHER 12 SETTINGS, MAR SILVER- RW\/300","sku":"RW\/300","image":"https:\/\/www.ramtons.com\/media\/catalog\/product\/cache\/241eda6fffcc55ffbd8256d7ead6d761\/r\/w\/rw-300-.jpg","secure_image":"https:\/\/www.ramtons.com\/media\/catalog\/product\/cache\/241eda6fffcc55ffbd8256d7ead6d761\/r\/w\/rw-300-.jpg","url":"https:\/\/www.ramtons.com\/ramtons-dishwasher-12-settings-mar-silver-rw-300","categories":["Washing & Drying","Washing & Drying\/Dishwashers","Sale"],"price":52700,"original_price":52700,"additional_attributes":{"brand":"Ramtons","specification":null,"is_new":"No","special_price_from":"2022-04-21 00:00:00","special_price_to":"2022-05-17 00:00:00","info":null},"current_category":"Washing & Drying"}]);
+    </script>
+<script>
+require.config({
+    deps: [
+        'jquery',
+        'jquery/jquery-storageapi',
+        'mage/cookies'
+    ],
+    callback: function($){
+        var loadUrl = "https:\/\/www.ramtons.com\/superb-recommend\/track\/load\/";
+        var trackCookieName = "RECOMMENDTRACKER";
+        var trackerFlag = $.mage.cookies.get(trackCookieName);
+        if (typeof trackerFlag == 'string' && trackerFlag == 'data-empty') {
+            _taq.push(["trackPageview"]);
+        } else {
+            return $.getJSON(loadUrl, function (_taqRecords) {
+                try {
+                    var stateKey = 'superb_recommend_taq_key', storage = $.localStorage, flag = 't0';
+                    if (typeof storage.get(stateKey) == 'string') {
+                        flag = storage.get(stateKey);
+                    }
+                    for(var index in _taqRecords) {
+                        if (index > flag) {
+                            _taq.push(_taqRecords[index]);
+                            storage.set(stateKey,index);
+                        }
+                    }
+                } catch(e) {};
+                _taq.push(["trackPageview"]);
+            });
+        }
+    }
+});
+</script>
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-minus" viewbox="0 0 32 32">
+<title>minus</title>
+<path d="M25.333 17.333h-18.667v-2.667h18.667v2.667z"></path>
+</symbol>
+<symbol id="icon-drop" viewbox="0 0 32 32">
+<title>drop</title>
+<path d="M9.88 10.453l6.12 6.107 6.12-6.107 1.88 1.88-8 8-8-8z"></path>
+</symbol>
+<symbol id="icon-edit" viewbox="0 0 32 32">
+<title>edit</title>
+<path d="M4 23v5h5l14.747-14.747-5-5-14.747 14.747zM27.613 9.387c0.52-0.52 0.52-1.36 0-1.88l-3.12-3.12c-0.52-0.52-1.36-0.52-1.88 0l-2.44 2.44 5 5 2.44-2.44z"></path>
+</symbol>
+<symbol id="icon-plus" viewbox="0 0 32 32">
+<title>plus</title>
+<path d="M25.333 17.333h-8v8h-2.667v-8h-8v-2.667h8v-8h2.667v8h8v2.667z"></path>
+</symbol>
+<symbol id="icon-check" viewbox="0 0 32 32">
+<title>check</title>
+<path d="M12 21.6l-5.6-5.6-1.867 1.867 7.467 7.467 16-16-1.867-1.867-14.133 14.133z"></path>
+</symbol>
+<symbol id="icon-left-arrow" viewbox="0 0 32 32">
+<title>left-arrow</title>
+<path d="M10.438 5.089c0.451-0.451 1.161-0.451 1.613 0 0.436 0.436 0.436 1.161 0 1.596l-8.176 8.176h26.981c0.629 0 1.145 0.5 1.145 1.129s-0.516 1.145-1.145 1.145h-26.981l8.176 8.161c0.436 0.451 0.436 1.178 0 1.613-0.451 0.451-1.161 0.451-1.613 0l-10.112-10.112c-0.436-0.436-0.436-1.161 0-1.596l10.112-10.112z"></path>
+</symbol>
+<symbol id="icon-wishlist" viewbox="0 0 32 32">
+<title>wishlist</title>
+<path d="M31.002 10.68c0.112-4.672-3.578-8.555-8.25-8.68-2.728 0.034-5.259 1.425-6.75 3.71-1.491-2.285-4.022-3.676-6.75-3.71-4.672 0.125-8.362 4.008-8.25 8.68 0.001 0.587 0.058 1.173 0.17 1.75 0.219 1.129 0.653 2.206 1.28 3.17v0l0.25 0.3 0.22 0.3 11.65 14.12c0.351 0.43 0.876 0.679 1.43 0.68v0c0.555-0.001 1.079-0.25 1.43-0.68l11.77-14.26 0.38-0.49c0.615-0.954 1.043-2.016 1.26-3.13 0.11-0.58 0.163-1.17 0.16-1.76z"></path>
+</symbol>
+<symbol id="icon-right" viewbox="0 0 32 32">
+<title>right</title>
+<path d="M12.438 25.281c-0.164 0.164-0.38 0.247-0.595 0.247s-0.431-0.083-0.595-0.247c-0.329-0.329-0.329-0.861 0-1.191l7.984-7.826-7.984-7.827c-0.329-0.329-0.329-0.862 0-1.191s0.861-0.329 1.191 0l8.421 8.421c0.078 0.078 0.14 0.171 0.183 0.275 0.085 0.205 0.085 0.438 0 0.643-0.043 0.104-0.104 0.196-0.183 0.275l-8.421 8.421z"></path>
+</symbol>
+<symbol id="icon-twitter" viewbox="0 0 32 32">
+<title>twitter</title>
+<path d="M30 6.723c-0.779 1.166-1.752 2.187-2.876 3.017v0.754c-0.004 1.577-0.232 3.145-0.677 4.657-0.469 1.572-1.163 3.066-2.060 4.435-0.906 1.413-2.009 2.686-3.274 3.782-1.359 1.149-2.913 2.039-4.587 2.625-1.841 0.671-3.784 1.012-5.741 1.006-3.119 0.017-6.174-0.892-8.786-2.615 0.459 0.050 0.921 0.073 1.383 0.070 2.586 0.029 5.102-0.845 7.124-2.474-2.454-0.047-4.608-1.663-5.363-4.023 0.359 0.058 0.721 0.088 1.085 0.091 0.511-0.001 1.019-0.069 1.512-0.201-1.297-0.26-2.463-0.972-3.294-2.012-0.861-1.028-1.328-2.334-1.313-3.681v-0.070c0.795 0.451 1.686 0.703 2.597 0.734-0.778-0.527-1.417-1.238-1.861-2.072-0.462-0.847-0.702-1.799-0.697-2.766-0.005-1.030 0.267-2.041 0.786-2.927 1.427 1.78 3.206 3.24 5.224 4.285 2.046 1.070 4.296 1.681 6.597 1.79-0.092-0.436-0.138-0.881-0.139-1.328-0.024-1.544 0.585-3.029 1.682-4.104 1.1-1.109 2.598-1.721 4.152-1.697s3.032 0.684 4.097 1.827c1.289-0.247 2.524-0.72 3.652-1.398-0.416 1.349-1.318 2.49-2.527 3.198 1.14-0.132 2.253-0.438 3.303-0.905v0z"></path>
+</symbol>
+<symbol id="icon-right-arrow" viewbox="0 0 32 32">
+<title>right-arrow</title>
+<path d="M31.896 15.982c0.002-0.043 0.002-0.087 0-0.13 0 0 0-0.070 0-0.11 0.002-0.043 0.002-0.087 0-0.13l-0.050-0.1-0.070-0.12-0.070-0.090-0.080-0.1-10.73-10.83c-0.506-0.495-1.314-0.495-1.82 0-0.241 0.235-0.377 0.558-0.377 0.895s0.136 0.66 0.377 0.895l8.43 8.56h-26.32c-0.671 0.059-1.186 0.621-1.186 1.295s0.515 1.236 1.186 1.295h26.42l-8.55 8.55c-0.241 0.235-0.377 0.558-0.377 0.895s0.136 0.66 0.377 0.895c0.506 0.495 1.314 0.495 1.82 0l10.81-10.85 0.12-0.22c0.002-0.040 0.002-0.080 0-0.12 0.002-0.040 0.002-0.080 0-0.12 0.002-0.040 0.002-0.080 0-0.12 0.002-0.043 0.002-0.087 0-0.13 0 0 0.090-0.11 0.090-0.11z"></path>
+</symbol>
+<symbol id="icon-user" viewbox="0 0 32 32">
+<title>user</title>
+<path d="M19.668 15.653v0c3.333-1.84 4.998-5.703 4.048-9.39s-4.275-6.263-8.082-6.263c-3.807 0-7.132 2.577-8.082 6.263s0.715 7.55 4.048 9.39c-6.19 1.043-10.6 4.618-10.6 8.945v5.731c0.052 0.965 0.871 1.709 1.836 1.669h25.54c0.966 0.039 1.784-0.704 1.836-1.669v-5.731c0-4.312-4.396-7.901-10.544-8.945z"></path>
+</symbol>
+<symbol id="icon-print" viewbox="0 0 32 32">
+<title>print</title>
+<path d="M26.413 6.667h-0.080v-3.667c0.011-0.799-0.302-1.568-0.867-2.133s-1.334-0.878-2.133-0.867h-13.866c-1.691-0.030-3.090 1.309-3.133 3v3.667c-2.859-0.053-5.232 2.196-5.333 5.053v13c0.057 1.103 0.976 1.962 2.080 1.947h4.587v2.36c0.007 0.796 0.33 1.556 0.897 2.113s1.333 0.867 2.129 0.86h11.28c0.796 0.007 1.562-0.302 2.129-0.86s0.89-1.318 0.897-2.114v-2.36h4.747c0.514 0 1.006-0.206 1.367-0.572s0.56-0.861 0.553-1.375v-13c-0.010-1.372-0.573-2.682-1.562-3.633s-2.32-1.463-3.691-1.42zM5.667 13.334c-0.736 0-1.333-0.597-1.333-1.333s0.597-1.333 1.333-1.333c0.736 0 1.333 0.597 1.333 1.333s-0.597 1.333-1.333 1.333zM8.333 12c0-0.736 0.597-1.333 1.333-1.333s1.333 0.597 1.333 1.333c0 0.736-0.597 1.333-1.333 1.333s-1.333-0.597-1.333-1.333zM22.333 29.027c-0.007 0.088-0.049 0.171-0.116 0.228s-0.155 0.086-0.244 0.078h-11.28c-0.088 0.007-0.176-0.021-0.244-0.078s-0.109-0.14-0.116-0.228v-8.72c0.007-0.088 0.049-0.171 0.116-0.228s0.155-0.086 0.244-0.078h11.28c0.088-0.007 0.176 0.021 0.244 0.078s0.109 0.14 0.116 0.228v8.72zM23.666 6.667h-14.666v-3.667c0.061-0.205 0.253-0.342 0.467-0.333h13.866c0.092-0.014 0.185 0.017 0.251 0.083s0.096 0.159 0.083 0.251v3.667z"></path>
+</symbol>
+<symbol id="icon-close" viewbox="0 0 32 32">
+<title>close</title>
+<path d="M24.258 8.3c-0.185-0.188-0.436-0.296-0.7-0.3-0.269-0.004-0.529 0.1-0.72 0.29l-7 6.78-6.58-6.78c-0.186-0.185-0.438-0.289-0.7-0.29-0.271-0.002-0.53 0.107-0.72 0.3-0.192 0.188-0.301 0.446-0.301 0.715s0.108 0.527 0.301 0.715l6.5 6.77-7 6.77c-0.202 0.179-0.323 0.431-0.336 0.7s0.083 0.532 0.266 0.73c0.188 0.189 0.443 0.296 0.71 0.296s0.522-0.107 0.71-0.296l7-6.78 6.55 6.78c0.188 0.189 0.443 0.296 0.71 0.296s0.522-0.107 0.71-0.296c0.192-0.188 0.301-0.446 0.301-0.715s-0.108-0.527-0.301-0.715l-6.47-6.77 7-6.77c0.202-0.179 0.323-0.431 0.336-0.7s-0.083-0.532-0.266-0.73z"></path>
+</symbol>
+<symbol id="icon-play" viewbox="0 0 32 32">
+<title>play</title>
+<path d="M27.33 15.144l-20.83-13.010c-0.305-0.176-0.681-0.179-0.989-0.007s-0.502 0.494-0.511 0.847v26c0.002 0.356 0.194 0.684 0.503 0.861s0.689 0.177 0.997-0.002l20.82-13c0.291-0.182 0.468-0.499 0.47-0.842s-0.172-0.663-0.46-0.848z"></path>
+</symbol>
+<symbol id="icon-pin" viewbox="0 0 32 32">
+<title>pin</title>
+<path d="M5 11.764c-0.007-1.254 0.221-2.497 0.674-3.665 0.419-1.111 1.044-2.132 1.841-3.009 1.637-1.74 3.729-2.982 6.036-3.585 1.194-0.327 2.425-0.497 3.662-0.505 1.829-0.014 3.637 0.398 5.282 1.202 1.614 0.785 2.986 1.992 3.974 3.494 1.019 1.528 1.552 3.331 1.529 5.17-0.005 1.14-0.127 2.277-0.362 3.393-0.227 1.104-0.588 2.176-1.076 3.191-0.466 0.982-1.072 1.891-1.801 2.696-0.731 0.793-1.619 1.426-2.606 1.858-1.061 0.472-2.21 0.713-3.37 0.707-0.841-0.006-1.67-0.203-2.425-0.576-0.733-0.322-1.338-0.88-1.72-1.585-0.121 0.471-0.288 1.144-0.503 2.020l-0.423 1.717c-0.067 0.256-0.191 0.683-0.372 1.282-0.12 0.439-0.275 0.868-0.463 1.282l-0.584 1.111c-0.245 0.482-0.521 0.947-0.825 1.393-0.302 0.438-0.674 0.956-1.117 1.555l-0.252 0.091-0.161-0.212c-0.181-1.885-0.272-3.016-0.272-3.393 0.020-1.235 0.151-2.465 0.392-3.675 0.255-1.346 0.654-3.073 1.197-5.18s0.855-3.329 0.936-3.665c-0.416-0.954-0.612-1.989-0.573-3.029-0.003-1.021 0.322-2.016 0.926-2.837 0.515-0.818 1.411-1.313 2.374-1.313 0.652-0.037 1.284 0.231 1.71 0.727 0.42 0.521 0.638 1.178 0.614 1.848-0.085 1.182-0.353 2.344-0.795 3.443-0.435 1.077-0.703 2.214-0.795 3.373-0.020 0.717 0.274 1.407 0.805 1.888 0.532 0.496 1.236 0.764 1.962 0.747 0.639 0.004 1.268-0.153 1.831-0.454 0.556-0.294 1.038-0.712 1.409-1.222 0.39-0.538 0.726-1.113 1.006-1.717 0.3-0.646 0.529-1.323 0.684-2.020 0.156-0.666 0.277-1.34 0.362-2.020 0.077-0.596 0.117-1.196 0.121-1.797 0.089-1.84-0.649-3.623-2.012-4.857-1.434-1.202-3.265-1.822-5.131-1.737-2.244-0.075-4.422 0.767-6.037 2.333-1.585 1.568-2.433 3.736-2.334 5.968-0.009 0.519 0.059 1.036 0.201 1.535 0.114 0.408 0.276 0.802 0.483 1.171l0.523 0.818c0.112 0.163 0.188 0.349 0.221 0.545-0.023 0.449-0.115 0.892-0.272 1.313-0.035 0.381-0.298 0.701-0.664 0.808l-0.292-0.040c-0.623-0.186-1.185-0.534-1.63-1.010-0.475-0.488-0.851-1.064-1.107-1.696-0.254-0.634-0.449-1.289-0.584-1.959-0.13-0.631-0.198-1.274-0.201-1.919v0z"></path>
+</symbol>
+<symbol id="icon-toggle" viewbox="0 0 32 32">
+<title>toggle</title>
+<path d="M28.56 11h-25.060c-0.788-0.080-1.406-0.711-1.47-1.5 0.064-0.789 0.682-1.42 1.47-1.5h25.060c0.788 0.080 1.406 0.711 1.47 1.5-0.064 0.789-0.682 1.42-1.47 1.5zM28.56 18h-25.060c-0.828 0-1.5-0.672-1.5-1.5s0.672-1.5 1.5-1.5h25.060c0.828 0 1.5 0.672 1.5 1.5s-0.672 1.5-1.5 1.5zM28.56 25h-25.060c-0.788-0.080-1.406-0.711-1.47-1.5 0.064-0.789 0.682-1.42 1.47-1.5h25.060c0.788 0.080 1.406 0.711 1.47 1.5-0.064 0.789-0.682 1.42-1.47 1.5v0z"></path>
+</symbol>
+<symbol id="icon-instagram" viewbox="0 0 32 32">
+<title>instagram</title>
+<path d="M31 16.5c0 2.88-0.030 4.88-0.090 6 0.020 2.25-0.816 4.424-2.34 6.080-1.655 1.518-3.825 2.351-6.070 2.33-1.107 0.060-3.107 0.090-6 0.090s-4.893-0.030-6-0.090c-2.25 0.020-4.424-0.816-6.080-2.34-1.518-1.655-2.351-3.825-2.33-6.070-0.060-1.12-0.090-3.12-0.090-6s0.030-4.88 0.090-6c-0.013-2.245 0.827-4.411 2.35-6.060 1.649-1.523 3.815-2.363 6.060-2.35 1.12-0.060 3.12-0.090 6-0.090s4.88 0.030 6 0.090c2.25-0.020 4.424 0.816 6.080 2.34 1.518 1.655 2.351 3.825 2.33 6.070 0.060 1.12 0.090 3.12 0.090 6zM16.5 4.61h-3.44l-1.82 0.060c-0.65 0.021-1.298 0.085-1.94 0.19-0.46 0.075-0.912 0.192-1.35 0.35-1.256 0.498-2.253 1.488-2.76 2.74-0.158 0.438-0.275 0.89-0.35 1.35-0.105 0.642-0.169 1.29-0.19 1.94 0 0.76-0.020 1.367-0.060 1.82s-0.040 1.12 0 2v4.88c0 0.46 0.020 1.067 0.060 1.82 0.021 0.65 0.085 1.298 0.19 1.94 0.075 0.46 0.192 0.912 0.35 1.35 0.502 1.26 1.5 2.258 2.76 2.76 0.438 0.158 0.89 0.275 1.35 0.35 0.642 0.105 1.29 0.169 1.94 0.19l1.82 0.060h6.87l1.82-0.060c0.65-0.021 1.298-0.085 1.94-0.19 0.46-0.075 0.912-0.192 1.35-0.35 1.26-0.502 2.258-1.5 2.76-2.76 0.158-0.438 0.275-0.89 0.35-1.35 0.105-0.642 0.169-1.29 0.19-1.94 0-0.76 0.020-1.367 0.060-1.82s0.040-1.12 0-2v-4.88c0-0.46-0.017-1.067-0.050-1.82-0.021-0.65-0.085-1.298-0.19-1.94-0.075-0.46-0.192-0.912-0.35-1.35-0.502-1.26-1.5-2.258-2.76-2.76-0.438-0.158-0.89-0.275-1.35-0.35-0.642-0.105-1.29-0.169-1.94-0.19l-1.82-0.050h-3.44v0.010zM25.5 9.18c-0 0.742-0.499 1.392-1.216 1.584s-1.473-0.121-1.844-0.764c-0.371-0.643-0.264-1.454 0.26-1.979 0.469-0.469 1.175-0.61 1.788-0.356s1.013 0.852 1.012 1.516v0zM23.5 16.5c0 3.866-3.134 7-7 7s-7-3.134-7-7c0-3.866 3.134-7 7-7s7 3.134 7 7zM21.040 16.5c0-2.512-2.028-4.553-4.54-4.57-2.524 0-4.57 2.046-4.57 4.57s2.046 4.57 4.57 4.57c2.524 0 4.57-2.046 4.57-4.57h-0.030z"></path>
+</symbol>
+<symbol id="icon-fb" viewbox="0 0 32 32">
+<title>fb</title>
+<path d="M24 5.985h-2.722c-0.729-0.096-1.463 0.139-2.012 0.646-0.385 0.568-0.57 1.256-0.525 1.948v3.412h5.084l-0.68 5.34h-4.404v13.669h-5.318v-13.679h-4.423v-5.33h4.423v-3.937c-0.112-1.918 0.542-3.798 1.808-5.199 1.296-1.269 3.033-1.936 4.812-1.847 1.322-0.024 2.644 0.047 3.957 0.212v4.765z"></path>
+</symbol>
+<symbol id="icon-clock" viewbox="0 0 32 32">
+<title>clock</title>
+<path d="M16.5 32c-8.56 0-15.5-6.94-15.5-15.5s6.94-15.5 15.5-15.5c8.56 0 15.5 6.94 15.5 15.5-0.011 8.556-6.944 15.489-15.5 15.5zM16.5 3.82c-7.003 0-12.68 5.677-12.68 12.68s5.677 12.68 12.68 12.68c7.003 0 12.68-5.677 12.68-12.68-0.011-6.998-5.682-12.669-12.68-12.68zM20.070 20.68l-4.070-2.48c-0.3-0.26-1.5-0.7-1.5-1.2v-6.48c0-0.828 0.672-1.5 1.5-1.5s1.5 0.672 1.5 1.5v5.78l3.5 2.2c0.663 0.428 0.941 1.259 0.67 2-0.174 0.256-0.451 0.424-0.759 0.458s-0.615-0.067-0.841-0.278v0z"></path>
+</symbol>
+<symbol id="icon-youtube" viewbox="0 0 32 32">
+<title>youtube</title>
+<path d="M16 5c2 0 3.93 0.026 5.79 0.078s3.226 0.108 4.1 0.166l1.3 0.068h0.3l0.42 0.078 0.42 0.098c0.174 0.028 0.345 0.074 0.51 0.137l0.5 0.225c0.194 0.097 0.378 0.211 0.55 0.342 0.186 0.139 0.36 0.293 0.52 0.46 0.1 0.102 0.194 0.209 0.28 0.323 0.204 0.309 0.378 0.637 0.52 0.978 0.238 0.563 0.396 1.155 0.47 1.76 0.093 0.743 0.167 1.538 0.22 2.386s0.087 1.499 0.1 1.956v3.168c0.012 1.693-0.095 3.386-0.32 5.065-0.073 0.597-0.224 1.182-0.45 1.74-0.139 0.382-0.331 0.744-0.57 1.076l-0.25 0.293c-0.16 0.167-0.334 0.321-0.52 0.46-0.171 0.13-0.355 0.241-0.55 0.332l-0.5 0.215c-0.165 0.063-0.335 0.109-0.51 0.137l-0.43 0.078-0.4 0.020h-0.29c-2.993 0.241-6.73 0.362-11.209 0.362-2.467 0-4.606-0.039-6.42-0.117s-3.006-0.121-3.58-0.127l-0.87-0.068-0.63-0.068c-0.337-0.039-0.671-0.098-1-0.176-0.314-0.094-0.618-0.215-0.91-0.362-0.373-0.179-0.712-0.421-1-0.714-0.1-0.102-0.194-0.209-0.28-0.323-0.204-0.309-0.378-0.637-0.52-0.978-0.238-0.563-0.397-1.155-0.47-1.76-0.093-0.782-0.167-1.594-0.22-2.435s-0.087-1.493-0.1-1.956v-3.1c-0.012-1.693 0.095-3.386 0.32-5.065 0.073-0.597 0.224-1.182 0.45-1.74 0.139-0.382 0.331-0.744 0.57-1.076l0.25-0.293c0.16-0.167 0.334-0.321 0.52-0.46 0.172-0.131 0.356-0.245 0.55-0.342l0.5-0.225c0.165-0.060 0.336-0.102 0.51-0.127l0.42-0.098 0.41-0.049h0.3c2.993-0.228 6.726-0.342 11.199-0.342zM12.7 20.048l8.639-4.361-8.639-4.42v8.78z"></path>
+</symbol>
+<symbol id="icon-search" viewbox="0 0 32 32">
+<title>search</title>
+<path d="M29.59 28.61l-7-7.060c2.247-2.347 3.504-5.47 3.51-8.72-0.093-7.129-5.911-12.853-13.040-12.83-7.137-0.034-12.967 5.693-13.060 12.83 0.099 7.133 5.927 12.854 13.060 12.82 2.631 0.002 5.202-0.785 7.38-2.26l7.11 7.18c0.558 0.538 1.442 0.538 2 0 0.545-0.533 0.563-1.405 0.040-1.96zM2.86 12.83c0.066-5.574 4.626-10.044 10.2-10 5.574-0.044 10.134 4.426 10.2 10-0.066 5.574-4.626 10.044-10.2 10-5.574 0.044-10.134-4.426-10.2-10z"></path>
+</symbol>
+<symbol id="icon-cart" viewbox="0 0 32 32">
+<title>cart</title>
+<path d="M13.020 32c-1.475 0-2.67-1.195-2.67-2.67s1.195-2.67 2.67-2.67c1.475 0 2.67 1.195 2.67 2.67s-1.195 2.67-2.67 2.67zM23.040 32c-1.475 0-2.67-1.195-2.67-2.67s1.195-2.67 2.67-2.67c1.475 0 2.67 1.195 2.67 2.67s-1.195 2.67-2.67 2.67zM27.55 20h-16.2l-1.14 2.65h16.79c0.737 0 1.335 0.598 1.335 1.335s-0.598 1.335-1.335 1.335h-18.72c-0.176 0.006-0.349-0.039-0.5-0.13-0.618-0.266-0.904-0.981-0.64-1.6l1.63-3.8c-0.080-0.077-0.138-0.174-0.17-0.28l-4-14.17-0.6-1.67h-2.74c-0.345-0.010-0.671-0.158-0.908-0.409s-0.363-0.586-0.352-0.931c-0.017-0.714 0.546-1.308 1.26-1.33h3.79c0.443 0.092 0.804 0.412 0.95 0.84l1.3 3.34c0.003 0.053 0.003 0.107 0 0.16h24.030c0.212-0.007 0.414 0.086 0.546 0.252s0.178 0.383 0.124 0.588l-3.78 13.33c-0.089 0.294-0.362 0.494-0.67 0.49z"></path>
+</symbol>
+<symbol id="icon-mail" viewbox="0 0 32 32">
+<title>mail</title>
+<path d="M28.8 3.2h-25.6c-1.76 0-3.2 1.44-3.2 3.2v19.2c0 1.76 1.44 3.2 3.2 3.2h25.6c1.76 0 3.2-1.44 3.2-3.2v-19.2c0-1.76-1.44-3.2-3.2-3.2zM28.8 9.6l-12.8 8-12.8-8v-3.2l12.8 8 12.8-8v3.2z"></path>
+</symbol>
+<symbol id="icon-arrow-list" viewbox="0 0 32 32">
+<title>arrow-list</title>
+<path d="M24.619 19.433c0.651-0.651 1.676-0.651 2.327 0 0.629 0.651 0.629 1.676 0 2.327l-9.75 9.752c-0.302 0.302-0.721 0.488-1.186 0.488s-0.884-0.186-1.188-0.488l-9.75-9.752c-0.651-0.651-0.651-1.676 0-2.327s1.676-0.651 2.327 0l6.959 6.982v-24.786c-0.001-0.908 0.743-1.629 1.651-1.629s1.629 0.721 1.629 1.629v24.785l6.982-6.981z"></path>
+</symbol>
+<symbol id="icon-grid" viewbox="0 0 32 32">
+<title>grid</title>
+<path d="M12.522 0h-12.522v14.609h14.609v-14.609zM29.913 0h-12.522v14.609h14.609v-14.609zM12.522 17.391h-12.522v14.609h14.609v-14.609zM29.913 17.391h-12.522v14.609h14.609v-14.609z"></path>
+</symbol>
+<symbol id="icon-list" viewbox="0 0 32 32">
+<title>list</title>
+<path d="M0 19.765h7.529v-7.529h-7.529v7.529zM0 29.176h7.529v-7.529h-7.529v7.529zM0 10.353h7.529v-7.529h-7.529v7.529zM9.412 19.765h22.588v-7.529h-22.588v7.529zM9.412 29.176h22.588v-7.529h-22.588v7.529zM9.412 2.824v7.529h22.588v-7.529h-22.588z"></path>
+</symbol>
+<symbol id="icon-warning" viewbox="0 0 32 32">
+<title>warning</title>
+<path d="M16 2.899l13.409 26.726h-26.819l13.409-26.726zM16 0c-0.69 0-1.379 0.465-1.903 1.395l-13.659 27.222c-1.046 1.86-0.156 3.383 1.978 3.383h27.166c2.134 0 3.025-1.522 1.978-3.383h0l-13.659-27.222c-0.523-0.93-1.213-1.395-1.903-1.395v0zM18 26c0 1.105-0.895 2-2 2s-2-0.895-2-2c0-1.105 0.895-2 2-2s2 0.895 2 2zM16 22c-1.105 0-2-0.895-2-2v-6c0-1.105 0.895-2 2-2s2 0.895 2 2v6c0 1.105-0.895 2-2 2z"></path>
+</symbol>
+</defs>
+</svg>
+<div class="page-wrapper"><header class="page-header"><div class="panel wrapper"><div class="panel header"><ul class="header links"><li>
+<a class="account-link" href="/customer/account">
+<svg class="svg-icon" height="24" viewbox="0 0 32 32" width="24" xmlns:xlink="http://www.w3.org/1999/xlink">
+<use href="#icon-user" xlink:href="#icon-user"></use>
+</svg>
+<span class="text">My Account</span>
+</a>
+</li>
+</ul><div class="support-bar">
+<ul class="support-bar__items">
+<li class="support-bar__item">
+<div class="icon icon-horizontal"><img src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/images/icons/free-delivery.svg"/></div>
+<div class="text"><strong>Free shipping*</strong></div>
+</li>
+<li class="support-bar__item">
+<div class="icon icon-horizontal"><img src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/images/icons/returns.svg"/></div>
+<div class="text"><strong>Easy replacements*</strong></div>
+</li>
+<li class="support-bar__item">
+<div class="icon icon-horizontal"><img src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/images/icons/phone.svg"/></div>
+<div class="text"><strong>Toll Free</strong><span>0800723723 , press 2</span></div>
+</li>
+</ul>
+</div></div></div><div class="header-content-wrapper"><div class="header content"><span class="action nav-toggle" data-action="toggle-nav">
+<svg class="svg-icon" height="32" viewbox="0 0 32 32" width="32" xmlns:xlink="http://www.w3.org/1999/xlink">
+<use href="#icon-toggle" xlink:href="#icon-toggle"></use>
+</svg>
+<span>Toggle Nav</span>
+</span>
+<a class="logo" href="https://www.ramtons.com/" title="Ramtons Store">
+<!--?xml version="1.0" encoding="UTF-8" standalone="no"<!-- Created with Inkscape (http://www.inkscape.org/) ---->
+<svg height="89" id="svg2" inkscape:version="0.92.2 (30a58d1, 2017-08-07)" sodipodi:docname="Ramtons-Logo_1.svg" version="1.1" viewbox="0 0 872.52191 331.93793" width="236" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg">
+<metadata id="metadata8">
+<rdf:rdf>
+<cc:work rdf:about="">
+<dc:format>image/svg+xml</dc:format>
+<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type>
+<dc:title></dc:title>
+</cc:work>
+</rdf:rdf>
+</metadata>
+<defs id="defs6"></defs>
+<sodipodi:namedview bordercolor="#666666" borderopacity="1" fit-margin-bottom="0" fit-margin-left="0" fit-margin-right="0" fit-margin-top="0" gridtolerance="10" guidetolerance="10" id="namedview4" inkscape:current-layer="svg2" inkscape:cx="216.44532" inkscape:cy="408.63103" inkscape:guide-bbox="true" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-height="1028" inkscape:window-maximized="0" inkscape:window-width="1833" inkscape:window-x="65" inkscape:window-y="24" inkscape:zoom="0.70710678" objecttolerance="10" pagecolor="#ffffff" showgrid="false" showguides="true"></sodipodi:namedview>
+<g id="g1058" style="fill:#de0024;fill-opacity:1" transform="matrix(3.6943477,0,0,3.6943477,-3.902428,15.556815)">
+<g id="g941" style="fill:#de0024;fill-opacity:1" transform="translate(0.1461677,-0.11527444)">
+<path d="M 35.914062,-4.0957031 0.91015625,22.480469 26.484375,61.056641 h 42.71875 V 13.193359 H 56.201172 L 55.058594,6.0488281 44.628906,8.90625 Z m -0.857421,5.859375 5.857421,8.5722661 -9.923828,2.86914 h -5.201172 v 1.503906 L 17.197266,17.193359 25.626953,52.197266 7.0527344,23.337891 Z M 30.341797,17.478516 H 64.775391 L 64.630859,55.626953 H 30.341797 Z" id="path821" inkscape:connector-curvature="0" style="fill:#de0024;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"></path>
+<path d="M 27.728991,61.521198 47.757673,24.721969 c 0,0 8.067326,0.180922 9.673374,0.378853 1.094346,0.134868 9.922461,1.516157 11.517122,11.264554 1.594661,9.748397 -12.830478,14.143836 -12.830478,14.143836 l 2.525685,5.657534 h 11.921232 l -3.027551,5.243872 H 52.177622 l -7.678083,-17.569214 9.395549,0.101027 c 0,0 5.145674,-0.951003 5.152397,-6.566781 0.0052,-4.353525 -4.748287,-4.950343 -4.748287,-4.950343 h -3.535959 l -15.55822,28.994864 z" id="path843" inkscape:connector-curvature="0" sodipodi:nodetypes="ccszcccccccscccc" style="fill:#de0024;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"></path>
+<path d="m 85.092386,38.013451 c -4.064168,-0.07418 -8.674636,2.848514 -11.609804,7.359749 -3.930443,6.041408 -3.621513,12.929456 0.690003,15.384624 4.310983,2.45399 11.562011,-0.166639 15.492067,-6.206447 3.930462,-6.040712 3.050991,-13.214216 -1.259393,-15.670371 -0.967769,-0.551158 -2.091154,-0.845343 -3.312873,-0.867555 z m 0.299642,6.459146 c 0.582797,-0.01383 1.112278,0.116445 1.561477,0.384202 2.000943,1.195689 1.984883,4.792194 -0.03587,8.033136 -2.020732,3.240826 -5.280893,4.898948 -7.281987,3.703629 -2.000943,-1.195689 -1.984883,-4.792194 0.03587,-8.033136 1.509384,-2.420008 3.781088,-4.04335 5.72051,-4.087831 z" id="path920" inkscape:connector-curvature="0" sodipodi:nodetypes="cccccccccccc" style="fill:#de0024;fill-opacity:1;stroke:none;stroke-width:1.76654255;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"></path>
+<path d="m 173.87762,38.358037 c -3.78549,0.08891 -7.61969,1.90556 -10.4117,4.933083 -5.05264,5.479872 -5.30795,13.279863 -0.57024,17.420876 4.737,4.14148 12.35253,2.832247 17.40441,-2.647969 5.05129,-5.479447 5.62701,-13.054007 0.89065,-17.194997 -1.9359,-1.692352 -4.51332,-2.577321 -7.31312,-2.510993 z m 0,6.418738 c 0.5643,-0.01924 1.07856,0.100006 1.51658,0.351657 1.95196,1.121443 2.33206,4.610063 0.4128,7.73195 -1.91884,3.121185 -4.85422,4.547855 -6.80654,3.427955 -1.95196,-1.121444 -2.53412,-4.41476 -0.61485,-7.536647 1.43292,-2.331316 3.61383,-3.909785 5.49199,-3.974915 z" id="path862" inkscape:connector-curvature="0" sodipodi:nodetypes="cccccccsscccc" style="fill:#de0024;fill-opacity:1;stroke:none;stroke-width:1.83540499;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"></path>
+<path d="m 93.868605,38.951097 -3.159825,5.19885 -6.160185,14.98574 c 0,0 -0.28137,1.143578 0.41129,1.916546 0.69266,0.772967 2.39717,0.580165 2.39717,0.580165 h 15.369765 l 9.33585,-14.373229 c 0,0 1.07338,-2.035363 2.67785,-2.384914 1.60446,-0.34955 2.09611,0.431828 2.63091,1.184842 0.5348,0.753014 -0.29083,2.674252 -0.29083,2.674252 l -8.28163,12.899049 H 117.3 l 7.71013,-14.147405 c 0,0 0.60623,-1.199542 2.15611,-1.8877 1.54989,-0.688157 2.79523,-0.569329 3.5185,0.227312 0.72328,0.796641 -0.33416,3.057439 -0.33416,3.057439 l -4.94246,9.035621 c 0,0 -1.16769,1.379059 -0.42866,2.571737 0.73902,1.192678 2.00024,1.071559 2.00024,1.071559 l 9.96548,0.07144 3.28611,-4.28623 -4.58424,-0.07144 c 0,0 -0.59224,0.01671 -0.84319,-0.460008 -0.25095,-0.476723 0.0661,-0.914632 0.0661,-0.914632 l 5.00419,-8.769437 c 0,0 0.34781,-1.190619 0.39544,-1.785929 0.0476,-0.59531 -0.10969,-1.785929 -0.10969,-1.785929 0,0 -0.83658,-4.202117 -5.4119,-4.506668 -4.57532,-0.304552 -7.1993,3.34275 -7.1993,3.34275 0,0 -2.14978,-3.636898 -5.80734,-3.645833 -3.25372,-0.0079 -6.34923,3.170286 -6.34923,3.170286 0,0 -0.37895,-0.499435 -0.27096,-1.110865 0.10799,-0.611431 1.39303,-1.857366 1.39303,-1.857366 h -8.35815 l -8.365327,15.628455 c 0,0 -0.769358,1.445284 -1.397048,1.980804 -0.6277,0.53552 -1.43382,0.449546 -1.43382,0.449546 l -2.80549,-0.09236 c 0,0 -0.58137,0.04138 -1.07156,-0.857246 -0.49019,-0.898623 -0.14287,-1.643055 -0.14287,-1.643055 L 101.82774,38.9511 Z" id="path923" inkscape:connector-curvature="0" sodipodi:nodetypes="ccczccczzcccczzcczcccczcczczcsczccczcczccc" style="fill:#de0024;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"></path>
+<path d="m 144.8308,39.20621 h 5.21492 l 3.2861,-5.714973 h 7.29167 l -3.14373,5.492281 h 5.10572 l -2.07168,5.008981 h -5.75323 l -5.5461,9.456757 c 0,0 -0.92569,1.210736 -0.64293,2.178834 0.28275,0.968098 1.46446,1.25015 1.46446,1.25015 l 8.93936,0.115821 -2.14311,4.214792 -14.46275,-0.02526 c 0,0 -1.85396,-0.440919 -2.39643,-1.867827 -0.54247,-1.426908 0.50365,-3.802759 0.50365,-3.802759 l 6.87097,-11.449074 h -5.87443 z" id="path925" inkscape:connector-curvature="0" sodipodi:nodetypes="ccccccccczcccczcccc" style="fill:#de0024;fill-opacity:1;stroke:none;stroke-width:0.40000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"></path>
+<path d="m 185.16484,44.023837 2.94818,-5.155987 c 0,0 6.29252,-0.08203 9.46593,0.03572 0.61045,0.02265 1.52408,0.409419 1.81342,0.920451 0.28934,0.511033 0.15408,1.437845 0.15408,1.437845 l 1.30828,0.202055 c 0,0 2.42649,-2.461615 4.90892,-2.723098 2.48243,-0.261482 5.4166,0.751914 6.32245,2.830254 0.90586,2.07834 0.70975,3.240689 0.0949,4.671774 -1.11716,2.600203 -4.14107,7.046353 -4.14107,7.046353 0,0 -1.14052,2.021771 -0.81299,2.541395 0.32753,0.519624 1.78593,0.428623 1.78593,0.428623 h 13.00157 c 0,0 0.6475,0.01419 0.96439,-0.500061 0.31689,-0.514246 -0.17859,-1.035838 -0.17859,-1.035838 l -6.53649,-8.929645 c 0,0 -1.23726,-2.163239 -0.42863,-4.429103 0.80863,-2.265864 3.39327,-2.821768 3.39327,-2.821768 h 17.85929 l -1.85737,4.714852 h -9.93921 c 0,0 -0.86744,-0.103195 -1.1113,0.307966 -0.24386,0.411161 0.40411,1.36387 0.40411,1.36387 l 6.66781,9.648116 c 0,0 1.56105,1.940121 0.88937,3.96353 -0.67168,2.023409 -3.61129,2.777356 -3.61129,2.777356 h -27.36884 c 0,0 -2.87332,0.21781 -3.90497,-0.603471 -1.03164,-0.82128 0.78404,-3.679141 0.78404,-3.679141 l 5.98481,-10.590979 c 0,0 0.5085,-2.03761 -1.16181,-2.222603 -0.83515,-0.0925 -1.91649,0.08367 -2.75333,0.461547 -0.83683,0.37788 -2.14352,2.029035 -2.14352,2.029035 l -7.6558,14.605612 h -7.62757 l 6.55421,-12.753938 c 0,0 1.92743,-3.171983 1.92162,-3.982532 -0.006,-0.810549 -2.31706,-0.629626 -2.31706,-0.629626 z" id="path929" inkscape:connector-curvature="0" sodipodi:nodetypes="ccszcczzsczcczcczcccczcczcczccsscccczcc" style="fill:#de0024;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"></path>
+</g>
+<g id="g1041" style="fill:#de0024;fill-opacity:1">
+<g id="g994" style="fill:#de0024;fill-opacity:1" transform="translate(0.06376292,-0.09351052)">
+<path d="m 88.838305,81.628154 c -0.811249,-0.058 -1.498348,-0.278064 -2.080048,-0.666232 -0.268003,-0.178837 -0.736555,-0.656459 -0.931673,-0.949703 -0.476439,-0.71605 -0.755739,-1.588164 -0.88524,-2.764172 -0.04099,-0.372145 -0.04183,-1.631681 -0.0012,-2.009532 0.09959,-0.929519 0.280323,-1.610006 0.597086,-2.248163 0.281651,-0.567419 0.662017,-1.03338 1.115839,-1.366942 0.424002,-0.311637 1.031875,-0.563105 1.620186,-0.670236 0.298281,-0.05432 1.22841,-0.07648 1.561838,-0.03722 1.939087,0.228323 2.98277,1.347648 3.28601,3.524151 0.05529,0.39676 0.08929,1.127702 0.07108,1.527804 l -0.01593,0.350737 h -3.780478 -3.780479 l 0.01628,0.433304 c 0.02007,0.532688 0.04754,0.787395 0.132378,1.224558 0.123748,0.637888 0.366658,1.256309 0.670078,1.705961 0.145618,0.215798 0.470242,0.562978 0.671184,0.717822 0.346091,0.266686 0.816664,0.472604 1.331321,0.582577 0.26977,0.05764 1.33084,0.06566 1.632746,0.01238 0.664705,-0.117395 1.122392,-0.323872 1.516654,-0.684208 0.195569,-0.17874 0.47094,-0.552784 0.679273,-0.922688 0.117517,-0.208659 0.184908,-0.304406 0.208016,-0.295541 0.01881,0.0072 0.149688,0.04869 0.290865,0.0922 0.141183,0.04351 0.26534,0.08405 0.275906,0.09012 0.04394,0.02524 -0.380205,0.741604 -0.621156,1.049068 -0.583665,0.744772 -1.342121,1.142989 -2.412358,1.266581 -0.256968,0.02969 -0.960858,0.05223 -1.168045,0.03744 z m 3.642023,-6.107048 c -4.93e-4,-0.320908 -0.0482,-0.903532 -0.100416,-1.224558 -0.233156,-1.433053 -0.883406,-2.302997 -1.996777,-2.671432 -0.778615,-0.257657 -1.858762,-0.227774 -2.614207,0.07232 -1.043276,0.414433 -1.737514,1.344753 -2.005168,2.687031 -0.06657,0.333859 -0.102129,0.623637 -0.130227,1.061284 l -0.01731,0.27003 h 3.432192 3.432194 l -2.53e-4,-0.194672 z m 4.654442,6.032341 c -1.180448,-0.104107 -2.04844,-0.632244 -2.492973,-1.516877 -0.40173,-0.799451 -0.41447,-1.960518 -0.03045,-2.771935 0.511268,-1.08019 1.671333,-1.69105 3.487833,-1.836594 0.17816,-0.01426 0.97223,-0.02595 1.76463,-0.02595 h 1.44069 v -0.650437 c 0,-0.925942 -0.0474,-1.330936 -0.21064,-1.799447 -0.2931,-0.841273 -0.90965,-1.327811 -1.91191,-1.508772 -0.34646,-0.06255 -1.2228,-0.06345 -1.58251,-0.0017 -0.90816,0.156081 -1.482876,0.544368 -1.827738,1.234862 -0.09854,0.197295 -0.231165,0.593644 -0.25708,0.768257 -0.0093,0.06334 -0.02456,0.12711 -0.03371,0.141716 -0.02619,0.04189 -0.682268,-0.01631 -0.682268,-0.06054 0,-0.01867 0.02383,-0.14372 0.05283,-0.277888 0.220908,-1.019617 0.830715,-1.75221 1.768286,-2.124321 0.56977,-0.226136 1.10704,-0.30492 1.95653,-0.286896 0.65686,0.01394 0.97569,0.06056 1.41346,0.206725 0.49005,0.163606 0.81066,0.357312 1.13981,0.688642 0.41274,0.415461 0.63225,0.872976 0.7965,1.660192 0.0341,0.163239 0.0415,0.644542 0.0554,3.604596 0.0121,2.57582 0.0235,3.437837 0.0465,3.504122 0.0529,0.152831 0.14112,0.285444 0.22932,0.344883 0.1642,0.110653 0.30133,0.132385 0.83533,0.132385 h 0.49782 v 0.27477 0.274775 l -0.11117,0.01664 c -0.0612,0.0091 -0.34092,0.01821 -0.62171,0.02007 -0.41707,0.003 -0.5404,-0.0048 -0.67379,-0.04093 -0.44192,-0.119955 -0.6929,-0.369207 -0.82062,-0.814963 -0.0329,-0.114716 -0.0446,-0.309527 -0.0564,-0.936116 l -0.0148,-0.791253 -0.0716,0.200954 c -0.19231,0.539694 -0.47831,1.003626 -0.84446,1.369803 -0.59913,0.599189 -1.37698,0.926042 -2.38711,1.003086 -0.37849,0.02885 -0.50776,0.0286 -0.85404,-0.0018 z m 1.25854,-0.621925 c 0.81611,-0.16663 1.47537,-0.563735 1.94058,-1.168916 0.20591,-0.267876 0.26323,-0.359518 0.41941,-0.670625 0.34295,-0.683168 0.51335,-1.488648 0.5432,-2.567628 l 0.0159,-0.573286 -1.60525,0.01052 c -1.34009,0.0088 -1.65296,0.01755 -1.89412,0.05313 -1.32508,0.195592 -2.080808,0.591621 -2.509585,1.315111 -0.433198,0.730943 -0.398286,1.925853 0.07784,2.663454 0.314599,0.487407 0.91172,0.852647 1.565175,0.957372 0.0967,0.0155 0.20409,0.033 0.23863,0.03888 0.16496,0.02813 0.97759,-0.01088 1.20829,-0.058 z m 9.0083,0.69707 c -1.1752,-0.0803 -1.9848,-0.379249 -2.5882,-0.955744 -0.25867,-0.247123 -0.41884,-0.459988 -0.57798,-0.76815 -0.13576,-0.262888 -0.31466,-0.769335 -0.2823,-0.799199 0.0109,-0.01 0.1384,-0.04357 0.28346,-0.07461 0.14507,-0.03101 0.27622,-0.0611 0.29145,-0.06683 0.0156,-0.006 0.058,0.07504 0.0972,0.185508 0.26185,0.738654 0.73494,1.281131 1.37457,1.576172 0.55725,0.257053 1.1725,0.358648 2.01593,0.332876 0.71895,-0.022 1.21994,-0.122023 1.66803,-0.333146 0.82234,-0.387459 1.21216,-1.024872 1.21209,-1.981962 0,-0.548939 -0.12404,-0.899231 -0.43694,-1.234276 -0.30702,-0.328752 -0.7158,-0.558501 -1.39941,-0.786494 -0.1727,-0.05757 -0.76624,-0.21679 -1.319,-0.353766 -1.08722,-0.269415 -1.45517,-0.38428 -1.88505,-0.588478 -0.98478,-0.467778 -1.47366,-1.152243 -1.53414,-2.147902 -0.0913,-1.503651 0.85425,-2.47718 2.62492,-2.702534 0.46779,-0.05953 1.41887,-0.04204 1.83974,0.03382 0.70181,0.126518 1.23295,0.374117 1.65289,0.770523 0.35109,0.331407 0.61182,0.748207 0.79112,1.264669 0.0497,0.142945 0.0902,0.268382 0.0902,0.278746 0,0.02586 -0.63303,0.08222 -0.65467,0.05829 -0.01,-0.01056 -0.0373,-0.08137 -0.0616,-0.157348 -0.11946,-0.372599 -0.3606,-0.752459 -0.64734,-1.019721 -0.2344,-0.218485 -0.50026,-0.370705 -0.85668,-0.490498 -0.37357,-0.125557 -0.67157,-0.173492 -1.18493,-0.190601 -1.11593,-0.03719 -1.94399,0.198365 -2.44685,0.696053 -0.3329,0.329486 -0.47804,0.698945 -0.47772,1.216017 5e-4,0.847141 0.39573,1.402077 1.30366,1.830591 0.39319,0.185574 0.96339,0.363312 1.9491,0.607553 0.48354,0.119818 1.03177,0.268585 1.21827,0.33061 1.16349,0.3869 1.77169,0.93035 2.0044,1.791039 0.0596,0.220432 0.065,0.281627 0.0653,0.742614 5e-4,0.55799 -0.0328,0.767514 -0.18392,1.159294 -0.15617,0.404972 -0.53778,0.874884 -0.91871,1.131311 -0.44106,0.296905 -1.0562,0.506825 -1.74578,0.595751 -0.29537,0.0381 -1.03296,0.06679 -1.28108,0.04983 z M 72.161917,74.010953 v -6.744491 h 0.364224 0.36423 v 6.744491 6.744493 h -0.36423 -0.364224 z" id="path975" inkscape:connector-curvature="0" sodipodi:nodetypes="cccccsccccccccccscccccccccccccccscccccccccccscsccccccscccccccccscccccccccccccccccccccccccccccscccccccccccccccccscccscccccccccccccccccccccc" style="fill:#de0024;stroke-width:0.02511916;fill-opacity:1"></path>
+<path d="m 78.140766,81.523938 c -1.701802,-0.125455 -2.758776,-0.881405 -3.303244,-2.362495 -0.297153,-0.808295 -0.437617,-1.879382 -0.406276,-3.09789 0.02131,-0.82838 0.11359,-1.454037 0.302223,-2.048981 0.417637,-1.317215 1.272601,-2.18928 2.497039,-2.546993 0.529963,-0.154826 0.758331,-0.182383 1.511367,-0.182383 0.578106,0 0.693565,0.0066 0.959146,0.05478 0.936489,0.169902 1.651868,0.536303 2.156858,1.104703 0.258635,0.291105 0.34151,0.433542 0.60754,1.044183 0.01026,0.02342 0.01533,-1.508232 0.01136,-3.403683 l -0.0073,-3.446272 h 0.347819 0.347819 l 0.01057,6.861388 c 0.0099,6.458468 0.01977,7.370184 0.08404,7.779842 l 0.01226,0.078 h -0.357908 -0.357876 l -0.01875,-0.24612 c -0.01026,-0.135367 -0.02709,-0.667527 -0.03729,-1.182585 -0.01026,-0.515059 -0.02555,-0.920252 -0.03408,-0.900446 -0.0086,0.01979 -0.05476,0.133274 -0.102722,0.252124 -0.481493,1.193367 -1.403803,1.930122 -2.719573,2.172456 -0.27322,0.05029 -0.838567,0.09885 -1.086928,0.0933 -0.08269,-0.002 -0.269958,-0.01214 -0.416148,-0.02294 z m 1.204677,-0.600355 c 1.125718,-0.127052 1.985939,-0.704961 2.509406,-1.685867 0.155515,-0.291421 0.318674,-0.724146 0.400096,-1.061116 0.265761,-1.099947 0.281491,-2.634481 0.03767,-3.671576 -0.317377,-1.349851 -1.085233,-2.202347 -2.271636,-2.522048 -0.437558,-0.11791 -0.663244,-0.1437 -1.265676,-0.144636 -0.493326,-6.89e-4 -0.598329,0.006 -0.844991,0.05498 -0.661807,0.131228 -1.14833,0.373213 -1.577584,0.784652 -0.764146,0.732426 -1.157592,1.964059 -1.158239,3.625692 -6.42e-4,1.825134 0.395558,3.123453 1.178547,3.861287 0.670131,0.63149 1.732508,0.900819 2.99242,0.758627 z" id="path975-4" inkscape:connector-curvature="0" sodipodi:nodetypes="cccscscccccccccccccccccccccccccccccccc" style="fill:#de0024;stroke-width:0.02537952;fill-opacity:1"></path>
+</g>
+<path d="m 125.92603,81.583215 c -1.91361,-0.146979 -3.13321,-1.311054 -3.54619,-3.384748 -0.1765,-0.886225 -0.21211,-2.172054 -0.086,-3.101966 0.22793,-1.679531 0.89048,-2.7934 1.99992,-3.36225 0.79196,-0.406075 1.82781,-0.548727 2.92602,-0.402956 1.6322,0.21665 2.65834,1.152131 3.08688,2.81419 0.15489,0.600759 0.215,1.097185 0.23387,1.931872 0.0737,3.260087 -0.98612,5.06532 -3.19768,5.446765 -0.44317,0.07644 -0.92789,0.09665 -1.4169,0.05909 z m 0.95387,-0.553728 c 0.78261,-0.08442 1.41516,-0.380378 1.88246,-0.880753 0.53378,-0.571557 0.86097,-1.41269 1.00714,-2.589009 0.0548,-0.441466 0.0626,-1.905897 0.0123,-2.32599 -0.15122,-1.263261 -0.475,-2.061932 -1.06254,-2.621053 -0.4256,-0.405015 -0.90747,-0.628499 -1.6053,-0.744524 -0.29768,-0.04949 -1.16904,-0.04252 -1.47033,0.01176 -1.49313,0.269019 -2.37025,1.318352 -2.64096,3.159444 -0.15353,1.044169 -0.10261,2.4065 0.1246,3.335968 0.34757,1.421638 1.09506,2.261828 2.28738,2.571074 0.38263,0.09924 0.99406,0.133907 1.46523,0.08308 z m -8.31766,-4.325438 v -4.712238 h -0.71106 -0.71105 v -0.265138 -0.26514 h 0.70954 0.70954 l 0.009,-1.813789 c 0.009,-0.594687 0.01,-0.94291 0.0623,-1.14128 0.0816,-0.311152 0.18117,-0.497333 0.36329,-0.679199 0.18034,-0.180085 0.36833,-0.282886 0.66499,-0.363652 0.17403,-0.04738 0.26622,-0.05347 0.94606,-0.06246 l 1.44073,-0.01 v 0.265528 0.265528 l -1.36842,0.0091 c -0.75261,0.01009 -0.82653,0.02202 -1.04531,0.169243 -0.15395,0.103594 -0.26102,0.249519 -0.32779,0.446705 -0.0547,0.161652 -0.0593,0.469166 -0.0618,1.100474 l -0.007,1.813789 h 1.04936 1.04937 v 0.26514 0.265138 h -1.0485 -1.0485 v 4.712238 4.712238 h -0.33746 -0.33745 z m 13.74492,0.353411 c 0,-2.397355 -0.008,-4.637175 -0.0159,-4.977377 l -0.0159,-0.61855 h 0.31721 0.31721 l 0.003,0.283218 c 0.002,0.155769 0.01,0.684539 0.0181,1.175046 l 0.0148,0.89183 0.0683,-0.214746 c 0.24869,-0.782361 0.76141,-1.432067 1.44162,-1.826788 0.39254,-0.227786 0.82911,-0.346852 1.36446,-0.372135 l 0.34348,-0.01623 v 0.341192 0.341193 h -0.32274 c -0.63337,0 -1.12356,0.159534 -1.59493,0.519083 -0.63844,0.486983 -1.11712,1.360661 -1.23856,2.260593 -0.0168,0.124324 -0.0254,1.275785 -0.0254,3.380519 v 3.19197 h -0.33745 -0.33744 z" id="path1007" inkscape:connector-curvature="0" sodipodi:nodetypes="ccccscsccccccccccccccccccccccccccsccccccccccccccccccccccccccccccccccsccscccc" style="fill:#de0024;stroke-width:0.02410352;fill-opacity:1"></path>
+<path d="M 172.28138,84.509423 V 83.37937 l 0.9041,-0.01011 c 0.98227,-0.01086 1.07913,-0.02171 1.3112,-0.147993 0.13959,-0.07598 0.31894,-0.263491 0.39413,-0.412134 0.0637,-0.125993 0.47728,-1.275049 0.47694,-1.325271 -2.2e-4,-0.01737 -0.86321,-2.301876 -1.91798,-5.076312 l -1.91777,-5.04454 1.40339,-0.0073 c 0.77184,0 1.4081,0 1.41387,0.0073 0.0215,0.02171 1.78648,5.245723 2.1031,6.225149 0.181,0.55991 0.33738,1.012932 0.34751,1.006635 0.0226,-0.01375 0.52501,-1.538827 0.76569,-2.32409 0.0972,-0.316754 0.46937,-1.55019 0.82732,-2.741076 l 0.65083,-2.165243 1.424,-0.0073 c 1.33274,-0.0073 1.42305,0 1.40897,0.03329 -0.008,0.02171 -0.9744,2.708363 -2.14695,5.970631 -1.17258,3.262339 -2.18312,6.051176 -2.24565,6.197504 -0.47697,1.115919 -1.09341,1.699341 -2.03483,1.925859 -0.44263,0.1065 -0.72531,0.126593 -1.98736,0.141189 l -1.18051,0.01368 z m -26.78465,-3.117488 c -1.20004,-0.08105 -2.18055,-0.465398 -2.86672,-1.123727 -0.60548,-0.580897 -0.99047,-1.29922 -1.2012,-2.241448 -0.13071,-0.584297 -0.17461,-1.035583 -0.17431,-1.791754 3.8e-4,-0.942011 0.0998,-1.627623 0.33392,-2.303394 0.47385,-1.367535 1.46219,-2.248612 2.90213,-2.587147 1.09913,-0.258426 2.47415,-0.217466 3.45513,0.102832 0.30551,0.0998 0.82148,0.363359 1.05254,0.537692 0.44784,0.337886 0.75755,0.715717 1.01988,1.244074 0.25111,0.505779 0.37234,0.906697 0.47361,1.566328 0.0551,0.358511 0.0883,1.407844 0.0577,1.817011 l -0.0166,0.221517 h -3.12222 -3.12222 l 0.0137,0.431891 c 0.0269,0.85177 0.22586,1.436574 0.62558,1.838865 0.20536,0.206683 0.34875,0.297288 0.6226,0.393393 0.17523,0.06152 0.20406,0.06441 0.58738,0.06441 0.37679,-4.35e-4 0.41536,-0.0073 0.59099,-0.06296 0.22222,-0.07425 0.43208,-0.208129 0.56042,-0.357496 0.12895,-0.150019 0.26717,-0.439418 0.33274,-0.696612 l 0.0554,-0.217321 0.13432,0.0073 c 0.28863,0.01086 2.55338,0.149874 2.56126,0.157329 0.004,0.0073 -0.004,0.06296 -0.0206,0.130115 -0.11234,0.473938 -0.40072,1.113524 -0.65225,1.446633 -0.66794,0.884624 -1.66183,1.331929 -3.1707,1.427021 -0.42405,0.02678 -0.61734,0.02605 -1.03234,0 z m 2.10707,-6.567738 c -0.0158,-0.366325 -0.0676,-0.684166 -0.15303,-0.938683 -0.16359,-0.486674 -0.49061,-0.810519 -0.94472,-0.935643 -0.19109,-0.05282 -0.77618,-0.05934 -0.96743,-0.01158 -0.69275,0.174261 -1.0784,0.72375 -1.20943,1.723366 -0.019,0.144446 -0.0344,0.319142 -0.0344,0.38818 v 0.125487 h 1.66203 1.66204 z m 6.96424,6.570487 c -0.81003,-0.07308 -1.46642,-0.358437 -1.96166,-0.852637 -0.38845,-0.387674 -0.63309,-0.857414 -0.75937,-1.457921 -0.0581,-0.276301 -0.0695,-0.874058 -0.0226,-1.179088 0.15176,-0.985577 0.63531,-1.638552 1.52475,-2.059008 0.83347,-0.39397 1.90255,-0.553324 3.72381,-0.554917 l 0.58161,-5.06e-4 -7e-5,-0.489423 c -7e-5,-0.578509 -0.0268,-0.837803 -0.11241,-1.089426 -0.11537,-0.339114 -0.2883,-0.540659 -0.58178,-0.678014 -0.37133,-0.173755 -0.97167,-0.184608 -1.37568,-0.0246 -0.43953,0.173754 -0.72205,0.59573 -0.75667,1.130166 l -0.013,0.200604 -0.15228,-0.01011 c -0.0838,-0.0073 -0.67574,-0.04342 -1.31551,-0.08359 l -1.16324,-0.07324 0.007,-0.103121 c 0.0197,-0.275938 0.16583,-0.78519 0.30506,-1.063011 0.35986,-0.718321 1.02674,-1.258402 1.9107,-1.547656 0.91986,-0.300978 2.22435,-0.37009 3.28207,-0.173827 1.45852,0.27051 2.32752,1.049477 2.62604,2.353762 0.10933,0.477698 0.11023,0.499192 0.12451,2.976486 0.0133,2.317795 0.0142,2.35094 0.0615,2.453195 0.0264,0.05717 0.0858,0.136848 0.13211,0.177519 0.13735,0.120565 0.26459,0.144952 0.75698,0.144952 h 0.43346 v 0.975084 0.975082 l -0.38583,0.02678 c -1.37561,0.09553 -2.01823,0.03474 -2.57408,-0.243227 -0.57022,-0.285201 -0.87401,-0.701894 -0.96027,-1.317165 l -0.0304,-0.216887 -0.065,0.158341 c -0.34978,0.851695 -1.1132,1.426803 -2.12368,1.599907 -0.30453,0.0521 -0.81524,0.07324 -1.11651,0.04632 z m 1.9283,-1.897628 c 0.55978,-0.182728 0.93819,-0.653916 1.09364,-1.361672 0.036,-0.163624 0.0483,-0.330214 0.0581,-0.79069 l 0.0125,-0.583284 -0.88406,0.0095 c -0.82008,0.0087 -0.89821,0.01303 -1.07983,0.06006 -0.57974,0.15067 -0.94269,0.479654 -1.07597,0.975156 -0.0607,0.225497 -0.0544,0.628803 0.0131,0.847499 0.14083,0.45599 0.44747,0.752408 0.90618,0.876084 0.25127,0.06803 0.69513,0.05282 0.95621,-0.03257 z m 9.94587,1.904575 c -0.28764,-0.01303 -0.79965,-0.07744 -1.08047,-0.13663 -0.74897,-0.157834 -1.41852,-0.484937 -1.87663,-0.916755 -0.26523,-0.250031 -0.52651,-0.637126 -0.67953,-1.006781 -0.088,-0.212616 -0.1889,-0.572863 -0.20204,-0.721506 l -0.007,-0.09119 1.25537,-0.143505 c 0.69044,-0.07888 1.27174,-0.144085 1.29175,-0.144881 0.0271,0 0.0465,0.04559 0.0758,0.18215 0.0923,0.429865 0.36063,0.784974 0.72854,0.964518 0.31671,0.154578 0.43151,0.176506 0.92137,0.175926 0.3387,-3.61e-4 0.45922,-0.0095 0.58737,-0.04269 0.47815,-0.125559 0.73394,-0.372839 0.79537,-0.768692 0.0446,-0.286865 -0.0282,-0.550211 -0.20045,-0.727584 -0.26669,-0.274419 -0.61094,-0.409385 -1.7927,-0.702908 -1.21325,-0.301268 -1.81473,-0.542832 -2.35674,-0.946498 -0.19264,-0.143507 -0.46026,-0.414379 -0.57701,-0.584082 -0.20884,-0.303511 -0.3688,-0.760368 -0.41979,-1.198844 -0.0363,-0.311544 -0.014,-0.863782 0.0452,-1.122063 0.27294,-1.191897 1.23334,-1.95885 2.76584,-2.208736 0.65912,-0.107468 1.51029,-0.107174 2.14343,7.23e-4 1.32232,0.225426 2.30104,0.872466 2.76482,1.827866 0.11525,0.237439 0.21658,0.548403 0.2426,0.744592 l 0.0146,0.110289 -1.27492,0.08655 c -0.70121,0.04777 -1.29658,0.08627 -1.32305,0.08583 -0.0413,-5.79e-4 -0.0522,-0.02316 -0.0766,-0.159644 -0.0854,-0.477989 -0.46857,-0.840985 -1.01551,-0.962057 -0.25415,-0.05645 -0.76159,-0.05066 -0.99403,0.01158 -0.34277,0.09133 -0.52693,0.219781 -0.64032,0.446653 -0.0612,0.122375 -0.0702,0.164854 -0.0702,0.329926 0,0.279556 0.0478,0.405911 0.21782,0.575613 0.28065,0.280136 0.74395,0.455339 1.97904,0.7485 0.26444,0.06296 0.62723,0.156459 0.8062,0.208347 1.73844,0.503607 2.51919,1.264483 2.64232,2.575063 0.041,0.437246 -0.0129,0.949103 -0.14296,1.356027 -0.13831,0.432687 -0.33635,0.759138 -0.65371,1.077702 -0.77264,0.775492 -2.14262,1.154628 -3.89279,1.077483 z" id="path1020" inkscape:connector-curvature="0" style="fill:#de0024;stroke-width:0.02303425;fill-opacity:1"></path>
+<path d="m 225.56902,84.940924 c -1.74214,-0.117461 -2.91793,-0.799968 -3.3842,-1.964422 -0.0769,-0.192051 -0.21447,-0.681362 -0.19659,-0.699237 0.0119,-0.01194 2.62447,-0.266478 2.6343,-0.256649 0.004,0.0043 0.0259,0.07607 0.0475,0.159081 0.1381,0.530192 0.51406,0.897564 1.05578,1.031628 0.26522,0.0656 0.83256,0.05892 1.09879,-0.01301 0.72773,-0.196643 1.09994,-0.731419 1.19988,-1.723978 0.0148,-0.146515 0.0265,-0.731113 0.0262,-1.299094 l -6.4e-4,-1.032686 -0.0975,0.195839 c -0.40174,0.807161 -1.09441,1.280629 -2.12641,1.453484 -0.36055,0.06041 -1.10295,0.06055 -1.41486,3.06e-4 -1.01506,-0.196074 -1.69574,-0.702187 -2.15481,-1.602217 -0.45597,-0.89396 -0.67045,-2.214603 -0.58631,-3.610277 0.0902,-1.49602 0.46435,-2.543632 1.15797,-3.242286 0.61369,-0.618129 1.37909,-0.906995 2.40633,-0.908161 0.65412,-7.1e-4 1.13101,0.101243 1.61523,0.345404 0.27043,0.136359 0.39688,0.224823 0.61357,0.429234 0.23629,0.222904 0.38661,0.427684 0.53206,0.724801 l 0.1203,0.245754 0.0178,-0.257246 c 0.0274,-0.395702 0.0981,-1.174959 0.11376,-1.254076 l 0.014,-0.07072 h 1.27423 1.27422 l -0.0175,0.1865 c -0.01,0.102579 -0.0267,2.339655 -0.038,4.971289 -0.022,5.156609 -0.0146,4.890671 -0.15379,5.475404 -0.23546,0.989105 -0.83526,1.75704 -1.71841,2.200154 -0.82658,0.414721 -2.02923,0.601754 -3.31284,0.515217 z m 1.17873,-6.104315 c 0.33348,-0.112713 0.58136,-0.294367 0.77832,-0.570383 0.25075,-0.351395 0.41076,-0.812483 0.48941,-1.410328 0.0582,-0.442368 0.0368,-1.437358 -0.0389,-1.802015 -0.20171,-0.97283 -0.64757,-1.534442 -1.34961,-1.699998 -0.20567,-0.04847 -0.62843,-0.04755 -0.83815,0.0021 -0.38113,0.08983 -0.71416,0.340266 -0.92197,0.693296 -0.31427,0.533922 -0.46468,1.490555 -0.39568,2.516638 0.0839,1.247623 0.40143,1.924828 1.03951,2.216949 0.34991,0.16019 0.85727,0.182329 1.23703,0.05394 z m -39.80444,-4.761824 v -6.778442 h 1.33768 1.33768 v 6.778442 6.778442 h -1.33768 -1.33768 z m 5.06775,2.148008 V 71.59236 h 1.33768 1.33768 v 4.630433 4.630434 h -1.33768 -1.33768 z m 6.92266,4.572751 c -0.012,-0.03191 -0.75177,-2.095472 -1.64389,-4.585615 -0.8921,-2.490143 -1.62991,-4.54779 -1.63955,-4.572552 -0.0166,-0.0425 0.0573,-0.04499 1.33367,-0.04499 h 1.35123 l 0.0397,0.122187 c 0.82776,2.55032 1.58587,4.955979 1.84613,5.858192 0.18357,0.636352 0.33858,1.161824 0.34447,1.167716 0.0154,0.01535 0.006,0.04684 0.35608,-1.205705 0.17594,-0.629614 0.63932,-2.218576 1.02972,-3.531038 0.3904,-1.312455 0.70982,-2.391928 0.70982,-2.398822 0,-0.0071 0.59695,-0.01251 1.32655,-0.01251 1.25186,0 1.32572,0.0028 1.31177,0.04499 -0.008,0.02473 -0.73012,2.105557 -1.60443,4.624001 l -1.58965,4.578984 -1.57486,0.0064 -1.57485,0.0064 z m 7.50886,-4.572751 V 71.59236 h 1.33768 1.33768 v 4.630433 4.630434 h -1.33768 -1.33768 z m 4.93089,0.0836 c -0.006,-2.500755 -0.0202,-4.58445 -0.0304,-4.630434 l -0.0186,-0.0836 h 1.29697 1.29698 l 0.0586,0.816755 c 0.0322,0.449219 0.0663,0.873485 0.0758,0.942816 l 0.0172,0.12606 0.0829,-0.210963 c 0.31708,-0.80721 0.93795,-1.411303 1.71785,-1.67142 0.36503,-0.121747 0.66403,-0.165193 1.14475,-0.166351 0.56088,-0.0014 0.93017,0.05927 1.33574,0.219378 0.73656,0.290707 1.25541,0.905908 1.48319,1.758625 0.15181,0.568336 0.14627,0.42465 0.15747,4.082474 l 0.0103,3.363493 h -1.36473 -1.36472 l -5.4e-4,-2.694654 c -5.4e-4,-2.797374 -0.0145,-3.29301 -0.10278,-3.657724 -0.17089,-0.705748 -0.58767,-1.02983 -1.32441,-1.02983 -0.14148,0 -0.32981,0.01713 -0.41851,0.03802 -0.66565,0.156934 -1.10869,0.740828 -1.28478,1.69321 -0.0389,0.210132 -0.0446,0.532075 -0.0523,2.943456 l -0.009,2.707518 h -1.34768 -1.34767 l -0.0118,-4.546831 z M 192.01106,69.174239 V 67.91373 h 1.33768 1.33768 v 1.260509 1.260508 h -1.33768 -1.33768 z m 14.43152,0 V 67.91373 h 1.33768 1.33768 v 1.260509 1.260508 h -1.33768 -1.33768 z" id="path1033" inkscape:connector-curvature="0" style="fill:#de0024;stroke-width:0.02572463;fill-opacity:1"></path>
+</g>
+</g>
+</svg>
+</a>
+<div class="block block-search">
+<div class="block block-title"><strong>Search</strong></div>
+<div class="block block-content">
+<form action="https://www.ramtons.com/catalogsearch/result/" class="form minisearch" id="search_mini_form" method="get">
+<div class="field search">
+<label class="label" data-role="minisearch-label" for="search">
+<span>Search</span>
+</label>
+<div class="control">
+<input aria-autocomplete="both" aria-haspopup="false" autocomplete="off" class="input-text" data-block="autocomplete-form" id="search" maxlength="128" name="q" placeholder="Search product name, brand, product number" role="combobox" type="text" value=""/>
+<div class="search-autocomplete" id="search_autocomplete"></div>
+</div>
+</div>
+<div class="actions">
+<button class="action search" title="Search" type="submit">
+<svg class="svg-icon" height="18" viewbox="0 0 32 32" width="18" xmlns:xlink="http://www.w3.org/1999/xlink">
+<use href="#icon-search" xlink:href="#icon-search"></use>
+</svg>
+<span class="text">Search</span>
+</button>
+</div>
+</form>
+</div>
+</div>
+<div class="minicart-wrapper" data-block="minicart">
+<a class="action showcart" data-bind="scope: 'minicart_content'" href="https://www.ramtons.com/checkout/cart/">
+<span class="counter qty empty" data-bind="blockLoader: isLoading">
+<span class="counter-number">
+<!-- ko text: getCartParam('summary_count') -->0<!-- /ko -->
+<!-- ko if: (getCartParam('summary_count') == 1) -->
+<!-- ko i18n: 'item' --><!-- /ko -->
+<!-- /ko -->
+<!-- ko ifnot: (getCartParam('summary_count') == 1) -->
+<!-- ko i18n: 'items' --><!-- /ko -->
+<!-- /ko -->
+</span>
+<span class="counter-box">
+<span class="counter-total">Total:</span>
+<!-- ko if: getCartParam('summary_count') -->
+<span class="counter-total" data-bind="html: getCartParam('subtotal')"></span>
+<!-- /ko -->
+<!-- ko ifnot: getCartParam('summary_count') -->
+<span class="counter-total">KES0.00</span>
+<!-- /ko -->
+</span>
+</span>
+<span class="cart-btn">
+<span class="text">Checkout</span>
+<svg class="svg-icon" height="25" viewbox="0 0 32 32" width="25" xmlns:xlink="http://www.w3.org/1999/xlink">
+<use href="#icon-cart" xlink:href="#icon-cart"></use>
+</svg>
+</span>
+</a>
+<div class="block block-minicart empty" data-role="dropdownDialog">
+<div class="minicart-overlay"></div>
+<div class="minicart-holder" data-bind="scope: 'minicart_content'" id="minicart-content-wrapper">
+<!-- ko template: getTemplate() --><!-- /ko -->
+</div>
+</div>
+<script>
+        window.checkout = {"shoppingCartUrl":"https:\/\/www.ramtons.com\/checkout\/cart\/","checkoutUrl":"https:\/\/www.ramtons.com\/checkout\/","updateItemQtyUrl":"https:\/\/www.ramtons.com\/checkout\/sidebar\/updateItemQty\/","removeItemUrl":"https:\/\/www.ramtons.com\/checkout\/sidebar\/removeItem\/","imageTemplate":"Magento_Catalog\/product\/image_with_borders","baseUrl":"https:\/\/www.ramtons.com\/","minicartMaxItemsVisible":5,"websiteId":"1","maxItemsToDisplay":10,"storeId":"1","storeGroupId":"1","customerLoginUrl":"https:\/\/www.ramtons.com\/customer\/account\/login\/referer\/aHR0cHM6Ly93d3cucmFtdG9ucy5jb20vd2FzaGluZy1kcnlpbmcvcmFtdG9ucy1kaXNod2FzaGVyLTEyLXNldHRpbmdzLW1hci1zaWx2ZXItcnctMzAw\/","isRedirectRequired":false,"autocomplete":"off","captcha":{"user_login":{"isCaseSensitive":false,"imageHeight":50,"imageSrc":"","refreshUrl":"https:\/\/www.ramtons.com\/captcha\/refresh\/","isRequired":false,"timestamp":1663924893}}};
+    </script>
+</div></div></div> <div class="sections nav-sections">
+<div class="header-fix-holder">
+<div class="logo-min">
+<a href="https://www.ramtons.com/" title="Ramtons Store">
+<img alt="Ramtons Home" class="lazyloading" data-src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/images/ramtons_logo_white.svg" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/images/ramtons_logo_white.svg"/>
+</a>
+</div>
+<div class="section-items nav-sections-items">
+<div class="section-item-title nav-sections-item-title">
+<a class="nav-sections-item-switch">Products</a>
+</div>
+<div class="section-item-content nav-sections-item-content" id="store.menu">
+<nav class="navigation" data-action="navigation">
+<ul class="ui-menu ui-widget ui-widget-content ui-corner-all" id="ui-id-1" role="menu" tabindex="0">
+<li class="level0 nav-1 first level-top parent ui-menu-item" role="presentation"><a aria-haspopup="true" class="level-top ui-corner-all" href="https://www.ramtons.com/fridges-freezers" id="ui-id-2" role="menuitem" tabindex="-1"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span>Fridges &amp; Freezers</span></a><ul aria-expanded="false" aria-hidden="true" class="level0 submenu ui-menu ui-widget ui-widget-content ui-corner-all" role="menu" style="display: none;"><li class="level1 nav-1-1 first parent ui-menu-item" role="presentation"><a aria-haspopup="true" class="ui-corner-all" href="https://www.ramtons.com/fridges-freezers/fridges" id="ui-id-12" role="menuitem" tabindex="-1"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span><span class="nav-icon"><img alt="Fridges" class="lazyload" data-src="https://www.ramtons.com/media/catalog/category/resized/50x50/catalog/category/Fridge_Icon.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/></span>Fridges</span></a><ul aria-expanded="false" aria-hidden="true" class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" style="display: none;"><li class="level2 nav-1-1-1 first ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/fridges-freezers/fridges/direct-cool" id="ui-id-14" role="menuitem" tabindex="-1"><span>Direct Cool</span></a></li><li class="level2 nav-1-1-2 ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/fridges-freezers/fridges/no-frost" id="ui-id-15" role="menuitem" tabindex="-1"><span>No Frost</span></a></li><li class="level2 nav-1-1-3 ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/fridges-freezers/fridges/showcase-chiller" id="ui-id-16" role="menuitem" tabindex="-1"><span>Showcase Chiller</span></a></li><li class="level2 nav-1-1-4 last ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/fridges-freezers/fridges/wine-chiller" id="ui-id-17" role="menuitem" tabindex="-1"><span>Wine Chiller</span></a></li></ul></li><li class="level1 nav-1-2 last parent ui-menu-item" role="presentation"><a aria-haspopup="true" class="ui-corner-all" href="https://www.ramtons.com/fridges-freezers/freezers" id="ui-id-13" role="menuitem" tabindex="-1"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span><span class="nav-icon"><img alt="Freezers" class="lazyload" data-src="https://www.ramtons.com/media/catalog/category/resized/50x50/catalog/category/Freezer_Icon.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/></span>Freezers</span></a><ul aria-expanded="false" aria-hidden="true" class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" style="display: none;"><li class="level2 nav-1-2-1 first last ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/fridges-freezers/freezers/chest-freezer" id="ui-id-18" role="menuitem" tabindex="-1"><span>Chest Freezer</span></a></li></ul></li></ul></li><li class="level0 nav-2 level-top parent ui-menu-item" role="presentation"><a aria-haspopup="true" class="level-top ui-corner-all" href="https://www.ramtons.com/cooling-heating" id="ui-id-3" role="menuitem" tabindex="-1"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span>Cooling &amp; Heating</span></a><ul aria-expanded="false" aria-hidden="true" class="level0 submenu ui-menu ui-widget ui-widget-content ui-corner-all" role="menu" style="display: none;"><li class="level1 nav-2-1 first parent ui-menu-item" role="presentation"><a aria-haspopup="true" class="ui-corner-all" href="https://www.ramtons.com/cooling-heating/heaters" id="ui-id-19" role="menuitem" tabindex="-1"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span><span class="nav-icon"><img alt="Heaters" class="lazyload" data-src="https://www.ramtons.com/media/catalog/category/resized/50x50/catalog/category/Heater_Icon.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/></span>Heaters</span></a><ul aria-expanded="false" aria-hidden="true" class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" style="display: none;"><li class="level2 nav-2-1-1 first ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/cooling-heating/heaters/fan-heater" id="ui-id-22" role="menuitem" tabindex="-1"><span>Fan Heater</span></a></li><li class="level2 nav-2-1-2 last ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/cooling-heating/heaters/bar-heater" id="ui-id-23" role="menuitem" tabindex="-1"><span>Electric Bar Heater</span></a></li></ul></li><li class="level1 nav-2-2 parent ui-menu-item" role="presentation"><a aria-haspopup="true" class="ui-corner-all" href="https://www.ramtons.com/cooling-heating/fans" id="ui-id-20" role="menuitem" tabindex="-1"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span><span class="nav-icon"><img alt="Fans" class="lazyload" data-src="https://www.ramtons.com/media/catalog/category/resized/50x50/catalog/category/Fans_Icon.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/></span>Fans</span></a><ul aria-expanded="false" aria-hidden="true" class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" style="display: none;"><li class="level2 nav-2-2-1 first ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/cooling-heating/fans/ceiling-fan" id="ui-id-24" role="menuitem" tabindex="-1"><span>Ceiling fan</span></a></li><li class="level2 nav-2-2-2 ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/cooling-heating/fans/stand-fan" id="ui-id-25" role="menuitem" tabindex="-1"><span>Stand fan</span></a></li><li class="level2 nav-2-2-3 ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/cooling-heating/fans/wall-fan" id="ui-id-26" role="menuitem" tabindex="-1"><span>Wall fan</span></a></li><li class="level2 nav-2-2-4 last ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/cooling-heating/fans/wall-fan-remote" id="ui-id-27" role="menuitem" tabindex="-1"><span>Wall fan + Remote</span></a></li></ul></li><li class="level1 nav-2-3 last parent ui-menu-item" role="presentation"><a aria-haspopup="true" class="ui-corner-all" href="https://www.ramtons.com/cooling-heating/air-conditioners" id="ui-id-21" role="menuitem" tabindex="-1"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span><span class="nav-icon"><img alt="Air Conditioners" class="lazyload" data-src="https://www.ramtons.com/media/catalog/category/resized/50x50/catalog/category/Air_Conditioners_Icon.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/></span>Air Conditioners</span></a><ul aria-expanded="false" aria-hidden="true" class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" style="display: none;"><li class="level2 nav-2-3-1 first ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/cooling-heating/air-conditioners/split" id="ui-id-28" role="menuitem" tabindex="-1"><span>Split</span></a></li><li class="level2 nav-2-3-2 last ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/cooling-heating/air-conditioners/portable" id="ui-id-29" role="menuitem" tabindex="-1"><span>Portable</span></a></li></ul></li></ul></li><li class="level0 nav-3 level-top parent ui-menu-item" role="presentation"><a aria-haspopup="true" class="level-top ui-corner-all" href="https://www.ramtons.com/washing-drying" id="ui-id-4" role="menuitem" tabindex="-1"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span>Washing &amp; Drying</span></a><ul aria-expanded="false" aria-hidden="true" class="level0 submenu ui-menu ui-widget ui-widget-content ui-corner-all" role="menu" style="display: none;"><li class="level1 nav-3-1 first parent ui-menu-item" role="presentation"><a aria-haspopup="true" class="ui-corner-all" href="https://www.ramtons.com/washing-drying/single-twin-tub-washing-machines" id="ui-id-30" role="menuitem" tabindex="-1"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span><span class="nav-icon"><img alt="Single &amp; Twin Tub Washing Machines" class="lazyload" data-src="https://www.ramtons.com/media/catalog/category/resized/50x50/catalog/category/Twin_Tub_Icon.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/></span>Single &amp; Twin Tub Washing Machines</span></a><ul aria-expanded="false" aria-hidden="true" class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" style="display: none;"><li class="level2 nav-3-1-1 first ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/washing-drying/single-twin-tub-washing-machines/twin-tub-washer-air-drier" id="ui-id-34" role="menuitem" tabindex="-1"><span>Twin Tub Washer+ Air Drier</span></a></li><li class="level2 nav-3-1-2 last ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/washing-drying/single-twin-tub-washing-machines/single-tub-washer" id="ui-id-35" role="menuitem" tabindex="-1"><span>Single Tub Washer</span></a></li></ul></li><li class="level1 nav-3-2 parent ui-menu-item" role="presentation"><a aria-haspopup="true" class="ui-corner-all" href="https://www.ramtons.com/washing-drying/top-load-washing-machines" id="ui-id-31" role="menuitem" tabindex="-1"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span><span class="nav-icon"><img alt="Top Load Washing Machines" class="lazyload" data-src="https://www.ramtons.com/media/catalog/category/resized/50x50/catalog/category/Top_Load_Washer_Icon.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/></span>Top Load Washing Machines</span></a><ul aria-expanded="false" aria-hidden="true" class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" style="display: none;"><li class="level2 nav-3-2-1 first last ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/washing-drying/top-load-washing-machines/top-load-washer" id="ui-id-36" role="menuitem" tabindex="-1"><span>Top Load Washer</span></a></li></ul></li><li class="level1 nav-3-3 parent ui-menu-item" role="presentation"><a aria-haspopup="true" class="ui-corner-all" href="https://www.ramtons.com/washing-drying/front-load-washing-machines" id="ui-id-32" role="menuitem" tabindex="-1"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span><span class="nav-icon"><img alt="Front Load Washing Machines" class="lazyload" data-src="https://www.ramtons.com/media/catalog/category/resized/50x50/catalog/category/Front_Load_Washer_Icon.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/></span>Front Load Washing Machines</span></a><ul aria-expanded="false" aria-hidden="true" class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" style="display: none;"><li class="level2 nav-3-3-1 first ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/washing-drying/front-load-washing-machines/front-load-washer" id="ui-id-37" role="menuitem" tabindex="-1"><span>Front Load Washer</span></a></li><li class="level2 nav-3-3-2 last ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/washing-drying/front-load-washing-machines/front-load-drier" id="ui-id-38" role="menuitem" tabindex="-1"><span>Front Load+Drier</span></a></li></ul></li><li class="level1 nav-3-4 last ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/washing-drying/dishwashers" id="ui-id-33" role="menuitem" tabindex="-1"><span>Dishwashers</span></a></li></ul></li><li class="level0 nav-4 level-top parent ui-menu-item" role="presentation"><a aria-haspopup="true" class="level-top ui-corner-all" href="https://www.ramtons.com/non-electrical" id="ui-id-5" role="menuitem" tabindex="-1"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span>Non-Electrical Appliances</span></a><ul aria-expanded="false" aria-hidden="true" class="level0 submenu ui-menu ui-widget ui-widget-content ui-corner-all" role="menu" style="display: none;"><li class="level1 nav-4-1 first parent ui-menu-item" role="presentation"><a aria-haspopup="true" class="ui-corner-all" href="https://www.ramtons.com/non-electrical/pots-and-pans" id="ui-id-39" role="menuitem" tabindex="-1"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span><span class="nav-icon"><img alt="Pots and Pans" class="lazyload" data-src="https://www.ramtons.com/media/catalog/category/resized/50x50/catalog/category/Pan_Icon.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/></span>Pots and Pans</span></a><ul aria-expanded="false" aria-hidden="true" class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" style="display: none;"><li class="level2 nav-4-1-1 first ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/non-electrical/pots-and-pans/non-stick-casserole" id="ui-id-41" role="menuitem" tabindex="-1"><span>Non-Stick Casserole</span></a></li><li class="level2 nav-4-1-2 last ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/non-electrical/pots-and-pans/non-stick-fry-pan" id="ui-id-42" role="menuitem" tabindex="-1"><span>Non-Stick Fry Pan</span></a></li></ul></li><li class="level1 nav-4-2 last ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/non-electrical/ironing-boards" id="ui-id-40" role="menuitem" tabindex="-1"><span><span class="nav-icon"><img alt="Ironing Boards " class="lazyload" data-src="https://www.ramtons.com/media/catalog/category/resized/50x50/catalog/category/Ironing_Board_Icon.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/></span>Ironing Boards </span></a></li></ul></li><li class="level0 nav-5 level-top parent ui-menu-item" role="presentation"><a aria-haspopup="true" class="level-top ui-corner-all" href="https://www.ramtons.com/cookers" id="ui-id-6" role="menuitem" tabindex="-1"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span>Cookers</span></a><ul aria-expanded="false" aria-hidden="true" class="level0 submenu ui-menu ui-widget ui-widget-content ui-corner-all" role="menu" style="display: none;"><li class="level1 nav-5-1 first parent ui-menu-item" role="presentation"><a aria-haspopup="true" class="ui-corner-all" href="https://www.ramtons.com/cookers/standing-cookers" id="ui-id-43" role="menuitem" tabindex="-1"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span><span class="nav-icon"><img alt="Standing Cookers" class="lazyload" data-src="https://www.ramtons.com/media/catalog/category/resized/50x50/catalog/category/Standing_Cooker_Icon.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/></span>Standing Cookers</span></a><ul aria-expanded="false" aria-hidden="true" class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" style="display: none;"><li class="level2 nav-5-1-1 first ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/cookers/standing-cookers/gas" id="ui-id-46" role="menuitem" tabindex="-1"><span>Standing Gas Cookers</span></a></li><li class="level2 nav-5-1-2 last ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/cookers/standing-cookers/gas-electric" id="ui-id-47" role="menuitem" tabindex="-1"><span>Gas+Electric</span></a></li></ul></li><li class="level1 nav-5-2 parent ui-menu-item" role="presentation"><a aria-haspopup="true" class="ui-corner-all" href="https://www.ramtons.com/cookers/table-top-cookers" id="ui-id-44" role="menuitem" tabindex="-1"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span><span class="nav-icon"><img alt="Table Top Cookers" class="lazyload" data-src="https://www.ramtons.com/media/catalog/category/resized/50x50/catalog/category/Table_Top_Cooker_Icon.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/></span>Table Top Cookers</span></a><ul aria-expanded="false" aria-hidden="true" class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" style="display: none;"><li class="level2 nav-5-2-1 first ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/cookers/table-top-cookers/gas" id="ui-id-48" role="menuitem" tabindex="-1"><span>Table Top Gas Cookers</span></a></li><li class="level2 nav-5-2-2 ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/cookers/table-top-cookers/induction" id="ui-id-49" role="menuitem" tabindex="-1"><span>Induction</span></a></li><li class="level2 nav-5-2-3 ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/cookers/table-top-cookers/oven" id="ui-id-50" role="menuitem" tabindex="-1"><span>Toaster Oven</span></a></li><li class="level2 nav-5-2-4 last ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/cookers/table-top-cookers/spiral-plate" id="ui-id-51" role="menuitem" tabindex="-1"><span>Spiral Plate</span></a></li></ul></li><li class="level1 nav-5-3 last parent ui-menu-item" role="presentation"><a aria-haspopup="true" class="ui-corner-all" href="https://www.ramtons.com/cookers/microwaves" id="ui-id-45" role="menuitem" tabindex="-1"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span><span class="nav-icon"><img alt="Microwaves" class="lazyload" data-src="https://www.ramtons.com/media/catalog/category/resized/50x50/catalog/category/Microwave_Icon.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/></span>Microwaves</span></a><ul aria-expanded="false" aria-hidden="true" class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" style="display: none;"><li class="level2 nav-5-3-1 first ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/cookers/microwaves/built-in" id="ui-id-52" role="menuitem" tabindex="-1"><span>Built-in</span></a></li><li class="level2 nav-5-3-2 ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/cookers/microwaves/convection" id="ui-id-53" role="menuitem" tabindex="-1"><span>Convection</span></a></li><li class="level2 nav-5-3-3 ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/cookers/microwaves/normal" id="ui-id-54" role="menuitem" tabindex="-1"><span>Normal</span></a></li><li class="level2 nav-5-3-4 last ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/cookers/microwaves/with-grill" id="ui-id-55" role="menuitem" tabindex="-1"><span>With Grill</span></a></li></ul></li></ul></li><li class="level0 nav-6 level-top parent ui-menu-item" role="presentation"><a aria-haspopup="true" class="level-top ui-corner-all" href="https://www.ramtons.com/small-home-appliances" id="ui-id-7" role="menuitem" tabindex="-1"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span>Small Home Appliances</span></a><ul aria-expanded="false" aria-hidden="true" class="level0 submenu ui-menu ui-widget ui-widget-content ui-corner-all" role="menu" style="display: none;"><li class="level1 nav-6-1 first parent ui-menu-item" role="presentation"><a aria-haspopup="true" class="ui-corner-all" href="https://www.ramtons.com/small-home-appliances/vacuum-cleaners" id="ui-id-56" role="menuitem" tabindex="-1"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span><span class="nav-icon"><img alt="Vacuum Cleaners" class="lazyload" data-src="https://www.ramtons.com/media/catalog/category/resized/50x50/catalog/category/Vacuum_Cleaner_Icon.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/></span>Vacuum Cleaners</span></a><ul aria-expanded="false" aria-hidden="true" class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" style="display: none;"><li class="level2 nav-6-1-1 first ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/small-home-appliances/vacuum-cleaners/dry-vacuum-cleaners" id="ui-id-62" role="menuitem" tabindex="-1"><span>Dry Vacuum Cleaners</span></a></li><li class="level2 nav-6-1-2 ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/small-home-appliances/vacuum-cleaners/industrial-vacuum-cleaners" id="ui-id-63" role="menuitem" tabindex="-1"><span>Industrial Vacuum Cleaners</span></a></li><li class="level2 nav-6-1-3 last ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/small-home-appliances/vacuum-cleaners/wet-dry-vacuum-cleaners" id="ui-id-64" role="menuitem" tabindex="-1"><span>Wet &amp; Dry Vacuum Cleaners</span></a></li></ul></li><li class="level1 nav-6-2 parent ui-menu-item" role="presentation"><a aria-haspopup="true" class="ui-corner-all" href="https://www.ramtons.com/small-home-appliances/grooming" id="ui-id-57" role="menuitem" tabindex="-1"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span><span class="nav-icon"><img alt="Grooming Appliances" class="lazyload" data-src="https://www.ramtons.com/media/catalog/category/resized/50x50/catalog/category/Grooming_Icon.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/></span>Grooming Appliances</span></a><ul aria-expanded="false" aria-hidden="true" class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" style="display: none;"><li class="level2 nav-6-2-1 first last ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/small-home-appliances/grooming/hair-dryer" id="ui-id-65" role="menuitem" tabindex="-1"><span>Hair Dryer</span></a></li></ul></li><li class="level1 nav-6-3 parent ui-menu-item" role="presentation"><a aria-haspopup="true" class="ui-corner-all" href="https://www.ramtons.com/small-home-appliances/ironing" id="ui-id-58" role="menuitem" tabindex="-1"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span><span class="nav-icon"><img alt="Steam &amp; Dry Irons" class="lazyload" data-src="https://www.ramtons.com/media/catalog/category/resized/50x50/catalog/category/Iron_Icon.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/></span>Steam &amp; Dry Irons</span></a><ul aria-expanded="false" aria-hidden="true" class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" style="display: none;"><li class="level2 nav-6-3-1 first ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/small-home-appliances/ironing/dry" id="ui-id-66" role="menuitem" tabindex="-1"><span>Dry</span></a></li><li class="level2 nav-6-3-2 last ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/small-home-appliances/ironing/steam-dry" id="ui-id-67" role="menuitem" tabindex="-1"><span>Steam &amp; Dry</span></a></li></ul></li><li class="level1 nav-6-4 parent ui-menu-item" role="presentation"><a aria-haspopup="true" class="ui-corner-all" href="https://www.ramtons.com/small-home-appliances/weighing-scales" id="ui-id-59" role="menuitem" tabindex="-1"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span><span class="nav-icon"><img alt="Weighing Scales" class="lazyload" data-src="https://www.ramtons.com/media/catalog/category/resized/50x50/catalog/category/Weighing_Scale_Icon.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/></span>Weighing Scales</span></a><ul aria-expanded="false" aria-hidden="true" class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" style="display: none;"><li class="level2 nav-6-4-1 first ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/small-home-appliances/weighing-scales/bathroom" id="ui-id-68" role="menuitem" tabindex="-1"><span>Bathroom</span></a></li><li class="level2 nav-6-4-2 last ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/small-home-appliances/weighing-scales/kitchen" id="ui-id-69" role="menuitem" tabindex="-1"><span>Kitchen</span></a></li></ul></li><li class="level1 nav-6-5 ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/small-home-appliances/insect-killers" id="ui-id-60" role="menuitem" tabindex="-1"><span><span class="nav-icon"><img alt="Insect Killers" class="lazyload" data-src="https://www.ramtons.com/media/catalog/category/resized/50x50/catalog/category/Insect_Killer_Icon.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/></span>Insect Killers</span></a></li><li class="level1 nav-6-6 last parent ui-menu-item" role="presentation"><a aria-haspopup="true" class="ui-corner-all" href="https://www.ramtons.com/small-home-appliances/others" id="ui-id-61" role="menuitem" tabindex="-1"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span><span class="nav-icon"><img alt="Others" class="lazyload" data-src="https://www.ramtons.com/media/catalog/category/resized/50x50/catalog/category/Steam_Cleaner_Icon.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/></span>Others</span></a><ul aria-expanded="false" aria-hidden="true" class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" style="display: none;"><li class="level2 nav-6-6-1 first last ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/small-home-appliances/others/steam-cleaner" id="ui-id-70" role="menuitem" tabindex="-1"><span>Steam cleaner</span></a></li></ul></li></ul></li><li class="level0 nav-7 level-top parent ui-menu-item" role="presentation"><a aria-haspopup="true" class="level-top ui-corner-all" href="https://www.ramtons.com/small-kitchen-appliances" id="ui-id-8" role="menuitem" tabindex="-1"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span>Small Kitchen Appliances</span></a><ul aria-expanded="false" aria-hidden="true" class="level0 submenu ui-menu ui-widget ui-widget-content ui-corner-all" role="menu" style="display: none;"><li class="level1 nav-7-1 first parent ui-menu-item" role="presentation"><a aria-haspopup="true" class="ui-corner-all" href="https://www.ramtons.com/small-kitchen-appliances/blenders" id="ui-id-71" role="menuitem" tabindex="-1"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span><span class="nav-icon"><img alt="Blenders Mixers &amp; Processors" class="lazyload" data-src="https://www.ramtons.com/media/catalog/category/resized/50x50/catalog/category/Blender_Icon.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/></span>Blenders Mixers &amp; Processors</span></a><ul aria-expanded="false" aria-hidden="true" class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" style="display: none;"><li class="level2 nav-7-1-1 first ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/small-kitchen-appliances/blenders/blender" id="ui-id-79" role="menuitem" tabindex="-1"><span>Blender</span></a></li><li class="level2 nav-7-1-2 ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/small-kitchen-appliances/blenders/hand-mixer" id="ui-id-80" role="menuitem" tabindex="-1"><span>Hand Mixer</span></a></li><li class="level2 nav-7-1-3 last ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/small-kitchen-appliances/blenders/stand-mixer" id="ui-id-81" role="menuitem" tabindex="-1"><span>Stand mixer</span></a></li></ul></li><li class="level1 nav-7-2 parent ui-menu-item" role="presentation"><a aria-haspopup="true" class="ui-corner-all" href="https://www.ramtons.com/small-kitchen-appliances/toasters" id="ui-id-72" role="menuitem" tabindex="-1"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span><span class="nav-icon"><img alt="Toasters" class="lazyload" data-src="https://www.ramtons.com/media/catalog/category/resized/50x50/catalog/category/Toaster_Icon.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/></span>Toasters</span></a><ul aria-expanded="false" aria-hidden="true" class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" style="display: none;"><li class="level2 nav-7-2-1 first ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/small-kitchen-appliances/toasters/pop-up-toaster" id="ui-id-82" role="menuitem" tabindex="-1"><span>Pop Up Toaster</span></a></li><li class="level2 nav-7-2-2 last ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/small-kitchen-appliances/toasters/sandwich-toaster" id="ui-id-83" role="menuitem" tabindex="-1"><span>Sandwich Toaster</span></a></li></ul></li><li class="level1 nav-7-3 parent ui-menu-item" role="presentation"><a aria-haspopup="true" class="ui-corner-all" href="https://www.ramtons.com/small-kitchen-appliances/juicers" id="ui-id-73" role="menuitem" tabindex="-1"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span><span class="nav-icon"><img alt="Juicers" class="lazyload" data-src="https://www.ramtons.com/media/catalog/category/resized/50x50/catalog/category/Juicer_Icon.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/></span>Juicers</span></a><ul aria-expanded="false" aria-hidden="true" class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" style="display: none;"><li class="level2 nav-7-3-1 first last ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/small-kitchen-appliances/juicers/juicer" id="ui-id-84" role="menuitem" tabindex="-1"><span>Juicer</span></a></li></ul></li><li class="level1 nav-7-4 parent ui-menu-item" role="presentation"><a aria-haspopup="true" class="ui-corner-all" href="https://www.ramtons.com/small-kitchen-appliances/microwaves" id="ui-id-74" role="menuitem" tabindex="-1"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span><span class="nav-icon"><img alt="Microwaves" class="lazyload" data-src="https://www.ramtons.com/media/catalog/category/resized/50x50/catalog/category/Microwave_Icon.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/></span>Microwaves</span></a><ul aria-expanded="false" aria-hidden="true" class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" style="display: none;"><li class="level2 nav-7-4-1 first ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/small-kitchen-appliances/microwaves/built-in" id="ui-id-85" role="menuitem" tabindex="-1"><span>Built-in</span></a></li><li class="level2 nav-7-4-2 ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/small-kitchen-appliances/microwaves/convection" id="ui-id-86" role="menuitem" tabindex="-1"><span>Convection</span></a></li><li class="level2 nav-7-4-3 ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/small-kitchen-appliances/microwaves/with-grill" id="ui-id-87" role="menuitem" tabindex="-1"><span>With Grill</span></a></li><li class="level2 nav-7-4-4 last ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/small-kitchen-appliances/microwaves/normal" id="ui-id-88" role="menuitem" tabindex="-1"><span>Normal</span></a></li></ul></li><li class="level1 nav-7-5 parent ui-menu-item" role="presentation"><a aria-haspopup="true" class="ui-corner-all" href="https://www.ramtons.com/small-kitchen-appliances/water-dispensers" id="ui-id-75" role="menuitem" tabindex="-1"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span><span class="nav-icon"><img alt="Water Dispensers" class="lazyload" data-src="https://www.ramtons.com/media/catalog/category/resized/50x50/catalog/category/Water_Dispenser_Icon.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/></span>Water Dispensers</span></a><ul aria-expanded="false" aria-hidden="true" class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" style="display: none;"><li class="level2 nav-7-5-1 first ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/small-kitchen-appliances/water-dispensers/free-standing" id="ui-id-89" role="menuitem" tabindex="-1"><span>Free Standing</span></a></li><li class="level2 nav-7-5-2 last ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/small-kitchen-appliances/water-dispensers/table-top" id="ui-id-90" role="menuitem" tabindex="-1"><span>Table Top</span></a></li></ul></li><li class="level1 nav-7-6 parent ui-menu-item" role="presentation"><a aria-haspopup="true" class="ui-corner-all" href="https://www.ramtons.com/small-kitchen-appliances/kettles" id="ui-id-76" role="menuitem" tabindex="-1"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span><span class="nav-icon"><img alt="Kettles" class="lazyload" data-src="https://www.ramtons.com/media/catalog/category/resized/50x50/catalog/category/Kettle_Icon.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/></span>Kettles</span></a><ul aria-expanded="false" aria-hidden="true" class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" style="display: none;"><li class="level2 nav-7-6-1 first ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/small-kitchen-appliances/kettles/corded" id="ui-id-91" role="menuitem" tabindex="-1"><span>Corded</span></a></li><li class="level2 nav-7-6-2 last ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/small-kitchen-appliances/kettles/cordless" id="ui-id-92" role="menuitem" tabindex="-1"><span>Cordless</span></a></li></ul></li><li class="level1 nav-7-7 parent ui-menu-item" role="presentation"><a aria-haspopup="true" class="ui-corner-all" href="https://www.ramtons.com/small-kitchen-appliances/coffee-makers" id="ui-id-77" role="menuitem" tabindex="-1"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span><span class="nav-icon"><img alt="Coffee Makers" class="lazyload" data-src="https://www.ramtons.com/media/catalog/category/resized/50x50/catalog/category/Coffee_Maker_Icon.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/></span>Coffee Makers</span></a><ul aria-expanded="false" aria-hidden="true" class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" style="display: none;"><li class="level2 nav-7-7-1 first ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/small-kitchen-appliances/coffee-makers/cappuccino-maker" id="ui-id-93" role="menuitem" tabindex="-1"><span>Cappuccino Maker</span></a></li><li class="level2 nav-7-7-2 ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/small-kitchen-appliances/coffee-makers/coffee-maker" id="ui-id-94" role="menuitem" tabindex="-1"><span>Coffee Maker</span></a></li><li class="level2 nav-7-7-3 last ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/small-kitchen-appliances/coffee-makers/espresso-maker" id="ui-id-95" role="menuitem" tabindex="-1"><span>Espresso Maker</span></a></li></ul></li><li class="level1 nav-7-8 last parent ui-menu-item" role="presentation"><a aria-haspopup="true" class="ui-corner-all" href="https://www.ramtons.com/small-kitchen-appliances/others" id="ui-id-78" role="menuitem" tabindex="-1"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span><span class="nav-icon"><img alt="Others" class="lazyload" data-src="https://www.ramtons.com/media/catalog/category/resized/50x50/catalog/category/Rice_Cooker_Icon.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/></span>Others</span></a><ul aria-expanded="false" aria-hidden="true" class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" style="display: none;"><li class="level2 nav-7-8-1 first ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/small-kitchen-appliances/others/air-fryer" id="ui-id-96" role="menuitem" tabindex="-1"><span>Air Fryer</span></a></li><li class="level2 nav-7-8-2 ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/small-kitchen-appliances/others/deep-fryer" id="ui-id-97" role="menuitem" tabindex="-1"><span>Deep Fryer</span></a></li><li class="level2 nav-7-8-3 last ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/small-kitchen-appliances/others/rice-cooker" id="ui-id-98" role="menuitem" tabindex="-1"><span>Rice Cooker</span></a></li></ul></li></ul></li><li class="level0 nav-8 level-top parent ui-menu-item" role="presentation"><a aria-haspopup="true" class="level-top ui-corner-all" href="https://www.ramtons.com/prestige-pressure-cookers" id="ui-id-9" role="menuitem" tabindex="-1"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span>Pressure Cookers</span></a><ul aria-expanded="false" aria-hidden="true" class="level0 submenu ui-menu ui-widget ui-widget-content ui-corner-all" role="menu" style="display: none;"><li class="level1 nav-8-1 first last ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/prestige-pressure-cookers/electric" id="ui-id-99" role="menuitem" tabindex="-1"><span>Electric</span></a></li></ul></li><li class="level0 nav-9 level-top header-desktop-only custom level-top parent ui-menu-item" role="presentation"><a aria-haspopup="true" class="level-top ui-corner-all" href="https://www.ramtons.com/repair-drop-off-points/" id="ui-id-10" role="menuitem" tabindex="-1"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span>More</span></a><ul aria-expanded="false" aria-hidden="true" class="level0 submenu ui-menu ui-widget ui-widget-content ui-corner-all" role="menu" style="display: none;"><li class="level1 nav-9-1 first ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/blog/" id="ui-id-100" role="menuitem" tabindex="-1"><span>Blog</span></a></li><li class="level1 nav-9-2 ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/repair-drop-off-points/" id="ui-id-101" role="menuitem" tabindex="-1"><span>Repair Drop-off points</span></a></li><li class="level1 nav-9-3 last ui-menu-item" role="presentation"><a class="ui-corner-all" href="https://www.ramtons.com/contact/" id="ui-id-102" role="menuitem" tabindex="-1"><span>Contact Us</span></a></li></ul></li><li class="level0 nav-10 last header-desktop-only level-top ui-menu-item" role="presentation"><a class="level-top ui-corner-all" href="https://www.ramtons.com/sale/" id="ui-id-11" role="menuitem" tabindex="-1"><span>Sale</span></a></li> </ul>
+</nav></div>
+<div class="section-item-title nav-sections-item-title">
+<a class="nav-sections-item-switch">Account</a>
+</div>
+<div class="section-item-content nav-sections-item-content" id="store.links"><!-- Account links --><ul class="header links"><li>
+<a class="account-link" href="/customer/account">
+<svg class="svg-icon" height="24" viewbox="0 0 32 32" width="24" xmlns:xlink="http://www.w3.org/1999/xlink">
+<use href="#icon-user" xlink:href="#icon-user"></use>
+</svg>
+<span class="text">My Account</span>
+</a>
+</li>
+</ul></div>
+<div class="section-item-title nav-sections-item-title company">
+<a class="nav-sections-item-switch">Company</a>
+</div>
+<div class="section-item-content nav-sections-item-content company" id="navigaion.mobile.additional.links"><!-- h1>Company</h1 -->
+<ul class="navigation-list">
+<li><a href="https://www.ramtons.com/contact" title="Contact Us">Contact Us</a></li>
+<li><a href="https://www.ramtons.com/repair-drop-off-points/" title="Repair Drop-off points">Repair Drop-off points</a></li>
+<li><a href="https://www.ramtons.com/about-us" title="About Us">About Us</a></li>
+<li><a href="https://www.ramtons.com/privacy-policy" title="Privacy Policy">Privacy Policy</a></li>
+<li><a href="https://www.ramtons.com/careers" title="Careers">Careers</a></li>
+</ul></div>
+<div class="section-item-title nav-sections-item-title home">
+<a class="nav-sections-item-switch">Home</a>
+</div>
+<div class="section-item-content nav-sections-item-content home" id="navigaion.mobile.store.links"><div data-appearance="default" data-content-type="html" data-decoded="true" data-element="main"><ul class="navigation-list">
+<li><a href="https://www.ramtons.com/" title="Home">Home</a></li>
+<li><a href="https://www.ramtons.com/blog" title="Ramtons Kitchen">Ramtons Kitchen</a></li>
+<li><a href="https://www.ramtons.com/sale" title="Sale">Sale</a></li>
+</ul></div></div>
+</div>
+</div>
+</div>
+</header><div class="breadcrumbs"></div>
+<main class="page-main" id="maincontent"><a id="contentarea" tabindex="-1"></a>
+<div class="page messages"><div data-placeholder="messages"></div>
+<div data-bind="scope: 'messages'">
+<!-- ko if: cookieMessages && cookieMessages.length > 0 -->
+<div aria-atomic="true" class="messages" data-bind="foreach: { data: cookieMessages, as: 'message' }" role="alert">
+<div data-bind="attr: {
+            class: 'message-' + message.type + ' ' + message.type + ' message',
+            'data-ui-id': 'message-' + message.type
+        }">
+<div data-bind="html: $parent.prepareMessageForHtml(message.text)"></div>
+</div>
+</div>
+<!-- /ko -->
+<!-- ko if: messages().messages && messages().messages.length > 0 -->
+<div aria-atomic="true" class="messages" data-bind="foreach: {
+        data: messages().messages, as: 'message'
+    }" role="alert">
+<div data-bind="attr: {
+            class: 'message-' + message.type + ' ' + message.type + ' message',
+            'data-ui-id': 'message-' + message.type
+        }">
+<div data-bind="html: $parent.prepareMessageForHtml(message.text)"></div>
+</div>
+</div>
+<!-- /ko -->
+</div>
+</div><div class="columns"><div class="column main">
+<div class="product-quickadd">
+<div class="container">
+<span class="product-image-container" style="width:75px;">
+<span class="product-image-wrapper" style="padding-bottom: 100%;">
+<img alt="RAMTONS DISHWASHER 12 SETTINGS, MAR SILVER- RW/300" class="product-image-photo lazyloading" data-src="https://www.ramtons.com/media/catalog/product/cache/de9e649b9498f21b7a68a3c446d2d543/r/w/rw-300-.jpg" height="" src="https://www.ramtons.com/media/catalog/product/cache/de9e649b9498f21b7a68a3c446d2d543/r/w/rw-300-.jpg" width=""/></span>
+</span>
+<div class="product-info">
+<div class="product-item-brand">Ramtons</div> <div class="product-name">
+                        RAMTONS DISHWASHER 12 SETTINGS, MAR SILVER- RW/300                    </div>
+<div class="price-box price-final_price" data-price-box="product-id-1251" data-product-id="1251" data-role="priceBox">
+<span class="price-container price-final_price tax weee" itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
+<span class="price-wrapper" data-price-amount="52700" data-price-type="finalPrice" id="product-price-1251"><span class="price">KES 52,700.00</span></span>
+<meta content="52700" itemprop="price"/>
+<meta content="KES" itemprop="priceCurrency"/>
+</span>
+</div> </div>
+<div class="action-add">
+<span class="action primary" data-role="scroll-trigger" title="Add to Cart">Add to Cart</span>
+</div>
+</div>
+</div>
+<div class="product-info-main-wrapper"><div class="product media"><a id="gallery-prev-area" tabindex="-1"></a>
+<div class="action-skip-wrapper"><a class="action skip gallery-next-area" href="#gallery-next-area">
+<span>
+        Skip to the end of the images gallery    </span>
+</a>
+</div><div class="action-skip-wrapper"><a class="action skip gallery-prev-area" href="#gallery-prev-area">
+<span>
+        Skip to the beginning of the images gallery    </span>
+</a>
+</div><a id="gallery-next-area" tabindex="-1"></a>
+<div class="gallery-placeholder _block-content-loading" data-gallery-role="gallery-placeholder">
+<div class="loading-mask" data-role="loader" style="padding-bottom: 100%;">
+<div class="loader">
+<img alt="Loading..." src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/images/loader-1.gif"/>
+</div>
+</div>
+</div>
+<!--Fix for jumping content. Loader must be the same size as gallery.-->
+<script>
+    var config = {
+            "width": 700,
+            "thumbheight": 51,
+            "navtype": "slides",
+            "height": 700        },
+        thumbBarHeight = 0,
+        loader = document.querySelectorAll('[data-gallery-role="gallery-placeholder"] [data-role="loader"]')[0];
+
+    if (config.navtype === 'horizontal') {
+        thumbBarHeight = config.thumbheight;
+    }
+
+    loader.style.paddingBottom = ( config.height / config.width * 100) + "%";
+</script>
+</div><div class="product-info-main"><div class="product-item-brand">Ramtons</div><div class="page-title-wrapper product">
+<h1 class="page-title">
+<span class="base" data-ui-id="page-title-wrapper" itemprop="name">RAMTONS DISHWASHER 12 SETTINGS, MAR SILVER- RW/300</span> </h1>
+</div>
+<div class="product-info-price"><div class="product-info-stock-sku">
+<div class="stock available" title="Availability">
+<span>In stock</span>
+</div>
+<div class="product attribute sku">
+<strong class="type">SKU</strong>
+<div class="value" itemprop="sku">RW/300</div>
+</div>
+</div><div class="price-box price-final_price" data-price-box="product-id-1251" data-product-id="1251" data-role="priceBox">
+<span class="price-container price-final_price tax weee" itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
+<span class="price-wrapper" data-price-amount="52700" data-price-type="finalPrice" id="product-price-1251"><span class="price">KES 52,700.00</span></span>
+<meta content="52700" itemprop="price"/>
+<meta content="KES" itemprop="priceCurrency"/>
+</span>
+</div></div> <div class="product-info-features">
+<div aria-labeledby="tab-label-feature-title" class="label" data-role="collapsible" id="tab-label-feature">
+<strong data-toggle="switch" href="#feature" id="tab-label-feature-title">Features</strong>
+</div>
+<div class="data item content" data-role="content" id="feature">
+<ul>
+<li>12 place settings</li>
+<li>6 wash programs</li>
+<li>Child Lock</li>
+<li>1760-2100 watts</li>
+<li>Titan Silver</li>
+</ul> <p class="download-link">
+<a class="feature-link" href="https://www.ramtons.com/media/catalog/product/files/R/W/RW300_User_Manual.pdf" target="_blank">
+<span>Download User Manual</span>
+</a>
+</p>
+</div>
+</div>
+<div class="product-add-form">
+<form action="https://www.ramtons.com/checkout/cart/add/uenc/aHR0cHM6Ly93d3cucmFtdG9ucy5jb20vd2FzaGluZy1kcnlpbmcvcmFtdG9ucy1kaXNod2FzaGVyLTEyLXNldHRpbmdzLW1hci1zaWx2ZXItcnctMzAw/product/1251/" data-product-sku="RW/300" id="product_addtocart_form" method="post">
+<input name="product" type="hidden" value="1251"/>
+<input name="selected_configurable_option" type="hidden" value=""/>
+<input id="related-products-field" name="related_product" type="hidden" value=""/>
+<input name="item" type="hidden" value="1251"/>
+<input name="form_key" type="hidden" value="1jAS9h2drZhtSgkQ"/> <section class="product-policy"><h3>Fast &amp; Free Home Delivery</h3>
+<p>Any Ramtons product in stock will be delivered to you within 2-6 days for FREE at selected locations.*</p>
+<h3>No Hassle Replacement</h3>
+<p>Any product is found faulty and unused within two days of delivery will be replaced.</p>
+<p style="text-align: right;"><small><strong>*Terms and conditions apply</strong></small></p></section><div class="box-tocart">
+<div class="fieldset">
+<div class="field qty">
+<label class="label" for="qty"><span>Qty:</span></label>
+<div class="control numberbox">
+<input class="input-text qty" data-validate='{"required-number":true,"validate-item-quantity":{"minAllowed":1,"maxAllowed":10000}}' id="qty" maxlength="12" name="qty" title="Qty:" type="number" value="1"/>
+</div>
+</div>
+<div class="actions">
+<button class="action primary tocart" id="product-addtocart-button" title="Add to Cart" type="button">
+<span>Add to Cart</span>
+</button>
+<div data-bind="scope:'instant-purchase'" id="instant-purchase">
+<!-- ko template: getTemplate() --><!-- /ko -->
+</div>
+</div>
+</div>
+</div>
+</form>
+</div>
+<div class="product-social-links"><div class="product-addto-links" data-role="add-to-links">
+<a class="action towishlist" data-action="add-to-wishlist" data-post='{"action":"https:\/\/www.ramtons.com\/wishlist\/index\/add\/","data":{"product":1251,"uenc":"aHR0cHM6Ly93d3cucmFtdG9ucy5jb20vd2FzaGluZy1kcnlpbmcvcmFtdG9ucy1kaXNod2FzaGVyLTEyLXNldHRpbmdzLW1hci1zaWx2ZXItcnctMzAw"}}' href="#"><span>Add to Wish List</span></a>
+</div>
+</div><div class="pdp-secure-checkout">
+<img alt="Guaranteed SAFE Checkout" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/images/pdp_secure_checkout_airtel.png"/>
+</div>
+<div class="product-share">
+<div class="label social-title">
+<strong>Share this product</strong>
+</div>
+<ul class="social-list">
+<li class="item facebook">
+<a class="facebook-link" href="https://www.facebook.com/dialog/feed?app_id=1544483055659339&amp;link=https%3A%2F%2Fwww.ramtons.com%2Framtons-dishwasher-12-settings-mar-silver-rw-300&amp;picture=https%3A%2F%2Fwww.ramtons.com%2Fmedia%2Fcatalog%2Fproduct%2Fcache%2F924fa72be1690dac9c4ceba5d5359530%2Fr%2Fw%2Frw-300-.jpg&amp;name=RAMTONS+DISHWASHER+12+SETTINGS%2C+MAR+SILVER-+RW%2F300&amp;description=%0D%0A12+place+settings%0D%0A6+wash+programs%0D%0AChild+Lock%0D%0A1760-2100+watts%0D%0ATitan+Silver%0D%0A&amp;redirect_uri=https%3A%2F%2Fwww.ramtons.com%2Fwashing-drying%2Framtons-dishwasher-12-settings-mar-silver-rw-300&amp;display=popup" target="_blank" title="Share on Facebook">
+<i class="icon-fb"></i>
+</a>
+</li> <li class="item twitter">
+<a class="twitter-link" href="https://twitter.com/intent/tweet?text=RAMTONS+DISHWASHER+12+SETTINGS%2C+MAR+SILVER-+RW%2F300&amp;url=https%3A%2F%2Fwww.ramtons.com%2Framtons-dishwasher-12-settings-mar-silver-rw-300" target="_blank" title="Share on Twitter">
+<i class="icon-twitter"></i>
+</a>
+</li><li class="item print">
+<a href="" onclick="event.preventDefault();window.print()" title="Print">
+<i class="icon-print"></i>
+</a>
+</li> </ul>
+</div>
+</div></div><div class="product-info-bottom-wrapper"><div class="product-info-bottom"> <div class="product info detailed">
+<div class="product data items">
+<div aria-labeledby="tab-label-description-title" class="data item title" data-role="collapsible" id="tab-label-description">
+<a class="data switch" data-toggle="switch" href="#description" id="tab-label-description-title" tabindex="-1">
+                        Product Information                    </a>
+</div>
+<div class="data item content" data-role="content" id="description">
+<div class="product attribute description">
+<div class="value"><div data-appearance="default" data-content-type="html" data-decoded="true" data-element="main"><p>Sit back and relax after a meal and let the Ramtons freestanding dishwasher do the cleaning for you. With multiple functions, it's a cost-efficient option for the family home. Its freestanding design gives you the option to choose the ideal position for your kitchen. The child safety lock helps prevent little ones from accidentally tampering with the settings while the machine is operating. It features the original cutlery tray, ensuring each cutlery item is separated and cleaned well. In addition, ergonomic basket handles let you load and unload your dishes quick and easy.<br/><br/>•Freestanding, undercounter or built-in set-up<br/>•A++ Energy efficiency rating<br/>•55dB</p></div></div>
+</div>
+</div>
+<div aria-labeledby="tab-label-product.attribute.delivery.static-title" class="data item title" data-role="collapsible" id="tab-label-product.attribute.delivery.static">
+<a class="data switch" data-toggle="switch" href="#product.attribute.delivery.static" id="tab-label-product.attribute.delivery.static-title" tabindex="-1">
+                        Delivery and Returns                    </a>
+</div>
+<div class="data item content" data-role="content" id="product.attribute.delivery.static">
+<p><b><span style="text-decoration: underline;">Delivery</span></b></p>
+<p>We at Ramtons promise to do our best to provide you with an efficient and hassle-free delivery process. We have taken and will continue to undertake necessary precautions to ensure your Ramtons products are delivered to you safely by our third-party delivery partners.</p>
+<p>Nairobi &amp; Nairobi Outskirts:        2-5 business days from order confirmation</p>
+<p>Up Country:                                3-6 business days from order confirmation</p>
+<p>*Delivery will only be made after our third party courier companies have verified the order with you over the phone</p>
+<p><span style="text-decoration: underline;">Charges (in KES)</span> are based on the cumulative weight of you order and the delivery location:</p>
+<table border="0" cellpadding="0" cellspacing="0" class="table-delivery">
+<tbody>
+<tr>
+<td nowrap="nowrap" valign="bottom" width="117"></td>
+<td nowrap="nowrap" valign="bottom" width="54">
+<p align="center"><b>0-5.9KG</b></p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="54">
+<p align="center"><b>6-15.9KG</b></p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="59">
+<p align="center"><b>16-59.9KG</b></p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="77">
+<p align="center"><b>60-119.9KG</b></p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="77">
+<p align="center"><b>120-199.9KG</b></p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="169">
+<p align="center"><b>200-300KG (Max Order Weight)</b></p>
+</td>
+</tr>
+<tr>
+<td nowrap="nowrap" valign="bottom" width="117">
+<p><b>Nairobi &amp; Outskirts</b></p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="54">
+<p align="center">200</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="54">
+<p align="center">400</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="59">
+<p align="center">700</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="77">
+<p align="center">1,500</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="77">
+<p align="center">2,500</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="169">
+<p align="center">5,000</p>
+</td>
+</tr>
+<tr>
+<td nowrap="nowrap" valign="bottom" width="117">
+<p><b>Up Country </b></p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="54">
+<p align="center">300</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="54">
+<p align="center">500</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="59">
+<p align="center">1,500</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="77">
+<p align="center">2,000</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="77">
+<p align="center">3,500</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="169">
+<p align="center">6,500</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p><b><span style="text-decoration: underline;">Returns</span></b></p>
+<p>Ramtons will <b>replace</b> your ordered items if:</p>
+<p>-          The items are proven to be dead on arrival (not working due to factory fault or other)</p>
+<p>-          There are damages to the item caused by reasons other than mishandling by the final recipient</p>
+<p>To request a replacement – kindly call +254725884197 and keep your order details at hand.</p>
+<p>In the event of a replacement Ramtons will bear the delivery cost for the replacement portion. We will need to collect the faulty item(s), inspect the items and advise you accordingly.</p>
+<p>If Ramtons is unable to replace an item within 7 business days from your we will refund you the total value paid in full inclusive of all delivery charges and taxes.</p> </div>
+</div>
+</div>
+<div class="additional-blocks proposition"><div>
+<h1 style="margin-bottom:0;">Home &amp; Kitchen Appliances</h1>
+<span data-role="collapsible"></span>
+<ul data-role="content">
+<li>
+<div class="icon icon-horizontal"><img alt="" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/images/icons/van.svg"/></div>
+<div class="text"><strong>Delivered To You</strong> <span>Any Ramtons product in stock delivered to you between 2-6 days</span></div>
+</li>
+<li>
+<div class="icon icon-vertical"><img alt="" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/images/icons/handsshake.svg"/></div>
+<div class="text"><strong>Buy With Confidence</strong> <span>Ramtons products come with a 1 year warranty</span></div>
+</li>
+<li>
+<div class="icon icon-vertical"><img alt="" src="https://www.ramtons.com/static/version1661239521/frontend/Ramtons/default/en_GB/images/icons/shield.svg"/></div>
+<div class="text"><strong>Secure Payment Methods</strong> <span>Card, mobile money &amp;more</span></div>
+</li>
+</ul>
+</div></div></div></div><input name="form_key" type="hidden" value="1jAS9h2drZhtSgkQ"/>
+<div id="monkey_campaign" style="display:none;">
+</div>
+<script>
+        require(['jquery', 'Magefan_Blog/js/lib/mfblogunveil', 'domReady!'], function($){
+            $('.mfblogunveil').mfblogunveil();
+        });
+    </script>
+<style type="text/css">
+        .g-recaptcha {
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+    </style>
+<div class="products-panel recommend-container widget hidden products-tab">
+<h2 class="panel-title section-title">
+<strong>People who viewed these items also viewed</strong></h2>
+<div class="block-content" data-role="content" id="product-detail-slot-1"></div>
+</div>
+<script type="text/javascript">
+//<![CDATA[
+    if (typeof window['afterRecommendSlotLoad'] === 'undefined') {
+		var afterRecommendSlotLoad = function(id, html) {
+			if (html != '{empty}' && html != null && id) {
+				if (window.jQuery) {
+					var $panel = window.jQuery('#' + id);
+					if ($panel && $panel.length) {
+						$panel.html(html);
+						$panel.parents('.recommend-container').removeClass('hidden');
+                        $panel.trigger('contentUpdated');
+					}
+				} else {
+					setTimeout(function() {
+						afterRecommendSlotLoad(id, html);
+					}, 100);
+				}
+			}
+		};
+	}
+
+    var _taq = _taq || [];
+    _taq.push(["loadRecommendationSlotToId","product-detail-slot-1",{"slotPosition":"10","pageType":"Product detail","pageTypePosition":"40","defaultPanelId":"product-customers-also-viewed","callback":afterRecommendSlotLoad}]);
+//]]>
+</script>
+</div></div></main><footer class="page-footer"><div class="footer content"><div class="footer-socials"><h2>Join the Community</h2>
+<ul class="social-links">
+<li><a href="https://www.facebook.com/myramtons/" target="_blank" title="Ramtons on Facebook"> <span class="icon-fb"><span>Ramtons on Facebook</span></span> </a></li>
+<li><a href="https://twitter.com/myramtons?lang=en" target="_blank" title="Ramtons on Twitter"> <span class="icon-twitter"><span>Ramtons on Twitter</span></span> </a></li>
+<li><a href="https://www.youtube.com/channel/UCgyfhqm3oj22IkAgERQ0v4A" target="_blank" title="Ramtons on Youtube"><span class="icon-youtube"><span>Ramtons on Youtube</span></span></a></li>
+<li><a href="https://www.instagram.com/myramtons/" target="_blank" title="Ramtons on Instagram"><span class="icon-instagram"><span>Ramtons on Instagram</span></span></a></li>
+</ul>
+<style xml="space"><!--
+img[src="//t.smile.eu/h.png?magento2"] {
+display: none;
+}
+
+.grecaptcha-badge {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .page-products .fb_dialog_content iframe {
+        bottom: 72px !important;
+        right: 4px !important;
+    }
+
+    .block.block-compare {
+        right: 16px !important;
+    }
+}
+--></style></div>
+<div class="block newsletter">
+<div class="content form-box">
+<form action="https://www.ramtons.com/newsletter/subscriber/new/" class="form subscribe" id="newsletter-validate-detail" method="post" novalidate="">
+<h3></h3>
+<div class="sub-title">Join our mailing list for exclusive updates and tips</div>
+<div class="form-container">
+<div class="field newsletter">
+<label class="label" for="newsletter"><span></span></label>
+<div class="control">
+<input data-validate="{required:true, 'validate-email':true}" id="newsletter" name="email" placeholder="Email Address" type="email"/>
+</div>
+</div>
+<div class="actions">
+<button class="action subscribe" title="" type="submit">
+<span></span>
+</button>
+</div>
+</div>
+</form>
+</div>
+</div>
+<div class="footer-columns accordion">
+<div class="column">
+<h3 data-role="collapsible">About Us</h3>
+<div data-role="content">
+<p class="footer-more">Ramtons is an appliances brand, aiming to make the lives of its users <a class="footer-link" href="https://www.ramtons.com/about-us">Read More...</a></p>
+<p><a class="footer-link" href="tel:0800723723 ">0800723723 </a></p>
+<p><a class="footer-link" href="mailto:online@hypermart.co.ke">online@hypermart.co.ke</a></p>
+</div> </div>
+<div class="column">
+<h3 data-role="collapsible">My Account</h3>
+<ul data-role="content">
+<li><a href="https://www.ramtons.com/customer/account" title="My Account">My Account</a></li>
+<li><a href="https://www.ramtons.com/wishlist" title="My Wishlist">My Wishlist</a></li>
+<li><a href="https://www.ramtons.com/checkout/cart" title="My Cart">My Cart</a></li>
+<li><a href="https://www.ramtons.com/shipping-policy-terms-and-conditions" title="Shipping Policy Terms and Conditions">Shipping Policy Terms and Conditions</a></li>
+</ul> </div>
+<div class="column">
+<div data-appearance="default" data-content-type="html" data-decoded="true" data-element="main"><h3 data-role="collapsible">Information</h3>
+<ul data-role="content">
+<li class="__not-mobile"><a href="https://www.ramtons.com/about-us" title="About Ramtons">About Ramtons</a></li>
+<li class="__not-mobile"><a href="https://www.ramtons.com/blog" title="Blog">Blog</a></li>
+<li><a href="https://www.ramtons.com/careers" title="Careers">Careers</a></li>
+<li><a href="https://www.ramtons.com/privacy-policy" title="Privacy Policy">Privacy Policy</a></li>
+</ul>
+<h3 class="custom-footer-link __only-mobile"><a href="https://www.ramtons.com/about-us" title="About Ramtons">About Ramtons</a></h3>
+<h3 class="custom-footer-link __only-mobile"><a href="https://www.ramtons.com/blog" title="Blog">Blog</a></h3></div> </div>
+<div class="column">
+</div>
+</div>
+<small class="copyright">
+<span>Copyright © 2021 Ramtons. All Rights Reserved.</span>
+</small>
+</div></footer>
+<div class="fb_reset" id="fb-root"><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div></div></div></div>
+<script>
+        window.fbAsyncInit = function() {
+            FB.init({
+                appId            : '1544483055659339',
+                xfbml            : true,
+                version          : 'v4.0'
+            });
+        };
+
+        (function(d, s, id){
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+<div attribution="setup_tool" class="fb-customerchat" fb-xfbml-state="parsed" logged_in_greeting="Hello,how can I help you?" logged_out_greeting="Thank you" page_id="728377967251107" theme_color="#FFFFFF">
+</div>
+<small class="copyright"><span>Search engine powered by <a href="https://elasticsuite.io" rel="nofollow" style="color:inherit">ElasticSuite</a></span></small>
+<script>
+    <!--
+    try {
+            smileTracker.addPageVar('type.identifier', 'catalog_product_view')
+            smileTracker.addPageVar('type.label', 'Catalog Product View (Any)')
+            smileTracker.addPageVar('locale', 'en_GB')
+            smileTracker.addPageVar('domain', '127.0.0.1')
+        } catch (err) {
+        ;
+    }
+    //-->
+    </script>
+<script>
+    <!--
+    try {
+            smileTracker.addPageVar('category.id', '155')
+            smileTracker.addPageVar('category.label', 'Washing &amp; Drying')
+            smileTracker.addPageVar('category.path', '1/2/155')
+            smileTracker.addPageVar('category.breadcrumb', '')
+            smileTracker.addPageVar('product.id', '1251')
+            smileTracker.addPageVar('product.label', 'RAMTONS DISHWASHER 12 SETTINGS, MAR SILVER- RW/300')
+            smileTracker.addPageVar('product.sku', 'RW/300')
+        } catch (err) {
+        ;
+    }
+    //-->
+    </script>
+<script type="text/javascript">
+var _taq = _taq || [];
+_taq.push(["forceRecommendationLoad"]);
+</script>
+</div>
+<div class="m360-tmp-hdn-cont"></div><img alt="" src="https://www.ramtons.com/elasticsuite/tracker/hit/image/h.png?page[store_id]=1&amp;page[type][identifier]=catalog_product_view&amp;page[type][label]=Catalog%20Product%20View%20(Any)&amp;page[locale]=en_GB&amp;page[domain]=127.0.0.1&amp;page[category][id]=155&amp;page[category][label]=Washing%20%26amp%3B%20Drying&amp;page[category][path]=1%2F2%2F155&amp;page[category][breadcrumb]=&amp;page[product][id]=1251&amp;page[product][label]=RAMTONS%20DISHWASHER%2012%20SETTINGS%2C%20MAR%20SILVER-%20RW%2F300&amp;page[product][sku]=RW%2F300&amp;session[uid]=8174934c-cd56-20fa-324b-7c45e04720e5&amp;session[vid]=775b3bc1-8212-af53-b3bf-78dc27afa29c&amp;page[site]=www.ramtons.com&amp;page[url]=%2Fwashing-drying%2Framtons-dishwasher-12-settings-mar-silver-rw-300&amp;page[title]=Ramtons%20Dishwasher%2012%20Settings%2C%20Mar%20Silver-%20RW%2F300&amp;page[resolution][x]=1900&amp;page[resolution][y]=1080" style="position: absolute; top: 0; left: 0; visibility: hidden;"/></body></html>

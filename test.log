@@ -1,0 +1,404 @@
+[1664195841.445][INFO]: Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 38037
+[1664195841.445][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1664195841.947][INFO]: [06a15786d3d6f3d8c8c2d58148f02f9c] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--no-sandbox", "--headless", "start-maximized", "window-size=1900,1080", "disable-gpu", "--disable-software-rasterizer", "--disable-dev-shm-usage", "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0" ],
+            "extensions": [  ]
+         },
+         "pageLoadStrategy": "normal"
+      },
+      "firstMatch": [ {
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--no-sandbox", "--headless", "start-maximized", "window-size=1900,1080", "disable-gpu", "--disable-software-rasterizer", "--disable-dev-shm-usage", "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0" ],
+         "extensions": [  ]
+      },
+      "pageLoadStrategy": "normal"
+   }
+}
+[1664195841.948][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1664195841.948][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1664195841.948][INFO]: Launching chrome: /usr/bin/google-chrome --allow-pre-commit-input --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-gpu --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-software-rasterizer --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --headless --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --remote-debugging-port=0 --start-maximized --test-type=webdriver --use-mock-keychain --user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0 --user-data-dir=/tmp/.com.google.Chrome.BufYzk --window-size=1900,1080 data:,
+
+DevTools listening on ws://127.0.0.1:42419/devtools/browser/c3f969ac-ccff-4b7b-8022-84f9ac4d6988
+[0926/123722.019453:WARNING:bluez_dbus_manager.cc(247)] Floss manager not present, cannot set Floss enable/disable.
+[1664195842.053][DEBUG]: DevTools HTTP Request: http://localhost:42419/json/version
+[1664195842.057][DEBUG]: DevTools HTTP Response: {
+   "Browser": "HeadlessChrome/105.0.5195.125",
+   "Protocol-Version": "1.3",
+   "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0",
+   "V8-Version": "10.5.218.8",
+   "WebKit-Version": "537.36 (@1e8949033cc650c8496b3b0af7cd54372f7ff62b)",
+   "webSocketDebuggerUrl": "ws://localhost:42419/devtools/browser/c3f969ac-ccff-4b7b-8022-84f9ac4d6988"
+}
+
+[1664195842.057][DEBUG]: DevTools HTTP Request: http://localhost:42419/json/list
+[1664195842.059][DEBUG]: DevTools HTTP Response: [ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:42419/devtools/page/0ADF2796FC8A7F41B514F7B7A82B314F",
+   "id": "0ADF2796FC8A7F41B514F7B7A82B314F",
+   "title": "",
+   "type": "page",
+   "url": "data:,",
+   "webSocketDebuggerUrl": "ws://localhost:42419/devtools/page/0ADF2796FC8A7F41B514F7B7A82B314F"
+} ]
+
+[1664195842.059][DEBUG]: DevTools HTTP Request: http://localhost:42419/json/list
+[1664195842.061][DEBUG]: DevTools HTTP Response: [ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:42419/devtools/page/0ADF2796FC8A7F41B514F7B7A82B314F",
+   "id": "0ADF2796FC8A7F41B514F7B7A82B314F",
+   "title": "data:,",
+   "type": "page",
+   "url": "data:,",
+   "webSocketDebuggerUrl": "ws://localhost:42419/devtools/page/0ADF2796FC8A7F41B514F7B7A82B314F"
+} ]
+
+[1664195842.061][INFO]: resolved localhost to ["127.0.0.1"]
+[1664195842.062][DEBUG]: DevTools WebSocket Command: Page.addScriptToEvaluateOnNewDocument (id=1) 0ADF2796FC8A7F41B514F7B7A82B314F {
+   "source": "(function () {window.cdc_adoQpoasnfa76pfcZLmcfl_Array = window.Array;window.cdc_adoQpoasnfa76pfcZLmcfl_Promise = window.Promise;window.cdc_adoQpoasnfa76pfcZLmcfl_Symbol = window.Symbol;}) ();"
+}
+[1664195842.062][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=2) 0ADF2796FC8A7F41B514F7B7A82B314F {
+   "expression": "(function () {window.cdc_adoQpoasnfa76pfcZLmcfl_Array = window.Array;window.cdc_adoQpoasnfa76pfcZLmcfl_Promise = window.Promise;window.cdc_adoQpoasnfa76pfcZLmcfl_Symbol = window.Symbol;}) ();"
+}
+[1664195842.062][DEBUG]: DevTools WebSocket Command: Log.enable (id=3) 0ADF2796FC8A7F41B514F7B7A82B314F {
+}
+[1664195842.062][DEBUG]: DevTools WebSocket Command: Target.setAutoAttach (id=4) 0ADF2796FC8A7F41B514F7B7A82B314F {
+   "autoAttach": true,
+   "flatten": true,
+   "waitForDebuggerOnStart": false
+}
+[1664195842.062][DEBUG]: DevTools WebSocket Command: Page.enable (id=5) 0ADF2796FC8A7F41B514F7B7A82B314F {
+}
+[1664195842.062][DEBUG]: DevTools WebSocket Command: Browser.setDownloadBehavior (id=6) 0ADF2796FC8A7F41B514F7B7A82B314F {
+   "behavior": "allow",
+   "downloadPath": "."
+}
+[1664195842.062][DEBUG]: DevTools WebSocket Command: Page.enable (id=7) 0ADF2796FC8A7F41B514F7B7A82B314F {
+}
+[1664195842.062][DEBUG]: DevTools WebSocket Response: Page.addScriptToEvaluateOnNewDocument (id=1) 0ADF2796FC8A7F41B514F7B7A82B314F {
+   "identifier": "1"
+}
+[1664195842.063][DEBUG]: DevTools WebSocket Response: Browser.setDownloadBehavior (id=6) 0ADF2796FC8A7F41B514F7B7A82B314F {
+}
+[1664195842.064][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=2) 0ADF2796FC8A7F41B514F7B7A82B314F {
+   "result": {
+      "type": "undefined"
+   }
+}
+[1664195842.064][DEBUG]: DevTools WebSocket Response: Log.enable (id=3) 0ADF2796FC8A7F41B514F7B7A82B314F {
+}
+[1664195842.064][DEBUG]: DevTools WebSocket Response: Target.setAutoAttach (id=4) 0ADF2796FC8A7F41B514F7B7A82B314F {
+}
+[1664195842.064][DEBUG]: DevTools WebSocket Response: Page.enable (id=5) 0ADF2796FC8A7F41B514F7B7A82B314F {
+}
+[1664195842.064][DEBUG]: DevTools WebSocket Response: Page.enable (id=7) 0ADF2796FC8A7F41B514F7B7A82B314F {
+}
+[1664195842.064][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=8) 0ADF2796FC8A7F41B514F7B7A82B314F {
+}
+[1664195842.064][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 0ADF2796FC8A7F41B514F7B7A82B314F {
+   "context": {
+      "auxData": {
+         "frameId": "0ADF2796FC8A7F41B514F7B7A82B314F",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 1,
+      "name": "",
+      "origin": "://",
+      "uniqueId": "-4055946763525165078.8195346719128466938"
+   }
+}
+[1664195842.064][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=8) 0ADF2796FC8A7F41B514F7B7A82B314F {
+}
+[1664195842.064][DEBUG]: DevTools WebSocket Command: Page.enable (id=9) 0ADF2796FC8A7F41B514F7B7A82B314F {
+}
+[1664195842.065][DEBUG]: DevTools WebSocket Response: Page.enable (id=9) 0ADF2796FC8A7F41B514F7B7A82B314F {
+}
+[1664195842.065][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=10) 0ADF2796FC8A7F41B514F7B7A82B314F {
+}
+[1664195842.065][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=10) 0ADF2796FC8A7F41B514F7B7A82B314F {
+}
+[1664195842.065][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=11) 0ADF2796FC8A7F41B514F7B7A82B314F {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1664195842.068][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=11) 0ADF2796FC8A7F41B514F7B7A82B314F {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": 1
+      }
+   }
+}
+[1664195842.068][INFO]: [06a15786d3d6f3d8c8c2d58148f02f9c] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "105.0.5195.125",
+      "chrome": {
+         "chromedriverVersion": "105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853})",
+         "userDataDir": "/tmp/.com.google.Chrome.BufYzk"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:42419"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "linux",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "06a15786d3d6f3d8c8c2d58148f02f9c"
+}
+[1664195842.069][INFO]: [06a15786d3d6f3d8c8c2d58148f02f9c] COMMAND Navigate {
+   "url": "https://mikaappliances.com/product-category/small-appliances/bbq-mates/"
+}
+[1664195842.069][INFO]: Waiting for pending navigations...
+[1664195842.069][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=12) 0ADF2796FC8A7F41B514F7B7A82B314F {
+   "expression": "1"
+}
+[1664195842.070][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=12) 0ADF2796FC8A7F41B514F7B7A82B314F {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1664195842.070][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=13) 0ADF2796FC8A7F41B514F7B7A82B314F {
+}
+[1664195842.070][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=13) 0ADF2796FC8A7F41B514F7B7A82B314F {
+   "root": {
+      "backendNodeId": 1,
+      "baseURL": "data:,",
+      "childNodeCount": 1,
+      "children": [ {
+         "attributes": [  ],
+         "backendNodeId": 2,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 3,
+            "childNodeCount": 0,
+            "localName": "head",
+            "nodeId": 3,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 2
+         }, {
+            "attributes": [  ],
+            "backendNodeId": 4,
+            "childNodeCount": 0,
+            "localName": "body",
+            "nodeId": 4,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 2
+         } ],
+         "frameId": "0ADF2796FC8A7F41B514F7B7A82B314F",
+         "localName": "html",
+         "nodeId": 2,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 1
+      } ],
+      "compatibilityMode": "NoQuirksMode",
+      "documentURL": "data:,",
+      "localName": "",
+      "nodeId": 1,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1664195842.070][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=14) 0ADF2796FC8A7F41B514F7B7A82B314F {
+   "awaitPromise": false,
+   "expression": "document.readyState",
+   "returnByValue": true
+}
+[1664195842.071][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=14) 0ADF2796FC8A7F41B514F7B7A82B314F {
+   "result": {
+      "type": "string",
+      "value": "complete"
+   }
+}
+[1664195842.071][INFO]: Done waiting for pending navigations. Status: ok
+[1664195842.071][DEBUG]: DevTools WebSocket Command: Page.navigate (id=15) 0ADF2796FC8A7F41B514F7B7A82B314F {
+   "url": "https://mikaappliances.com/product-category/small-appliances/bbq-mates/"
+}
+[0926/123722.739868:ERROR:gpu_init.cc(486)] Passthrough is not supported, GL is disabled, ANGLE is 
+[1664195849.548][DEBUG]: DevTools WebSocket Response: Page.navigate (id=15) 0ADF2796FC8A7F41B514F7B7A82B314F {
+   "errorText": "net::ERR_NAME_NOT_RESOLVED",
+   "frameId": "0ADF2796FC8A7F41B514F7B7A82B314F",
+   "loaderId": "D5E96DB754A6C2EF2E651704A53288A8"
+}
+[1664195849.551][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=16) 0ADF2796FC8A7F41B514F7B7A82B314F {
+   "expression": "1"
+}
+[1664195849.584][DEBUG]: DevTools WebSocket Event: Runtime.executionContextsCleared 0ADF2796FC8A7F41B514F7B7A82B314F {
+}
+[1664195849.584][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading 0ADF2796FC8A7F41B514F7B7A82B314F {
+   "frameId": "0ADF2796FC8A7F41B514F7B7A82B314F"
+}
+[1664195849.597][DEBUG]: DevTools WebSocket Event: Runtime.executionContextsCleared 0ADF2796FC8A7F41B514F7B7A82B314F {
+}
+[1664195849.597][DEBUG]: DevTools WebSocket Event: Page.frameNavigated 0ADF2796FC8A7F41B514F7B7A82B314F {
+   "frame": {
+      "adFrameStatus": {
+         "adFrameType": "none"
+      },
+      "crossOriginIsolatedContextType": "NotIsolated",
+      "domainAndRegistry": "",
+      "gatedAPIFeatures": [  ],
+      "id": "0ADF2796FC8A7F41B514F7B7A82B314F",
+      "loaderId": "8CF8128BACD71EF7D0B8CCFF9A19FA7E",
+      "mimeType": "text/html",
+      "secureContextType": "InsecureScheme",
+      "securityOrigin": "://",
+      "unreachableUrl": "https://mikaappliances.com/product-category/small-appliances/bbq-mates/",
+      "url": "chrome-error://chromewebdata/"
+   },
+   "type": "Navigation"
+}
+[1664195849.597][DEBUG]: DevTools WebSocket Event: DOM.documentUpdated 0ADF2796FC8A7F41B514F7B7A82B314F {
+}
+[1664195849.597][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 0ADF2796FC8A7F41B514F7B7A82B314F {
+   "context": {
+      "auxData": {
+         "frameId": "0ADF2796FC8A7F41B514F7B7A82B314F",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 1,
+      "name": "",
+      "origin": "://",
+      "uniqueId": "5568149537448808889.3988131734813412620"
+   }
+}
+[1664195849.599][DEBUG]: DevTools WebSocket Event: Page.loadEventFired 0ADF2796FC8A7F41B514F7B7A82B314F {
+   "timestamp": 4953.19812
+}
+[1664195849.599][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=17) 0ADF2796FC8A7F41B514F7B7A82B314F {
+   "awaitPromise": false,
+   "expression": "document.readyState",
+   "returnByValue": true
+}
+[1664195849.600][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading 0ADF2796FC8A7F41B514F7B7A82B314F {
+   "frameId": "0ADF2796FC8A7F41B514F7B7A82B314F"
+}
+[1664195849.600][DEBUG]: DevTools WebSocket Event: DOM.documentUpdated 0ADF2796FC8A7F41B514F7B7A82B314F {
+}
+[1664195849.600][DEBUG]: DevTools WebSocket Event: Page.domContentEventFired 0ADF2796FC8A7F41B514F7B7A82B314F {
+   "timestamp": 4953.198644
+}
+[1664195849.600][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=16) 0ADF2796FC8A7F41B514F7B7A82B314F {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1664195849.602][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=17) 0ADF2796FC8A7F41B514F7B7A82B314F {
+   "result": {
+      "type": "string",
+      "value": "complete"
+   }
+}
+[1664195849.602][INFO]: Waiting for pending navigations...
+[1664195849.602][DEBUG]: DevTools WebSocket Command: Runtime.evaluate ([1664198937.496][INFO]: [293fabe9ba2873fcb65c296a14dc51cb] COMMAND QuitAll {
+}
+[1664198937.547][INFO]: [293fabe9ba2873fcb65c296a14dc51cb] RESPONSE QuitAll
+[1664198937.547][DEBUG]: Log type 'driver' lost 0 entries on destruction
+[1664198937.547][DEBUG]: Log type 'browser' lost 0 entries on destruction
+ng for pending navigations. Status: ok
+[1664195849.605][INFO]: [06a15786d3d6f3d8c8c2d58148f02f9c] RESPONSE Navigate ERROR unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: headless chrome=105.0.5195.125)
+[1664198937.550][INFO]: [06a15786d3d6f3d8c8c2d58148f02f9c] COMMAND QuitAll {
+}
+[1664198937.600][INFO]: [06a15786d3d6f3d8c8c2d58148f02f9c] RESPONSE QuitAll
+[1664198937.600][DEBUG]: Log type 'driver' lost 0 entries on destruction
+[1664198937.600][DEBUG]: Log type 'browser' lost 0 entries on destruction

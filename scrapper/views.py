@@ -270,7 +270,7 @@ def Hotpointproduct(request):
         # options.headless = True
         # options.add_argument("--window-size=1920,1200")
 
-        driver = webdriver.Chrome(ChromeDriverManager().install())
+        # driver = webdriver.Chrome(ChromeDriverManager().install())
         driver.get(item_url)
         soup = driver.page_source.encode('utf-8').strip()
         soup = BeautifulSoup(soup, 'lxml')
@@ -664,7 +664,6 @@ def Hypermarttproduct(request):
             final_prefixed_image = img_prefix + final_list
             image_list.append(final_prefixed_image)
 
-                
         except:
             print('single enety')
 
@@ -866,7 +865,7 @@ def MikaProducts(request):
         # options.headless = True
         # options.add_argument("--window-size=1920,1200")
 
-        driver = webdriver.Chrome(ChromeDriverManager().install())
+        # driver = webdriver.Chrome(ChromeDriverManager().install())
 
         driver.get(item_url)
         soup = driver.page_source.encode('utf-8').strip()
@@ -1136,15 +1135,14 @@ def Opalnetproduct(request):
         if len(all_img_divs) > 0:
             for each_img_div in all_img_divs:
                 temp = each_img_div.find(
-                            'img')['src']
+                    'img')['src']
                 last_part = temp.rsplit('/', 1)[-1]
                 prefixed_temp = 'https://www.opalnet.co.ke/pub/media/catalog/product/cache/c7d64e49b0de86601efd89c2f549950b/l/a/' + last_part
                 image_list.append(prefixed_temp)
-            
+
             print(image_list)
         else:
             print('image does not work')
-
 
         Products.objects.create(
             product_name=product_name,
