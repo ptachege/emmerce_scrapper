@@ -925,8 +925,10 @@ def MikaProducts(request):
             in_stock = 'In Stock'
 
         # short description
-
-        my_description_div = soup.find('div', class_='description').text
+        try:
+            my_description_div = soup.find('div', class_='description').text
+        except:
+            my_description_div = ""
 
         # image
         image_list = []
