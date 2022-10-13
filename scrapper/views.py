@@ -1,3 +1,4 @@
+from bs4 import BeautifulSoup as bs
 from django.http import HttpResponse
 from django.shortcuts import render
 import urllib.request
@@ -9,7 +10,8 @@ from django.core.exceptions import ObjectDoesNotExist
 from selenium.webdriver.common.by import By
 import csv
 from django.http import HttpResponse
-
+import re
+from re import A
 from .models import *
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -17,6 +19,10 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.select import Select
+import httplib2
+from bs4 import BeautifulSoup, SoupStrainer
+
+# pip install httplib2
 
 # from .serialzers import *
 from rest_framework.decorators import api_view
@@ -25,6 +31,9 @@ import math
 import time
 from django.db.models import F
 import random
+
+import requests
+import json
 
 
 def delete_products(request):
@@ -386,23 +395,40 @@ def Hotpointproduct(request):
             temp = image_wrapper.find(
                 'img')['src']
             image_list.append('https://hotpoint.co.ke' + temp)
+        try:
+            n = Products.objects.get(product_link=item_url)
+        except:
+            Products.objects.create(
+                product_name=product_name,
+                sale_price='',
+                regular_price=regular_price,
+                brand=brand,
+                upc=upc,
+                sku=upc,
+                stock_status=stock_status,
+                product_link=item_url,
+                short_description=description,
+                image_list=image_list,
+            )
+            url = "https://app.emmerce.co.ke/Api/scrapper"
 
-        Products.objects.create(
-            product_name=product_name,
-            sale_price='',
-            regular_price=regular_price,
-            brand=brand,
-            upc=upc,
-            sku=upc,
-            stock_status=stock_status,
-            product_link=item_url,
-            short_description=description,
-            image_list=image_list,
-        )
+            payload = json.dumps({
+                "ShopSku": upc,
+                "SellerSku": upc,
+                "Price": regular_price,
+                "StockAmount": stock_status
+            })
+            headers = {
+                'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjYyNTUyOTgyLCJqdGkiOiI3ZGMxN2EzNzA5Njg0MzhiYmZkYzFhNzBiZDU4ZmRmNSIsInVzZXJfaWQiOjF9.-rAtxR2GiB1Iuztfhie16eKewn7ONrDlFhQU-dls6aI',
+                'Content-Type': 'application/json'
+            }
 
-        print('product saved as a new entry.')
-        each_product.crawled = True
-        each_product.save()
+            response = requests.request(
+                "POST", url, headers=headers, data=payload)
+
+            print('product saved as a new entry.')
+            each_product.crawled = True
+            each_product.save()
         driver.stop_client()
         driver.close()
         driver.quit()
@@ -666,21 +692,41 @@ def Hypermarttproduct(request):
 
         except:
             print('single enety')
+        try:
+            n = Products.objects.get(product_link=item_url)
+        except:
 
-        Products.objects.create(
-            product_name=product_name,
-            sku=sku,
-            brand='Ramtoms',
-            regular_price=regular_price,
-            product_link=item_url,
-            stock_status=stock_status,
-            short_description=short_description,
-            long_description=long_description_wrapper,
-            image_list=image_list,
-        )
-        print('product saved as a new entry.')
-        each_product.crawled = True
-        each_product.save()
+            Products.objects.create(
+                product_name=product_name,
+                sku=sku,
+                brand='Ramtoms',
+                regular_price=regular_price,
+                product_link=item_url,
+                stock_status=stock_status,
+                short_description=short_description,
+                long_description=long_description_wrapper,
+                image_list=image_list,
+            )
+            print('product saved as a new entry.')
+
+            url = "https://app.emmerce.co.ke/Api/scrapper"
+
+            payload = json.dumps({
+                "ShopSku": sku,
+                "SellerSku": "",
+                "Price": regular_price,
+                "StockAmount": stock_status
+            })
+            headers = {
+                'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjYyNTUyOTgyLCJqdGkiOiI3ZGMxN2EzNzA5Njg0MzhiYmZkYzFhNzBiZDU4ZmRmNSIsInVzZXJfaWQiOjF9.-rAtxR2GiB1Iuztfhie16eKewn7ONrDlFhQU-dls6aI',
+                'Content-Type': 'application/json'
+            }
+
+            response = requests.request(
+                "POST", url, headers=headers, data=payload)
+
+            each_product.crawled = True
+            each_product.save()
         driver.stop_client()
         driver.close()
         driver.quit()
@@ -944,23 +990,41 @@ def MikaProducts(request):
 
         except:
             print('failed')
+        try:
+            n = Products.objects.get(product_link=item_url)
+        except:
+            Products.objects.create(
+                product_name=product_name,
+                sale_price='',
+                regular_price=regular_price,
+                sku=sku,
+                stock_status=stock_status,
+                product_link=item_url,
+                brand='Mika',
+                short_description=my_description_div,
+                image_list=image_list
+            )
 
-        Products.objects.create(
-            product_name=product_name,
-            sale_price='',
-            regular_price=regular_price,
-            sku=sku,
-            stock_status=stock_status,
-            product_link=item_url,
-            brand='Mika',
-            short_description=my_description_div,
-            image_list=image_list
-        )
+            print('product saved as a new entry.')
 
-        print('product saved as a new entry.')
-        each_product.crawled = True
-        each_product.save()
-        driver.stop_client()
+            url = "https://app.emmerce.co.ke/Api/scrapper"
+
+            payload = json.dumps({
+                "ShopSku": sku,
+                "SellerSku": "",
+                "Price": regular_price,
+                "StockAmount": stock_status
+            })
+            headers = {
+                'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjYyNTUyOTgyLCJqdGkiOiI3ZGMxN2EzNzA5Njg0MzhiYmZkYzFhNzBiZDU4ZmRmNSIsInVzZXJfaWQiOjF9.-rAtxR2GiB1Iuztfhie16eKewn7ONrDlFhQU-dls6aI',
+                'Content-Type': 'application/json'
+            }
+
+            response = requests.request(
+                "POST", url, headers=headers, data=payload)
+            each_product.crawled = True
+            each_product.save()
+            driver.stop_client()
         driver.close()
         driver.quit()
     return HttpResponse("com")
@@ -1145,23 +1209,237 @@ def Opalnetproduct(request):
             print(image_list)
         else:
             print('image does not work')
+        try:
+            n = Products.objects.get(product_link=item_url)
+        except:
 
-        Products.objects.create(
-            product_name=product_name,
-            sale_price='',
-            regular_price=regular_price,
-            sku=sku,
-            stock_status=in_stock,
-            product_link=item_url,
-            brand='LG',
-            short_description=feature_list,
-            image_list=image_list
+            Products.objects.create(
+                product_name=product_name,
+                sale_price='',
+                regular_price=regular_price,
+                sku=sku,
+                stock_status=in_stock,
+                product_link=item_url,
+                brand='LG',
+                short_description=feature_list,
+                image_list=image_list
 
-        )
-        print('product saved as a new entry.')
+            )
+            print('product saved as a new entry.')
+
+            url = "https://app.emmerce.co.ke/Api/scrapper"
+
+            payload = json.dumps({
+                "ShopSku": sku,
+                "SellerSku": "",
+                "Price": regular_price,
+                "StockAmount": in_stock
+            })
+            headers = {
+                'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjYyNTUyOTgyLCJqdGkiOiI3ZGMxN2EzNzA5Njg0MzhiYmZkYzFhNzBiZDU4ZmRmNSIsInVzZXJfaWQiOjF9.-rAtxR2GiB1Iuztfhie16eKewn7ONrDlFhQU-dls6aI',
+                'Content-Type': 'application/json'
+            }
+
+            response = requests.request(
+                "POST", url, headers=headers, data=payload)
+            each_product.crawled = True
+            each_product.save()
+        driver.stop_client()
+        driver.close()
+        driver.quit()
+    return HttpResponse('saved')
+
+
+def samsutech_links(request):
+    uncrawled_products = SamutechCategories2.objects.filter(
+        crawled=False)
+    for each_product in uncrawled_products:
+        item_url = each_product.link
+
+        category_url = item_url
+        brand = each_product.brand
+        print(category_url)
+
+        user_agent_list = [
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36',
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0',
+            'Mozilla/5.0 (Macintosh; Intel Mac OS X 11.5; rv:90.0) Gecko/20100101 Firefox/90.0',
+            'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36',
+            'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_5_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36',
+            'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0',
+            'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36'
+        ]
+        user_agent = random.choice(user_agent_list)
+
+        browser_options = webdriver.ChromeOptions()
+        browser_options.add_argument("--no-sandbox")
+        browser_options.add_argument("--headless")
+        browser_options.add_argument("start-maximized")
+        browser_options.add_argument("window-size=1900,1080")
+        browser_options.add_argument("disable-gpu")
+        browser_options.add_argument("--disable-software-rasterizer")
+        browser_options.add_argument("--disable-dev-shm-usage")
+        browser_options.add_argument(f'user-agent={user_agent}')
+        driver = webdriver.Chrome(options=browser_options, service_args=[
+            "--verbose", "--log-path=test.log"])
+
+        driver.get(category_url)
+
+        soup = driver.page_source.encode('utf-8').strip()
+        final_soup = BeautifulSoup(soup, 'lxml')
+
+        product_cards = final_soup.findAll('td')
+
+        for inside_card in product_cards:
+            length = len(inside_card.find_all("p"))
+            if length >= 1:
+                try:
+                    product_name = inside_card.find_all(str(each_product.product_tag))[
+                        int(each_product.product_position)].text
+                    try:
+                        sku = product_name.split(':')[1]
+                    except:
+                        sku = ""
+                except:
+                    product_name = ""
+                    sku = ""
+
+                # except:
+                #     try:
+                #         product_name = inside_card.find_all('td')[2].text
+                #         sku = product_name.split(':')[1]
+                #     except:
+                #         try:
+                #             product_name = inside_card.find_all('p')[1].text
+                #             sku = product_name.split(':')[1]
+
+                #         except:
+                #             product_name = ""
+                #             sku = ""
+                try:
+                    Description = inside_card.find('ul').text
+                except:
+                    Description = ""
+                    # print("error")
+                try:
+                    image1 = inside_card.find('img')['src']
+                    imagey = image1.replace("../", "")
+                    image = "http://samsutech.net/"+imagey
+
+                    # print(image)
+                except:
+                    image = ""
+                    # print("peerror")
+                try:
+                    barcodes = inside_card.find_all(
+                        'li', text=re.compile('Barcode:'))
+                    print(barcodes)
+
+                    if barcodes != "[]":
+                        for barcode in barcodes:
+                            barcodey = barcode.text
+                            barcode = barcodey.replace("Barcode:", "")
+                    else:
+                        barcodey = inside_card.find("strong")
+                        barcode = barcodey.replace("Barcode:", "")
+
+                    print(barcode)
+
+                    #
+                except:
+                    barcode = ""
+
+                try:
+                    sibs = inside_card.find_all(
+                        'span', text=re.compile('KES|KSh|Ksh|KSh|KSH|KShs|KShs.'))
+
+                    if sibs == "[]":
+                        for sib in sibs:
+                            price = sib.text
+                            pricey = price.replace("KShs.", "")
+                            pricer = pricey.replace("/=", "")
+                    else:
+                        sibs = inside_card.find_all(
+                            'li', text=re.compile('KES|KSh|Ksh|KSh|KSH|KShs|KShs.'))
+                        print(sibs)
+                        for sib in sibs:
+                            price = sib.text
+                            pricey = price.replace("KShs.", "")
+                            pricer = pricey.replace("/=", "")
+
+                except:
+                    pricer = ""
+
+                # barcode = soup.find_all("li", string="Barcode")
+                print(pricer)
+
+                Samutech.objects.create(
+                    product_name=product_name,
+                    price=pricer,
+                    brand=each_product.brand,
+                    sku=sku,
+                    barcode=barcode,
+                    product_link=each_product.link,
+                    short_description=Description,
+                    image_list=image)
+
+                print('product saved as a new entry.')
         each_product.crawled = True
         each_product.save()
         driver.stop_client()
         driver.close()
         driver.quit()
-    return HttpResponse('saved')
+
+    return HttpResponse("soup")
+
+
+def reset_samutech(request):
+    Samutech.objects.all().delete()
+
+    # reset all parent categories.
+    for each_category in SamutechCategories2.objects.all():
+        each_category.crawled = False
+        each_category.save()
+
+    return HttpResponse('reset successful')
+
+
+def johnson_links(request):
+    category_url = "https://www.josephjoseph.com/collections/bins-accessories"
+    print(category_url)
+
+    user_agent_list = [
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36',
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0',
+        'Mozilla/5.0 (Macintosh; Intel Mac OS X 11.5; rv:90.0) Gecko/20100101 Firefox/90.0',
+        'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36',
+        'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_5_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36',
+        'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0',
+        'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36'
+    ]
+    user_agent = random.choice(user_agent_list)
+
+    browser_options = webdriver.ChromeOptions()
+    browser_options.add_argument("--no-sandbox")
+    browser_options.add_argument("--headless")
+    browser_options.add_argument("start-maximized")
+    browser_options.add_argument("window-size=1900,1080")
+    browser_options.add_argument("disable-gpu")
+    browser_options.add_argument("--disable-software-rasterizer")
+    browser_options.add_argument("--disable-dev-shm-usage")
+    browser_options.add_argument(f'user-agent={user_agent}')
+    driver = webdriver.Chrome(options=browser_options, service_args=[
+        "--verbose", "--log-path=test.log"])
+
+    driver.get(category_url)
+
+    soup = driver.page_source.encode('utf-8').strip()
+    final_soup = BeautifulSoup(soup, 'lxml')
+
+    product_cards = final_soup.findAll('div', class_="prd-Card_Body")
+    for inside_card in product_cards:
+        anchor_tag = inside_card.find('button')
+        anchor_tag = anchor_tag['data-product-url']
+        link = "http://josephjoseph.com" + anchor_tag
+
+        print(link)

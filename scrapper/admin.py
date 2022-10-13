@@ -52,3 +52,12 @@ class OpalnetProductLinks(ImportExportModelAdmin):
 class Products(ImportExportModelAdmin):
     list_display = ("sku", "regular_price")
 
+
+@admin.register(SamutechCategories2)
+class SamutechCategories2(ImportExportModelAdmin):
+    list_display = ("link", "crawled")
+
+
+@admin.register(Samutech)
+class Samutech(ImportExportModelAdmin):
+    list_display = ("sku", "price")

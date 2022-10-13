@@ -122,8 +122,6 @@ class Products(models.Model):
     short_description = models.TextField(blank=True, null=True)
     long_description = models.TextField(blank=True, null=True)
     image_list = models.TextField(blank=True, null=True)
-    
-
 
     def __str__(self):
         return self.product_link
@@ -133,3 +131,24 @@ class Products(models.Model):
         managed = True
         verbose_name = 'Products'
         verbose_name_plural = 'Products'
+
+
+class Samutech(models.Model):
+    product_name = models.TextField(
+        max_length=10000, blank=True, null=True)
+    price = models.TextField(max_length=10000, blank=True, null=True)
+    brand = models.TextField(max_length=10000, blank=True, null=True)
+    barcode = models.TextField(max_length=10000, blank=True, null=True)
+    sku = models.TextField(max_length=10000, blank=True, null=True)
+    product_link = models.TextField(blank=True, null=True)
+    short_description = models.TextField(blank=True, null=True)
+    image_list = models.TextField(blank=True, null=True)
+
+
+class SamutechCategories2(models.Model):
+    link = models.TextField(blank=True, null=True)
+    brand = models.TextField(blank=True, null=True)
+    product_tag = models.TextField(blank=True, null=True)
+    product_class = models.TextField(blank=True, null=True)
+    product_position = models.TextField(blank=True, null=True)
+    crawled = models.BooleanField(default=False)

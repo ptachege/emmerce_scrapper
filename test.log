@@ -1,11 +1,11 @@
-[1664195841.445][INFO]: Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 38037
-[1664195841.445][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1664195841.947][INFO]: [06a15786d3d6f3d8c8c2d58148f02f9c] COMMAND InitSession {
+[1664942330.481][INFO]: Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 40401
+[1664942330.481][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1664942330.982][INFO]: [2956a5c1c87d8904e005fae15c7e7897] COMMAND InitSession {
    "capabilities": {
       "alwaysMatch": {
          "browserName": "chrome",
          "goog:chromeOptions": {
-            "args": [ "--no-sandbox", "--headless", "start-maximized", "window-size=1900,1080", "disable-gpu", "--disable-software-rasterizer", "--disable-dev-shm-usage", "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0" ],
+            "args": [ "--no-sandbox", "--headless", "start-maximized", "window-size=1900,1080", "disable-gpu", "--disable-software-rasterizer", "--disable-dev-shm-usage", "user-agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0" ],
             "extensions": [  ]
          },
          "pageLoadStrategy": "normal"
@@ -16,13 +16,13 @@
    "desiredCapabilities": {
       "browserName": "chrome",
       "goog:chromeOptions": {
-         "args": [ "--no-sandbox", "--headless", "start-maximized", "window-size=1900,1080", "disable-gpu", "--disable-software-rasterizer", "--disable-dev-shm-usage", "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0" ],
+         "args": [ "--no-sandbox", "--headless", "start-maximized", "window-size=1900,1080", "disable-gpu", "--disable-software-rasterizer", "--disable-dev-shm-usage", "user-agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0" ],
          "extensions": [  ]
       },
       "pageLoadStrategy": "normal"
    }
 }
-[1664195841.948][INFO]: Populating Preferences file: {
+[1664942330.982][INFO]: Populating Preferences file: {
    "alternate_error_pages": {
       "enabled": false
    },
@@ -75,7 +75,7 @@
       "enabled": false
    }
 }
-[1664195841.948][INFO]: Populating Local State file: {
+[1664942330.982][INFO]: Populating Local State file: {
    "background_mode": {
       "enabled": false
    },
@@ -85,113 +85,154 @@
       }
    }
 }
-[1664195841.948][INFO]: Launching chrome: /usr/bin/google-chrome --allow-pre-commit-input --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-gpu --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-software-rasterizer --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --headless --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --remote-debugging-port=0 --start-maximized --test-type=webdriver --use-mock-keychain --user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0 --user-data-dir=/tmp/.com.google.Chrome.BufYzk --window-size=1900,1080 data:,
+[1664942330.982][INFO]: Launching chrome: /usr/bin/google-chrome --allow-pre-commit-input --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-gpu --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-software-rasterizer --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --headless --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --remote-debugging-port=0 --start-maximized --test-type=webdriver --use-mock-keychain --user-agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0 --user-data-dir=/tmp/.com.google.Chrome.zdJCEg --window-size=1900,1080 data:,
+[1005/035851.062492:WARNING:bluez_dbus_manager.cc(247)] Floss manager not present, cannot set Floss enable/disable.
 
-DevTools listening on ws://127.0.0.1:42419/devtools/browser/c3f969ac-ccff-4b7b-8022-84f9ac4d6988
-[0926/123722.019453:WARNING:bluez_dbus_manager.cc(247)] Floss manager not present, cannot set Floss enable/disable.
-[1664195842.053][DEBUG]: DevTools HTTP Request: http://localhost:42419/json/version
-[1664195842.057][DEBUG]: DevTools HTTP Response: {
-   "Browser": "HeadlessChrome/105.0.5195.125",
+DevTools listening on ws://127.0.0.1:39305/devtools/browser/2cead671-2a15-40b8-9528-9ab705420f62
+[1664942331.087][DEBUG]: DevTools HTTP Request: http://localhost:39305/json/version
+[1664942331.091][DEBUG]: DevTools HTTP Response: {
+   "Browser": "HeadlessChrome/106.0.5249.91",
    "Protocol-Version": "1.3",
-   "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0",
-   "V8-Version": "10.5.218.8",
-   "WebKit-Version": "537.36 (@1e8949033cc650c8496b3b0af7cd54372f7ff62b)",
-   "webSocketDebuggerUrl": "ws://localhost:42419/devtools/browser/c3f969ac-ccff-4b7b-8022-84f9ac4d6988"
+   "User-Agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0",
+   "V8-Version": "10.6.194.17",
+   "WebKit-Version": "537.36 (@fa96d5f07b1177d1bf5009f647a5b8c629762157)",
+   "webSocketDebuggerUrl": "ws://localhost:39305/devtools/browser/2cead671-2a15-40b8-9528-9ab705420f62"
 }
 
-[1664195842.057][DEBUG]: DevTools HTTP Request: http://localhost:42419/json/list
-[1664195842.059][DEBUG]: DevTools HTTP Response: [ {
+[1664942331.091][WARNING]: This version of ChromeDriver has not been tested with Chrome version 106.
+[1664942331.091][DEBUG]: DevTools HTTP Request: http://localhost:39305/json/list
+[1664942331.093][DEBUG]: DevTools HTTP Response: [ {
    "description": "",
-   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:42419/devtools/page/0ADF2796FC8A7F41B514F7B7A82B314F",
-   "id": "0ADF2796FC8A7F41B514F7B7A82B314F",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:39305/devtools/page/071F22313B17D3FB63D019E951B4652A",
+   "id": "071F22313B17D3FB63D019E951B4652A",
    "title": "",
    "type": "page",
    "url": "data:,",
-   "webSocketDebuggerUrl": "ws://localhost:42419/devtools/page/0ADF2796FC8A7F41B514F7B7A82B314F"
+   "webSocketDebuggerUrl": "ws://localhost:39305/devtools/page/071F22313B17D3FB63D019E951B4652A"
 } ]
 
-[1664195842.059][DEBUG]: DevTools HTTP Request: http://localhost:42419/json/list
-[1664195842.061][DEBUG]: DevTools HTTP Response: [ {
+[1664942331.094][DEBUG]: DevTools HTTP Request: http://localhost:39305/json/list
+[1664942331.096][DEBUG]: DevTools HTTP Response: [ {
    "description": "",
-   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:42419/devtools/page/0ADF2796FC8A7F41B514F7B7A82B314F",
-   "id": "0ADF2796FC8A7F41B514F7B7A82B314F",
-   "title": "data:,",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:39305/devtools/page/071F22313B17D3FB63D019E951B4652A",
+   "id": "071F22313B17D3FB63D019E951B4652A",
+   "title": "",
    "type": "page",
    "url": "data:,",
-   "webSocketDebuggerUrl": "ws://localhost:42419/devtools/page/0ADF2796FC8A7F41B514F7B7A82B314F"
+   "webSocketDebuggerUrl": "ws://localhost:39305/devtools/page/071F22313B17D3FB63D019E951B4652A"
 } ]
 
-[1664195842.061][INFO]: resolved localhost to ["127.0.0.1"]
-[1664195842.062][DEBUG]: DevTools WebSocket Command: Page.addScriptToEvaluateOnNewDocument (id=1) 0ADF2796FC8A7F41B514F7B7A82B314F {
+[1664942331.097][INFO]: resolved localhost to ["127.0.0.1"]
+[1664942331.098][DEBUG]: DevTools WebSocket Command: Page.addScriptToEvaluateOnNewDocument (id=1) 071F22313B17D3FB63D019E951B4652A {
    "source": "(function () {window.cdc_adoQpoasnfa76pfcZLmcfl_Array = window.Array;window.cdc_adoQpoasnfa76pfcZLmcfl_Promise = window.Promise;window.cdc_adoQpoasnfa76pfcZLmcfl_Symbol = window.Symbol;}) ();"
 }
-[1664195842.062][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=2) 0ADF2796FC8A7F41B514F7B7A82B314F {
+[1664942331.098][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=2) 071F22313B17D3FB63D019E951B4652A {
    "expression": "(function () {window.cdc_adoQpoasnfa76pfcZLmcfl_Array = window.Array;window.cdc_adoQpoasnfa76pfcZLmcfl_Promise = window.Promise;window.cdc_adoQpoasnfa76pfcZLmcfl_Symbol = window.Symbol;}) ();"
 }
-[1664195842.062][DEBUG]: DevTools WebSocket Command: Log.enable (id=3) 0ADF2796FC8A7F41B514F7B7A82B314F {
+[1664942331.098][DEBUG]: DevTools WebSocket Command: Log.enable (id=3) 071F22313B17D3FB63D019E951B4652A {
 }
-[1664195842.062][DEBUG]: DevTools WebSocket Command: Target.setAutoAttach (id=4) 0ADF2796FC8A7F41B514F7B7A82B314F {
+[1664942331.098][DEBUG]: DevTools WebSocket Command: Target.setAutoAttach (id=4) 071F22313B17D3FB63D019E951B4652A {
    "autoAttach": true,
    "flatten": true,
    "waitForDebuggerOnStart": false
 }
-[1664195842.062][DEBUG]: DevTools WebSocket Command: Page.enable (id=5) 0ADF2796FC8A7F41B514F7B7A82B314F {
+[1664942331.098][DEBUG]: DevTools WebSocket Command: Page.enable (id=5) 071F22313B17D3FB63D019E951B4652A {
 }
-[1664195842.062][DEBUG]: DevTools WebSocket Command: Browser.setDownloadBehavior (id=6) 0ADF2796FC8A7F41B514F7B7A82B314F {
+[1664942331.098][DEBUG]: DevTools WebSocket Command: Browser.setDownloadBehavior (id=6) 071F22313B17D3FB63D019E951B4652A {
    "behavior": "allow",
    "downloadPath": "."
 }
-[1664195842.062][DEBUG]: DevTools WebSocket Command: Page.enable (id=7) 0ADF2796FC8A7F41B514F7B7A82B314F {
+[1664942331.098][DEBUG]: DevTools WebSocket Command: Page.enable (id=7) 071F22313B17D3FB63D019E951B4652A {
 }
-[1664195842.062][DEBUG]: DevTools WebSocket Response: Page.addScriptToEvaluateOnNewDocument (id=1) 0ADF2796FC8A7F41B514F7B7A82B314F {
+[1664942331.099][DEBUG]: DevTools WebSocket Response: Target.setAutoAttach (id=4) 071F22313B17D3FB63D019E951B4652A {
+}
+[1664942331.099][DEBUG]: DevTools WebSocket Response: Browser.setDownloadBehavior (id=6) 071F22313B17D3FB63D019E951B4652A {
+}
+[1664942331.107][DEBUG]: DevTools WebSocket Response: Page.addScriptToEvaluateOnNewDocument (id=1) 071F22313B17D3FB63D019E951B4652A {
    "identifier": "1"
 }
-[1664195842.063][DEBUG]: DevTools WebSocket Response: Browser.setDownloadBehavior (id=6) 0ADF2796FC8A7F41B514F7B7A82B314F {
-}
-[1664195842.064][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=2) 0ADF2796FC8A7F41B514F7B7A82B314F {
+[1664942331.108][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=2) 071F22313B17D3FB63D019E951B4652A {
    "result": {
       "type": "undefined"
    }
 }
-[1664195842.064][DEBUG]: DevTools WebSocket Response: Log.enable (id=3) 0ADF2796FC8A7F41B514F7B7A82B314F {
+[1664942331.108][DEBUG]: DevTools WebSocket Response: Log.enable (id=3) 071F22313B17D3FB63D019E951B4652A {
 }
-[1664195842.064][DEBUG]: DevTools WebSocket Response: Target.setAutoAttach (id=4) 0ADF2796FC8A7F41B514F7B7A82B314F {
+[1664942331.108][DEBUG]: DevTools WebSocket Response: Page.enable (id=5) 071F22313B17D3FB63D019E951B4652A {
 }
-[1664195842.064][DEBUG]: DevTools WebSocket Response: Page.enable (id=5) 0ADF2796FC8A7F41B514F7B7A82B314F {
+[1664942331.108][DEBUG]: DevTools WebSocket Response: Page.enable (id=7) 071F22313B17D3FB63D019E951B4652A {
 }
-[1664195842.064][DEBUG]: DevTools WebSocket Response: Page.enable (id=7) 0ADF2796FC8A7F41B514F7B7A82B314F {
+[1664942331.108][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=8) 071F22313B17D3FB63D019E951B4652A {
 }
-[1664195842.064][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=8) 0ADF2796FC8A7F41B514F7B7A82B314F {
+[1664942331.108][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading 071F22313B17D3FB63D019E951B4652A {
+   "frameId": "071F22313B17D3FB63D019E951B4652A"
 }
-[1664195842.064][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 0ADF2796FC8A7F41B514F7B7A82B314F {
+[1664942331.111][DEBUG]: DevTools WebSocket Event: Page.frameNavigated 071F22313B17D3FB63D019E951B4652A {
+   "frame": {
+      "adFrameStatus": {
+         "adFrameType": "none"
+      },
+      "crossOriginIsolatedContextType": "NotIsolated",
+      "domainAndRegistry": "",
+      "gatedAPIFeatures": [  ],
+      "id": "071F22313B17D3FB63D019E951B4652A",
+      "loaderId": "6494D3244FC5923671489AD77D696FE9",
+      "mimeType": "text/plain",
+      "secureContextType": "InsecureScheme",
+      "securityOrigin": "://",
+      "url": "data:,"
+   },
+   "type": "Navigation"
+}
+[1664942331.111][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 071F22313B17D3FB63D019E951B4652A {
    "context": {
       "auxData": {
-         "frameId": "0ADF2796FC8A7F41B514F7B7A82B314F",
+         "frameId": "071F22313B17D3FB63D019E951B4652A",
          "isDefault": true,
          "type": "default"
       },
-      "id": 1,
+      "id": 2,
       "name": "",
       "origin": "://",
-      "uniqueId": "-4055946763525165078.8195346719128466938"
+      "uniqueId": "1977945046798332855.298338610245667300"
    }
 }
-[1664195842.064][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=8) 0ADF2796FC8A7F41B514F7B7A82B314F {
+[1664942331.111][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=8) 071F22313B17D3FB63D019E951B4652A {
 }
-[1664195842.064][DEBUG]: DevTools WebSocket Command: Page.enable (id=9) 0ADF2796FC8A7F41B514F7B7A82B314F {
+[1664942331.111][DEBUG]: DevTools WebSocket Command: Page.enable (id=9) 071F22313B17D3FB63D019E951B4652A {
 }
-[1664195842.065][DEBUG]: DevTools WebSocket Response: Page.enable (id=9) 0ADF2796FC8A7F41B514F7B7A82B314F {
+[1664942331.112][DEBUG]: DevTools WebSocket Event: Page.loadEventFired 071F22313B17D3FB63D019E951B4652A {
+   "timestamp": 4030.407783
 }
-[1664195842.065][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=10) 0ADF2796FC8A7F41B514F7B7A82B314F {
+[1664942331.112][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=10) 071F22313B17D3FB63D019E951B4652A {
+   "awaitPromise": false,
+   "expression": "document.readyState",
+   "returnByValue": true
 }
-[1664195842.065][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=10) 0ADF2796FC8A7F41B514F7B7A82B314F {
+[1664942331.112][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading 071F22313B17D3FB63D019E951B4652A {
+   "frameId": "071F22313B17D3FB63D019E951B4652A"
 }
-[1664195842.065][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=11) 0ADF2796FC8A7F41B514F7B7A82B314F {
+[1664942331.112][DEBUG]: DevTools WebSocket Event: Page.domContentEventFired 071F22313B17D3FB63D019E951B4652A {
+   "timestamp": 4030.407986
+}
+[1664942331.112][DEBUG]: DevTools WebSocket Response: Page.enable (id=9) 071F22313B17D3FB63D019E951B4652A {
+}
+[1664942331.112][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=10) 071F22313B17D3FB63D019E951B4652A {
+   "result": {
+      "type": "string",
+      "value": "complete"
+   }
+}
+[1664942331.112][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=11) 071F22313B17D3FB63D019E951B4652A {
+}
+[1664942331.113][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=11) 071F22313B17D3FB63D019E951B4652A {
+}
+[1664942331.113][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=12) 071F22313B17D3FB63D019E951B4652A {
    "awaitPromise": true,
    "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
    "returnByValue": true
 }
-[1664195842.068][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=11) 0ADF2796FC8A7F41B514F7B7A82B314F {
+[1664942331.115][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=12) 071F22313B17D3FB63D019E951B4652A {
    "result": {
       "type": "object",
       "value": {
@@ -200,17 +241,17 @@ DevTools listening on ws://127.0.0.1:42419/devtools/browser/c3f969ac-ccff-4b7b-8
       }
    }
 }
-[1664195842.068][INFO]: [06a15786d3d6f3d8c8c2d58148f02f9c] RESPONSE InitSession {
+[1664942331.115][INFO]: [2956a5c1c87d8904e005fae15c7e7897] RESPONSE InitSession {
    "capabilities": {
       "acceptInsecureCerts": false,
       "browserName": "chrome",
-      "browserVersion": "105.0.5195.125",
+      "browserVersion": "106.0.5249.91",
       "chrome": {
          "chromedriverVersion": "105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853})",
-         "userDataDir": "/tmp/.com.google.Chrome.BufYzk"
+         "userDataDir": "/tmp/.com.google.Chrome.zdJCEg"
       },
       "goog:chromeOptions": {
-         "debuggerAddress": "localhost:42419"
+         "debuggerAddress": "localhost:39305"
       },
       "networkConnectionEnabled": false,
       "pageLoadStrategy": "normal",
@@ -229,104 +270,289 @@ DevTools listening on ws://127.0.0.1:42419/devtools/browser/c3f969ac-ccff-4b7b-8
       "webauthn:extension:largeBlob": true,
       "webauthn:virtualAuthenticators": true
    },
-   "sessionId": "06a15786d3d6f3d8c8c2d58148f02f9c"
+   "sessionId": "2956a5c1c87d8904e005fae15c7e7897"
 }
-[1664195842.069][INFO]: [06a15786d3d6f3d8c8c2d58148f02f9c] COMMAND Navigate {
-   "url": "https://mikaappliances.com/product-category/small-appliances/bbq-mates/"
+[1664942331.116][INFO]: [2956a5c1c87d8904e005fae15c7e7897] COMMAND Navigate {
+   "url": "https://www.josephjoseph.com/collections/bins-accessories"
 }
-[1664195842.069][INFO]: Waiting for pending navigations...
-[1664195842.069][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=12) 0ADF2796FC8A7F41B514F7B7A82B314F {
+[1664942331.116][INFO]: Waiting for pending navigations...
+[1664942331.116][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=13) 071F22313B17D3FB63D019E951B4652A {
    "expression": "1"
 }
-[1664195842.070][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=12) 0ADF2796FC8A7F41B514F7B7A82B314F {
+[1664942331.117][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=13) 071F22313B17D3FB63D019E951B4652A {
    "result": {
       "description": "1",
       "type": "number",
       "value": 1
    }
 }
-[1664195842.070][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=13) 0ADF2796FC8A7F41B514F7B7A82B314F {
+[1664942331.117][INFO]: Done waiting for pending navigations. Status: ok
+[1664942331.117][DEBUG]: DevTools WebSocket Command: Page.navigate (id=14) 071F22313B17D3FB63D019E951B4652A {
+   "url": "https://www.josephjoseph.com/collections/bins-accessories"
 }
-[1664195842.070][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=13) 0ADF2796FC8A7F41B514F7B7A82B314F {
-   "root": {
-      "backendNodeId": 1,
-      "baseURL": "data:,",
-      "childNodeCount": 1,
-      "children": [ {
-         "attributes": [  ],
-         "backendNodeId": 2,
-         "childNodeCount": 2,
-         "children": [ {
-            "attributes": [  ],
-            "backendNodeId": 3,
-            "childNodeCount": 0,
-            "localName": "head",
-            "nodeId": 3,
-            "nodeName": "HEAD",
-            "nodeType": 1,
-            "nodeValue": "",
-            "parentId": 2
-         }, {
-            "attributes": [  ],
-            "backendNodeId": 4,
-            "childNodeCount": 0,
-            "localName": "body",
-            "nodeId": 4,
-            "nodeName": "BODY",
-            "nodeType": 1,
-            "nodeValue": "",
-            "parentId": 2
-         } ],
-         "frameId": "0ADF2796FC8A7F41B514F7B7A82B314F",
-         "localName": "html",
-         "nodeId": 2,
-         "nodeName": "HTML",
-         "nodeType": 1,
-         "nodeValue": "",
-         "parentId": 1
-      } ],
-      "compatibilityMode": "NoQuirksMode",
-      "documentURL": "data:,",
-      "localName": "",
-      "nodeId": 1,
-      "nodeName": "#document",
-      "nodeType": 9,
-      "nodeValue": "",
-      "xmlVersion": ""
+[1005/035851.777182:ERROR:gpu_init.cc(521)] Passthrough is not supported, GL is disabled, ANGLE is 
+[1664942332.064][DEBUG]: DevTools WebSocket Response: Page.navigate (id=14) 071F22313B17D3FB63D019E951B4652A {
+   "frameId": "071F22313B17D3FB63D019E951B4652A",
+   "loaderId": "3229F5012C8CCCD666B3F551E3ABD616"
+}
+[1664942332.064][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=15) 071F22313B17D3FB63D019E951B4652A {
+   "expression": "document.URL"
+}
+[1664942332.067][DEBUG]: DevTools WebSocket Event: Runtime.executionContextsCleared 071F22313B17D3FB63D019E951B4652A {
+}
+[1664942332.068][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading 071F22313B17D3FB63D019E951B4652A {
+   "frameId": "071F22313B17D3FB63D019E951B4652A"
+}
+[1664942332.087][DEBUG]: DevTools WebSocket Event: Runtime.executionContextsCleared 071F22313B17D3FB63D019E951B4652A {
+}
+[1664942332.087][DEBUG]: DevTools WebSocket Event: Page.frameNavigated 071F22313B17D3FB63D019E951B4652A {
+   "frame": {
+      "adFrameStatus": {
+         "adFrameType": "none"
+      },
+      "crossOriginIsolatedContextType": "NotIsolated",
+      "domainAndRegistry": "josephjoseph.com",
+      "gatedAPIFeatures": [  ],
+      "id": "071F22313B17D3FB63D019E951B4652A",
+      "loaderId": "3229F5012C8CCCD666B3F551E3ABD616",
+      "mimeType": "text/html",
+      "secureContextType": "Secure",
+      "securityOrigin": "https://www.josephjoseph.com",
+      "url": "https://www.josephjoseph.com/collections/bins-accessories"
+   },
+   "type": "Navigation"
+}
+[1664942332.087][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 071F22313B17D3FB63D019E951B4652A {
+   "context": {
+      "auxData": {
+         "frameId": "071F22313B17D3FB63D019E951B4652A",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 1,
+      "name": "",
+      "origin": "https://www.josephjoseph.com",
+      "uniqueId": "-8446485543237698191.-3156851773796273174"
    }
 }
-[1664195842.070][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=14) 0ADF2796FC8A7F41B514F7B7A82B314F {
-   "awaitPromise": false,
-   "expression": "document.readyState",
-   "returnByValue": true
-}
-[1664195842.071][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=14) 0ADF2796FC8A7F41B514F7B7A82B314F {
+[1664942332.088][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=15) 071F22313B17D3FB63D019E951B4652A {
    "result": {
       "type": "string",
-      "value": "complete"
+      "value": "https://www.josephjoseph.com/collections/bins-accessories"
    }
 }
-[1664195842.071][INFO]: Done waiting for pending navigations. Status: ok
-[1664195842.071][DEBUG]: DevTools WebSocket Command: Page.navigate (id=15) 0ADF2796FC8A7F41B514F7B7A82B314F {
-   "url": "https://mikaappliances.com/product-category/small-appliances/bbq-mates/"
-}
-[0926/123722.739868:ERROR:gpu_init.cc(486)] Passthrough is not supported, GL is disabled, ANGLE is 
-[1664195849.548][DEBUG]: DevTools WebSocket Response: Page.navigate (id=15) 0ADF2796FC8A7F41B514F7B7A82B314F {
-   "errorText": "net::ERR_NAME_NOT_RESOLVED",
-   "frameId": "0ADF2796FC8A7F41B514F7B7A82B314F",
-   "loaderId": "D5E96DB754A6C2EF2E651704A53288A8"
-}
-[1664195849.551][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=16) 0ADF2796FC8A7F41B514F7B7A82B314F {
+[1664942332.088][INFO]: Waiting for pending navigations...
+[1664942332.088][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=16) 071F22313B17D3FB63D019E951B4652A {
    "expression": "1"
 }
-[1664195849.584][DEBUG]: DevTools WebSocket Event: Runtime.executionContextsCleared 0ADF2796FC8A7F41B514F7B7A82B314F {
+[1664942332.092][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=16) 071F22313B17D3FB63D019E951B4652A {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
 }
-[1664195849.584][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading 0ADF2796FC8A7F41B514F7B7A82B314F {
-   "frameId": "0ADF2796FC8A7F41B514F7B7A82B314F"
+[1664942332.595][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=17) 071F22313B17D3FB63D019E951B4652A {
+   "expression": "1"
 }
-[1664195849.597][DEBUG]: DevTools WebSocket Event: Runtime.executionContextsCleared 0ADF2796FC8A7F41B514F7B7A82B314F {
+[1664942332.606][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=17) 071F22313B17D3FB63D019E951B4652A {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
 }
-[1664195849.597][DEBUG]: DevTools WebSocket Event: Page.frameNavigated 0ADF2796FC8A7F41B514F7B7A82B314F {
+[1664942333.109][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=18) 071F22313B17D3FB63D019E951B4652A {
+   "expression": "1"
+}
+[1664942333.109][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=18) 071F22313B17D3FB63D019E951B4652A {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1005/035853.247985:INFO:CONSOLE(1)] "Uncaught TypeError: window.ometria.init is not a function", source:  (1)
+[1664942333.249][DEBUG]: DevTools WebSocket Event: Runtime.exceptionThrown 071F22313B17D3FB63D019E951B4652A {
+   "exceptionDetails": {
+      "columnNumber": 49,
+      "exception": {
+         "className": "TypeError",
+         "description": "TypeError: window.ometria.init is not a function\n    at \u003Canonymous>:1:50\n    at https://www.googletagmanager.com/gtm.js?id=GTM-WNNCXHX:502:414\n    at b (https://www.googletagmanager.com/gtm.js?id=G...",
+         "objectId": "-5596007864819218484.1.1",
+         "preview": {
+            "description": "TypeError: window.ometria.init is not a function\n    at \u003Canonymous>:1:50\n    at https://www.googletagmanager.com/gtm.js?id=GTM-WNNCXHX:502:414\n    at b (https://www.googletagmanager.com/gtm.js?id=G...",
+            "overflow": false,
+            "properties": [ {
+               "name": "stack",
+               "type": "string",
+               "value": "TypeError: window.ometria.init is not a function\n …oogletagmanager.com/gtm.js?id=GTM-WNNCXHX:272:20)"
+            }, {
+               "name": "message",
+               "type": "string",
+               "value": "window.ometria.init is not a function"
+            } ],
+            "subtype": "error",
+            "type": "object"
+         },
+         "subtype": "error",
+         "type": "object"
+      },
+      "exceptionId": 1,
+      "executionContextId": 1,
+      "lineNumber": 0,
+      "scriptId": "116",
+      "stackTrace": {
+         "callFrames": [ {
+            "columnNumber": 49,
+            "functionName": "",
+            "lineNumber": 0,
+            "scriptId": "116",
+            "url": ""
+         }, {
+            "columnNumber": 413,
+            "functionName": "",
+            "lineNumber": 501,
+            "scriptId": "104",
+            "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WNNCXHX"
+         }, {
+            "columnNumber": 328,
+            "functionName": "b",
+            "lineNumber": 502,
+            "scriptId": "104",
+            "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WNNCXHX"
+         }, {
+            "columnNumber": 260,
+            "functionName": "ze",
+            "lineNumber": 87,
+            "scriptId": "104",
+            "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WNNCXHX"
+         }, {
+            "columnNumber": 9,
+            "functionName": "e",
+            "lineNumber": 265,
+            "scriptId": "104",
+            "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WNNCXHX"
+         }, {
+            "columnNumber": 129,
+            "functionName": "",
+            "lineNumber": 36,
+            "scriptId": "104",
+            "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WNNCXHX"
+         }, {
+            "columnNumber": 228,
+            "functionName": "",
+            "lineNumber": 266,
+            "scriptId": "104",
+            "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WNNCXHX"
+         }, {
+            "columnNumber": 367,
+            "functionName": "",
+            "lineNumber": 265,
+            "scriptId": "104",
+            "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WNNCXHX"
+         }, {
+            "columnNumber": 983,
+            "functionName": "Wr",
+            "lineNumber": 267,
+            "scriptId": "104",
+            "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WNNCXHX"
+         }, {
+            "columnNumber": 19,
+            "functionName": "es",
+            "lineNumber": 271,
+            "scriptId": "104",
+            "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WNNCXHX"
+         }, {
+            "columnNumber": 272,
+            "functionName": "Et",
+            "lineNumber": 289,
+            "scriptId": "104",
+            "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WNNCXHX"
+         }, {
+            "columnNumber": 146,
+            "functionName": "Ht",
+            "lineNumber": 294,
+            "scriptId": "104",
+            "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WNNCXHX"
+         }, {
+            "columnNumber": 314,
+            "functionName": "Lt.b.push",
+            "lineNumber": 297,
+            "scriptId": "104",
+            "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WNNCXHX"
+         }, {
+            "columnNumber": 13191,
+            "functionName": "Ae.updateGtmMacros",
+            "lineNumber": 0,
+            "scriptId": "41",
+            "url": "https://cookie-cdn.cookiepro.com/scripttemplates/otSDKStub.js"
+         }, {
+            "columnNumber": 16800,
+            "functionName": "Ae.addBannerSDKScript",
+            "lineNumber": 0,
+            "scriptId": "41",
+            "url": "https://cookie-cdn.cookiepro.com/scripttemplates/otSDKStub.js"
+         }, {
+            "columnNumber": 7973,
+            "functionName": "Ae.geoLocationJsonCallback",
+            "lineNumber": 0,
+            "scriptId": "41",
+            "url": "https://cookie-cdn.cookiepro.com/scripttemplates/otSDKStub.js"
+         }, {
+            "columnNumber": 9007,
+            "functionName": "s.onload",
+            "lineNumber": 0,
+            "scriptId": "41",
+            "url": "https://cookie-cdn.cookiepro.com/scripttemplates/otSDKStub.js"
+         } ]
+      },
+      "text": "Uncaught"
+   },
+   "timestamp": 1.664942333247842e+12
+}
+[1664942333.249][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=19) 071F22313B17D3FB63D019E951B4652A {
+   "expression": "1"
+}
+[1664942333.283][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=19) 071F22313B17D3FB63D019E951B4652A {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1664942333.534][DEBUG]: DevTools WebSocket Event: Page.frameAttached 071F22313B17D3FB63D019E951B4652A {
+   "frameId": "C55505B324A39A2A01764569478B7ED6",
+   "parentFrameId": "071F22313B17D3FB63D019E951B4652A",
+   "stack": {
+      "callFrames": [ {
+         "columnNumber": 37394,
+         "functionName": "e.openIframe",
+         "lineNumber": 0,
+         "scriptId": "75",
+         "url": "https://www.dwin1.com/30663.js"
+      }, {
+         "columnNumber": 37501,
+         "functionName": "e.run",
+         "lineNumber": 0,
+         "scriptId": "75",
+         "url": "https://www.dwin1.com/30663.js"
+      }, {
+         "columnNumber": 37576,
+         "functionName": "",
+         "lineNumber": 0,
+         "scriptId": "75",
+         "url": "https://www.dwin1.com/30663.js"
+      } ]
+   }
+}
+[1664942333.534][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=20) 071F22313B17D3FB63D019E951B4652A {
+   "expression": "1"
+}
+[1664942333.534][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading 071F22313B17D3FB63D019E951B4652A {
+   "frameId": "C55505B324A39A2A01764569478B7ED6"
+}
+[1664942333.541][DEBUG]: DevTools WebSocket Event: Page.frameNavigated 071F22313B17D3FB63D019E951B4652A {
    "frame": {
       "adFrameStatus": {
          "adFrameType": "none"
@@ -334,71 +560,1529 @@ DevTools listening on ws://127.0.0.1:42419/devtools/browser/c3f969ac-ccff-4b7b-8
       "crossOriginIsolatedContextType": "NotIsolated",
       "domainAndRegistry": "",
       "gatedAPIFeatures": [  ],
-      "id": "0ADF2796FC8A7F41B514F7B7A82B314F",
-      "loaderId": "8CF8128BACD71EF7D0B8CCFF9A19FA7E",
+      "id": "C55505B324A39A2A01764569478B7ED6",
+      "loaderId": "B9FCAB9D76D357BC39C6145115C97050",
       "mimeType": "text/html",
-      "secureContextType": "InsecureScheme",
+      "name": "AWIN_CDT",
+      "parentId": "071F22313B17D3FB63D019E951B4652A",
+      "secureContextType": "Secure",
       "securityOrigin": "://",
-      "unreachableUrl": "https://mikaappliances.com/product-category/small-appliances/bbq-mates/",
-      "url": "chrome-error://chromewebdata/"
+      "url": "about:blank"
    },
    "type": "Navigation"
 }
-[1664195849.597][DEBUG]: DevTools WebSocket Event: DOM.documentUpdated 0ADF2796FC8A7F41B514F7B7A82B314F {
-}
-[1664195849.597][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 0ADF2796FC8A7F41B514F7B7A82B314F {
+[1664942333.541][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 071F22313B17D3FB63D019E951B4652A {
    "context": {
       "auxData": {
-         "frameId": "0ADF2796FC8A7F41B514F7B7A82B314F",
+         "frameId": "C55505B324A39A2A01764569478B7ED6",
          "isDefault": true,
          "type": "default"
       },
-      "id": 1,
+      "id": 2,
       "name": "",
-      "origin": "://",
-      "uniqueId": "5568149537448808889.3988131734813412620"
+      "origin": "https://www.josephjoseph.com",
+      "uniqueId": "-8675249457564199360.-3428525239425380410"
    }
 }
-[1664195849.599][DEBUG]: DevTools WebSocket Event: Page.loadEventFired 0ADF2796FC8A7F41B514F7B7A82B314F {
-   "timestamp": 4953.19812
+[1664942333.541][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading 071F22313B17D3FB63D019E951B4652A {
+   "frameId": "C55505B324A39A2A01764569478B7ED6"
 }
-[1664195849.599][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=17) 0ADF2796FC8A7F41B514F7B7A82B314F {
-   "awaitPromise": false,
-   "expression": "document.readyState",
-   "returnByValue": true
+[1664942333.579][DEBUG]: DevTools WebSocket Event: Page.domContentEventFired 071F22313B17D3FB63D019E951B4652A {
+   "timestamp": 4032.874442
 }
-[1664195849.600][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading 0ADF2796FC8A7F41B514F7B7A82B314F {
-   "frameId": "0ADF2796FC8A7F41B514F7B7A82B314F"
-}
-[1664195849.600][DEBUG]: DevTools WebSocket Event: DOM.documentUpdated 0ADF2796FC8A7F41B514F7B7A82B314F {
-}
-[1664195849.600][DEBUG]: DevTools WebSocket Event: Page.domContentEventFired 0ADF2796FC8A7F41B514F7B7A82B314F {
-   "timestamp": 4953.198644
-}
-[1664195849.600][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=16) 0ADF2796FC8A7F41B514F7B7A82B314F {
+[1664942333.635][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=20) 071F22313B17D3FB63D019E951B4652A {
    "result": {
       "description": "1",
       "type": "number",
       "value": 1
    }
 }
-[1664195849.602][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=17) 0ADF2796FC8A7F41B514F7B7A82B314F {
+[1664942334.137][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=21) 071F22313B17D3FB63D019E951B4652A {
+   "expression": "1"
+}
+[1664942334.138][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=21) 071F22313B17D3FB63D019E951B4652A {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1664942334.599][DEBUG]: DevTools WebSocket Event: Log.entryAdded 071F22313B17D3FB63D019E951B4652A {
+   "entry": {
+      "level": "error",
+      "networkRequestId": "12438.487",
+      "source": "network",
+      "text": "Failed to load resource: the server responded with a status of 404 ()",
+      "timestamp": 1.6649423345990369e+12,
+      "url": "https://www.josephjoseph.com/collections/false"
+   }
+}
+[1664942334.599][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=22) 071F22313B17D3FB63D019E951B4652A {
+   "expression": "1"
+}
+[1664942334.729][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=22) 071F22313B17D3FB63D019E951B4652A {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1664942334.991][DEBUG]: DevTools WebSocket Event: Page.frameAttached 071F22313B17D3FB63D019E951B4652A {
+   "frameId": "67D4894FBD64F4B61B9F51FE87FEF09D",
+   "parentFrameId": "071F22313B17D3FB63D019E951B4652A",
+   "stack": {
+      "callFrames": [ {
+         "columnNumber": 52857,
+         "functionName": "Lt.append",
+         "lineNumber": 6,
+         "scriptId": "133",
+         "url": "https://cookie-cdn.cookiepro.com/scripttemplates/6.24.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 195656,
+         "functionName": "On.insertPcHtml",
+         "lineNumber": 6,
+         "scriptId": "133",
+         "url": "https://cookie-cdn.cookiepro.com/scripttemplates/6.24.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 310306,
+         "functionName": "",
+         "lineNumber": 6,
+         "scriptId": "133",
+         "url": "https://cookie-cdn.cookiepro.com/scripttemplates/6.24.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 1629,
+         "functionName": "",
+         "lineNumber": 6,
+         "scriptId": "133",
+         "url": "https://cookie-cdn.cookiepro.com/scripttemplates/6.24.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 1734,
+         "functionName": "",
+         "lineNumber": 6,
+         "scriptId": "133",
+         "url": "https://cookie-cdn.cookiepro.com/scripttemplates/6.24.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 672,
+         "functionName": "",
+         "lineNumber": 6,
+         "scriptId": "133",
+         "url": "https://cookie-cdn.cookiepro.com/scripttemplates/6.24.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 451,
+         "functionName": "a",
+         "lineNumber": 6,
+         "scriptId": "133",
+         "url": "https://cookie-cdn.cookiepro.com/scripttemplates/6.24.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 309629,
+         "functionName": "ar.windowLoadBanner",
+         "lineNumber": 6,
+         "scriptId": "133",
+         "url": "https://cookie-cdn.cookiepro.com/scripttemplates/6.24.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 51177,
+         "functionName": "r",
+         "lineNumber": 6,
+         "scriptId": "133",
+         "url": "https://cookie-cdn.cookiepro.com/scripttemplates/6.24.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 51329,
+         "functionName": "Lt.trigger",
+         "lineNumber": 6,
+         "scriptId": "133",
+         "url": "https://cookie-cdn.cookiepro.com/scripttemplates/6.24.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 105366,
+         "functionName": "ro.loadBanner",
+         "lineNumber": 6,
+         "scriptId": "133",
+         "url": "https://cookie-cdn.cookiepro.com/scripttemplates/6.24.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 261708,
+         "functionName": "Wn.LoadBanner",
+         "lineNumber": 6,
+         "scriptId": "133",
+         "url": "https://cookie-cdn.cookiepro.com/scripttemplates/6.24.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 324321,
+         "functionName": "",
+         "lineNumber": 6,
+         "scriptId": "133",
+         "url": "https://cookie-cdn.cookiepro.com/scripttemplates/6.24.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 1629,
+         "functionName": "",
+         "lineNumber": 6,
+         "scriptId": "133",
+         "url": "https://cookie-cdn.cookiepro.com/scripttemplates/6.24.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 1734,
+         "functionName": "",
+         "lineNumber": 6,
+         "scriptId": "133",
+         "url": "https://cookie-cdn.cookiepro.com/scripttemplates/6.24.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 505,
+         "functionName": "o",
+         "lineNumber": 6,
+         "scriptId": "133",
+         "url": "https://cookie-cdn.cookiepro.com/scripttemplates/6.24.0/otBannerSdk.js"
+      } ]
+   }
+}
+[1664942334.991][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=23) 071F22313B17D3FB63D019E951B4652A {
+   "expression": "1"
+}
+[1664942334.992][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading 071F22313B17D3FB63D019E951B4652A {
+   "frameId": "67D4894FBD64F4B61B9F51FE87FEF09D"
+}
+[1664942335.090][DEBUG]: DevTools WebSocket Event: Page.frameNavigated 071F22313B17D3FB63D019E951B4652A {
+   "frame": {
+      "adFrameStatus": {
+         "adFrameType": "none"
+      },
+      "crossOriginIsolatedContextType": "NotIsolated",
+      "domainAndRegistry": "",
+      "gatedAPIFeatures": [  ],
+      "id": "67D4894FBD64F4B61B9F51FE87FEF09D",
+      "loaderId": "6FA1C6007D310716BCE967097FA88021",
+      "mimeType": "text/html",
+      "name": "",
+      "parentId": "071F22313B17D3FB63D019E951B4652A",
+      "secureContextType": "Secure",
+      "securityOrigin": "://",
+      "url": "about:blank"
+   },
+   "type": "Navigation"
+}
+[1664942335.090][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 071F22313B17D3FB63D019E951B4652A {
+   "context": {
+      "auxData": {
+         "frameId": "67D4894FBD64F4B61B9F51FE87FEF09D",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 3,
+      "name": "",
+      "origin": "https://www.josephjoseph.com",
+      "uniqueId": "-8649363005418755920.2501875161961081569"
+   }
+}
+[1664942335.090][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading 071F22313B17D3FB63D019E951B4652A {
+   "frameId": "67D4894FBD64F4B61B9F51FE87FEF09D"
+}
+[1664942335.093][DEBUG]: DevTools WebSocket Event: Page.frameDetached 071F22313B17D3FB63D019E951B4652A {
+   "frameId": "67D4894FBD64F4B61B9F51FE87FEF09D",
+   "reason": "remove"
+}
+[1664942335.093][DEBUG]: DevTools WebSocket Event: Page.frameAttached 071F22313B17D3FB63D019E951B4652A {
+   "frameId": "5103E52C4C2D88FDF052CF198CD83769",
+   "parentFrameId": "071F22313B17D3FB63D019E951B4652A",
+   "stack": {
+      "callFrames": [ {
+         "columnNumber": 52857,
+         "functionName": "Lt.append",
+         "lineNumber": 6,
+         "scriptId": "133",
+         "url": "https://cookie-cdn.cookiepro.com/scripttemplates/6.24.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 195711,
+         "functionName": "On.insertPcHtml",
+         "lineNumber": 6,
+         "scriptId": "133",
+         "url": "https://cookie-cdn.cookiepro.com/scripttemplates/6.24.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 310306,
+         "functionName": "",
+         "lineNumber": 6,
+         "scriptId": "133",
+         "url": "https://cookie-cdn.cookiepro.com/scripttemplates/6.24.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 1629,
+         "functionName": "",
+         "lineNumber": 6,
+         "scriptId": "133",
+         "url": "https://cookie-cdn.cookiepro.com/scripttemplates/6.24.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 1734,
+         "functionName": "",
+         "lineNumber": 6,
+         "scriptId": "133",
+         "url": "https://cookie-cdn.cookiepro.com/scripttemplates/6.24.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 672,
+         "functionName": "",
+         "lineNumber": 6,
+         "scriptId": "133",
+         "url": "https://cookie-cdn.cookiepro.com/scripttemplates/6.24.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 451,
+         "functionName": "a",
+         "lineNumber": 6,
+         "scriptId": "133",
+         "url": "https://cookie-cdn.cookiepro.com/scripttemplates/6.24.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 309629,
+         "functionName": "ar.windowLoadBanner",
+         "lineNumber": 6,
+         "scriptId": "133",
+         "url": "https://cookie-cdn.cookiepro.com/scripttemplates/6.24.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 51177,
+         "functionName": "r",
+         "lineNumber": 6,
+         "scriptId": "133",
+         "url": "https://cookie-cdn.cookiepro.com/scripttemplates/6.24.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 51329,
+         "functionName": "Lt.trigger",
+         "lineNumber": 6,
+         "scriptId": "133",
+         "url": "https://cookie-cdn.cookiepro.com/scripttemplates/6.24.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 105366,
+         "functionName": "ro.loadBanner",
+         "lineNumber": 6,
+         "scriptId": "133",
+         "url": "https://cookie-cdn.cookiepro.com/scripttemplates/6.24.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 261708,
+         "functionName": "Wn.LoadBanner",
+         "lineNumber": 6,
+         "scriptId": "133",
+         "url": "https://cookie-cdn.cookiepro.com/scripttemplates/6.24.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 324321,
+         "functionName": "",
+         "lineNumber": 6,
+         "scriptId": "133",
+         "url": "https://cookie-cdn.cookiepro.com/scripttemplates/6.24.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 1629,
+         "functionName": "",
+         "lineNumber": 6,
+         "scriptId": "133",
+         "url": "https://cookie-cdn.cookiepro.com/scripttemplates/6.24.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 1734,
+         "functionName": "",
+         "lineNumber": 6,
+         "scriptId": "133",
+         "url": "https://cookie-cdn.cookiepro.com/scripttemplates/6.24.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 505,
+         "functionName": "o",
+         "lineNumber": 6,
+         "scriptId": "133",
+         "url": "https://cookie-cdn.cookiepro.com/scripttemplates/6.24.0/otBannerSdk.js"
+      } ]
+   }
+}
+[1664942335.094][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading 071F22313B17D3FB63D019E951B4652A {
+   "frameId": "5103E52C4C2D88FDF052CF198CD83769"
+}
+[1664942335.100][DEBUG]: DevTools WebSocket Event: Page.frameNavigated 071F22313B17D3FB63D019E951B4652A {
+   "frame": {
+      "adFrameStatus": {
+         "adFrameType": "none"
+      },
+      "crossOriginIsolatedContextType": "NotIsolated",
+      "domainAndRegistry": "",
+      "gatedAPIFeatures": [  ],
+      "id": "5103E52C4C2D88FDF052CF198CD83769",
+      "loaderId": "E4B96FAFEC1A118D160616BFD4D0BDA5",
+      "mimeType": "text/html",
+      "name": "",
+      "parentId": "071F22313B17D3FB63D019E951B4652A",
+      "secureContextType": "Secure",
+      "securityOrigin": "://",
+      "url": "about:blank"
+   },
+   "type": "Navigation"
+}
+[1664942335.100][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 071F22313B17D3FB63D019E951B4652A {
+   "context": {
+      "auxData": {
+         "frameId": "5103E52C4C2D88FDF052CF198CD83769",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 4,
+      "name": "",
+      "origin": "https://www.josephjoseph.com",
+      "uniqueId": "-7998394760352388478.9054592595144344473"
+   }
+}
+[1664942335.100][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading 071F22313B17D3FB63D019E951B4652A {
+   "frameId": "5103E52C4C2D88FDF052CF198CD83769"
+}
+[1664942335.178][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=23) 071F22313B17D3FB63D019E951B4652A {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1664942335.483][DEBUG]: DevTools WebSocket Event: Page.frameAttached 071F22313B17D3FB63D019E951B4652A {
+   "frameId": "D56417E3F1F1FE6A87C355A14FDEA71C",
+   "parentFrameId": "071F22313B17D3FB63D019E951B4652A",
+   "stack": {
+      "callFrames": [ {
+         "columnNumber": 322166,
+         "functionName": "ws",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, {
+         "columnNumber": 322299,
+         "functionName": "ws",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, {
+         "columnNumber": 322299,
+         "functionName": "ws",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, {
+         "columnNumber": 321933,
+         "functionName": "_s",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, {
+         "columnNumber": 334735,
+         "functionName": "Rl",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, {
+         "columnNumber": 394462,
+         "functionName": "t.unstable_runWithPriority",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, {
+         "columnNumber": 277995,
+         "functionName": "Ba",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, {
+         "columnNumber": 332863,
+         "functionName": "Pl",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, {
+         "columnNumber": 328949,
+         "functionName": "El",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, {
+         "columnNumber": 278218,
+         "functionName": "",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, {
+         "columnNumber": 394462,
+         "functionName": "t.unstable_runWithPriority",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, {
+         "columnNumber": 277995,
+         "functionName": "Ba",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, {
+         "columnNumber": 278163,
+         "functionName": "Ya",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, {
+         "columnNumber": 278098,
+         "functionName": "qa",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, {
+         "columnNumber": 337862,
+         "functionName": "Ul",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, {
+         "columnNumber": 394462,
+         "functionName": "t.unstable_runWithPriority",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, {
+         "columnNumber": 277995,
+         "functionName": "Ba",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, {
+         "columnNumber": 337137,
+         "functionName": "Ml",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, {
+         "columnNumber": 337048,
+         "functionName": "",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, "..." ]
+   }
+}
+[1664942335.483][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=24) 071F22313B17D3FB63D019E951B4652A {
+   "expression": "1"
+}
+[1664942335.484][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading 071F22313B17D3FB63D019E951B4652A {
+   "frameId": "D56417E3F1F1FE6A87C355A14FDEA71C"
+}
+[1664942335.487][DEBUG]: DevTools WebSocket Event: Page.frameAttached 071F22313B17D3FB63D019E951B4652A {
+   "frameId": "995DAC8F54F45BB90F645B1B29F71D47",
+   "parentFrameId": "071F22313B17D3FB63D019E951B4652A",
+   "stack": {
+      "callFrames": [ {
+         "columnNumber": 322166,
+         "functionName": "ws",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, {
+         "columnNumber": 322299,
+         "functionName": "ws",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, {
+         "columnNumber": 322299,
+         "functionName": "ws",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, {
+         "columnNumber": 321933,
+         "functionName": "_s",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, {
+         "columnNumber": 334735,
+         "functionName": "Rl",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, {
+         "columnNumber": 394462,
+         "functionName": "t.unstable_runWithPriority",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, {
+         "columnNumber": 277995,
+         "functionName": "Ba",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, {
+         "columnNumber": 332863,
+         "functionName": "Pl",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, {
+         "columnNumber": 328949,
+         "functionName": "El",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, {
+         "columnNumber": 278218,
+         "functionName": "",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, {
+         "columnNumber": 394462,
+         "functionName": "t.unstable_runWithPriority",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, {
+         "columnNumber": 277995,
+         "functionName": "Ba",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, {
+         "columnNumber": 278163,
+         "functionName": "Ya",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, {
+         "columnNumber": 278098,
+         "functionName": "qa",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, {
+         "columnNumber": 337862,
+         "functionName": "Ul",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, {
+         "columnNumber": 394462,
+         "functionName": "t.unstable_runWithPriority",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, {
+         "columnNumber": 277995,
+         "functionName": "Ba",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, {
+         "columnNumber": 337137,
+         "functionName": "Ml",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, {
+         "columnNumber": 337048,
+         "functionName": "",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, "..." ]
+   }
+}
+[1664942335.487][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading 071F22313B17D3FB63D019E951B4652A {
+   "frameId": "995DAC8F54F45BB90F645B1B29F71D47"
+}
+[1664942335.501][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 071F22313B17D3FB63D019E951B4652A {
+   "context": {
+      "auxData": {
+         "frameId": "D56417E3F1F1FE6A87C355A14FDEA71C",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 5,
+      "name": "",
+      "origin": "https://www.josephjoseph.com",
+      "uniqueId": "4803411731704832407.-5917770674948321832"
+   }
+}
+[1664942335.501][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 071F22313B17D3FB63D019E951B4652A {
+   "context": {
+      "auxData": {
+         "frameId": "995DAC8F54F45BB90F645B1B29F71D47",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 6,
+      "name": "",
+      "origin": "https://www.josephjoseph.com",
+      "uniqueId": "3142465187488446264.6810255954257808828"
+   }
+}
+[1664942335.527][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=24) 071F22313B17D3FB63D019E951B4652A {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1664942335.529][DEBUG]: DevTools WebSocket Event: Page.frameNavigated 071F22313B17D3FB63D019E951B4652A {
+   "frame": {
+      "adFrameStatus": {
+         "adFrameType": "none"
+      },
+      "crossOriginIsolatedContextType": "NotIsolated",
+      "domainAndRegistry": "",
+      "gatedAPIFeatures": [  ],
+      "id": "D56417E3F1F1FE6A87C355A14FDEA71C",
+      "loaderId": "CB6D44F9B99226AC6D042BB221544BCD",
+      "mimeType": "text/html",
+      "name": "chat-window",
+      "parentId": "071F22313B17D3FB63D019E951B4652A",
+      "secureContextType": "Secure",
+      "securityOrigin": "://",
+      "url": "about:srcdoc"
+   },
+   "type": "Navigation"
+}
+[1664942335.529][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=25) 071F22313B17D3FB63D019E951B4652A {
+   "expression": "1"
+}
+[1664942335.530][DEBUG]: DevTools WebSocket Event: Page.frameNavigated 071F22313B17D3FB63D019E951B4652A {
+   "frame": {
+      "adFrameStatus": {
+         "adFrameType": "none"
+      },
+      "crossOriginIsolatedContextType": "NotIsolated",
+      "domainAndRegistry": "",
+      "gatedAPIFeatures": [  ],
+      "id": "995DAC8F54F45BB90F645B1B29F71D47",
+      "loaderId": "8A462EA5687DBD68EA6BD37BA10ACFED",
+      "mimeType": "text/html",
+      "name": "chat-button",
+      "parentId": "071F22313B17D3FB63D019E951B4652A",
+      "secureContextType": "Secure",
+      "securityOrigin": "://",
+      "url": "about:srcdoc"
+   },
+   "type": "Navigation"
+}
+[1664942335.548][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading 071F22313B17D3FB63D019E951B4652A {
+   "frameId": "D56417E3F1F1FE6A87C355A14FDEA71C"
+}
+[1664942335.554][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading 071F22313B17D3FB63D019E951B4652A {
+   "frameId": "995DAC8F54F45BB90F645B1B29F71D47"
+}
+[1664942335.555][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=25) 071F22313B17D3FB63D019E951B4652A {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1664942335.660][DEBUG]: DevTools WebSocket Event: Page.frameAttached 071F22313B17D3FB63D019E951B4652A {
+   "frameId": "DAFF15F92EB9E4038D5DE69C45DB3E30",
+   "parentFrameId": "071F22313B17D3FB63D019E951B4652A",
+   "stack": {
+      "callFrames": [ {
+         "columnNumber": 72267,
+         "functionName": "Yt.createIFrame",
+         "lineNumber": 2,
+         "scriptId": "164",
+         "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C5SI5PC4L0UC80DEPAFG&lib=ttq"
+      }, {
+         "columnNumber": 71966,
+         "functionName": "Yt.tryCreateIFrames",
+         "lineNumber": 2,
+         "scriptId": "164",
+         "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C5SI5PC4L0UC80DEPAFG&lib=ttq"
+      }, {
+         "columnNumber": 72975,
+         "functionName": "Yt",
+         "lineNumber": 2,
+         "scriptId": "164",
+         "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C5SI5PC4L0UC80DEPAFG&lib=ttq"
+      }, {
+         "columnNumber": 74476,
+         "functionName": "re",
+         "lineNumber": 2,
+         "scriptId": "164",
+         "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C5SI5PC4L0UC80DEPAFG&lib=ttq"
+      }, {
+         "columnNumber": 78202,
+         "functionName": "oe+7",
+         "lineNumber": 2,
+         "scriptId": "164",
+         "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C5SI5PC4L0UC80DEPAFG&lib=ttq"
+      }, {
+         "columnNumber": 9860,
+         "functionName": "s",
+         "lineNumber": 2,
+         "scriptId": "164",
+         "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C5SI5PC4L0UC80DEPAFG&lib=ttq"
+      }, {
+         "columnNumber": 13448,
+         "functionName": "0",
+         "lineNumber": 2,
+         "scriptId": "164",
+         "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C5SI5PC4L0UC80DEPAFG&lib=ttq"
+      }, {
+         "columnNumber": 9860,
+         "functionName": "s",
+         "lineNumber": 2,
+         "scriptId": "164",
+         "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C5SI5PC4L0UC80DEPAFG&lib=ttq"
+      }, {
+         "columnNumber": 11600,
+         "functionName": "",
+         "lineNumber": 2,
+         "scriptId": "164",
+         "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C5SI5PC4L0UC80DEPAFG&lib=ttq"
+      }, {
+         "columnNumber": 11609,
+         "functionName": "",
+         "lineNumber": 2,
+         "scriptId": "164",
+         "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C5SI5PC4L0UC80DEPAFG&lib=ttq"
+      } ]
+   }
+}
+[1664942335.660][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=26) 071F22313B17D3FB63D019E951B4652A {
+   "expression": "1"
+}
+[1664942335.660][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading 071F22313B17D3FB63D019E951B4652A {
+   "frameId": "DAFF15F92EB9E4038D5DE69C45DB3E30"
+}
+[1664942335.663][DEBUG]: DevTools WebSocket Event: Page.frameNavigated 071F22313B17D3FB63D019E951B4652A {
+   "frame": {
+      "adFrameStatus": {
+         "adFrameType": "none"
+      },
+      "crossOriginIsolatedContextType": "NotIsolated",
+      "domainAndRegistry": "",
+      "gatedAPIFeatures": [  ],
+      "id": "DAFF15F92EB9E4038D5DE69C45DB3E30",
+      "loaderId": "6359D36A634B2213E3D8C8F025CF9A3B",
+      "mimeType": "text/html",
+      "name": "__JSBridgeIframe_1.0__",
+      "parentId": "071F22313B17D3FB63D019E951B4652A",
+      "secureContextType": "Secure",
+      "securityOrigin": "://",
+      "url": "about:blank"
+   },
+   "type": "Navigation"
+}
+[1664942335.663][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 071F22313B17D3FB63D019E951B4652A {
+   "context": {
+      "auxData": {
+         "frameId": "DAFF15F92EB9E4038D5DE69C45DB3E30",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 7,
+      "name": "",
+      "origin": "https://www.josephjoseph.com",
+      "uniqueId": "-6817493252814708607.-1233778536106969419"
+   }
+}
+[1664942335.663][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading 071F22313B17D3FB63D019E951B4652A {
+   "frameId": "DAFF15F92EB9E4038D5DE69C45DB3E30"
+}
+[1664942335.664][DEBUG]: DevTools WebSocket Event: Page.frameAttached 071F22313B17D3FB63D019E951B4652A {
+   "frameId": "255288D92100ECB78772ED274726FA3B",
+   "parentFrameId": "071F22313B17D3FB63D019E951B4652A",
+   "stack": {
+      "callFrames": [ {
+         "columnNumber": 72267,
+         "functionName": "Yt.createIFrame",
+         "lineNumber": 2,
+         "scriptId": "164",
+         "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C5SI5PC4L0UC80DEPAFG&lib=ttq"
+      }, {
+         "columnNumber": 72035,
+         "functionName": "Yt.tryCreateIFrames",
+         "lineNumber": 2,
+         "scriptId": "164",
+         "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C5SI5PC4L0UC80DEPAFG&lib=ttq"
+      }, {
+         "columnNumber": 72975,
+         "functionName": "Yt",
+         "lineNumber": 2,
+         "scriptId": "164",
+         "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C5SI5PC4L0UC80DEPAFG&lib=ttq"
+      }, {
+         "columnNumber": 74476,
+         "functionName": "re",
+         "lineNumber": 2,
+         "scriptId": "164",
+         "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C5SI5PC4L0UC80DEPAFG&lib=ttq"
+      }, {
+         "columnNumber": 78202,
+         "functionName": "oe+7",
+         "lineNumber": 2,
+         "scriptId": "164",
+         "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C5SI5PC4L0UC80DEPAFG&lib=ttq"
+      }, {
+         "columnNumber": 9860,
+         "functionName": "s",
+         "lineNumber": 2,
+         "scriptId": "164",
+         "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C5SI5PC4L0UC80DEPAFG&lib=ttq"
+      }, {
+         "columnNumber": 13448,
+         "functionName": "0",
+         "lineNumber": 2,
+         "scriptId": "164",
+         "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C5SI5PC4L0UC80DEPAFG&lib=ttq"
+      }, {
+         "columnNumber": 9860,
+         "functionName": "s",
+         "lineNumber": 2,
+         "scriptId": "164",
+         "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C5SI5PC4L0UC80DEPAFG&lib=ttq"
+      }, {
+         "columnNumber": 11600,
+         "functionName": "",
+         "lineNumber": 2,
+         "scriptId": "164",
+         "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C5SI5PC4L0UC80DEPAFG&lib=ttq"
+      }, {
+         "columnNumber": 11609,
+         "functionName": "",
+         "lineNumber": 2,
+         "scriptId": "164",
+         "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C5SI5PC4L0UC80DEPAFG&lib=ttq"
+      } ]
+   }
+}
+[1664942335.665][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading 071F22313B17D3FB63D019E951B4652A {
+   "frameId": "255288D92100ECB78772ED274726FA3B"
+}
+[1664942335.667][DEBUG]: DevTools WebSocket Event: Page.frameNavigated 071F22313B17D3FB63D019E951B4652A {
+   "frame": {
+      "adFrameStatus": {
+         "adFrameType": "none"
+      },
+      "crossOriginIsolatedContextType": "NotIsolated",
+      "domainAndRegistry": "",
+      "gatedAPIFeatures": [  ],
+      "id": "255288D92100ECB78772ED274726FA3B",
+      "loaderId": "5038B8E5C5F44398F685DD0D853069BD",
+      "mimeType": "text/html",
+      "name": "__JSBridgeIframe_SetResult_1.0__",
+      "parentId": "071F22313B17D3FB63D019E951B4652A",
+      "secureContextType": "Secure",
+      "securityOrigin": "://",
+      "url": "about:blank"
+   },
+   "type": "Navigation"
+}
+[1664942335.667][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 071F22313B17D3FB63D019E951B4652A {
+   "context": {
+      "auxData": {
+         "frameId": "255288D92100ECB78772ED274726FA3B",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 8,
+      "name": "",
+      "origin": "https://www.josephjoseph.com",
+      "uniqueId": "-8798568481101846370.7014470159721321428"
+   }
+}
+[1664942335.667][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading 071F22313B17D3FB63D019E951B4652A {
+   "frameId": "255288D92100ECB78772ED274726FA3B"
+}
+[1664942335.668][DEBUG]: DevTools WebSocket Event: Page.frameAttached 071F22313B17D3FB63D019E951B4652A {
+   "frameId": "8E4A315CD9DD343286B3A261608B602A",
+   "parentFrameId": "071F22313B17D3FB63D019E951B4652A",
+   "stack": {
+      "callFrames": [ {
+         "columnNumber": 72267,
+         "functionName": "Yt.createIFrame",
+         "lineNumber": 2,
+         "scriptId": "164",
+         "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C5SI5PC4L0UC80DEPAFG&lib=ttq"
+      }, {
+         "columnNumber": 71966,
+         "functionName": "Yt.tryCreateIFrames",
+         "lineNumber": 2,
+         "scriptId": "164",
+         "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C5SI5PC4L0UC80DEPAFG&lib=ttq"
+      }, {
+         "columnNumber": 72975,
+         "functionName": "Yt",
+         "lineNumber": 2,
+         "scriptId": "164",
+         "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C5SI5PC4L0UC80DEPAFG&lib=ttq"
+      }, {
+         "columnNumber": 76555,
+         "functionName": "ie",
+         "lineNumber": 2,
+         "scriptId": "164",
+         "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C5SI5PC4L0UC80DEPAFG&lib=ttq"
+      }, {
+         "columnNumber": 78196,
+         "functionName": "oe+7",
+         "lineNumber": 2,
+         "scriptId": "164",
+         "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C5SI5PC4L0UC80DEPAFG&lib=ttq"
+      }, {
+         "columnNumber": 9860,
+         "functionName": "s",
+         "lineNumber": 2,
+         "scriptId": "164",
+         "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C5SI5PC4L0UC80DEPAFG&lib=ttq"
+      }, {
+         "columnNumber": 13448,
+         "functionName": "0",
+         "lineNumber": 2,
+         "scriptId": "164",
+         "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C5SI5PC4L0UC80DEPAFG&lib=ttq"
+      }, {
+         "columnNumber": 9860,
+         "functionName": "s",
+         "lineNumber": 2,
+         "scriptId": "164",
+         "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C5SI5PC4L0UC80DEPAFG&lib=ttq"
+      }, {
+         "columnNumber": 11600,
+         "functionName": "",
+         "lineNumber": 2,
+         "scriptId": "164",
+         "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C5SI5PC4L0UC80DEPAFG&lib=ttq"
+      }, {
+         "columnNumber": 11609,
+         "functionName": "",
+         "lineNumber": 2,
+         "scriptId": "164",
+         "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C5SI5PC4L0UC80DEPAFG&lib=ttq"
+      } ]
+   }
+}
+[1664942335.669][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading 071F22313B17D3FB63D019E951B4652A {
+   "frameId": "8E4A315CD9DD343286B3A261608B602A"
+}
+[1664942335.672][DEBUG]: DevTools WebSocket Event: Page.frameNavigated 071F22313B17D3FB63D019E951B4652A {
+   "frame": {
+      "adFrameStatus": {
+         "adFrameType": "none"
+      },
+      "crossOriginIsolatedContextType": "NotIsolated",
+      "domainAndRegistry": "",
+      "gatedAPIFeatures": [  ],
+      "id": "8E4A315CD9DD343286B3A261608B602A",
+      "loaderId": "E19207F5133B1AC200E8051F0C037FE4",
+      "mimeType": "text/html",
+      "name": "__JSBridgeIframe__",
+      "parentId": "071F22313B17D3FB63D019E951B4652A",
+      "secureContextType": "Secure",
+      "securityOrigin": "://",
+      "url": "about:blank"
+   },
+   "type": "Navigation"
+}
+[1664942335.672][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 071F22313B17D3FB63D019E951B4652A {
+   "context": {
+      "auxData": {
+         "frameId": "8E4A315CD9DD343286B3A261608B602A",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 9,
+      "name": "",
+      "origin": "https://www.josephjoseph.com",
+      "uniqueId": "5588962561045872036.3406547100139430049"
+   }
+}
+[1664942335.672][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading 071F22313B17D3FB63D019E951B4652A {
+   "frameId": "8E4A315CD9DD343286B3A261608B602A"
+}
+[1664942335.673][DEBUG]: DevTools WebSocket Event: Page.frameAttached 071F22313B17D3FB63D019E951B4652A {
+   "frameId": "017B97F00D1228EB3459D03035673D5F",
+   "parentFrameId": "071F22313B17D3FB63D019E951B4652A",
+   "stack": {
+      "callFrames": [ {
+         "columnNumber": 72267,
+         "functionName": "Yt.createIFrame",
+         "lineNumber": 2,
+         "scriptId": "164",
+         "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C5SI5PC4L0UC80DEPAFG&lib=ttq"
+      }, {
+         "columnNumber": 72035,
+         "functionName": "Yt.tryCreateIFrames",
+         "lineNumber": 2,
+         "scriptId": "164",
+         "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C5SI5PC4L0UC80DEPAFG&lib=ttq"
+      }, {
+         "columnNumber": 72975,
+         "functionName": "Yt",
+         "lineNumber": 2,
+         "scriptId": "164",
+         "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C5SI5PC4L0UC80DEPAFG&lib=ttq"
+      }, {
+         "columnNumber": 76555,
+         "functionName": "ie",
+         "lineNumber": 2,
+         "scriptId": "164",
+         "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C5SI5PC4L0UC80DEPAFG&lib=ttq"
+      }, {
+         "columnNumber": 78196,
+         "functionName": "oe+7",
+         "lineNumber": 2,
+         "scriptId": "164",
+         "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C5SI5PC4L0UC80DEPAFG&lib=ttq"
+      }, {
+         "columnNumber": 9860,
+         "functionName": "s",
+         "lineNumber": 2,
+         "scriptId": "164",
+         "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C5SI5PC4L0UC80DEPAFG&lib=ttq"
+      }, {
+         "columnNumber": 13448,
+         "functionName": "0",
+         "lineNumber": 2,
+         "scriptId": "164",
+         "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C5SI5PC4L0UC80DEPAFG&lib=ttq"
+      }, {
+         "columnNumber": 9860,
+         "functionName": "s",
+         "lineNumber": 2,
+         "scriptId": "164",
+         "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C5SI5PC4L0UC80DEPAFG&lib=ttq"
+      }, {
+         "columnNumber": 11600,
+         "functionName": "",
+         "lineNumber": 2,
+         "scriptId": "164",
+         "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C5SI5PC4L0UC80DEPAFG&lib=ttq"
+      }, {
+         "columnNumber": 11609,
+         "functionName": "",
+         "lineNumber": 2,
+         "scriptId": "164",
+         "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C5SI5PC4L0UC80DEPAFG&lib=ttq"
+      } ]
+   }
+}
+[1664942335.673][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading 071F22313B17D3FB63D019E951B4652A {
+   "frameId": "017B97F00D1228EB3459D03035673D5F"
+}
+[1664942335.676][DEBUG]: DevTools WebSocket Event: Page.frameNavigated 071F22313B17D3FB63D019E951B4652A {
+   "frame": {
+      "adFrameStatus": {
+         "adFrameType": "none"
+      },
+      "crossOriginIsolatedContextType": "NotIsolated",
+      "domainAndRegistry": "",
+      "gatedAPIFeatures": [  ],
+      "id": "017B97F00D1228EB3459D03035673D5F",
+      "loaderId": "DCE47BC00F0D507DD2AEF917207A5D77",
+      "mimeType": "text/html",
+      "name": "__JSBridgeIframe_SetResult__",
+      "parentId": "071F22313B17D3FB63D019E951B4652A",
+      "secureContextType": "Secure",
+      "securityOrigin": "://",
+      "url": "about:blank"
+   },
+   "type": "Navigation"
+}
+[1664942335.676][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 071F22313B17D3FB63D019E951B4652A {
+   "context": {
+      "auxData": {
+         "frameId": "017B97F00D1228EB3459D03035673D5F",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 10,
+      "name": "",
+      "origin": "https://www.josephjoseph.com",
+      "uniqueId": "-4139900832668683376.-6471693084973035121"
+   }
+}
+[1664942335.676][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading 071F22313B17D3FB63D019E951B4652A {
+   "frameId": "017B97F00D1228EB3459D03035673D5F"
+}
+[1664942335.818][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=26) 071F22313B17D3FB63D019E951B4652A {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1664942335.890][DEBUG]: DevTools WebSocket Event: Page.frameAttached 071F22313B17D3FB63D019E951B4652A {
+   "frameId": "E8C46A035A72B66CF005EAF4D65A4BE9",
+   "parentFrameId": "071F22313B17D3FB63D019E951B4652A",
+   "stack": {
+      "callFrames": [ {
+         "columnNumber": 322445,
+         "functionName": "Cs",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, {
+         "columnNumber": 322518,
+         "functionName": "Cs",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, {
+         "columnNumber": 322518,
+         "functionName": "Cs",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, {
+         "columnNumber": 322518,
+         "functionName": "Cs",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, {
+         "columnNumber": 321943,
+         "functionName": "_s",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, {
+         "columnNumber": 334735,
+         "functionName": "Rl",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, {
+         "columnNumber": 394462,
+         "functionName": "t.unstable_runWithPriority",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, {
+         "columnNumber": 277995,
+         "functionName": "Ba",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, {
+         "columnNumber": 332863,
+         "functionName": "Pl",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, {
+         "columnNumber": 328949,
+         "functionName": "El",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, {
+         "columnNumber": 278218,
+         "functionName": "",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, {
+         "columnNumber": 394462,
+         "functionName": "t.unstable_runWithPriority",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, {
+         "columnNumber": 277995,
+         "functionName": "Ba",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, {
+         "columnNumber": 278163,
+         "functionName": "Ya",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, {
+         "columnNumber": 393521,
+         "functionName": "L",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      }, {
+         "columnNumber": 392243,
+         "functionName": "b.port1.onmessage",
+         "lineNumber": 0,
+         "scriptId": "139",
+         "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=f415f1f6&applicationId=3350"
+      } ]
+   }
+}
+[1664942335.890][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=27) 071F22313B17D3FB63D019E951B4652A {
+   "expression": "1"
+}
+[1664942335.892][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading 071F22313B17D3FB63D019E951B4652A {
+   "frameId": "E8C46A035A72B66CF005EAF4D65A4BE9"
+}
+[1664942335.900][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 071F22313B17D3FB63D019E951B4652A {
+   "context": {
+      "auxData": {
+         "frameId": "E8C46A035A72B66CF005EAF4D65A4BE9",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 11,
+      "name": "",
+      "origin": "https://www.josephjoseph.com",
+      "uniqueId": "5471261673245769767.-2446852408644834372"
+   }
+}
+[1005/035855.969180:INFO:CONSOLE(1)] "Pinterest Tag Error: 'load' command was called multiple times.  Previously for tag id '%s', now for tag id '%s'. 2613881148421 2613881148421", source: https://s.pinimg.com/ct/lib/main.3a217bc7.js (1)
+[1664942335.970][DEBUG]: DevTools WebSocket Event: Runtime.consoleAPICalled 071F22313B17D3FB63D019E951B4652A {
+   "args": [ {
+      "type": "string",
+      "value": "Pinterest Tag Error: 'load' command was called multiple times.  Previously for tag id '%s', now for tag id '%s'."
+   }, {
+      "type": "string",
+      "value": "2613881148421"
+   }, {
+      "type": "string",
+      "value": "2613881148421"
+   } ],
+   "executionContextId": 1,
+   "stackTrace": {
+      "callFrames": [ {
+         "columnNumber": 39786,
+         "functionName": "d.load",
+         "lineNumber": 0,
+         "scriptId": "169",
+         "url": "https://s.pinimg.com/ct/lib/main.3a217bc7.js"
+      }, {
+         "columnNumber": 39480,
+         "functionName": "n",
+         "lineNumber": 0,
+         "scriptId": "169",
+         "url": "https://s.pinimg.com/ct/lib/main.3a217bc7.js"
+      }, {
+         "columnNumber": 39612,
+         "functionName": "d.activate",
+         "lineNumber": 0,
+         "scriptId": "169",
+         "url": "https://s.pinimg.com/ct/lib/main.3a217bc7.js"
+      }, {
+         "columnNumber": 27201,
+         "functionName": "",
+         "lineNumber": 0,
+         "scriptId": "169",
+         "url": "https://s.pinimg.com/ct/lib/main.3a217bc7.js"
+      }, {
+         "columnNumber": 90,
+         "functionName": "r",
+         "lineNumber": 0,
+         "scriptId": "169",
+         "url": "https://s.pinimg.com/ct/lib/main.3a217bc7.js"
+      }, {
+         "columnNumber": 857,
+         "functionName": "",
+         "lineNumber": 0,
+         "scriptId": "169",
+         "url": "https://s.pinimg.com/ct/lib/main.3a217bc7.js"
+      }, {
+         "columnNumber": 866,
+         "functionName": "",
+         "lineNumber": 0,
+         "scriptId": "169",
+         "url": "https://s.pinimg.com/ct/lib/main.3a217bc7.js"
+      } ]
+   },
+   "timestamp": 1.6649423359648918e+12,
+   "type": "error"
+}
+[1664942336.046][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=27) 071F22313B17D3FB63D019E951B4652A {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1664942336.048][DEBUG]: DevTools WebSocket Event: Page.frameNavigated 071F22313B17D3FB63D019E951B4652A {
+   "frame": {
+      "adFrameStatus": {
+         "adFrameType": "none"
+      },
+      "crossOriginIsolatedContextType": "NotIsolated",
+      "domainAndRegistry": "",
+      "gatedAPIFeatures": [  ],
+      "id": "E8C46A035A72B66CF005EAF4D65A4BE9",
+      "loaderId": "896FA4BAA9E5DE62DB59C7F87F661B41",
+      "mimeType": "text/html",
+      "name": "chat-campaigns",
+      "parentId": "071F22313B17D3FB63D019E951B4652A",
+      "secureContextType": "Secure",
+      "securityOrigin": "://",
+      "url": "about:srcdoc"
+   },
+   "type": "Navigation"
+}
+[1664942336.049][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=28) 071F22313B17D3FB63D019E951B4652A {
+   "expression": "1"
+}
+[1664942336.081][DEBUG]: DevTools WebSocket Event: Log.entryAdded 071F22313B17D3FB63D019E951B4652A {
+   "entry": {
+      "level": "error",
+      "networkRequestId": "12438.651",
+      "source": "network",
+      "text": "Failed to load resource: the server responded with a status of 404 ()",
+      "timestamp": 1.664942336081089e+12,
+      "url": "https://cdn.shopify.com/s/files/1/0269/9899/7064/files/filter_by_colour-white.png?v=2"
+   }
+}
+[1664942336.094][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading 071F22313B17D3FB63D019E951B4652A {
+   "frameId": "E8C46A035A72B66CF005EAF4D65A4BE9"
+}
+[1664942336.095][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=28) 071F22313B17D3FB63D019E951B4652A {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1664942336.599][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=29) 071F22313B17D3FB63D019E951B4652A {
+   "expression": "1"
+}
+[1664942336.602][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=29) 071F22313B17D3FB63D019E951B4652A {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1664942337.105][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=30) 071F22313B17D3FB63D019E951B4652A {
+   "expression": "1"
+}
+[1664942337.106][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=30) 071F22313B17D3FB63D019E951B4652A {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1664942337.602][DEBUG]: DevTools WebSocket Event: Page.frameAttached 071F22313B17D3FB63D019E951B4652A {
+   "frameId": "EEB8A9CCF9725A026CFFFD5C0D3CCC1D",
+   "parentFrameId": "071F22313B17D3FB63D019E951B4652A",
+   "stack": {
+      "callFrames": [ {
+         "columnNumber": 36351,
+         "functionName": "Mt",
+         "lineNumber": 0,
+         "scriptId": "169",
+         "url": "https://s.pinimg.com/ct/lib/main.3a217bc7.js"
+      } ]
+   }
+}
+[1664942337.602][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=31) 071F22313B17D3FB63D019E951B4652A {
+   "expression": "1"
+}
+[1664942337.603][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading 071F22313B17D3FB63D019E951B4652A {
+   "frameId": "EEB8A9CCF9725A026CFFFD5C0D3CCC1D"
+}
+[1664942337.650][DEBUG]: DevTools WebSocket Event: Page.loadEventFired 071F22313B17D3FB63D019E951B4652A {
+   "timestamp": 4036.901645
+}
+[1664942337.650][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=32) 071F22313B17D3FB63D019E951B4652A {
+   "awaitPromise": false,
+   "expression": "document.readyState",
+   "returnByValue": true
+}
+[1664942337.651][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 071F22313B17D3FB63D019E951B4652A {
+   "context": {
+      "auxData": {
+         "frameId": "EEB8A9CCF9725A026CFFFD5C0D3CCC1D",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 12,
+      "name": "",
+      "origin": "https://www.josephjoseph.com",
+      "uniqueId": "8304975570506346595.8493134734628086718"
+   }
+}
+[1664942337.665][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=31) 071F22313B17D3FB63D019E951B4652A {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1664942337.665][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=32) 071F22313B17D3FB63D019E951B4652A {
    "result": {
       "type": "string",
       "value": "complete"
    }
 }
-[1664195849.602][INFO]: Waiting for pending navigations...
-[1664195849.602][DEBUG]: DevTools WebSocket Command: Runtime.evaluate ([1664198937.496][INFO]: [293fabe9ba2873fcb65c296a14dc51cb] COMMAND QuitAll {
+[1664942337.665][INFO]: Done waiting for pending navigations. Status: ok
+[1664942337.665][INFO]: [2956a5c1c87d8904e005fae15c7e7897] RESPONSE Navigate
+[1664942337.667][INFO]: [2956a5c1c87d8904e005fae15c7e7897] COMMAND GetSource {
 }
-[1664198937.547][INFO]: [293fabe9ba2873fcb65c296a14dc51cb] RESPONSE QuitAll
-[1664198937.547][DEBUG]: Log type 'driver' lost 0 entries on destruction
-[1664198937.547][DEBUG]: Log type 'browser' lost 0 entries on destruction
-ng for pending navigations. Status: ok
-[1664195849.605][INFO]: [06a15786d3d6f3d8c8c2d58148f02f9c] RESPONSE Navigate ERROR unknown error: net::ERR_NAME_NOT_RESOLVED
-  (Session info: headless chrome=105.0.5195.125)
-[1664198937.550][INFO]: [06a15786d3d6f3d8c8c2d58148f02f9c] COMMAND QuitAll {
+[1664942337.667][INFO]: Waiting for pending navigations...
+[1664942337.667][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=33) 071F22313B17D3FB63D019E951B4652A {
+   "expression": "1"
 }
-[1664198937.600][INFO]: [06a15786d3d6f3d8c8c2d58148f02f9c] RESPONSE QuitAll
-[1664198937.600][DEBUG]: Log type 'driver' lost 0 entries on destruction
-[1664198937.600][DEBUG]: Log type 'browser' lost 0 entries on destruction
+[1664942337.674][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=33) 071F22313B17D3FB63D019E951B4652A {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1664942337.674][INFO]: Done waiting for pending navigations. Status: ok
+[1664942337.675][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=34) 071F22313B17D3FB63D019E951B4652A {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1664942337.772][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=34) 071F22313B17D3FB63D019E951B4652A {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": "\u003Chtml lang=\"en\" style=\"--InnerHeight:1080px;\">\u003Chead>\n    \u003Cmeta charset=\"utf-8\">\u003Cscript type=\"text/plain\" async=\"\" src=\"https://bat.bing.com/bat.js\" class=\"optanon-category-C0004 \">\u003C/script>\u003Cscript ..."
+      }
+   }
+}
+[1664942337.774][INFO]: Waiting for pending navigations...
+[1664942337.775][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=35) 071F22313B17D3FB63D019E951B4652A {
+   "expression": "1"
+}
+[1664942337.801][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=35) 071F22313B17D3FB63D019E951B4652A {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1664942337.801][INFO]: Done waiting for pending navigations. Status: ok
+[1664942337.801][INFO]: [2956a5c1c87d8904e005fae15c7e7897] RESPONSE GetSource "\u003Chtml lang=\"en\" style=\"--InnerHeight:1080px;\">\u003Chead>\n    \u003Cmeta charset=\"utf-8\">\u003Cscript type=\"text/plain\" async=\"\" src=\"https://bat.bing.com/bat.js\" class=\"optanon-category-C0004 \">\u003C/script>\u003Cscript ..."
+[1664942337.939][DEBUG]: DevTools WebSocket Event: Runtime.executionContextDestroyed 071F22313B17D3FB63D019E951B4652A {
+   "executionContextId": 12
+}
+[1664942337.939][DEBUG]: DevTools WebSocket Event: Page.frameNavigated 071F22313B17D3FB63D019E951B4652A {
+   "frame": {
+      "adFrameStatus": {
+         "adFrameType": "none"
+      },
+      "crossOriginIsolatedContextType": "NotIsolatedFeatureDisabled",
+      "domainAndRegistry": "pinterest.com",
+      "gatedAPIFeatures": [  ],
+      "id": "EEB8A9CCF9725A026CFFFD5C0D3CCC1D",
+      "loaderId": "6F4A62B918BBAF58B7743C8E7B9F57EE",
+      "mimeType": "text/html",
+      "name": "epik_localstore",
+      "parentId": "071F22313B17D3FB63D019E951B4652A",
+      "secureContextType": "Secure",
+      "securityOrigin": "https://ct.pinterest.com",
+      "url": "https://ct.pinterest.com/ct.html"
+   },
+   "type": "Navigation"
+}
+[1664942337.939][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 071F22313B17D3FB63D019E951B4652A {
+   "context": {
+      "auxData": {
+         "frameId": "EEB8A9CCF9725A026CFFFD5C0D3CCC1D",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 13,
+      "name": "",
+      "origin": "https://ct.pinterest.com",
+      "uniqueId": "2064198973843723837.-8884372431403003792"
+   }
+}
+[1664942337.940][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading 071F22313B17D3FB63D019E951B4652A {
+   "frameId": "EEB8A9CCF9725A026CFFFD5C0D3CCC1D"
+}
+[1664942337.942][DEBUG]: DevTools WebSocket Event: Page.frameDetached 071F22313B17D3FB63D019E951B4652A {
+   "frameId": "EEB8A9CCF9725A026CFFFD5C0D3CCC1D",
+   "reason": "remove"
+}
+[1664942338.122][INFO]: [2956a5c1c87d8904e005fae15c7e7897] COMMAND QuitAll {
+}
+[1664942338.173][INFO]: [2956a5c1c87d8904e005fae15c7e7897] RESPONSE QuitAll
+[1664942338.173][DEBUG]: Log type 'driver' lost 1 entries on destruction
+[1664942338.173][DEBUG]: Log type 'browser' lost 4 entries on destruction

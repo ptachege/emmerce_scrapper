@@ -14,4 +14,8 @@ urlpatterns = [
     path('start_scrap/', views.start_scrap, name='start_scrap'),
     path('reset_scrap/', views.reset_scrap, name='reset_scrap'),
 
+    path('samsutech_links/', views.samsutech_links, name='samsutech_links'),
+    path('reset_samutech/', views.reset_samutech, name='reset_samutech'),
+    path('johnson_links/', views.johnson_links, name='johnson_links'),
+
 ]
