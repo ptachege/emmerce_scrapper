@@ -657,7 +657,7 @@ def Hypermarttproduct(request):
                     'div', class_='product-info-features')
                 short_description = outer_wrapper_feature.find('ul').text
             except:
-                pass
+                short_description = ""
 
         # long description
         try:
@@ -668,7 +668,7 @@ def Hypermarttproduct(request):
                 long_description_backup = soup.find(
                     "div", {"id": "description"}).text
             except:
-                pass
+                long_description_backup = ""
 
         # images
 
@@ -968,7 +968,7 @@ def MikaProducts(request):
             else:
                 stock_status = 'Out Of Stock'
         except:
-            in_stock = 'In Stock'
+            in_stock = 'Out Of Stock'
 
         # short description
         try:
