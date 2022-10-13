@@ -922,7 +922,7 @@ def MikaProducts(request):
             else:
                 stock_status = 'Out Of Stock'
         except:
-            in_stock = 'In Stock'
+            in_stock = 'Out Of Stock'
 
         # short description
         try:
