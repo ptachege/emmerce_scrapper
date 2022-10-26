@@ -605,20 +605,7 @@ def Hypermarttproduct(request):
 
          # price
         try:
-            most_outer_wrapper = soup.find('span', class_='old-price')
-            second_outer_wrapper = soup.find(
-                'span', class_='price-label').find_next_sibling('span')
 
-            try:
-                regular_price = most_outer_wrapper.find(
-                    'span', class_='price').text.strip()
-                regular_price = regular_price[4:]
-            except:
-                regular_price = second_outer_wrapper.find(
-                    'span', class_='price').text.strip()
-                regular_price = regular_price[4:]
-
-        except:
             product_main = soup.find('div', class_='product-info-main')
             f_outer_wrapper = product_main.find(
                 'span', class_='price-container price-final_price tax weee')
@@ -630,6 +617,20 @@ def Hypermarttproduct(request):
                 regular_price = regular_price[4:]
             except:
                 regular_price = outer_wrapper.find(
+                    'span', class_='price').text.strip()
+                regular_price = regular_price[4:]
+
+        except:
+            most_outer_wrapper = soup.find('span', class_='old-price')
+            second_outer_wrapper = soup.find(
+                'span', class_='price-label').find_next_sibling('span')
+
+            try:
+                regular_price = most_outer_wrapper.find(
+                    'span', class_='price').text.strip()
+                regular_price = regular_price[4:]
+            except:
+                regular_price = second_outer_wrapper.find(
                     'span', class_='price').text.strip()
                 regular_price = regular_price[4:]
 
@@ -695,7 +696,6 @@ def Hypermarttproduct(request):
         try:
             n = Products.objects.get(product_link=item_url)
         except:
-
             Products.objects.create(
                 product_name=product_name,
                 sku=sku,
@@ -960,7 +960,6 @@ def MikaProducts(request):
 
         # stock
         try:
-
             in_stock = soup.find('p', class_='stock in-stock').text
 
             if in_stock == 'In stock':
