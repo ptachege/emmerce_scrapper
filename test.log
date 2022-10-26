@@ -1,2 +1,2224 @@
-[1666774195.943][INFO]: Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 39663
-[1666774195.943][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1666778389.220][INFO]: Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 45225
+[1666778389.220][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1666778389.722][INFO]: [275ffdc38834d95ea2d68c9604db964f] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--no-sandbox", "--headless", "start-maximized", "window-size=1900,1080", "disable-gpu", "--disable-software-rasterizer", "--disable-dev-shm-usage", "user-agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0" ],
+            "extensions": [  ]
+         },
+         "pageLoadStrategy": "normal"
+      },
+      "firstMatch": [ {
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--no-sandbox", "--headless", "start-maximized", "window-size=1900,1080", "disable-gpu", "--disable-software-rasterizer", "--disable-dev-shm-usage", "user-agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0" ],
+         "extensions": [  ]
+      },
+      "pageLoadStrategy": "normal"
+   }
+}
+[1666778389.723][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1666778389.723][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1666778389.723][INFO]: Launching chrome: /usr/bin/google-chrome --allow-pre-commit-input --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-gpu --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-software-rasterizer --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --headless --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --remote-debugging-port=0 --start-maximized --test-type=webdriver --use-mock-keychain --user-agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0 --user-data-dir=/tmp/.com.google.Chrome.fY9gBg --window-size=1900,1080 data:,
+
+DevTools listening on ws://127.0.0.1:43309/devtools/browser/d88fcd0d-4cd4-4abd-ba30-1fbcce92b74f
+[1026/095949.928551:WARNING:bluez_dbus_manager.cc(247)] Floss manager not present, cannot set Floss enable/disable.
+[1666778389.935][DEBUG]: DevTools HTTP Request: http://localhost:43309/json/version
+[1666778389.950][DEBUG]: DevTools HTTP Response: {
+   "Browser": "HeadlessChrome/106.0.5249.91",
+   "Protocol-Version": "1.3",
+   "User-Agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0",
+   "V8-Version": "10.6.194.17",
+   "WebKit-Version": "537.36 (@fa96d5f07b1177d1bf5009f647a5b8c629762157)",
+   "webSocketDebuggerUrl": "ws://localhost:43309/devtools/browser/d88fcd0d-4cd4-4abd-ba30-1fbcce92b74f"
+}
+
+[1666778389.950][WARNING]: This version of ChromeDriver has not been tested with Chrome version 106.
+[1666778389.950][DEBUG]: DevTools HTTP Request: http://localhost:43309/json/list
+[1026/095949.960768:ERROR:gpu_init.cc(521)] Passthrough is not supported, GL is disabled, ANGLE is 
+[1666778389.970][DEBUG]: DevTools HTTP Response: [ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:43309/devtools/page/BA856CDC007CC3DE6C530438FA3F8EC5",
+   "id": "BA856CDC007CC3DE6C530438FA3F8EC5",
+   "title": "",
+   "type": "page",
+   "url": "data:,",
+   "webSocketDebuggerUrl": "ws://localhost:43309/devtools/page/BA856CDC007CC3DE6C530438FA3F8EC5"
+} ]
+
+[1666778389.970][DEBUG]: DevTools HTTP Request: http://localhost:43309/json/list
+[1666778389.973][DEBUG]: DevTools HTTP Response: [ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:43309/devtools/page/BA856CDC007CC3DE6C530438FA3F8EC5",
+   "id": "BA856CDC007CC3DE6C530438FA3F8EC5",
+   "title": "",
+   "type": "page",
+   "url": "data:,",
+   "webSocketDebuggerUrl": "ws://localhost:43309/devtools/page/BA856CDC007CC3DE6C530438FA3F8EC5"
+} ]
+
+[1666778389.974][INFO]: resolved localhost to ["127.0.0.1"]
+[1666778389.977][DEBUG]: DevTools WebSocket Command: Page.addScriptToEvaluateOnNewDocument (id=1) BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "source": "(function () {window.cdc_adoQpoasnfa76pfcZLmcfl_Array = window.Array;window.cdc_adoQpoasnfa76pfcZLmcfl_Promise = window.Promise;window.cdc_adoQpoasnfa76pfcZLmcfl_Symbol = window.Symbol;}) ();"
+}
+[1666778389.978][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=2) BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "expression": "(function () {window.cdc_adoQpoasnfa76pfcZLmcfl_Array = window.Array;window.cdc_adoQpoasnfa76pfcZLmcfl_Promise = window.Promise;window.cdc_adoQpoasnfa76pfcZLmcfl_Symbol = window.Symbol;}) ();"
+}
+[1666778389.978][DEBUG]: DevTools WebSocket Command: Log.enable (id=3) BA856CDC007CC3DE6C530438FA3F8EC5 {
+}
+[1666778389.978][DEBUG]: DevTools WebSocket Command: Target.setAutoAttach (id=4) BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "autoAttach": true,
+   "flatten": true,
+   "waitForDebuggerOnStart": false
+}
+[1666778389.979][DEBUG]: DevTools WebSocket Command: Page.enable (id=5) BA856CDC007CC3DE6C530438FA3F8EC5 {
+}
+[1666778389.979][DEBUG]: DevTools WebSocket Command: Browser.setDownloadBehavior (id=6) BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "behavior": "allow",
+   "downloadPath": "."
+}
+[1666778389.980][DEBUG]: DevTools WebSocket Command: Page.enable (id=7) BA856CDC007CC3DE6C530438FA3F8EC5 {
+}
+[1666778389.982][DEBUG]: DevTools WebSocket Response: Target.setAutoAttach (id=4) BA856CDC007CC3DE6C530438FA3F8EC5 {
+}
+[1666778389.982][DEBUG]: DevTools WebSocket Response: Browser.setDownloadBehavior (id=6) BA856CDC007CC3DE6C530438FA3F8EC5 {
+}
+[1666778390.118][DEBUG]: DevTools WebSocket Response: Page.addScriptToEvaluateOnNewDocument (id=1) BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "identifier": "1"
+}
+[1666778390.129][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=2) BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "result": {
+      "type": "undefined"
+   }
+}
+[1666778390.129][DEBUG]: DevTools WebSocket Response: Log.enable (id=3) BA856CDC007CC3DE6C530438FA3F8EC5 {
+}
+[1666778390.129][DEBUG]: DevTools WebSocket Response: Page.enable (id=5) BA856CDC007CC3DE6C530438FA3F8EC5 {
+}
+[1666778390.129][DEBUG]: DevTools WebSocket Response: Page.enable (id=7) BA856CDC007CC3DE6C530438FA3F8EC5 {
+}
+[1666778390.129][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=8) BA856CDC007CC3DE6C530438FA3F8EC5 {
+}
+[1666778390.129][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "BA856CDC007CC3DE6C530438FA3F8EC5"
+}
+[1666778390.136][DEBUG]: DevTools WebSocket Event: Page.frameNavigated BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frame": {
+      "adFrameStatus": {
+         "adFrameType": "none"
+      },
+      "crossOriginIsolatedContextType": "NotIsolated",
+      "domainAndRegistry": "",
+      "gatedAPIFeatures": [  ],
+      "id": "BA856CDC007CC3DE6C530438FA3F8EC5",
+      "loaderId": "F8E23A55862A66B1C4133DCF82A53CC9",
+      "mimeType": "text/plain",
+      "secureContextType": "InsecureScheme",
+      "securityOrigin": "://",
+      "url": "data:,"
+   },
+   "type": "Navigation"
+}
+[1666778390.141][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "context": {
+      "auxData": {
+         "frameId": "BA856CDC007CC3DE6C530438FA3F8EC5",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 2,
+      "name": "",
+      "origin": "://",
+      "uniqueId": "-5185830802095077978.-6137276002788000654"
+   }
+}
+[1666778390.141][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=8) BA856CDC007CC3DE6C530438FA3F8EC5 {
+}
+[1666778390.141][DEBUG]: DevTools WebSocket Command: Page.enable (id=9) BA856CDC007CC3DE6C530438FA3F8EC5 {
+}
+[1666778390.143][DEBUG]: DevTools WebSocket Event: Page.loadEventFired BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "timestamp": 736.904526
+}
+[1666778390.143][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=10) BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "awaitPromise": false,
+   "expression": "document.readyState",
+   "returnByValue": true
+}
+[1666778390.144][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "BA856CDC007CC3DE6C530438FA3F8EC5"
+}
+[1666778390.144][DEBUG]: DevTools WebSocket Event: Page.domContentEventFired BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "timestamp": 736.905339
+}
+[1666778390.149][DEBUG]: DevTools WebSocket Response: Page.enable (id=9) BA856CDC007CC3DE6C530438FA3F8EC5 {
+}
+[1666778390.149][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=10) BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "result": {
+      "type": "string",
+      "value": "complete"
+   }
+}
+[1666778390.149][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=11) BA856CDC007CC3DE6C530438FA3F8EC5 {
+}
+[1666778390.151][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=11) BA856CDC007CC3DE6C530438FA3F8EC5 {
+}
+[1666778390.151][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=12) BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1666778390.157][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=12) BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": 1
+      }
+   }
+}
+[1666778390.158][INFO]: [275ffdc38834d95ea2d68c9604db964f] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "106.0.5249.91",
+      "chrome": {
+         "chromedriverVersion": "105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853})",
+         "userDataDir": "/tmp/.com.google.Chrome.fY9gBg"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:43309"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "linux",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "275ffdc38834d95ea2d68c9604db964f"
+}
+[1666778390.160][INFO]: [275ffdc38834d95ea2d68c9604db964f] COMMAND Navigate {
+   "url": "https://www.ramtons.com/catalog/product/view/id/1066/s/hot-and-normal-free-standing-water-dispenser-rm-429/category/239/"
+}
+[1666778390.160][INFO]: Waiting for pending navigations...
+[1666778390.161][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=13) BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "expression": "1"
+}
+[1666778390.161][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=13) BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1666778390.161][INFO]: Done waiting for pending navigations. Status: ok
+[1666778390.161][DEBUG]: DevTools WebSocket Command: Page.navigate (id=14) BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "url": "https://www.ramtons.com/catalog/product/view/id/1066/s/hot-and-normal-free-standing-water-dispenser-rm-429/category/239/"
+}
+[1666778391.051][DEBUG]: DevTools WebSocket Response: Page.navigate (id=14) BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "BA856CDC007CC3DE6C530438FA3F8EC5",
+   "loaderId": "CCDE6ECA13C73FF346F3006E31B27E31"
+}
+[1666778391.051][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=15) BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "expression": "document.URL"
+}
+[1666778391.056][DEBUG]: DevTools WebSocket Event: Runtime.executionContextsCleared BA856CDC007CC3DE6C530438FA3F8EC5 {
+}
+[1666778391.062][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "BA856CDC007CC3DE6C530438FA3F8EC5"
+}
+[1666778391.084][DEBUG]: DevTools WebSocket Event: Runtime.executionContextsCleared BA856CDC007CC3DE6C530438FA3F8EC5 {
+}
+[1666778391.084][DEBUG]: DevTools WebSocket Event: Page.frameNavigated BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frame": {
+      "adFrameStatus": {
+         "adFrameType": "none"
+      },
+      "crossOriginIsolatedContextType": "NotIsolated",
+      "domainAndRegistry": "ramtons.com",
+      "gatedAPIFeatures": [  ],
+      "id": "BA856CDC007CC3DE6C530438FA3F8EC5",
+      "loaderId": "CCDE6ECA13C73FF346F3006E31B27E31",
+      "mimeType": "text/html",
+      "secureContextType": "Secure",
+      "securityOrigin": "https://www.ramtons.com",
+      "url": "https://www.ramtons.com/catalog/product/view/id/1066/s/hot-and-normal-free-standing-water-dispenser-rm-429/category/239/"
+   },
+   "type": "Navigation"
+}
+[1666778391.084][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "context": {
+      "auxData": {
+         "frameId": "BA856CDC007CC3DE6C530438FA3F8EC5",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 1,
+      "name": "",
+      "origin": "https://www.ramtons.com",
+      "uniqueId": "-6986998878169293813.8158386100349805214"
+   }
+}
+[1666778391.097][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=15) BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "result": {
+      "type": "string",
+      "value": "https://www.ramtons.com/catalog/product/view/id/1066/s/hot-and-normal-free-standing-water-dispenser-rm-429/category/239/"
+   }
+}
+[1666778391.097][INFO]: Waiting for pending navigations...
+[1666778391.097][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=16) BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "expression": "1"
+}
+[1666778391.108][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=16) BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1666778391.612][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=17) BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "expression": "1"
+}
+[1666778391.712][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=17) BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1026/095951.867978:INFO:CONSOLE(5)] "JQMIGRATE: Migrate is installed with logging active, version 1.4.1", source: https://www.ramtons.com/static/version1666692461/frontend/Ramtons/default/en_GB/jquery/jquery-migrate.min.js (5)
+[1666778391.869][DEBUG]: DevTools WebSocket Event: Runtime.consoleAPICalled BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "args": [ {
+      "type": "string",
+      "value": "JQMIGRATE: Migrate is installed with logging active, version 1.4.1"
+   } ],
+   "executionContextId": 1,
+   "stackTrace": {
+      "callFrames": [ {
+         "columnNumber": 164,
+         "functionName": "",
+         "lineNumber": 4,
+         "scriptId": "56",
+         "url": "https://www.ramtons.com/static/version1666692461/frontend/Ramtons/default/en_GB/jquery/jquery-migrate.min.js"
+      }, {
+         "columnNumber": 21,
+         "functionName": "",
+         "lineNumber": 56,
+         "scriptId": "56",
+         "url": "https://www.ramtons.com/static/version1666692461/frontend/Ramtons/default/en_GB/jquery/jquery-migrate.min.js"
+      } ]
+   },
+   "timestamp": 1.666778391864178e+12,
+   "type": "log"
+}
+[1666778391.869][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=18) BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "expression": "1"
+}
+[1666778391.981][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=18) BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1026/095951.993803:INFO:CONSOLE(8)] "JQMIGRATE: jQuery.attrFn is deprecated", source: https://www.ramtons.com/static/version1666692461/frontend/Ramtons/default/en_GB/jquery/jquery-migrate.min.js (8)
+[1026/095951.994604:INFO:CONSOLE(8)] "console.trace", source: https://www.ramtons.com/static/version1666692461/frontend/Ramtons/default/en_GB/jquery/jquery-migrate.min.js (8)
+[1666778391.995][DEBUG]: DevTools WebSocket Event: Runtime.consoleAPICalled BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "args": [ {
+      "type": "string",
+      "value": "JQMIGRATE: jQuery.attrFn is deprecated"
+   } ],
+   "executionContextId": 1,
+   "stackTrace": {
+      "callFrames": [ {
+         "columnNumber": 265,
+         "functionName": "migrateWarn",
+         "lineNumber": 7,
+         "scriptId": "56",
+         "url": "https://www.ramtons.com/static/version1666692461/frontend/Ramtons/default/en_GB/jquery/jquery-migrate.min.js"
+      }, {
+         "columnNumber": 156,
+         "functionName": "get",
+         "lineNumber": 8,
+         "scriptId": "56",
+         "url": "https://www.ramtons.com/static/version1666692461/frontend/Ramtons/default/en_GB/jquery/jquery-migrate.min.js"
+      }, {
+         "columnNumber": 769,
+         "functionName": "",
+         "lineNumber": 45,
+         "scriptId": "27",
+         "url": "https://www.ramtons.com/static/version1666692461/frontend/Ramtons/default/en_GB/jquery/jquery.mobile.custom.min.js"
+      }, {
+         "columnNumber": 556,
+         "functionName": "each",
+         "lineNumber": 27,
+         "scriptId": "26",
+         "url": "https://www.ramtons.com/static/version1666692461/frontend/Ramtons/default/en_GB/jquery.min.js"
+      }, {
+         "columnNumber": 552,
+         "functionName": "",
+         "lineNumber": 45,
+         "scriptId": "27",
+         "url": "https://www.ramtons.com/static/version1666692461/frontend/Ramtons/default/en_GB/jquery/jquery.mobile.custom.min.js"
+      }, {
+         "columnNumber": 321,
+         "functionName": "",
+         "lineNumber": 64,
+         "scriptId": "27",
+         "url": "https://www.ramtons.com/static/version1666692461/frontend/Ramtons/default/en_GB/jquery/jquery.mobile.custom.min.js"
+      }, {
+         "columnNumber": 101,
+         "functionName": "",
+         "lineNumber": 0,
+         "scriptId": "27",
+         "url": "https://www.ramtons.com/static/version1666692461/frontend/Ramtons/default/en_GB/jquery/jquery.mobile.custom.min.js"
+      }, {
+         "columnNumber": 131,
+         "functionName": "execCb",
+         "lineNumber": 111,
+         "scriptId": "7",
+         "url": "https://www.ramtons.com/static/version1666692461/_cache/merged/16aac773d45f213b395fd61850475655.min.js"
+      }, {
+         "columnNumber": 456,
+         "functionName": "check",
+         "lineNumber": 55,
+         "scriptId": "7",
+         "url": "https://www.ramtons.com/static/version1666692461/_cache/merged/16aac773d45f213b395fd61850475655.min.js"
+      }, {
+         "columnNumber": 102,
+         "functionName": "",
+         "lineNumber": 71,
+         "scriptId": "7",
+         "url": "https://www.ramtons.com/static/version1666692461/_cache/merged/16aac773d45f213b395fd61850475655.min.js"
+      }, {
+         "columnNumber": 50,
+         "functionName": "",
+         "lineNumber": 10,
+         "scriptId": "7",
+         "url": "https://www.ramtons.com/static/version1666692461/_cache/merged/16aac773d45f213b395fd61850475655.min.js"
+      }, {
+         "columnNumber": 75,
+         "functionName": "",
+         "lineNumber": 73,
+         "scriptId": "7",
+         "url": "https://www.ramtons.com/static/version1666692461/_cache/merged/16aac773d45f213b395fd61850475655.min.js"
+      }, {
+         "columnNumber": 76,
+         "functionName": "each",
+         "lineNumber": 2,
+         "scriptId": "7",
+         "url": "https://www.ramtons.com/static/version1666692461/_cache/merged/16aac773d45f213b395fd61850475655.min.js"
+      }, {
+         "columnNumber": 39,
+         "functionName": "emit",
+         "lineNumber": 73,
+         "scriptId": "7",
+         "url": "https://www.ramtons.com/static/version1666692461/_cache/merged/16aac773d45f213b395fd61850475655.min.js"
+      }, {
+         "columnNumber": 87,
+         "functionName": "check",
+         "lineNumber": 60,
+         "scriptId": "7",
+         "url": "https://www.ramtons.com/static/version1666692461/_cache/merged/16aac773d45f213b395fd61850475655.min.js"
+      }, {
+         "columnNumber": 284,
+         "functionName": "enable",
+         "lineNumber": 72,
+         "scriptId": "7",
+         "url": "https://www.ramtons.com/static/version1666692461/_cache/merged/16aac773d45f213b395fd61850475655.min.js"
+      }, {
+         "columnNumber": 143,
+         "functionName": "init",
+         "lineNumber": 53,
+         "scriptId": "7",
+         "url": "https://www.ramtons.com/static/version1666692461/_cache/merged/16aac773d45f213b395fd61850475655.min.js"
+      }, {
+         "columnNumber": 36,
+         "functionName": "",
+         "lineNumber": 65,
+         "scriptId": "7",
+         "url": "https://www.ramtons.com/static/version1666692461/_cache/merged/16aac773d45f213b395fd61850475655.min.js"
+      }, {
+         "columnNumber": 50,
+         "functionName": "",
+         "lineNumber": 10,
+         "scriptId": "7",
+         "url": "https://www.ramtons.com/static/version1666692461/_cache/merged/16aac773d45f213b395fd61850475655.min.js"
+      }, "..." ]
+   },
+   "timestamp": 1.66677839199047e+12,
+   "type": "warning"
+}
+[1666778391.995][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=19) BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "expression": "1"
+}
+[1666778391.996][DEBUG]: DevTools WebSocket Event: Runtime.consoleAPICalled BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "args": [ {
+      "type": "string",
+      "value": "console.trace"
+   } ],
+   "executionContextId": 1,
+   "stackTrace": {
+      "callFrames": [ {
+         "columnNumber": 336,
+         "functionName": "migrateWarn",
+         "lineNumber": 7,
+         "scriptId": "56",
+         "url": "https://www.ramtons.com/static/version1666692461/frontend/Ramtons/default/en_GB/jquery/jquery-migrate.min.js"
+      }, {
+         "columnNumber": 156,
+         "functionName": "get",
+         "lineNumber": 8,
+         "scriptId": "56",
+         "url": "https://www.ramtons.com/static/version1666692461/frontend/Ramtons/default/en_GB/jquery/jquery-migrate.min.js"
+      }, {
+         "columnNumber": 769,
+         "functionName": "",
+         "lineNumber": 45,
+         "scriptId": "27",
+         "url": "https://www.ramtons.com/static/version1666692461/frontend/Ramtons/default/en_GB/jquery/jquery.mobile.custom.min.js"
+      }, {
+         "columnNumber": 556,
+         "functionName": "each",
+         "lineNumber": 27,
+         "scriptId": "26",
+         "url": "https://www.ramtons.com/static/version1666692461/frontend/Ramtons/default/en_GB/jquery.min.js"
+      }, {
+         "columnNumber": 552,
+         "functionName": "",
+         "lineNumber": 45,
+         "scriptId": "27",
+         "url": "https://www.ramtons.com/static/version1666692461/frontend/Ramtons/default/en_GB/jquery/jquery.mobile.custom.min.js"
+      }, {
+         "columnNumber": 321,
+         "functionName": "",
+         "lineNumber": 64,
+         "scriptId": "27",
+         "url": "https://www.ramtons.com/static/version1666692461/frontend/Ramtons/default/en_GB/jquery/jquery.mobile.custom.min.js"
+      }, {
+         "columnNumber": 101,
+         "functionName": "",
+         "lineNumber": 0,
+         "scriptId": "27",
+         "url": "https://www.ramtons.com/static/version1666692461/frontend/Ramtons/default/en_GB/jquery/jquery.mobile.custom.min.js"
+      }, {
+         "columnNumber": 131,
+         "functionName": "execCb",
+         "lineNumber": 111,
+         "scriptId": "7",
+         "url": "https://www.ramtons.com/static/version1666692461/_cache/merged/16aac773d45f213b395fd61850475655.min.js"
+      }, {
+         "columnNumber": 456,
+         "functionName": "check",
+         "lineNumber": 55,
+         "scriptId": "7",
+         "url": "https://www.ramtons.com/static/version1666692461/_cache/merged/16aac773d45f213b395fd61850475655.min.js"
+      }, {
+         "columnNumber": 102,
+         "functionName": "",
+         "lineNumber": 71,
+         "scriptId": "7",
+         "url": "https://www.ramtons.com/static/version1666692461/_cache/merged/16aac773d45f213b395fd61850475655.min.js"
+      }, {
+         "columnNumber": 50,
+         "functionName": "",
+         "lineNumber": 10,
+         "scriptId": "7",
+         "url": "https://www.ramtons.com/static/version1666692461/_cache/merged/16aac773d45f213b395fd61850475655.min.js"
+      }, {
+         "columnNumber": 75,
+         "functionName": "",
+         "lineNumber": 73,
+         "scriptId": "7",
+         "url": "https://www.ramtons.com/static/version1666692461/_cache/merged/16aac773d45f213b395fd61850475655.min.js"
+      }, {
+         "columnNumber": 76,
+         "functionName": "each",
+         "lineNumber": 2,
+         "scriptId": "7",
+         "url": "https://www.ramtons.com/static/version1666692461/_cache/merged/16aac773d45f213b395fd61850475655.min.js"
+      }, {
+         "columnNumber": 39,
+         "functionName": "emit",
+         "lineNumber": 73,
+         "scriptId": "7",
+         "url": "https://www.ramtons.com/static/version1666692461/_cache/merged/16aac773d45f213b395fd61850475655.min.js"
+      }, {
+         "columnNumber": 87,
+         "functionName": "check",
+         "lineNumber": 60,
+         "scriptId": "7",
+         "url": "https://www.ramtons.com/static/version1666692461/_cache/merged/16aac773d45f213b395fd61850475655.min.js"
+      }, {
+         "columnNumber": 284,
+         "functionName": "enable",
+         "lineNumber": 72,
+         "scriptId": "7",
+         "url": "https://www.ramtons.com/static/version1666692461/_cache/merged/16aac773d45f213b395fd61850475655.min.js"
+      }, {
+         "columnNumber": 143,
+         "functionName": "init",
+         "lineNumber": 53,
+         "scriptId": "7",
+         "url": "https://www.ramtons.com/static/version1666692461/_cache/merged/16aac773d45f213b395fd61850475655.min.js"
+      }, {
+         "columnNumber": 36,
+         "functionName": "",
+         "lineNumber": 65,
+         "scriptId": "7",
+         "url": "https://www.ramtons.com/static/version1666692461/_cache/merged/16aac773d45f213b395fd61850475655.min.js"
+      }, {
+         "columnNumber": 50,
+         "functionName": "",
+         "lineNumber": 10,
+         "scriptId": "7",
+         "url": "https://www.ramtons.com/static/version1666692461/_cache/merged/16aac773d45f213b395fd61850475655.min.js"
+      }, "..." ]
+   },
+   "timestamp": 1.666778391994312e+12,
+   "type": "trace"
+}
+[1666778392.048][DEBUG]: DevTools WebSocket Event: Page.domContentEventFired BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "timestamp": 738.808642
+}
+[1666778392.060][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=19) BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1026/095952.247790:INFO:CONSOLE(1)] "Fallback to JQueryUI Compat activated. Your store is missing a dependency for a jQueryUI widget. Identifying and addressing the dependency will drastically improve the performance of your site.", source: https://www.ramtons.com/static/version1666692461/frontend/Ramtons/default/en_GB/jquery/compat.min.js (1)
+[1666778392.249][DEBUG]: DevTools WebSocket Event: Runtime.consoleAPICalled BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "args": [ {
+      "type": "string",
+      "value": "Fallback to JQueryUI Compat activated. Your store is missing a dependency for a jQueryUI widget. Identifying and addressing the dependency will drastically improve the performance of your site."
+   } ],
+   "executionContextId": 1,
+   "stackTrace": {
+      "callFrames": [ {
+         "columnNumber": 1093,
+         "functionName": "",
+         "lineNumber": 0,
+         "scriptId": "67",
+         "url": "https://www.ramtons.com/static/version1666692461/frontend/Ramtons/default/en_GB/jquery/compat.min.js"
+      }, {
+         "columnNumber": 131,
+         "functionName": "execCb",
+         "lineNumber": 111,
+         "scriptId": "7",
+         "url": "https://www.ramtons.com/static/version1666692461/_cache/merged/16aac773d45f213b395fd61850475655.min.js"
+      }, {
+         "columnNumber": 456,
+         "functionName": "check",
+         "lineNumber": 55,
+         "scriptId": "7",
+         "url": "https://www.ramtons.com/static/version1666692461/_cache/merged/16aac773d45f213b395fd61850475655.min.js"
+      }, {
+         "columnNumber": 102,
+         "functionName": "",
+         "lineNumber": 71,
+         "scriptId": "7",
+         "url": "https://www.ramtons.com/static/version1666692461/_cache/merged/16aac773d45f213b395fd61850475655.min.js"
+      }, {
+         "columnNumber": 50,
+         "functionName": "",
+         "lineNumber": 10,
+         "scriptId": "7",
+         "url": "https://www.ramtons.com/static/version1666692461/_cache/merged/16aac773d45f213b395fd61850475655.min.js"
+      }, {
+         "columnNumber": 75,
+         "functionName": "",
+         "lineNumber": 73,
+         "scriptId": "7",
+         "url": "https://www.ramtons.com/static/version1666692461/_cache/merged/16aac773d45f213b395fd61850475655.min.js"
+      }, {
+         "columnNumber": 76,
+         "functionName": "each",
+         "lineNumber": 2,
+         "scriptId": "7",
+         "url": "https://www.ramtons.com/static/version1666692461/_cache/merged/16aac773d45f213b395fd61850475655.min.js"
+      }, {
+         "columnNumber": 39,
+         "functionName": "emit",
+         "lineNumber": 73,
+         "scriptId": "7",
+         "url": "https://www.ramtons.com/static/version1666692461/_cache/merged/16aac773d45f213b395fd61850475655.min.js"
+      }, {
+         "columnNumber": 87,
+         "functionName": "check",
+         "lineNumber": 60,
+         "scriptId": "7",
+         "url": "https://www.ramtons.com/static/version1666692461/_cache/merged/16aac773d45f213b395fd61850475655.min.js"
+      }, {
+         "columnNumber": 284,
+         "functionName": "enable",
+         "lineNumber": 72,
+         "scriptId": "7",
+         "url": "https://www.ramtons.com/static/version1666692461/_cache/merged/16aac773d45f213b395fd61850475655.min.js"
+      }, {
+         "columnNumber": 143,
+         "functionName": "init",
+         "lineNumber": 53,
+         "scriptId": "7",
+         "url": "https://www.ramtons.com/static/version1666692461/_cache/merged/16aac773d45f213b395fd61850475655.min.js"
+      }, {
+         "columnNumber": 36,
+         "functionName": "",
+         "lineNumber": 65,
+         "scriptId": "7",
+         "url": "https://www.ramtons.com/static/version1666692461/_cache/merged/16aac773d45f213b395fd61850475655.min.js"
+      }, {
+         "columnNumber": 50,
+         "functionName": "",
+         "lineNumber": 10,
+         "scriptId": "7",
+         "url": "https://www.ramtons.com/static/version1666692461/_cache/merged/16aac773d45f213b395fd61850475655.min.js"
+      }, {
+         "columnNumber": 154,
+         "functionName": "",
+         "lineNumber": 140,
+         "scriptId": "7",
+         "url": "https://www.ramtons.com/static/version1666692461/_cache/merged/16aac773d45f213b395fd61850475655.min.js"
+      }, {
+         "columnNumber": 131,
+         "functionName": "execCb",
+         "lineNumber": 111,
+         "scriptId": "7",
+         "url": "https://www.ramtons.com/static/version1666692461/_cache/merged/16aac773d45f213b395fd61850475655.min.js"
+      }, {
+         "columnNumber": 456,
+         "functionName": "check",
+         "lineNumber": 55,
+         "scriptId": "7",
+         "url": "https://www.ramtons.com/static/version1666692461/_cache/merged/16aac773d45f213b395fd61850475655.min.js"
+      }, {
+         "columnNumber": 102,
+         "functionName": "",
+         "lineNumber": 71,
+         "scriptId": "7",
+         "url": "https://www.ramtons.com/static/version1666692461/_cache/merged/16aac773d45f213b395fd61850475655.min.js"
+      }, {
+         "columnNumber": 50,
+         "functionName": "",
+         "lineNumber": 10,
+         "scriptId": "7",
+         "url": "https://www.ramtons.com/static/version1666692461/_cache/merged/16aac773d45f213b395fd61850475655.min.js"
+      }, {
+         "columnNumber": 75,
+         "functionName": "",
+         "lineNumber": 73,
+         "scriptId": "7",
+         "url": "https://www.ram[1666778392.283][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=23) 2E98CB70ACEEB37A6E5A5233BC5A80FB {
+   "expression": "1"
+}
+[1666778392.327][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=23) 2E98CB70ACEEB37A6E5A5233BC5A80FB {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1666778392.677][DEBUG]: DevTools WebSocket Event: Page.loadEventFired 2E98CB70ACEEB37A6E5A5233BC5A80FB {
+   "timestamp": 739.434111
+}
+[1666778392.677][DEBUG]: DevTools WebSoc[1666778392.795][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=21) BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "expression": "1"
+}
+[1666778392.796][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=21) BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1666778393.299][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=22) BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "expression": "1"
+}
+[1666778393.325][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=22) BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1666778393.651][DEBUG]: DevTools WebSocket Event: Page.loadEventFired BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "timestamp": 740.408372
+}
+[1666778393.651][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=23) BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "awaitPromise": false,
+   "expression": "document.readyState",
+   "returnByValue": true
+}
+[1666778393.651][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "BA856CDC007CC3DE6C530438FA3F8EC5"
+}
+[1666778393.656][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=23) BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "result": {
+      "type": "string",
+      "value": "complete"
+   }
+}
+[1666778393.656][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=24) BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "expression": "1"
+}
+[1666778393.660][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=24) BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1666778393.660][INFO]: Done waiting for pending navigations. Status: ok
+[1666778393.660][INFO]: [275ffdc38834d95ea2d68c9604db964f] RESPONSE Navigate
+[1026/095954.069499:INFO:CONSOLE(0)] "Access to XMLHttpRequest at 'https://web.facebook.com/plugins/customer_chat/facade/?app_id=1544483055659339&attribution=setup_tool&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df26cad9f86a5c%26domain%3Dwww.ramtons.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fwww.ramtons.com%252Ff14cd5cd47e2adc%26relation%3Dparent.parent&current_url=https%3A%2F%2Fwww.ramtons.com%2Fcatalog%2Fproduct%2Fview%2Fid%2F1066%2Fs%2Fhot-and-normal-free-standing-water-dispenser-rm-429%2Fcategory%2F239%2F&is_loaded_by_facade=true&locale=en_US&log_id=41d374f3-0287-4d12-8549-afd7317e10a9&logged_in_greeting=Hello%2Chow%20can%20I%20help%20you%3F&logged_out_greeting=Thank%20you&page_id=728377967251107&request_time=1666778393874&sdk=joey&should_use_new_domain=false&suppress_http_code=1&theme_color=%23FFFFFF' from origin 'https://www.ramtons.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.", source: https://www.ramtons.com/catalog/product/view/id/1066/s/hot-and-normal-free-standing-water-dispenser-rm-429/category/239/ (0)
+[1666778394.070][DEBUG]: DevTools WebSocket Event: Log.entryAdded BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "entry": {
+      "category": "cors",
+      "level": "error",
+      "source": "javascript",
+      "text": "Access to XMLHttpRequest at 'https://web.facebook.com/plugins/customer_chat/facade/?app_id=1544483055659339&attribution=setup_tool&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arb...",
+      "timestamp": 1.666778394068991e+12,
+      "url": "https://www.ramtons.com/catalog/product/view/id/1066/s/hot-and-normal-free-standing-water-dispenser-rm-429/category/239/"
+   }
+}
+[1666778394.070][DEBUG]: DevTools WebSocket Event: Log.entryAdded BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "entry": {
+      "category": "cors",
+      "level": "error",
+      "networkRequestId": "8519.346",
+      "source": "network",
+      "text": "Failed to load resource: net::ERR_FAILED",
+      "timestamp": 1.666778394070147e+12,
+      "url": "https://web.facebook.com/plugins/customer_chat/facade/?app_id=1544483055659339&attribution=setup_tool&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3..."
+   }
+}
+[1026/095954.106702:INFO:CONSOLE(0)] "Access to XMLHttpRequest at 'https://web.facebook.com/plugins/customer_chat/SDK/?app_id=1544483055659339&attribution=setup_tool&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df26cad9f86a5c%26domain%3Dwww.ramtons.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fwww.ramtons.com%252Ff14cd5cd47e2adc%26relation%3Dparent.parent&current_url=https%3A%2F%2Fwww.ramtons.com%2Fcatalog%2Fproduct%2Fview%2Fid%2F1066%2Fs%2Fhot-and-normal-free-standing-water-dispenser-rm-429%2Fcategory%2F239%2F&event_name=chat_plugin_sdk_facade_create&is_loaded_by_facade=true&loading_time=0&locale=en_US&log_id=41d374f3-0287-4d12-8549-afd7317e10a9&logged_in_greeting=Hello%2Chow%20can%20I%20help%20you%3F&logged_out_greeting=Thank%20you&page_id=728377967251107&request_time=1666778393874&sdk=joey&should_use_new_domain=false&suppress_http_code=1&theme_color=%23FFFFFF' from origin 'https://www.ramtons.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.", source: https://www.ramtons.com/catalog/product/view/id/1066/s/hot-and-normal-free-standing-water-dispenser-rm-429/category/239/ (0)
+[1666778394.107][DEBUG]: DevTools WebSocket Event: Log.entryAdded BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "entry": {
+      "category": "cors",
+      "level": "error",
+      "source": "javascript",
+      "text": "Access to XMLHttpRequest at 'https://web.facebook.com/plugins/customer_chat/SDK/?app_id=1[1666778394.183][DEBUG]: DevTools WebSocket Event: Page.frameAttached 2E98CB70ACEEB37A6E5A5233BC5A80FB {
+   "frameId": "B6C61935D4921F4B57B0E0E7B2CD0B84",
+   "parentFrameId": "2E98CB70ACEEB37A6E5A5233BC5A80FB",
+   "stack": {
+      "callFrames": [ {
+         "columnNumber": 102,
+         "functionName": "",
+         "lineNumber": 101,
+         "scriptId": "430",
+         "url": "https://www.gstatic.com/recaptcha/releases/vP4jQKq0YJFzU6e21-BGy3GP/recaptcha__en.js"
+      }, {
+         "columnNumber": 237,
+         "functionName": "cl.render",
+         "lineNumber": 779,
+         "scriptId": "430",
+         "url": "https://www.gstatic.com/recaptcha/releases/vP4jQKq0YJFzU6e21-BGy3GP/recaptcha__en.js"
+      }, {
+         "columnNumber": 369,
+         "functionName": "",
+         "lineNumber": 147,
+         "scriptId": "430",
+         "url": "http[1666778395.378][DEBUG]: DevTools WebSocket Event: Page.frameAttached BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "9EF87F52C5434ABEBE24A12987161B25",
+   "parentFrameId": "BA856CDC007CC3DE6C530438FA3F8EC5",
+   "stack": {
+      "callFrames": [ {
+         "columnNumber": 102,
+         "functionName": "",
+         "lineNumber": 101,
+         "scriptId": "430",
+         "url": "https://www.gstatic.com/recaptcha/releases/vP4jQKq0YJFzU6e21-BGy3GP/recaptcha__en.js"
+      }, {
+         "columnNumber": 237,
+         "functionName": "cl.render",
+         "lineNumber": 779,
+         "scriptId": "430",
+         "url": "https://www.gstatic.com/recaptcha/releases/vP4jQKq0YJFzU6e21-BGy3GP/recaptcha__en.js"
+      }, {
+         "columnNumber": 369,
+         "functionName": "",
+         "lineNumber": 147,
+         "scriptId": "430",
+         "url": "https://www.gstatic.com/recaptcha/releases/vP4jQKq0YJFzU6e21-BGy3GP/recaptcha__en.js"
+      }, {
+         "columnNumber": 94,
+         "functionName": "",
+         "lineNumber": 233,
+         "scriptId": "430",
+         "url": "https://www.gstatic.com/recaptcha/releases/vP4jQKq0YJFzU6e21-BGy3GP/recaptcha__en.js"
+      }, {
+         "columnNumber": 5,
+         "functionName": "",
+         "lineNumber": 53,
+         "scriptId": "430",
+         "url": "https://www.gstatic.com/recaptcha/releases/vP4jQKq0YJFzU6e21-BGy3GP/recaptcha__en.js"
+      }, {
+         "columnNumber": 184,
+         "functionName": "Xb",
+         "lineNumber": 667,
+         "scriptId": "430",
+         "url": "https://www.gstatic.com/recaptcha/releases/vP4jQKq0YJFzU6e21-BGy3GP/recaptcha__en.js"
+      }, {
+         "columnNumber": 390,
+         "functionName": "",
+         "lineNumber": 304,
+         "scriptId": "430",
+         "url": "https://www.gstatic.com/recaptcha/releases/vP4jQKq0YJFzU6e21-BGy3GP/recaptcha__en.js"
+      }, {
+         "columnNumber": 806,
+         "functionName": "",
+         "lineNumber": 3,
+         "scriptId": "199",
+         "url": "https://www.ramtons.com/static/version1666692461/frontend/Ramtons/default/en_GB/Mageplaza_GoogleRecaptcha/js/captcha.min.js"
+      }, {
+         "columnNumber": 39,
+         "functionName": "window.recaptchaOnload",
+         "lineNumber": 2,
+         "scriptId": "199",
+         "url": "https://www.ramtons.com/static/version1666692461/frontend/Ramtons/default/en_GB/Mageplaza_GoogleRecaptcha/js/captcha.min.js"
+      } ]
+   }
+}
+[1666778395.378][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "9EF87F52C5434ABEBE24A12987161B25"
+}
+[1666778395.550][DEBUG]: DevTools WebSocket Event: Page.frameNavigated BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frame": {
+      "adFrameStatus": {
+         "adFrameType": "none"
+      },
+      "crossOriginIsolatedContextType": "NotIsolatedFeatureDisabled",
+      "domainAndRegistry": "google.com",
+      "gatedAPIFeatures": [  ],
+      "id": "9EF87F52C5434ABEBE24A12987161B25",
+      "loaderId": "72019BF4BC780BC6EAF9FC994854A888",
+      "mimeType": "text/html",
+      "name": "a-v0720abr62gz",
+      "parentId": "BA856CDC007CC3DE6C530438FA3F8EC5",
+      "secureContextType": "Secure",
+      "securityOrigin": "https://www.google.com",
+      "url": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LfxYgwdAAAAAM0YPovK5yBXu-XofhMcrVdWffLI&co=aHR0cHM6Ly93d3cucmFtdG9ucy5jb206NDQz&hl=en-GB&v=vP4jQKq0YJFzU6e21-BGy3GP&theme=dark&size=invisible&ba..."
+   },
+   "type": "Navigation"
+}
+[1666778395.550][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "context": {
+      "auxData": {
+         "frameId": "9EF87F52C5434ABEBE24A12987161B25",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 2,
+      "name": "",
+      "origin": "https://www.google.com",
+      "uniqueId": "-4549507231699816422.6736904744827098806"
+   }
+}
+[1666778396.017][DEBUG]: DevTools WebSocket Event: Page.frameAttached BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "C3A0179769E685C4E8D66F0A30104FB7",
+   "parentFrameId": "BA856CDC007CC3DE6C530438FA3F8EC5",
+   "stack": {
+      "callFrames": [ {
+         "columnNumber": 319,
+         "functionName": "",
+         "lineNumber": 321,
+         "scriptId": "430",
+         "url": "https://www.gstatic.com/recaptcha/releases/vP4jQKq0YJFzU6e21-BGy3GP/recaptcha__en.js"
+      }, {
+         "columnNumber": 374,
+         "functionName": "",
+         "lineNumber": 446,
+         "scriptId": "430",
+         "url": "https://www.gstatic.com/recaptcha/releases/vP4jQKq0YJFzU6e21-BGy3GP/recaptcha__en.js"
+      }, {
+         "columnNumber": 424,
+         "functionName": "",
+         "lineNumber": 67,
+         "scriptId": "430",
+         "url": "https://www.gstatic.com/recaptcha/releases/vP4jQKq0YJFzU6e21-BGy3GP/recaptcha__en.js"
+      }, {
+         "columnNumber": 375,
+         "functionName": "",
+         "lineNumber": 70,
+         "scriptId": "430",
+         "url": "https://www.gstatic.com/recaptcha/releases/vP4jQKq0YJFzU6e21-BGy3GP/recaptcha__en.js"
+      }, {
+         "columnNumber": 315,
+         "functionName": "I.next",
+         "lineNumber": 114,
+         "scriptId": "430",
+         "url": "https://www.gstatic.com/recaptcha/releases/vP4jQKq0YJFzU6e21-BGy3GP/recaptcha__en.js"
+      }, {
+         "columnNumber": 398,
+         "functionName": "",
+         "lineNumber": 169,
+         "scriptId": "430",
+         "url": "https://www.gstatic.com/recaptcha/releases/vP4jQKq0YJFzU6e21-BGy3GP/recaptcha__en.js"
+      }, {
+         "columnNumber": 291,
+         "functionName": "",
+         "lineNumber": 169,
+         "scriptId": "430",
+         "url": "https://www.gstatic.com/recaptcha/releases/vP4jQKq0YJFzU6e21-BGy3GP/recaptcha__en.js"
+      }, {
+         "columnNumber": 260,
+         "functionName": "",
+         "lineNumber": 358,
+         "scriptId": "430",
+         "url": "https://www.gstatic.com/recaptcha/releases/vP4jQKq0YJFzU6e21-BGy3GP/recaptcha__en.js"
+      }, {
+         "columnNumber": 363,
+         "functionName": "",
+         "lineNumber": 67,
+         "scriptId": "430",
+         "url": "https://www.gstatic.com/recaptcha/releases/vP4jQKq0YJFzU6e21-BGy3GP/recaptcha__en.js"
+      }, {
+         "columnNumber": 472,
+         "functionName": "",
+         "lineNumber": 429,
+         "scriptId": "430",
+         "url": "https://www.gstatic.com/recaptcha/releases/vP4jQKq0YJFzU6e21-BGy3GP/recaptcha__en.js"
+      }, {
+         "columnNumber": 375,
+         "functionName": "",
+         "lineNumber": 70,
+         "scriptId": "430",
+         "url": "https://www.gstatic.com/recaptcha/releases/vP4jQKq0YJFzU6e21-BGy3GP/recaptcha__en.js"
+      }, {
+         "columnNumber": 315,
+         "functionName": "I.next",
+         "lineNumber": 114,
+         "scriptId": "430",
+         "url": "https://www.gstatic.com/recaptcha/releases/vP4jQKq0YJFzU6e21-BGy3GP/recaptcha__en.js"
+      }, {
+         "columnNumber": 398,
+         "functionName": "",
+         "lineNumber": 169,
+         "scriptId": "430",
+         "url": "https://www.gstatic.com/recaptcha/releases/vP4jQKq0YJFzU6e21-BGy3GP/recaptcha__en.js"
+      }, {
+         "columnNumber": 291,
+         "functionName": "",
+         "lineNumber": 169,
+         "scriptId": "430",
+         "url": "https://www.gstatic.com/recaptcha/releases/vP4jQKq0YJFzU6e21-BGy3GP/recaptcha__en.js"
+      }, {
+         "columnNumber": 260,
+         "functionName": "",
+         "lineNumber": 358,
+         "scriptId": "430",
+         "url": "https://www.gstatic.com/recaptcha/releases/vP4jQKq0YJFzU6e21-BGy3GP/recaptcha__en.js"
+      }, {
+         "columnNumber": 382,
+         "functionName": "",
+         "lineNumber": 429,
+         "scriptId": "430",
+         "url": "https://www.gstatic.com/recaptcha/releases/vP4jQKq0YJFzU6e21-BGy3GP/recaptcha__en.js"
+      }, {
+         "columnNumber": 233,
+         "functionName": "",
+         "lineNumber": 333,
+         "scriptId": "430",
+         "url": "https://www.gstatic.com/recaptcha/releases/vP4jQKq0YJFzU6e21-BGy3GP/recaptcha__en.js"
+      }, {
+         "columnNumber": 354,
+         "functionName": "L6",
+         "lineNumber": 568,
+         "scriptId": "430",
+         "url": "https://www.gstatic.com/recaptcha/releases/vP4jQKq0YJFzU6e21-BGy3GP/recaptcha__en.js"
+      }, {
+         "columnNumber": 98,
+         "functionName": "u",
+         "lineNumber": 291,
+         "scriptId": "430",
+         "url": "https://www.gstatic.com/recaptcha/releases/vP4jQKq0YJFzU6e21-BGy3GP/recaptcha__en.js"
+      } ]
+   }
+}
+[1666778396.017][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "C3A0179769E685C4E8D66F0A30104FB7"
+}
+[1666778396.020][DEBUG]: DevTools WebSocket Event: Page.frameNavigated BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frame": {
+      "adFrameStatus": {
+         "adFrameType": "none"
+      },
+      "crossOriginIsolatedContextType": "NotIsolated",
+      "domainAndRegistry": "",
+      "gatedAPIFeatures": [  ],
+      "id": "C3A0179769E685C4E8D66F0A30104FB7",
+      "loaderId": "03D3D8F1E13CA37AEB3C57D3E20E0FC9",
+      "mimeType": "text/html",
+      "name": "",
+      "parentId": "BA856CDC007CC3DE6C530438FA3F8EC5",
+      "secureContextType": "Secure",
+      "securityOrigin": "://",
+      "url": "about:blank"
+   },
+   "type": "Navigation"
+}
+[1666778396.020][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "context": {
+      "auxData": {
+         "frameId": "C3A0179769E685C4E8D66F0A30104FB7",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 3,
+      "name": "",
+      "origin": "https://www.ramtons.com",
+      "uniqueId": "345231301806650018.-6068555905609941919"
+   }
+}
+[1666778396.020][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "C3A0179769E685C4E8D66F0A30104FB7"
+}
+[1666778396.057][DEBUG]: DevTools WebSocket Event: Page.frameAttached BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "163139A341D9524A3E829261DE868E8E",
+   "parentFrameId": "9EF87F52C5434ABEBE24A12987161B25",
+   "stack": {
+      "callFrames": [ {
+         "columnNumber": 358,
+         "functionName": "",
+         "lineNumber": 321,
+         "scriptId": "431",
+         "url": "https://www.gstatic.com/recaptcha/releases/vP4jQKq0YJFzU6e21-BGy3GP/recaptcha__en_gb.js"
+      }, {
+         "columnNumber": 187,
+         "functionName": "",
+         "lineNumber": 646,
+         "scriptId": "431",
+         "url": "https://www.gstatic.com/recaptcha/releases/vP4jQKq0YJFzU6e21-BGy3GP/recaptcha__en_gb.js"
+      }, {
+         "columnNumber": 337,
+         "functionName": "",
+         "lineNumber": 562,
+         "scriptId": "431",
+         "url": "https://www.gstatic.com/recaptcha/releases/vP4jQKq0YJFzU6e21-BGy3GP/recaptcha__en_gb.js"
+      }, {
+         "columnNumber": 211,
+         "functionName": "",
+         "lineNumber": 186,
+         "scriptId": "431",
+         "url": "https://www.gstatic.com/recaptcha/releases/vP4jQKq0YJFzU6e21-BGy3GP/recaptcha__en_gb.js"
+      }, {
+         "columnNumber": 61,
+         "functionName": "",
+         "lineNumber": 284,
+         "scriptId": "431",
+         "url": "https://www.gstatic.com/recaptcha/releases/vP4jQKq0YJFzU6e21-BGy3GP/recaptcha__en_gb.js"
+      }, {
+         "columnNumber": 463,
+         "functionName": "",
+         "lineNumber": 291,
+         "scriptId": "431",
+         "url": "https://www.gstatic.com/recaptcha/releases/vP4jQKq0YJFzU6e21-BGy3GP/recaptcha__en_gb.js"
+      }, {
+         "columnNumber": 387,
+         "functionName": "",
+         "lineNumber": 35,
+         "scriptId": "431",
+         "url": "https://www.gstatic.com/recaptcha/releases/vP4jQKq0YJFzU6e21-BGy3GP/recaptcha__en_gb.js"
+      }, {
+         "columnNumber": 375,
+         "functionName": "",
+         "lineNumber": 70,
+         "scriptId": "431",
+         "url": "https://www.gstatic.com/recaptcha/releases/vP4jQKq0YJFzU6e21-BGy3GP/recaptcha__en_gb.js"
+      }, {
+         "columnNumber": 315,
+         "functionName": "I.next",
+         "lineNumber": 114,
+         "scriptId": "431",
+         "url": "https://www.gstatic.com/recaptcha/releases/vP4jQKq0YJFzU6e21-BGy3GP/recaptcha__en_gb.js"
+      }, {
+         "columnNumber": 398,
+         "functionName": "",
+         "lineNumber": 169,
+         "scriptId": "431",
+         "url": "https://www.gstatic.com/recaptcha/releases/vP4jQKq0YJFzU6e21-BGy3GP/recaptcha__en_gb.js"
+      }, {
+         "columnNumber": 291,
+         "functionName": "",
+         "lineNumber": 169,
+         "scriptId": "431",
+         "url": "https://www.gstatic.com/recaptcha/releases/vP4jQKq0YJFzU6e21-BGy3GP/recaptcha__en_gb.js"
+      }, {
+         "columnNumber": 260,
+         "functionName": "",
+         "lineNumber": 358,
+         "scriptId": "431",
+         "url": "https://www.gstatic.com/recaptcha/releases/vP4jQKq0YJFzU6e21-BGy3GP/recaptcha__en_gb.js"
+      }, {
+         "columnNumber": 251,
+         "functionName": "J.\u003Ccomputed>",
+         "lineNumber": 35,
+         "scriptId": "431",
+         "url": "https://www.gstatic.com/recaptcha/releases/vP4jQKq0YJFzU6e21-BGy3GP/recaptcha__en_gb.js"
+      }, {
+         "columnNumber": 89,
+         "functionName": "",
+         "lineNumber": 284,
+         "scriptId": "431",
+         "url": "https://www.gstatic.com/recaptcha/releases/vP4jQKq0YJFzU6e21-BGy3GP/recaptcha__en_gb.js"
+      }, {
+         "columnNumber": 375,
+         "functionName": "",
+         "lineNumber": 70,
+         "scriptId": "431",
+         "url": "https://www.gstatic.com/recaptcha/releases/vP4jQKq0YJFzU6e21-BGy3GP/recaptcha__en_gb.js"
+      }, {
+         "columnNumber": 315,
+         "functionName": "I.next",
+         "lineNumber": 114,
+         "scriptId": "431",
+         "url": "https://www.gstatic.com/recaptcha/releases/vP4jQKq0YJFzU6e21-BGy3GP/recaptcha__en_gb.js"
+      }, {
+         "columnNumber": 398,
+         "functionName": "",
+         "lineNumber": 169,
+         "scriptId": "431",
+         "url": "https://www.gstatic.com/recaptcha/releases/vP4jQKq0YJFzU6e21-BGy3GP/recaptcha__en_gb.js"
+      }, {
+         "columnNumber": 291,
+         "functionName": "",
+         "lineNumber": 169,
+         "scriptId": "431",
+         "url": "https://www.gstatic.com/recaptcha/releases/vP4jQKq0YJFzU6e21-BGy3GP/recaptcha__en_gb.js"
+      }, {
+         "columnNumber": 260,
+         "functionName": "",
+         "lineNumber": 358,
+         "scriptId": "431",
+         "url": "https://www.gstatic.com/recaptcha/releases/vP4jQKq0YJFzU6e21-BGy3GP/recaptcha__en_gb.js"
+      }, "..." ]
+   }
+}
+[1666778396.057][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "163139A341D9524A3E829261DE868E8E"
+}
+[1666778396.059][DEBUG]: DevTools WebSocket Event: Page.frameNavigated BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frame": {
+      "adFrameStatus": {
+         "adFrameType": "none"
+      },
+      "crossOriginIsolatedContextType": "NotIsolatedFeatureDisabled",
+      "domainAndRegistry": "",
+      "gatedAPIFeatures": [  ],
+      "id": "163139A341D9524A3E829261DE868E8E",
+      "loaderId": "ACD68083342BB8F7F90904E5569DAB8C",
+      "mimeType": "text/html",
+      "name": "",
+      "parentId": "9EF87F52C5434ABEBE24A12987161B25",
+      "secureContextType": "Secure",
+      "securityOrigin": "://",
+      "url": "about:blank"
+   },
+   "type": "Navigation"
+}
+[1666778396.059][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "context": {
+      "auxData": {
+         "frameId": "163139A341D9524A3E829261DE868E8E",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 4,
+      "name": "",
+      "origin": "https://www.google.com",
+      "uniqueId": "1116118078981870053.4472252572140440021"
+   }
+}
+[1666778396.059][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading BA856CDC007CC3D[1666778398.465][DEBUG]: DevTools WebSocket Event: Page.frameAttached 2E98CB70ACEEB37A6E5A5233BC5A80FB {
+   "frameId": "C0CCD04B73589072137E8CF2EAD92633",
+   "parentFrameId": "2E98CB70ACEEB37A6E5A5233BC5A80FB",
+   "stack": {
+      "callFrames": [ {
+         "columnNumber": 1091,
+         "functionName": "a",
+         "lineNumber": 180,
+         "scriptId": "90",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      }, {
+         "columnNumber": 5012,
+         "functionName": "e.process",
+         "lineNumber": 204,
+         "scriptId": "90",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      }, {
+         "columnNumber": 8006,
+         "functionName": "e.$ChatDOMFacade16",
+         "lineNumber": 203,
+         "scriptId": "90",
+         "url": "https://connect.facebook.net/en_US/sd[1666778399.549][DEBUG]: DevTools WebSocket Event: Page.frameAttached BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "62D004F4E9503CF02CF665434B451B3F",
+   "parentFrameId": "BA856CDC007CC3DE6C530438FA3F8EC5",
+   "stack": {
+      "callFrames": [ {
+         "columnNumber": 1091,
+         "functionName": "a",
+         "lineNumber": 180,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      }, {
+         "columnNumber": 5012,
+         "functionName": "e.process",
+         "lineNumber": 204,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      }, {
+         "columnNumber": 8006,
+         "functionName": "e.$ChatDOMFacade16",
+         "lineNumber": 203,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      }, {
+         "columnNumber": 1986,
+         "functionName": "",
+         "lineNumber": 203,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      }, {
+         "columnNumber": 527,
+         "functionName": "d",
+         "lineNumber": 201,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      } ]
+   }
+}
+[1666778399.549][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "62D004F4E9503CF02CF665434B451B3F"
+}
+[1666778399.567][DEBUG]: DevTools WebSocket Event: Page.frameNavigated BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frame": {
+      "adFrameStatus": {
+         "adFrameType": "none"
+      },
+      "crossOriginIsolatedContextType": "NotIsolated",
+      "domainAndRegistry": "",
+      "gatedAPIFeatures": [  ],
+      "id": "62D004F4E9503CF02CF665434B451B3F",
+      "loaderId": "65F6475C50E574226158EB70BF3DE8B8",
+      "mimeType": "text/html",
+      "name": "f36ad609821f4b",
+      "parentId": "BA856CDC007CC3DE6C530438FA3F8EC5",
+      "secureContextType": "Secure",
+      "securityOrigin": "://",
+      "url": "about:blank"
+   },
+   "type": "Navigation"
+}
+[1666778399.567][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "context": {
+      "auxData": {
+         "frameId": "62D004F4E9503CF02CF665434B451B3F",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 5,
+      "name": "",
+      "origin": "https://www.ramtons.com",
+      "uniqueId": "626256931003656472.4270090684164130932"
+   }
+}
+[1666778399.567][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "62D004F4E9503CF02CF665434B451B3F"
+}
+[1666778399.568][DEBUG]: DevTools WebSocket Event: Page.frameScheduledNavigation BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "delay": 0,
+   "frameId": "62D004F4E9503CF02CF665434B451B3F",
+   "reason": "scriptInitiated",
+   "url": "https://web.facebook.com/v4.0/plugins/customerchat.php?app_id=1544483055659339&attribution=setup_tool&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3..."
+}
+[1666778399.568][DEBUG]: DevTools WebSocket Event: Page.frameRequestedNavigation BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "disposition": "currentTab",
+   "frameId": "62D004F4E9503CF02CF665434B451B3F",
+   "reason": "scriptInitiated",
+   "url": "https://web.facebook.com/v4.0/plugins/customerchat.php?app_id=1544483055659339&attribution=setup_tool&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3..."
+}
+[1666778399.569][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "62D004F4E9503CF02CF665434B451B3F"
+}
+[1666778399.569][DEBUG]: DevTools WebSocket Event: Page.frameClearedScheduledNavigation BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "62D004F4E9503CF02CF665434B451B3F"
+}
+[1026/095959.957277:INFO:CONSOLE(0)] "Access to XMLHttpRequest at 'https://web.facebook.com/plugins/customer_chat/SDK/?app_id=1544483055659339&attribution=setup_tool&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df17b1438f27cd44%26domain%3Dwww.ramtons.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fwww.ramtons.com%252Ff14cd5cd47e2adc%26relation%3Dparent.parent&container_width=1885&current_url=https%3A%2F%2Fwww.ramtons.com%2Fcatalog%2Fproduct%2Fview%2Fid%2F1066%2Fs%2Fhot-and-normal-free-standing-water-dispenser-rm-429%2Fcategory%2F239%2F&event_name=chat_plugin_sdk_dialog_iframe_create&is_loaded_by_facade=true&loading_time=0&locale=en_US&log_id=41d374f3-0287-4d12-8549-afd7317e10a9&logged_in_greeting=Hello%2Chow%20can%20I%20help%20you%3F&logged_out_greeting=Thank%20you&page_id=728377967251107&request_time=1666778399543&sdk=joey&suppress_http_code=1&theme_color=%23FFFFFF' from origin 'https://www.ramtons.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.", source: https://www.ramtons.com/catalog/product/view/id/1066/s/hot-and-normal-free-standing-water-dispenser-rm-429/category/239/ (0)
+[1666778399.958][DEBUG]: DevTools WebSocket Event: Log.entryAdded BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "entry": {
+      "category": "cors",
+      "level": "error",
+      "source": "javascript",
+      "text": "Access to XMLHttpRequest at 'https://web.facebook.com/plugins/customer_chat/SDK/?app_id=1544483055659339&attribution=setup_tool&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbite...",
+      "timestamp": 1.66677839995601e+12,
+      "url": "https://www.ramtons.com/catalog/product/view/id/1066/s/hot-and-normal-free-standing-water-dispenser-rm-429/category/239/"
+   }
+}
+[1666778399.958][DEBUG]: DevTools WebSocket Event: Log.entryAdded BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "entry": {
+      "category": "cors",
+      "level": "error",
+      "networkRequestId": "8519.390",
+      "source": "network",
+      "text": "Failed to load resource: net::ERR_FAILED",
+      "timestamp": 1.666778399956779e+12,
+      "url": "https://web.facebook.com/plugins/customer_chat/SDK/?app_id=1544483055659339&attribution=setup_tool&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df1..."
+   }
+}
+[1666778401.746][DEBUG]: DevTools WebSocket Event: Runtime.executionContextDestroyed BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "executionContextId": 5
+}
+[1666778401.746][DEBUG]: DevTools WebSocket Event: Page.frameNavigated BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frame": {
+      "adFrameStatus": {
+         "adFrameType": "none"
+      },
+      "crossOriginIsolatedContextType": "NotIsolatedFeatureDisabled",
+      "domainAndRegistry": "facebook.com",
+      "gatedAPIFeatures": [  ],
+      "id": "62D004F4E9503CF02CF665434B451B3F",
+      "loaderId": "17A50E47EABD6801918F7908443ED4BD",
+      "mimeType": "text/html",
+      "name": "f36ad609821f4b",
+      "parentId": "BA856CDC007CC3DE6C530438FA3F8EC5",
+      "secureContextType": "Secure",
+      "securityOrigin": "https://www.facebook.com",
+      "url": "https://www.facebook.com/v4.0/plugins/customerchat.php?app_id=1544483055659339&attribution=setup_tool&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3..."
+   },
+   "type": "Navigation"
+}
+[1666778401.746][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "context": {
+      "auxData": {
+         "frameId": "62D004F4E9503CF02CF665434B451B3F",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 6,
+      "name": "",
+      "origin": "https://www.facebook.com",
+      "uniqueId": "-8346071917590488094.1091198378910134438"
+   }
+}
+[1666778405.724][DEBUG]: DevTools WebSocket Event: Page.navigatedWithinDocument BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "62D004F4E9503CF02CF665434B451B3F",
+   "url": "https://www.facebook.com/welcome"
+}
+[1666778405.781][DEBUG]: DevTools WebSocket Event: Page.frameAttached BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "A8BAA83D01B28B42AA39BC7E59C1F7B2",
+   "parentFrameId": "BA856CDC007CC3DE6C530438FA3F8EC5",
+   "stack": {
+      "callFrames": [ {
+         "columnNumber": 457,
+         "functionName": "j",
+         "lineNumber": 75,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      }, {
+         "columnNumber": 6275,
+         "functionName": "e.$CustomerChat21",
+         "lineNumber": 214,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      }, {
+         "columnNumber": 3503,
+         "functionName": "",
+         "lineNumber": 214,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      }, {
+         "columnNumber": 470,
+         "functionName": "inform",
+         "lineNumber": 128,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      }, {
+         "columnNumber": 2267,
+         "functionName": "",
+         "lineNumber": 204,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      }, {
+         "columnNumber": 2287,
+         "functionName": "s",
+         "lineNumber": 162,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      }, {
+         "columnNumber": 2781,
+         "functionName": "",
+         "lineNumber": 162,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      } ]
+   }
+}
+[1666778405.781][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "A8BAA83D01B28B42AA39BC7E59C1F7B2"
+}
+[1666778405.784][DEBUG]: DevTools WebSocket Event: Page.frameAttached BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "8EEEC766F16EC8B754F42D458D0A90E2",
+   "parentFrameId": "BA856CDC007CC3DE6C530438FA3F8EC5",
+   "stack": {
+      "callFrames": [ {
+         "columnNumber": 1091,
+         "functionName": "a",
+         "lineNumber": 180,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      }, {
+         "columnNumber": 6374,
+         "functionName": "e.$CustomerChat21",
+         "lineNumber": 214,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      }, {
+         "columnNumber": 3503,
+         "functionName": "",
+         "lineNumber": 214,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      }, {
+         "columnNumber": 470,
+         "functionName": "inform",
+         "lineNumber": 128,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      }, {
+         "columnNumber": 2267,
+         "functionName": "",
+         "lineNumber": 204,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      }, {
+         "columnNumber": 2287,
+         "functionName": "s",
+         "lineNumber": 162,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      }, {
+         "columnNumber": 2781,
+         "functionName": "",
+         "lineNumber": 162,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      } ]
+   }
+}
+[1666778405.784][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "8EEEC766F16EC8B754F42D458D0A90E2"
+}
+[1666778405.787][DEBUG]: DevTools WebSocket Event: Page.frameNavigated BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frame": {
+      "adFrameStatus": {
+         "adFrameType": "none"
+      },
+      "crossOriginIsolatedContextType": "NotIsolated",
+      "domainAndRegistry": "",
+      "gatedAPIFeatures": [  ],
+      "id": "8EEEC766F16EC8B754F42D458D0A90E2",
+      "loaderId": "6D2DB567FF67997013AA783EB6768108",
+      "mimeType": "text/html",
+      "name": "availabilityStatus_f36ad609821f4b",
+      "parentId": "BA856CDC007CC3DE6C530438FA3F8EC5",
+      "secureContextType": "Secure",
+      "securityOrigin": "://",
+      "url": "about:blank"
+   },
+   "type": "Navigation"
+}
+[1666778405.787][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "context": {
+      "auxData": {
+         "frameId": "8EEEC766F16EC8B754F42D458D0A90E2",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 7,
+      "name": "",
+      "origin": "https://www.ramtons.com",
+      "uniqueId": "-915418359798871597.3906883081545879059"
+   }
+}
+[1666778405.787][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "8EEEC766F16EC8B754F42D458D0A90E2"
+}
+[1666778405.787][DEBUG]: DevTools WebSocket Event: Page.frameScheduledNavigation BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "delay": 0,
+   "frameId": "8EEEC766F16EC8B754F42D458D0A90E2",
+   "reason": "scriptInitiated",
+   "url": "https://web.facebook.com/v4.0/plugins/customer_chat/bubble"
+}
+[1666778405.787][DEBUG]: DevTools WebSocket Event: Page.frameRequestedNavigation BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "disposition": "currentTab",
+   "frameId": "8EEEC766F16EC8B754F42D458D0A90E2",
+   "reason": "scriptInitiated",
+   "url": "https://web.facebook.com/v4.0/plugins/customer_chat/bubble"
+}
+[1666778405.787][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "8EEEC766F16EC8B754F42D458D0A90E2"
+}
+[1666778405.789][DEBUG]: DevTools WebSocket Event: Page.frameClearedScheduledNavigation BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "8EEEC766F16EC8B754F42D458D0A90E2"
+}
+[1666778405.789][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "8EEEC766F16EC8B754F42D458D0A90E2"
+}
+[1666778405.789][DEBUG]: DevTools WebSocket Event: Page.frameDetached BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "8EEEC766F16EC8B754F42D458D0A90E2",
+   "reason": "remove"
+}
+[1666778405.789][DEBUG]: DevTools WebSocket Event: Page.frameAttached BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "CC899B7F22ED45B9AB197C638EDC6560",
+   "parentFrameId": "BA856CDC007CC3DE6C530438FA3F8EC5",
+   "stack": {
+      "callFrames": [ {
+         "columnNumber": 457,
+         "functionName": "j",
+         "lineNumber": 75,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      }, {
+         "columnNumber": 6715,
+         "functionName": "e.$CustomerChat21",
+         "lineNumber": 214,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      }, {
+         "columnNumber": 3503,
+         "functionName": "",
+         "lineNumber": 214,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      }, {
+         "columnNumber": 470,
+         "functionName": "inform",
+         "lineNumber": 128,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      }, {
+         "columnNumber": 2267,
+         "functionName": "",
+         "lineNumber": 204,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      }, {
+         "columnNumber": 2287,
+         "functionName": "s",
+         "lineNumber": 162,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      }, {
+         "columnNumber": 2781,
+         "functionName": "",
+         "lineNumber": 162,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      } ]
+   }
+}
+[1666778405.789][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "CC899B7F22ED45B9AB197C638EDC6560"
+}
+[1666778405.791][DEBUG]: DevTools WebSocket Event: Page.frameAttached BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "6E0667338D8F4188140516758D00A2B4",
+   "parentFrameId": "BA856CDC007CC3DE6C530438FA3F8EC5",
+   "stack": {
+      "callFrames": [ {
+         "columnNumber": 1091,
+         "functionName": "a",
+         "lineNumber": 180,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      }, {
+         "columnNumber": 6816,
+         "functionName": "e.$CustomerChat21",
+         "lineNumber": 214,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      }, {
+         "columnNumber": 3503,
+         "functionName": "",
+         "lineNumber": 214,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      }, {
+         "columnNumber": 470,
+         "functionName": "inform",
+         "lineNumber": 128,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      }, {
+         "columnNumber": 2267,
+         "functionName": "",
+         "lineNumber": 204,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      }, {
+         "columnNumber": 2287,
+         "functionName": "s",
+         "lineNumber": 162,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      }, {
+         "columnNumber": 2781,
+         "functionName": "",
+         "lineNumber": 162,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      } ]
+   }
+}
+[1666778405.791][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "6E0667338D8F4188140516758D00A2B4"
+}
+[1666778405.793][DEBUG]: DevTools WebSocket Event: Page.frameNavigated BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frame": {
+      "adFrameStatus": {
+         "adFrameType": "none"
+      },
+      "crossOriginIsolatedContextType": "NotIsolated",
+      "domainAndRegistry": "",
+      "gatedAPIFeatures": [  ],
+      "id": "6E0667338D8F4188140516758D00A2B4",
+      "loaderId": "33895C00E72592A0648E491E2FE261D7",
+      "mimeType": "text/html",
+      "name": "unread_f36ad609821f4b",
+      "parentId": "BA856CDC007CC3DE6C530438FA3F8EC5",
+      "secureContextType": "Secure",
+      "securityOrigin": "://",
+      "url": "about:blank"
+   },
+   "type": "Navigation"
+}
+[1666778405.794][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "context": {
+      "auxData": {
+         "frameId": "6E0667338D8F4188140516758D00A2B4",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 8,
+      "name": "",
+      "origin": "https://www.ramtons.com",
+      "uniqueId": "-5841559313789348655.-8207261677656987684"
+   }
+}
+[1666778405.794][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "6E0667338D8F4188140516758D00A2B4"
+}
+[1666778405.794][DEBUG]: DevTools WebSocket Event: Page.frameScheduledNavigation BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "delay": 0,
+   "frameId": "6E0667338D8F4188140516758D00A2B4",
+   "reason": "scriptInitiated",
+   "url": "https://web.facebook.com/v4.0/plugins/customer_chat/bubble"
+}
+[1666778405.794][DEBUG]: DevTools WebSocket Event: Page.frameRequestedNavigation BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "disposition": "currentTab",
+   "frameId": "6E0667338D8F4188140516758D00A2B4",
+   "reason": "scriptInitiated",
+   "url": "https://web.facebook.com/v4.0/plugins/customer_chat/bubble"
+}
+[1666778405.794][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "6E0667338D8F4188140516758D00A2B4"
+}
+[1666778405.795][DEBUG]: DevTools WebSocket Event: Page.frameClearedScheduledNavigation BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "6E0667338D8F4188140516758D00A2B4"
+}
+[1666778405.795][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "6E0667338D8F4188140516758D00A2B4"
+}
+[1666778405.796][DEBUG]: DevTools WebSocket Event: Page.frameDetached BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "6E0667338D8F4188140516758D00A2B4",
+   "reason": "remove"
+}
+[1666778405.796][DEBUG]: DevTools WebSocket Event: Page.frameAttached BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "92E6563DB76CE409D213431974FD8026",
+   "parentFrameId": "BA856CDC007CC3DE6C530438FA3F8EC5",
+   "stack": {
+      "callFrames": [ {
+         "columnNumber": 457,
+         "functionName": "j",
+         "lineNumber": 75,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      }, {
+         "columnNumber": 7138,
+         "functionName": "e.$CustomerChat21",
+         "lineNumber": 214,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      }, {
+         "columnNumber": 3503,
+         "functionName": "",
+         "lineNumber": 214,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      }, {
+         "columnNumber": 470,
+         "functionName": "inform",
+         "lineNumber": 128,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      }, {
+         "columnNumber": 2267,
+         "functionName": "",
+         "lineNumber": 204,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      }, {
+         "columnNumber": 2287,
+         "functionName": "s",
+         "lineNumber": 162,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      }, {
+         "columnNumber": 2781,
+         "functionName": "",
+         "lineNumber": 162,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      } ]
+   }
+}
+[1666778405.797][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "92E6563DB76CE409D213431974FD8026"
+}
+[1666778405.798][DEBUG]: DevTools WebSocket Event: Page.frameAttached BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "B173D26B2B74037B9875E1F1661162C8",
+   "parentFrameId": "BA856CDC007CC3DE6C530438FA3F8EC5",
+   "stack": {
+      "callFrames": [ {
+         "columnNumber": 1091,
+         "functionName": "a",
+         "lineNumber": 180,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      }, {
+         "columnNumber": 7272,
+         "functionName": "e.$CustomerChat21",
+         "lineNumber": 214,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      }, {
+         "columnNumber": 3503,
+         "functionName": "",
+         "lineNumber": 214,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      }, {
+         "columnNumber": 470,
+         "functionName": "inform",
+         "lineNumber": 128,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      }, {
+         "columnNumber": 2267,
+         "functionName": "",
+         "lineNumber": 204,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      }, {
+         "columnNumber": 2287,
+         "functionName": "s",
+         "lineNumber": 162,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      }, {
+         "columnNumber": 2781,
+         "functionName": "",
+         "lineNumber": 162,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      } ]
+   }
+}
+[1666778405.798][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "B173D26B2B74037B9875E1F1661162C8"
+}
+[1666778405.801][DEBUG]: DevTools WebSocket Event: Page.frameNavigated BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frame": {
+      "adFrameStatus": {
+         "adFrameType": "none"
+      },
+      "crossOriginIsolatedContextType": "NotIsolated",
+      "domainAndRegistry": "",
+      "gatedAPIFeatures": [  ],
+      "id": "B173D26B2B74037B9875E1F1661162C8",
+      "loaderId": "29EB6AE49A3113DF76FC916C674CCB84",
+      "mimeType": "text/html",
+      "name": "greeting_f36ad609821f4b",
+      "parentId": "BA856CDC007CC3DE6C530438FA3F8EC5",
+      "secureContextType": "Secure",
+      "securityOrigin": "://",
+      "url": "about:blank"
+   },
+   "type": "Navigation"
+}
+[1666778405.801][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "context": {
+      "auxData": {
+         "frameId": "B173D26B2B74037B9875E1F1661162C8",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 9,
+      "name": "",
+      "origin": "https://www.ramtons.com",
+      "uniqueId": "-18130467178370218.7410431084397578654"
+   }
+}
+[1666778405.801][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "B173D26B2B74037B9875E1F1661162C8"
+}
+[1666778405.801][DEBUG]: DevTools WebSocket Event: Page.frameScheduledNavigation BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "delay": 0,
+   "frameId": "B173D26B2B74037B9875E1F1661162C8",
+   "reason": "scriptInitiated",
+   "url": "https://web.facebook.com/v4.0/plugins/customer_chat/bubble"
+}
+[1666778405.801][DEBUG]: DevTools WebSocket Event: Page.frameRequestedNavigation BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "disposition": "currentTab",
+   "frameId": "B173D26B2B74037B9875E1F1661162C8",
+   "reason": "scriptInitiated",
+   "url": "https://web.facebook.com/v4.0/plugins/customer_chat/bubble"
+}
+[1666778405.801][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "B173D26B2B74037B9875E1F1661162C8"
+}
+[1666778405.802][DEBUG]: DevTools WebSocket Event: Page.frameClearedScheduledNavigation BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "B173D26B2B74037B9875E1F1661162C8"
+}
+[1666778405.802][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "B173D26B2B74037B9875E1F1661162C8"
+}
+[1666778405.805][DEBUG]: DevTools WebSocket Event: Page.frameDetached BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "B173D26B2B74037B9875E1F1661162C8",
+   "reason": "remove"
+}
+[1666778405.805][DEBUG]: DevTools WebSocket Event: Page.frameAttached BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "FCD4D8B37CE5A0BC8299F730F469B956",
+   "parentFrameId": "BA856CDC007CC3DE6C530438FA3F8EC5",
+   "stack": {
+      "callFrames": [ {
+         "columnNumber": 457,
+         "functionName": "j",
+         "lineNumber": 75,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      }, {
+         "columnNumber": 7594,
+         "functionName": "e.$CustomerChat21",
+         "lineNumber": 214,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      }, {
+         "columnNumber": 3503,
+         "functionName": "",
+         "lineNumber": 214,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      }, {
+         "columnNumber": 470,
+         "functionName": "inform",
+         "lineNumber": 128,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      }, {
+         "columnNumber": 2267,
+         "functionName": "",
+         "lineNumber": 204,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      }, {
+         "columnNumber": 2287,
+         "functionName": "s",
+         "lineNumber": 162,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      }, {
+         "columnNumber": 2781,
+         "functionName": "",
+         "lineNumber": 162,
+         "scriptId": "124",
+         "url": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"
+      } ]
+   }
+}
+[1666778405.805][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "FCD4D8B37CE5A0BC8299F730F469B956"
+}
+[1666778405.925][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "62D004F4E9503CF02CF665434B451B3F"
+}
+[1026/100006.118083:INFO:CONSOLE(0)] "Access to XMLHttpRequest at 'https://web.facebook.com/plugins/customer_chat/SDK/?app_id=1544483055659339&attribution=setup_tool&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df17b1438f27cd44%26domain%3Dwww.ramtons.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fwww.ramtons.com%252Ff14cd5cd47e2adc%26relation%3Dparent.parent&container_width=1885&current_url=https%3A%2F%2Fwww.ramtons.com%2Fcatalog%2Fproduct%2Fview%2Fid%2F1066%2Fs%2Fhot-and-normal-free-standing-water-dispenser-rm-429%2Fcategory%2F239%2F&event_name=chat_plugin_sdk_dialog_iframe_load&is_loaded_by_facade=true&loading_time=6380&locale=en_US&log_id=41d374f3-0287-4d12-8549-afd7317e10a9&logged_in_greeting=Hello%2Chow%20can%20I%20help%20you%3F&logged_out_greeting=Thank%20you&page_id=728377967251107&request_time=1666778405923&sdk=joey&suppress_http_code=1&theme_color=%23FFFFFF' from origin 'https://www.ramtons.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.", source: https://www.ramtons.com/catalog/product/view/id/1066/s/hot-and-normal-free-standing-water-dispenser-rm-429/category/239/ (0)
+[1666778406.118][DEBUG]: DevTools WebSocket Event: Log.entryAdded BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "entry": {
+      "category": "cors",
+      "level": "error",
+      "source": "javascript",
+      "text": "Access to XMLHttpRequest at 'https://web.facebook.com/plugins/customer_chat/SDK/?app_id=1544483055659339&attribution=setup_tool&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbite...",
+      "timestamp": 1.666778406117878e+12,
+      "url": "https://www.ramtons.com/catalog/product/view/id/1066/s/hot-and-normal-free-standing-water-dispenser-rm-429/category/239/"
+   }
+}
+[1666778406.119][DEBUG]: DevTools WebSocket Event: Log.entryAdded BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "entry": {
+      "category": "cors",
+      "level": "error",
+      "networkRequestId": "8519.461",
+      "source": "network",
+      "text": "Failed to load resource: net::ERR_FAILED",
+      "timestamp": 1.666778406118348e+12,
+      "url": "https://web.facebook.com/plugins/customer_chat/SDK/?app_id=1544483055659339&attribution=setup_tool&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df1..."
+   }
+}
+[1666778406.190][DEBUG]: DevTools WebSocket Event: Page.frameNavigated BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frame": {
+      "adFrameStatus": {
+         "adFrameType": "none"
+      },
+      "crossOriginIsolatedContextType": "NotIsolatedFeatureDisabled",
+      "domainAndRegistry": "facebook.com",
+      "gatedAPIFeatures": [  ],
+      "id": "A8BAA83D01B28B42AA39BC7E59C1F7B2",
+      "loaderId": "BD0C9D5679E94BB6EA664EC20CB358C4",
+      "mimeType": "text/html",
+      "name": "blank_f36ad609821f4b",
+      "parentId": "BA856CDC007CC3DE6C530438FA3F8EC5",
+      "secureContextType": "Secure",
+      "securityOrigin": "https://www.facebook.com",
+      "url": "https://www.facebook.com/v4.0/plugins/customer_chat/bubble?_rdc=1&_rdr"
+   },
+   "type": "Navigation"
+}
+[1666778406.190][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "context": {
+      "auxData": {
+         "frameId": "A8BAA83D01B28B42AA39BC7E59C1F7B2",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 10,
+      "name": "",
+      "origin": "https://www.facebook.com",
+      "uniqueId": "-6461527479677110458.-8815409120251850387"
+   }
+}
+[1666778406.368][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "A8BAA83D01B28B42AA39BC7E59C1F7B2"
+}
+[1666778406.402][DEBUG]: DevTools WebSocket Event: Page.frameNavigated BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frame": {
+      "adFrameStatus": {
+         "adFrameType": "none"
+      },
+      "crossOriginIsolatedContextType": "NotIsolatedFeatureDisabled",
+      "domainAndRegistry": "facebook.com",
+      "gatedAPIFeatures": [  ],
+      "id": "CC899B7F22ED45B9AB197C638EDC6560",
+      "loaderId": "73BD5A9751A29B7399EFFDA3252A1FA9",
+      "mimeType": "text/html",
+      "name": "availabilityStatus_f36ad609821f4b",
+      "parentId": "BA856CDC007CC3DE6C530438FA3F8EC5",
+      "secureContextType": "Secure",
+      "securityOrigin": "https://www.facebook.com",
+      "url": "https://www.facebook.com/v4.0/plugins/customer_chat/bubble?_rdc=1&_rdr"
+   },
+   "type": "Navigation"
+}
+[1666778406.402][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "context": {
+      "auxData": {
+         "frameId": "CC899B7F22ED45B9AB197C638EDC6560",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 11,
+      "name": "",
+      "origin": "https://www.facebook.com",
+      "uniqueId": "-841711251577555599.7747636159439558786"
+   }
+}
+[1666778406.428][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "CC899B7F22ED45B9AB197C638EDC6560"
+}
+[1666778406.619][DEBUG]: DevTools WebSocket Event: Page.frameNavigated BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frame": {
+      "adFrameStatus": {
+         "adFrameType": "none"
+      },
+      "crossOriginIsolatedContextType": "NotIsolatedFeatureDisabled",
+      "domainAndRegistry": "facebook.com",
+      "gatedAPIFeatures": [  ],
+      "id": "92E6563DB76CE409D213431974FD8026",
+      "loaderId": "C9060407512BC9A35913BFAEEA046571",
+      "mimeType": "text/html",
+      "name": "unread_f36ad609821f4b",
+      "parentId": "BA856CDC007CC3DE6C530438FA3F8EC5",
+      "secureContextType": "Secure",
+      "securityOrigin": "https://www.facebook.com",
+      "url": "https://www.facebook.com/v4.0/plugins/customer_chat/bubble?_rdc=1&_rdr"
+   },
+   "type": "Navigation"
+}
+[1666778406.619][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "context": {
+      "auxData": {
+         "frameId": "92E6563DB76CE409D213431974FD8026",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 12,
+      "name": "",
+      "origin": "https://www.facebook.com",
+      "uniqueId": "5837825173699443897.-6500261783061780015"
+   }
+}
+[1666778406.630][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "92E6563DB76CE409D213431974FD8026"
+}
+[1666778407.056][DEBUG]: DevTools WebSocket Event: Page.frameNavigated BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frame": {
+      "adFrameStatus": {
+         "adFrameType": "none"
+      },
+      "crossOriginIsolatedContextType": "NotIsolatedFeatureDisabled",
+      "domainAndRegistry": "facebook.com",
+      "gatedAPIFeatures": [  ],
+      "id": "FCD4D8B37CE5A0BC8299F730F469B956",
+      "loaderId": "04AAF436D4DC141ADEEED63B6AE43376",
+      "mimeType": "text/html",
+      "name": "greeting_f36ad609821f4b",
+      "parentId": "BA856CDC007CC3DE6C530438FA3F8EC5",
+      "secureContextType": "Secure",
+      "securityOrigin": "https://www.facebook.com",
+      "url": "https://www.facebook.com/v4.0/plugins/customer_chat/bubble?_rdc=1&_rdr"
+   },
+   "type": "Navigation"
+}
+[1666778407.056][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "context": {
+      "auxData": {
+         "frameId": "FCD4D8B37CE5A0BC8299F730F469B956",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 13,
+      "name": "",
+      "origin": "https://www.facebook.com",
+      "uniqueId": "-8194058366358401082.6304339658840114280"
+   }
+}
+[1666778407.069][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "frameId": "FCD4D8B37CE5A0BC8299F730F469B956"
+}
+[1026/100007.670633:INFO:CONSOLE(0)] "Access to XMLHttpRequest at 'https://web.facebook.com/plugins/customer_chat/SDK/?app_id=1544483055659339&attribution=setup_tool&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df17b1438f27cd44%26domain%3Dwww.ramtons.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fwww.ramtons.com%252Ff14cd5cd47e2adc%26relation%3Dparent.parent&container_width=1885&current_url=https%3A%2F%2Fwww.ramtons.com%2Fcatalog%2Fproduct%2Fview%2Fid%2F1066%2Fs%2Fhot-and-normal-free-standing-water-dispenser-rm-429%2Fcategory%2F239%2F&event_name=chat_plugin_sdk_icon_iframe_load&is_loaded_by_facade=true&loading_time=442&locale=en_US&log_id=41d374f3-0287-4d12-8549-afd7317e10a9&logged_in_greeting=Hello%2Chow%20can%20I%20help%20you%3F&logged_out_greeting=Thank%20you&page_id=728377967251107&request_time=1666778406365&sdk=joey&suppress_http_code=1&theme_color=%23FFFFFF' from origin 'https://www.ramtons.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.", source: https://www.ramtons.com/catalog/product/view/id/1066/s/hot-and-normal-free-standing-water-dispenser-rm-429/category/239/ (0)
+[1666778407.671][DEBUG]: DevTools WebSocket Event: Log.entryAdded BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "entry": {
+      "category": "cors",
+      "level": "error",
+      "source": "javascript",
+      "text": "Access to XMLHttpRequest at 'https://web.facebook.com/plugins/customer_chat/SDK/?app_id=1544483055659339&attribution=setup_tool&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbite...",
+      "timestamp": 1.6667784076700698e+12,
+      "url": "https://www.ramtons.com/catalog/product/view/id/1066/s/hot-and-normal-free-standing-water-dispenser-rm-429/category/239/"
+   }
+}
+[1666778407.671][DEBUG]: DevTools WebSocket Event: Log.entryAdded BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "entry": {
+      "category": "cors",
+      "level": "error",
+      "networkRequestId": "8519.464",
+      "source": "network",
+      "text": "Failed to load resource: net::ERR_FAILED",
+      "timestamp": 1.666778407670379e+12,
+      "url": "https://web.facebook.com/plugins/customer_chat/SDK/?app_id=1544483055659339&attribution=setup_tool&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df1..."
+   }
+}
+[1666778414.539][DEBUG]: DevTools WebSocket Event: Runtime.executionContextDestroyed BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "executionContextId": 9
+}
+[1666778414.539][DEBUG]: DevTools WebSocket Event: Runtime.executionContextDestroyed BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "executionContextId": 8
+}
+[1666778414.539][DEBUG]: DevTools WebSocket Event: Runtime.executionContextDestroyed BA856CDC007CC3DE6C530438FA3F8EC5 {
+   "executionContextId": 7
+}

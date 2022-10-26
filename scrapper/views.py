@@ -564,6 +564,7 @@ def Hypermarttproduct(request):
     uncrawled_products = HypermartProductLinks2.objects.filter(crawled=False)
     for each_product in uncrawled_products:
         item_url = each_product.link
+        # item_url = "https://www.ramtons.com/catalog/product/view/id/1066/s/hot-and-normal-free-standing-water-dispenser-rm-429/category/239/"
 
         user_agent_list = [
             'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36',
@@ -603,36 +604,24 @@ def Hypermarttproduct(request):
         except:
             product_name = ''
 
-         # price
+        # new price
         try:
-
-            product_main = soup.find('div', class_='product-info-main')
-            f_outer_wrapper = product_main.find(
-                'span', class_='price-container price-final_price tax weee')
-            outer_wrapper = product_main.find('span', class_='price-wrapper')
-
+            product_main = soup.find('div', class_='product-quickadd')
             try:
-                regular_price = f_outer_wrapper.find(
+                most_outer_wrapper = product_main.find(
+                    'span', class_='old-price')
+                regular_price = most_outer_wrapper.find(
                     'span', class_='price').text.strip()
                 regular_price = regular_price[4:]
             except:
+                outer_wrapper = product_main.find(
+                    'span', class_='price-wrapper')
                 regular_price = outer_wrapper.find(
                     'span', class_='price').text.strip()
                 regular_price = regular_price[4:]
 
         except:
-            most_outer_wrapper = soup.find('span', class_='old-price')
-            second_outer_wrapper = soup.find(
-                'span', class_='price-label').find_next_sibling('span')
-
-            try:
-                regular_price = most_outer_wrapper.find(
-                    'span', class_='price').text.strip()
-                regular_price = regular_price[4:]
-            except:
-                regular_price = second_outer_wrapper.find(
-                    'span', class_='price').text.strip()
-                regular_price = regular_price[4:]
+            regular_price = 0
 
         # sku
         try:
@@ -696,6 +685,7 @@ def Hypermarttproduct(request):
         try:
             n = Products.objects.get(product_link=item_url)
         except:
+            print(regular_price)
             Products.objects.create(
                 product_name=product_name,
                 sku=sku,
