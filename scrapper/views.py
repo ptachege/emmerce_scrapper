@@ -883,6 +883,7 @@ def MikaProducts(request):
     uncrawled_products = MikaProductLinks2.objects.filter(crawled=False)
     for each_product in uncrawled_products:
         item_url = each_product.link
+        # item_url = "https://mikaappliances.com/product/water-dispenserfloor-standing-with-sensor-taps-botttom-load-black-dark-ss/"
 
         user_agent_list = [
             'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36',
@@ -992,12 +993,13 @@ def MikaProducts(request):
         try:
             n = Products.objects.get(product_link=item_url)
         except:
+            print(in_stock)
             Products.objects.create(
                 product_name=product_name,
                 sale_price='',
                 regular_price=regular_price,
                 sku=sku,
-                stock_status=stock_status,
+                stock_status=in_stock,
                 product_link=item_url,
                 brand='Mika',
                 short_description=my_description_div,
@@ -1012,7 +1014,7 @@ def MikaProducts(request):
                 "ShopSku": sku,
                 "SellerSku": "",
                 "Price": regular_price,
-                "StockAmount": stock_status
+                "StockAmount": in_stock
             })
             headers = {
                 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjYyNTUyOTgyLCJqdGkiOiI3ZGMxN2EzNzA5Njg0MzhiYmZkYzFhNzBiZDU4ZmRmNSIsInVzZXJfaWQiOjF9.-rAtxR2GiB1Iuztfhie16eKewn7ONrDlFhQU-dls6aI',
