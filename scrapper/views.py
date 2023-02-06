@@ -467,35 +467,37 @@ def Hypermart_entry(request):
 
         soup = driver.page_source.encode('utf-8').strip()
         soup = BeautifulSoup(soup, 'lxml')
-
-        page_number_of = soup.find(
-            'div', class_="product-amount")
-        page_number_of = page_number_of.find(
-            'span').text
-
         try:
-            number_of_pages = math.ceil(int(page_number_of)/60)
-        except:
-            number_of_pages = 1
-
-        # first page
-        product_cards = soup.findAll(
-            'li', class_='item product product-item')
-
-        for inside_card in product_cards:
-            anchor_tag = inside_card.find(
-                'a', href=True)
-            anchor_tag = anchor_tag['href']
+            page_number_of = soup.find(
+                'div', class_="product-amount")
+            page_number_of = page_number_of.find(
+                'span').text
 
             try:
-                HypermartProductLinks2.objects.create(
-                    link=anchor_tag,
-                    crawled=False,
-                )
-                print('saved successfully')
+                number_of_pages = math.ceil(int(page_number_of)/60)
             except:
-                print('error')
-                pass
+                number_of_pages = 1
+
+            # first page
+            product_cards = soup.findAll(
+                'li', class_='item product product-item')
+
+            for inside_card in product_cards:
+                anchor_tag = inside_card.find(
+                    'a', href=True)
+                anchor_tag = anchor_tag['href']
+
+                try:
+                    HypermartProductLinks2.objects.create(
+                        link=anchor_tag,
+                        crawled=False,
+                    )
+                    print('saved successfully')
+                except:
+                    print('error')
+                    pass
+        except:
+            pass
 
         # other pages
         if number_of_pages > 1:
@@ -533,24 +535,26 @@ def Hypermart_entry(request):
                 driver.get(category_url)
                 soup = driver.page_source.encode('utf-8').strip()
                 final_soup = BeautifulSoup(soup, 'lxml')
+                try:
+                    product_cards = final_soup.findAll(
+                        'li', class_='item product product-item')
 
-                product_cards = final_soup.findAll(
-                    'li', class_='item product product-item')
+                    for inside_card in product_cards:
+                        anchor_tag = inside_card.find(
+                            'a', href=True)
+                        anchor_tag = anchor_tag['href']
 
-                for inside_card in product_cards:
-                    anchor_tag = inside_card.find(
-                        'a', href=True)
-                    anchor_tag = anchor_tag['href']
-
-                    try:
-                        HypermartProductLinks2.objects.create(
-                            link=anchor_tag,
-                            crawled=False,
-                        )
-                        print('saved successfully')
-                    except:
-                        print('error')
-                        pass
+                        try:
+                            HypermartProductLinks2.objects.create(
+                                link=anchor_tag,
+                                crawled=False,
+                            )
+                            print('saved successfully')
+                        except:
+                            print('error')
+                            pass
+                except:
+                    pass
                 i += 1
         each_category.crawled = True
         each_category.save()
