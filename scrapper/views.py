@@ -324,9 +324,7 @@ def Hotpointproduct(request):
                     'span', class_='stockrecord-price-current').text.strip()
                 regular_price = regular_price[4:]
             except:
-                regular_price = out_wrapper.find(
-                    'span', class_='stockrecord-price-current').text.strip()
-                regular_price = regular_price[4:]
+                regular_price = 0
         # upc
         try:
             gen_table = soup.find('table', class_='table table-sm')
