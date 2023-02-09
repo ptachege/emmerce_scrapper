@@ -1058,14 +1058,18 @@ def Opalnet_entry(request):
         # look for load more button
         flag = True
         while flag == True:
-            mybtn = driver.find_element(By.XPATH,
-                                        "//*[@class='btn-load-more']")
-
-            driver.execute_script("arguments[0].click();", mybtn)
             try:
-                WebDriverWait(driver, 10).until(EC.visibility_of_element_located(
-                    (By.XPATH, "//*[@class='btn-load-more']")))
-                print('element_found')
+                mybtn = driver.find_element(By.XPATH,
+                                            "//*[@class='btn-load-more']")
+
+                driver.execute_script("arguments[0].click();", mybtn)
+                try:
+                    WebDriverWait(driver, 10).until(EC.visibility_of_element_located(
+                        (By.XPATH, "//*[@class='btn-load-more']")))
+                    print('element_found')
+                except:
+                    flag = False
+                    break
             except:
                 flag = False
                 break
