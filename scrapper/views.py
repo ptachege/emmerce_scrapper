@@ -1193,7 +1193,7 @@ def Opalnetproduct(request):
 
         # images
         all_img_divs = soup.findAll(
-            'div', class_='fotorama__stage__shaft fotorama__grab')
+            'div', class_='fotorama__grab')
         image_list = []
         # if len(all_img_divs) > 0:
         for each_img_div in all_img_divs:
