@@ -1195,17 +1195,17 @@ def Opalnetproduct(request):
         all_img_divs = soup.findAll(
             'div', class_='fotorama__stage__shaft fotorama__grab')
         image_list = []
-        if len(all_img_divs) > 0:
-            for each_img_div in all_img_divs:
-                temp = each_img_div.find(
-                    'img')['src']
-                last_part = temp.rsplit('/', 1)[-1]
-                prefixed_temp = 'https://www.opalnet.co.ke/pub/media/catalog/product/cache/c7d64e49b0de86601efd89c2f549950b/l/a/' + last_part
-                image_list.append(temp)
+        # if len(all_img_divs) > 0:
+        for each_img_div in all_img_divs:
+            temp = each_img_div.find(
+                'img')['src']
+            last_part = temp.rsplit('/', 1)[-1]
+            prefixed_temp = 'https://www.opalnet.co.ke/pub/media/catalog/product/cache/c7d64e49b0de86601efd89c2f549950b/l/a/' + last_part
+            image_list.append(temp)
 
-            print(image_list)
-        else:
-            print('image does not work')
+        print(image_list)
+        # else:
+        #     print('image does not work')
         try:
             n = Products.objects.get(product_link=item_url)
         except:
