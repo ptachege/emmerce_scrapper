@@ -1142,6 +1142,7 @@ def Opalnetproduct(request):
         driver.get(item_url)
         soup = driver.page_source.encode('utf-8').strip()
         soup = BeautifulSoup(soup, 'lxml')
+        print(soup)
 
         # get relevant fields.
 
@@ -1189,7 +1190,7 @@ def Opalnetproduct(request):
         try:
             feature_list = soup.find('ul', class_='feature-list').text
         except:
-            pass
+            feature_list = ""
 
         # images
         all_img_divs = soup.findAll(
