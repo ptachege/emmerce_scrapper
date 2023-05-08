@@ -329,8 +329,10 @@ def Hotpointproduct(request):
         try:
             gen_table = soup.find('table', class_='table table-sm')
             mytds = gen_table.findAll('td')
+            print(mytds)
             try:
-                upc = mytds[0].text
+                upc = mytds[5].text
+                print(upc)
             except:
                 upc = ''
 
